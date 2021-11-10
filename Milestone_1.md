@@ -2,7 +2,7 @@
 
 - Downloading data from  GDC Data portal webstie: https://portal.gdc.cancer.gov/
 - Read multiple HTseq-counts file from GGC into R in batches
-- Find the corresponding TCGA id of file name
+- Find the corresponding TCGA id of file name and get the count matrix
 - Add column name and gene name to the read data
 
 ## Section 2 :Next step
