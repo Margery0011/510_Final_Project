@@ -74,6 +74,7 @@ Diagnoses Primary Diagnosis <- infiltrating duct carcinoma; lobular carcinoma
 
 - Shrink the size of Group Duct
 - Rename the htseq-counts file
+- Use the changed-name files to do Deseq2
 
 
 ## Section3: Data
@@ -81,4 +82,5 @@ Diagnoses Primary Diagnosis <- infiltrating duct carcinoma; lobular carcinoma
 ## Section4: Known Issues
 
 - There are way too many more samples in one group than the other
-- The name of htseq-counts file is not clear
+- The name of htseq-counts file is not clear -name has been changed
+-
