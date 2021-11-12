@@ -33,6 +33,7 @@ Diagnoses Primary Diagnosis <- infiltrating duct carcinoma; lobular carcinoma
 
 ### Prepocess_2group.Rmd
 
+- Copy the HTseq-counts file in different folder into one folder
 - Read multiple HTseq-counts file from GGC into R in batches
 - Find the corresponding TCGA id of file name and get the count matrix
 - Add column name and gene name to the read data
