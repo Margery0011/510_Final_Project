@@ -16,6 +16,7 @@
 ### Deseq2.Rmd
 
 - Change the name of group Lobular to "treated-number" and the name of group Duct to "untreated-number", put them in a new folder named "SampleFiles"
+
 ![](https://github.com/Margery0011/510_Final_Project/blob/main/images/github1.png?raw=true)
 
 - Use ***htseq-count input*** to build DESeqDataSet
