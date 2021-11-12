@@ -63,7 +63,7 @@ Diagnoses Primary Diagnosis <- infiltrating duct carcinoma; lobular carcinoma
 - Pre-filtering & Specify the factor levels
 
      - 1.***Remove the rows which are less than 10 reads***
-     - 2.***Sepcify how the `contrast` is set***
+     - 2.***Sepcify how the `contrast` is set by fuction `factor`***
 - Differential Expression Analysis 
 
      - 1.***Use function `results` to generate 6 columns including log2FC, P-value, corrected P-value .etc***
