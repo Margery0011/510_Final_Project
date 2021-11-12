@@ -1,0 +1,45 @@
+```{r}
+directory <- "/Users/margery/Desktop/510_Final_Project/SampleFiles/"
+sampleFiles <- grep("treated",list.files(directory),value=TRUE)
+sampleCondition <- sub("(.*treated).*","\\1",sampleFiles)
+sampleTable <- data.frame(sampleName = sampleFiles,
+                          fileName = sampleFiles,
+                          condition = sampleCondition)
+sampleTable$condition <- factor(sampleTable$condition)
+```
+
+```{r}
+library("DESeq2")
+ddsHTSeq <- DESeqDataSetFromHTSeqCount(sampleTable = sampleTable,
+                                       directory = directory,
+                                       design= ~ condition)
+ddsHTSeq
+```
+
+```{r}
+dds <- DESeq(ddsHTSeq)
+resultsNames(dds) # lists the coefficients
+
+```
+```{r}
+res <- results(dds, name="condition_untreated_vs_treated")
+# or to shrink log fold changes association with condition:
+res <- lfcShrink(dds, coef="condition_untreated_vs_treated", type="apeglm")
+```
+```{r}
+keep <- rowSums(counts(dds)) >= 10
+dds <- dds[keep,]
+dds$condition <- factor(dds$condition, levels = c("untreated","treated"))
+
+```
+
+```{r}
+dds$condition <- droplevels(dds$condition)
+```
+
+```{r}
+dds <- DESeq(dds)
+res <- results(dds)
+res
+```
+
