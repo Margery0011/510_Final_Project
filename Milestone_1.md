@@ -45,13 +45,21 @@ Diagnoses Primary Diagnosis <- infiltrating duct carcinoma; lobular carcinoma
 - Transfer the EnsemblID to Genename
 - Save the files as "Lo_Counts_expMatrix.csv" and "Duct_Counts_expMatrix.csv". You can check them in Folder "results"
 
-### Deseq2.Rmd
+### Deseq2.Rmd :Use `DESeqDataSetFromHTSeqCount` to input `HTseq` data & Use ***htseq-count input*** to build DESeqDataSet
 
 - Change the name of group Lobular to "treated-number" and the name of group Duct to "untreated-number", put them in a new folder named "SampleFiles"
 
 ![](https://github.com/Margery0011/510_Final_Project/blob/main/images/github1.png?raw=true)
 
-- Use ***htseq-count input*** to build DESeqDataSet
+- Specify the data location
+
+    - 1.***Use function `list.files` to list all the files under current folder***
+ 
+    - 2.***Find the files whose name contains character "treated"***
+
+    - 3.***Extract the conditional information directly on the basis of the name of files , which ensures the one-to-one correspondence betweem the expression matrix and the sample***
+
+- Build the `DESeqDataset`
 - Pre-filtering 
 - Do differential expression analysis and save the result as "res.csv"
 ![](https://github.com/Margery0011/510_Final_Project/blob/main/images/github3.png)
