@@ -1,35 +1,61 @@
+
+# Count matrix input
+
+## Note: group "treated" means group containing the files of Lobular samples; group "untreated" means group containing the files of Infiltrating Duct samples
+
+### Use function `list.files` to list all the files under current folder
+### Find the files whose name contains character "treated"
+### Extract the conditional information directly on the basis of the name of files , which ensures the one-to-one correspondence betweem the expression matrix and the sample
 ```{r}
 directory <- "/Users/margery/Desktop/510_Final_Project/SampleFiles/"
 sampleFiles <- grep("treated",list.files(directory),value=TRUE)
-sampleCondition <- sub("(.*treated).*","\\1",sampleFiles)
+sampleCondition <- sub("(.*treated).*","\\1",sampleFiles)#\\1 represents the content matched in the brackets
 sampleTable <- data.frame(sampleName = sampleFiles,
                           fileName = sampleFiles,
                           condition = sampleCondition)
 sampleTable$condition <- factor(sampleTable$condition)
 ```
+### Build the DESeqDataSet using the following function:
 
 ```{r}
 library("DESeq2")
 ddsHTSeq <- DESeqDataSetFromHTSeqCount(sampleTable = sampleTable,
                                        directory = directory,
-                                       design= ~ condition)
+                                       design= ~ condition) #In the previous construction , the selected design was the factor variable condition
 ddsHTSeq
 ```
+
+### Pre-filtering
+
+    ###remove rows in which there are very few reads to reduce the memory size of the dds data object in order to increase the speed of the transformation
+    
+```{r}
+keep <- rowSums(counts(dds)) >= 10
+dds <- dds[keep,]
+
+```
+### How to compare
+
+```{r}
+dds$condition <- factor(dds$condition, levels = c("untreated","treated"))
+dds$condition #Now, Condition has been mannuly set to the "untreated" first and "treated" last
+```
+
+
+
+### Here the results use the last factor (treated) to compare with the reference factor (untreated), and the calculated log2FC is also log2(treated/untreated)
 
 ```{r}
 dds <- DESeq(ddsHTSeq)
 resultsNames(dds) # lists the coefficients
 
 ```
+
 ```{r}
 res <- results(dds, name="condition_untreated_vs_treated")
 # or to shrink log fold changes association with condition:
 res <- lfcShrink(dds, coef="condition_untreated_vs_treated", type="apeglm")
 ```
-```{r}
-keep <- rowSums(counts(dds)) >= 10
-dds <- dds[keep,]
-dds$condition <- factor(dds$condition, levels = c("untreated","treated"))
 
 ```
 
