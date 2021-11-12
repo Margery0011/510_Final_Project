@@ -83,4 +83,3 @@ Diagnoses Primary Diagnosis <- infiltrating duct carcinoma; lobular carcinoma
 
 - There are way too many more samples in one group than the other
 - The name of htseq-counts file is not clear -name has been changed
--
