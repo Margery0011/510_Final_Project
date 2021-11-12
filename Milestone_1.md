@@ -60,8 +60,13 @@ Diagnoses Primary Diagnosis <- infiltrating duct carcinoma; lobular carcinoma
     - 3.***Extract the conditional information directly on the basis of the name of files , which ensures the one-to-one correspondence betweem the expression matrix and the sample***
 
 - Build the `DESeqDataset`
-- Pre-filtering 
-- Do differential expression analysis and save the result as "res.csv"
+- Pre-filtering & Specify the factor levels
+
+     - 1.***Remove the rows which are less than 10 reads***
+     - 2.***Sepcify how the `contrast` is set***
+- Differential Expression Analysis 
+
+     - 1.***Use function `results` to generate 6 columns including log2FC, P-value, corrected P-value .etc***
 ![](https://github.com/Margery0011/510_Final_Project/blob/main/images/github3.png)
 
 ## Section 2 :Next step
