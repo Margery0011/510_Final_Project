@@ -53,11 +53,11 @@ Adding conditions are shown in the follwing image:
 
 ### Deseq2.Rmd :Use `DESeqDataSetFromHTSeqCount` to input `HTseq` data & Use ***htseq-count input*** to build DESeqDataSet
 
-- Change the name of group Lobular to "logroup" and the name of group Duct to "ductgroup", put them in a new folder named "gdc_download_36Duct"
+- Step1: Change the name of group Lobular to "treated" and the name of group Duct to "untreated"
 
-![](https://github.com/Margery0011/510_Final_Project/blob/main/images/711636791515_.pic.jpg)
+![](https://github.com/Margery0011/510_Final_Project/blob/main/images/github1.png)
 
-- Specify the data location
+- Step2: Specify the data location
 
     - 1.***Use function `list.files` to list all the files under current folder***
  
@@ -65,16 +65,25 @@ Adding conditions are shown in the follwing image:
 
     - 3.***Extract the conditional information directly on the basis of the name of files , which ensures the one-to-one correspondence betweem the expression matrix and the sample***
 
-- Build the `DESeqDataset`
-- Pre-filtering & Specify the factor levels
+- Step3: Build the `DESeqDataset`
+- Step4: Pre-filtering & Specify the factor levels
 
      - 1.***Remove the rows which are less than 10 reads***
      - 2.***Sepcify how the `contrast` is set by fuction `factor`***
-- Differential Expression Analysis 
+- Step5: Differential Expression Analysis 
 
      - 1.***Use function `results` to generate 6 columns including log2FC, P-value, corrected P-value .etc***
      - 2.***Save them as "res.csv". You can check them in Folder "results"***
 ![](https://github.com/Margery0011/510_Final_Project/blob/main/images/github3.png)
+
+### Deseq2_shrinked.Rmd
+
+- step1:Change the name of group Lobular to "logroup" and the name of group Duct to "ductgroup", put them in a new folder named "gdc_download_36Duct"
+
+![](https://github.com/Margery0011/510_Final_Project/blob/main/images/711636791515_.pic.jpg)
+
+- Repeat step2-5 in Deseq2.Rmd and save the reulst as "res_shinked.csv".You can check them in Folder "results".
+
 
 ## Section 2 :Next step
 
