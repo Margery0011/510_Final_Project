@@ -78,7 +78,7 @@ Adding conditions are shown in the follwing image:
 
 ### Deseq2_shrinked.Rmd
 
-- step1:Change the name of group Lobular to "logroup" and the name of group Duct to "ductgroup", put them in a new folder named "gdc_download_36Duct"
+- step1: Change the name of group Lobular to "logroup" and the name of group Duct to "ductgroup", put them in a new folder named "gdc_download_36Duct"
 
 ![](https://github.com/Margery0011/510_Final_Project/blob/main/images/711636791515_.pic.jpg)
 
