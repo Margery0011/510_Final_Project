@@ -1,0 +1,67 @@
+
+
+
+# read files in different folders / name and path have not been organized yet
+```{r}
+setwd("/Users/margery/Desktop/DataMiner-main/")
+dir.create("groupduct36")
+for (dirname in dir('gdc_download_36Duct')){  
+  file <- list.files(paste0(getwd(),'/gdc_download_36Duct/',dirname),pattern = '*.counts')  
+  file.copy(paste0(getwd(),'/gdc_download_36Duct/',dirname,'/',file),'groupduct36')  
+}
+```
+
+
+
+
+
+```{r}
+directory <- "/users/margery/Desktop/510_Final_Project/groupduct36_grouplo/"
+```
+
+```{r}
+sampleFiles <- grep("group",list.files(directory),value=TRUE)
+```
+
+```{r}
+setwd("/Users/margery/Desktop/510_Final_Project/groupduct36_grouplo/")
+```
+
+
+```{r}
+sampleCondition <- sub("(.*group).*","\\1",sampleFiles)
+```
+
+```{r}
+sampleTable <- data.frame(sampleName = sampleFiles,
+                          fileName = sampleFiles,
+                          condition = sampleCondition)
+sampleTable$condition <- factor(sampleTable$condition)
+```
+
+```{r}
+library("DESeq2")
+dds <- DESeqDataSetFromHTSeqCount(sampleTable = sampleTable,
+                                       directory = directory,
+                                       design= ~ condition)
+dds
+```
+```{r}
+keep <- rowSums(counts(dds)) >= 10
+dds <- dds[keep,]
+```
+```{r}
+dds$condition
+```
+```{r}
+dds <- DESeq(dds)
+res <- results(dds)
+```
+```{r}
+res
+```
+
+
+```{r}
+write.csv(res,file = "res_shrinked.csv" )
+```
