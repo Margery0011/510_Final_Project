@@ -12,8 +12,7 @@ for (dirname in dir('gdc_download_36Duct')){
 ```
 
 
-
-
+# Folder `groupduct36` has been moved to folder `510_Final_Project`
 
 ```{r}
 directory <- "/users/margery/Desktop/510_Final_Project/groupduct36_grouplo/"
