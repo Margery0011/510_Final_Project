@@ -17,16 +17,16 @@
 **Note: To make sure get  similar number of 2 groups, in the `Logroup`, I choosed the stage I, stage IA, stage IB, stage II, stage IIA. stage IIB , and in `Ductgroup`, the stages are only stage I ,stage IA and stage IB.**
 
 
-### 2. DownLoad files and Change file Names
+### 2. DownLoad files and Pre-process Filenames
 
 - 2.1 Download ((all done by clicking download bottons in the website) 
      
      1.  Download `Manifest` files of both groups
      2.  Download `json` files of both groups
      
-- 2.2 Change Names 
+- 2.2 Extract files
 
-   1. Extract HT-Seq counts in different folders and put them into a new folder in both groups
+       Extract HT-Seq counts in different folders and put them into a new folder in both groups
        The example script is provided by the following code:
        ```
        setwd("*Directory*")
@@ -35,13 +35,26 @@
         file <- list.files(paste0(getwd(),'/*Downloaded GGC files dirname*),pattern = '*.counts')  
         file.copy(paste0(getwd(),'/*Downloaded GGC files* /',dirname,'/',file),'*NewFolderName*')  
        ```
-   
-   2. Change the file names in new folder to distinguish 2 groups （All done with the built-in functions of the computer)
-      the name of `Logroup` has been formatted to `logroup+number.gz`
-      the name of `Ductgroup` has been formatted to `ductgroup+number.gz`
+- 2.3 Rename files
+  
+   1. Map Filenames to TCGA id & Save it as `sample2id_Duct/Lobular.txt`
       
-  3.   Paste these files into a new folder named `Duct_Lobular` 
-  4.   set the directory to point at this file for further analysis in `Rstudio`
+      The example script is provided by the following code:
+      ```
+      metadata <- jsonlite::fromJSON("*Meta.json*")
+      naid_df <- data.frame()
+      for (i in 1:nrow(metadata)){
+          naid_df[i,1] <- metadata$file_name[i]
+          naid_df[i,2] <- metadata$associated_entities[i][[1]]$entity_submitter_id
+}
+      colnames(naid_df) <- c('filename','TCGA_id')
+      ```
+   2. Use `change_name.sh` to change the filenames into TCGA-Format
+   3. Add Pre-fix `Lobulargroup` in the filename of `Logroup` 
+   4. Add Pre-fix `Ductgroup` in the filename of `Ductgroup`
+   5. Paste these files into a new folder named `Lobular_Duct`
+   6. set the directory to point at this file for further analysis in `Rstudio`
+      
 
 
 ### 3. Analyzing RNA-seq data with `DESeq2` based on the Tutorial 
