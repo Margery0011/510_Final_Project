@@ -1,71 +1,73 @@
 ## Section 1: Update
 
-### Filter:
+### 1. Filter:
 
-- Filter the Files:
-
-Data Category <- transcriptome profiling
-
-Experimental Strategy <- RNA-Seq
-
-Workflow Type <- HTSeq - Counts
-
-Access <- open
-
-- Filter the Cases:
-
-Diagnoses Ajcc Pathologic Stage <- stage i;stage ia
-
-Primary Site <- breast
-
-Program <- TCGA-BRCA
-
-Samples Sample Type <- primary tumor
-
-Diagnoses Primary Diagnosis <- infiltrating duct carcinoma; lobular carcinoma
-
-**Note: Because the number of sample diagnosed as infiltrating duct carcinoma(136) is 4 times more than sample diagnosed as lobular carcinoma(20) after filtering , so I narrow down the scale of group infiltrating duct carcinoma based on the comparasion of their clinical file. I use the condition of most patients in the clinical data of the lo group as the control variable to continue to filter the duct group.**
-
-Adding conditions are shown in the follwing image:
-
-![](https://github.com/Margery0011/510_Final_Project/blob/main/images/701636788772_.pic.jpg)
-
-### DownLoad
-
-- Download "gdc-client" from GDC Data portal webstie: https://portal.gdc.cancer.gov/ 
-- Download "Manifest" file by `gdc-client download -m -Manifest.txt`
-- Download "json" file
+- 1.1 Filter the Files: Choose the conditions in following graph to generate two groups
 
 
-### Prepocess_2group.Rmd
+     1. Group of **Loular Carcinoma**  - Get 130 Files & 130 Cases ( referred as  `Logroup` in the following ) 
+     
+     ![image](https://github.com/Margery0011/510_Final_Project/blob/main/images/891637643908_.pic.jpg)
 
-- Copy the HTseq-counts file in different folder into one folder
-- Read multiple HTseq-counts file from GGC into R in batches
-- Find the corresponding TCGA id of file name and get the count matrix
-- Add column name and gene name to the read data
-- Map the file name and TCGA id , save them as "file_id_tcga_duct.csv " and "file_id_tcga_lo.csv". You can check them in Folder "results"
- 
+    
+     2. Group of **Infiltrating Duct Carcinoma**  -Get 135 Files & 35 Cases ( referred as  `Ductgroup` in the following ) 
 
-### ID Transfer.Rmd
+     ![image](https://github.com/Margery0011/510_Final_Project/blob/main/images/901637645023_.pic.jpg)
 
-- Transfer the EnsemblID to Genename
-- Save the files as "Lo_Counts_expMatrix.csv" and "Duct_Counts_expMatrix.csv". You can check them in Folder "results"
+**Note: To make sure get  similar number of 2 groups, in the `Logroup`, I choosed the stage I, stage IA, stage IB, stage II, stage IIA. stage IIB , and in `Ductgroup`, the stages are only stage I ,stage IA and stage IB.**
 
-### Deseq2.Rmd :Use `DESeqDataSetFromHTSeqCount` to input `HTseq` data & Use ***htseq-count input*** to build DESeqDataSet
 
-- Step1: Change the name of group Lobular to "treated" and the name of group Duct to "untreated"
+### 2. DownLoad files and Change file Names
 
-![](https://github.com/Margery0011/510_Final_Project/blob/main/images/github1.png)
+- 2.1 Download ((all done by clicking download bottons in the website) 
+     
+     1.  Download `Manifest` files of both groups
+     2.  Download `json` files of both groups
+     
+- 2.2 Change Names 
 
-- Step2: Specify the data location
+   1. Extract HT-Seq counts in different folders and put them into a new folder in both groups
+       The example script is provided by the following code:
+       ```
+       setwd("*Directory*")
+       dir.create("*NewFolderName*")
+       for (dirname in dir('*Downloaded GGC files* ')){  
+        file <- list.files(paste0(getwd(),'/*Downloaded GGC files dirname*),pattern = '*.counts')  
+        file.copy(paste0(getwd(),'/*Downloaded GGC files* /',dirname,'/',file),'*NewFolderName*')  
+       ```
+   
+   2. Change the file names in new folder to distinguish 2 groups （All done with the built-in functions of the computer)
+      the name of `Logroup` has been formatted to `logroup+number.gz`
+      the name of `Ductgroup` has been formatted to `ductgroup+number.gz`
+      
+  3.   Paste these files into a new folder named `Duct_Lobular` 
+  4.   set the directory to point at this file for further analysis in `Rstudio`
 
-    - 1.***Use function `list.files` to list all the files under current folder***
- 
-    - 2.***Find the files whose name contains character "treated"***
 
-    - 3.***Extract the conditional information directly on the basis of the name of files , which ensures the one-to-one correspondence betweem the expression matrix and the sample***
+### 3. Analyzing RNA-seq data with `DESeq2` based on the Tutorial 
+
+   [DESeq2 Tutorial Website](http://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)
+
+- Step1: Set the Directory to point at the folder with changed names of both groups & library all the required packages
+
+- Step2: Generate required input for building `DESeqDataset`
+
+    - 1. Generate the `sampleFiles` : ***Use `grep` to select those files containing string `group`***
+    - 2. Generate the `sampleCondition` : ***Use `sub` to chop up the sample filename to obtain the condition status***
+    - 3. Generate the `sampleTable` : ***Use `data.frame`*** to build the dataframe by `sampleFiles` & `sampleCondition`
+
+*Note : Extract the conditional information directly on the basis of the name of files , which ensures the one-to-one correspondence betweem the expression matrix and the sample*
 
 - Step3: Build the `DESeqDataset`
+
+    ```
+    library("DESeq2")
+    dds <- DESeqDataSetFromHTSeqCount(sampleTable = sampleTable,
+                                       directory = directory,
+                                       design= ~ condition)
+    dds
+    ```
+      
 - Step4: Pre-filtering & Specify the factor levels
 
      - 1.***Remove the rows which are less than 10 reads***
@@ -80,9 +82,27 @@ Adding conditions are shown in the follwing image:
 
 - step1: Change the name of group Lobular to "logroup" and the name of group Duct to "ductgroup", put them in a new folder named "gdc_download_36Duct"
 
-![](https://github.com/Margery0011/510_Final_Project/blob/main/images/711636791515_.pic.jpg)
+！[](https://github.com/Margery0011/510_Final_Project/blob/main/images/711636791515_.pic.jpg)
 
 - Repeat step2-5 in Deseq2.Rmd and save the reulst as "res_shinked.csv".You can check them in Folder "results".
+
+### Optional Scripts Explanation
+
+**Prepocess_2group.Rmd**
+
+- Copy the HTseq-counts file in different folder into one folder
+- Read multiple HTseq-counts file from GGC into R in batches
+- Find the corresponding TCGA id of file name and get the count matrix
+- Add column name and gene name to the read data
+- Map the file name and TCGA id , save them as "file_id_tcga_duct.csv " and "file_id_tcga_lo.csv". You can check them in Folder "results"
+ 
+
+**ID Transfer.Rmd**
+
+- Transfer the EnsemblID to Genename
+- Save the files as "Lo_Counts_expMatrix.csv" and "Duct_Counts_expMatrix.csv". You can check them in Folder "results"
+
+
 
 
 ## Section 2 :Next step
