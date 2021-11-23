@@ -45,14 +45,19 @@
       naid_df <- data.frame()
       for (i in 1:nrow(metadata)){
           naid_df[i,1] <- metadata$file_name[i]
-          naid_df[i,2] <- metadata$associated_entities[i][[1]]$entity_submitter_id
-}
-      colnames(naid_df) <- c('filename','TCGA_id')
-      ```
+          naid_df[i,2] <- metadata$associated_entities[i][[1]]$entity_submitter_id} 
+        ```
+      `colnames(naid_df) <- c('filename','TCGA_id')`
+      
+      
    2. Use `change_name.sh` to change the filenames into TCGA-Format
+   
    3. Add Pre-fix `Lobulargroup` in the filename of `Logroup` 
+   
    4. Add Pre-fix `Ductgroup` in the filename of `Ductgroup`
+   
    5. Paste these files into a new folder named `Lobular_Duct`
+
    6. set the directory to point at this file for further analysis in `Rstudio`
       
 
