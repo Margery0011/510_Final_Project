@@ -94,7 +94,7 @@
 
      - 1.***Use function `results` to generate 6 columns including log2FC, P-value, corrected P-value .etc***
      - 2.***Save them as "res.csv". You can check them in Folder "results"***
-![](https://github.com/Margery0011/510_Final_Project/blob/main/images/github3.png)
+
 
 ### Deseq2_shrinked.Rmd
 
