@@ -120,11 +120,11 @@ I transfered the ensembl ID to hgnc_symble and add descriptions
 
 ### Results:
 
-`diff_id_1.txt`
+`diff_id_1.txt` : Only Ensembl ID of DEG  [diff_id_1.txt](https://github.com/Margery0011/510_Final_Project/blob/main/results/diff_id_1.txt)
 
-`DED_hgnc_symble.csv`
+`DED_hgnc_symble.csv` : Ensembl ID , hgnc_symbol and descriptions of DEG [DED_hgnc_symble.csv](https://github.com/Margery0011/510_Final_Project/blob/main/results/DED_hgnc_symble.csv)
 
-`DEG_TransformedID_Lobular_Duct_res.csv`
+`DEG_TransformedID_Lobular_Duct_res.csv` :Ensembl ID , hgnc_symbol descriptions and DESeq2 results of DEG [DEG_TransformedID_Lobular_Duct_res.csv](https://github.com/Margery0011/510_Final_Project/blob/main/results/DEG_TransformedID_Lobular_Duct_res.csv)
 
 ## [ID_Transfer(Succint_Version)](https://github.com/Margery0011/510_Final_Project/blob/main/scripts/ID_Transfer(Succint_Version).Rmd)
 
@@ -132,15 +132,15 @@ I transfered the Ensembl ID to gene ID and remove the version number in Ensembl 
 
 ### Results:
 
-`Ensembl_ID_TO_Genename.csv`
+`Ensembl_ID_TO_Genename.csv` : Mapping Ensembl_ID to gene_id of Genome [Ensembl_ID_TO_Genename.csv]()
 
-`DEG_res_geneid_nopoint.csv`
+`DEG_res_geneid_nopoint.csv` ：Same as `DEG_TransformedID_Lobular_Duct_res.csv` without descriptions [DEG_res_geneid_nopoint.csv](https://github.com/Margery0011/510_Final_Project/blob/main/results/DEG_res_geneid_nopoint.csv)
 
-`Lobular_Duct_res_geneid_nopoint.csv`
+`Lobular_Duct_res_geneid_nopoint.csv` : Ensembl_ID , gene_id and DESeq2 results of All the samples [Lobular_Duct_res_geneid_nopoint.csv](https://github.com/Margery0011/510_Final_Project/blob/main/results/Lobular_Duct_res_geneid_nopoint.csv)
 
-`DEG_Lo_Duct_Counts_expMatrix.csv`
+`DEG_Lo_Duct_Counts_expMatrix.csv` : Matrix  [](https://github.com/Margery0011/510_Final_Project/blob/main/results/DEG_Lo_Duct_Counts_expMatrix.csv)
 
-`All_Lo_Duct_Counts_expMatrix.csv`
+`All_Lo_Duct_Counts_expMatrix.csv` : Matrix [](https://github.com/Margery0011/510_Final_Project/blob/main/results/All_Lo_Duct_Counts_expMatrix.csv)
 
 
 # Data
@@ -153,4 +153,4 @@ Too many differential expressed genes
 
 Not so organized  （No Annotation in the `Diff_Ensembl_Transform.Rmd` and the code here is not succinct and clear
 
-Have not remove some previous useless work
+Have not change the directory
