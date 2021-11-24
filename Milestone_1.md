@@ -61,41 +61,6 @@
    6. set the directory to point at this file for further analysis in `Rstudio`
       
 
-
-### 3. Analyzing RNA-seq data with `DESeq2` based on the Tutorial 
-
-   [DESeq2 Tutorial Website](http://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)
-
-- Step1: Set the Directory to point at the folder with changed names of both groups & library all the required packages
-
-- Step2: Generate required input for building `DESeqDataset`
-
-    - 1. Generate the `sampleFiles` : ***Use `grep` to select those files containing string `group`***
-    - 2. Generate the `sampleCondition` : ***Use `sub` to chop up the sample filename to obtain the condition status***
-    - 3. Generate the `sampleTable` : ***Use `data.frame`*** to build the dataframe by `sampleFiles` & `sampleCondition`
-
-*Note : Extract the conditional information directly on the basis of the name of files , which ensures the one-to-one correspondence betweem the expression matrix and the sample*
-
-- Step3: Build the `DESeqDataset`
-
-    ```
-    library("DESeq2")
-    dds <- DESeqDataSetFromHTSeqCount(sampleTable = sampleTable,
-                                       directory = directory,
-                                       design= ~ condition)
-    dds
-    ```
-      
-- Step4: Pre-filtering & Specify the factor levels
-
-     - 1.***Remove the rows which are less than 10 reads***
-     - 2.***Sepcify how the `contrast` is set by fuction `factor`***
-- Step5: Differential Expression Analysis 
-
-     - 1.***Use function `results` to generate 6 columns including log2FC, P-value, corrected P-value .etc***
-     - 2.***Save them as "res.csv". You can check them in Folder "results"***
-
-
 ### Deseq2_shrinked.Rmd
 
 - step1: Change the name of group Lobular to "logroup" and the name of group Duct to "ductgroup", put them in a new folder named "gdc_download_36Duct"
