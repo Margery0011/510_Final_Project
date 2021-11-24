@@ -103,7 +103,9 @@
 ***PCA PLots***
 
    - Default
+   
 ![1131637736424_ pic](https://user-images.githubusercontent.com/89502586/143191505-71031ce6-a0da-475f-8910-8824d487cb22.jpg)
 
-   - customize 
+   - Customize 
+   
 ![1151637736439_ pic](https://user-images.githubusercontent.com/89502586/143191519-8926c59d-5c93-4802-9d35-54afb5056bd2.jpg)
