@@ -34,7 +34,7 @@
 - Step5: Differential Expression Analysis 
 
      - 1. ***Use function `results` to generate 6 columns including log2FC, P-value, corrected P-value .etc***
-     - 2. ***Save them as "Lobular_Duct_res.csv". You can check them in Folder "results"***
+     - 2. ***Save them as "Lobular_Duct_res.csv". You can check them in Folder "results"*** [Lobular_Duct_res.csv](https://raw.githubusercontent.com/Margery0011/510_Final_Project/main/results/Lobular_Duct_res.csv)
     Parts of the results are showed below:
     ![](https://github.com/Margery0011/510_Final_Project/blob/main/images/921637724249_.pic.jpg)
     
@@ -103,7 +103,7 @@
 - Step1: Choose Differential Expressed Gene 
    
     - 1. ***Filter the results by choosing `padj < 0.05 & abs(log2FoldChange) > 1`***   ---1490 elements left
-    - 2. ***Save them as `DEG_Lobular_Duct.csv`. You can check them in Folder "results"*** 
+    - 2. ***Save them as `DEG_Lobular_Duct.csv`. You can check them in Folder "results"***  [DEG_Lobular_Duct.csv](https://github.com/Margery0011/510_Final_Project/blob/main/results/DEG_Lobular_Duct.csv)
 
 # Transfer ID:  2 scripts
 
