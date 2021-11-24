@@ -1,5 +1,5 @@
 
-#  Analyzing RNA-seq data with `DESeq2` based on the Tutorial 
+#  Analyzing RNA-seq data with `DESeq2` based on the Tutorial   [deseq2.Rmd](https://github.com/Margery0011/510_Final_Project/blob/main/scripts/deseq2.Rmd)
 
 ### Preparation
 
@@ -105,11 +105,11 @@
     - 1. ***Filter the results by choosing `padj < 0.05 & abs(log2FoldChange) > 1`***   ---1490 elements left
     - 2. ***Save them as `DEG_Lobular_Duct.csv`. You can check them in Folder "results"*** 
 
-- Step2: Transfer the EnsemblID to  DED_hgnc_symble   (Compeled by script `Diff_Ensembl_Trams.Rmd`)
+- Step2: Transfer the EnsemblID to  DED_hgnc_symble   (Compeled by script `Diff_Ensembl_Transform.Rmd`)  [Diff_Ensembl_Transform.Rmd](https://github.com/Margery0011/510_Final_Project/blob/main/scripts/Diff_Ensembl_Transform.Rmd)
 
     - 1. ***Remove the number after \. in the EnsemblID***
-    - 1. ***Transfer the EnsemblID to hgnc_symble and add descriptions of filtered genes*** ---1454 elements left(Duplicate Names have been removed)
-    - 2. ***Save them as `DED_hgnc_symble.csv`. You can check them in Folder "results"*** 
+    - 2. ***Transfer the EnsemblID to hgnc_symble and add descriptions of filtered genes*** ---1454 elements left(Duplicate Names have been removed)
+    - 3. ***Save them as `DED_hgnc_symble.csv`. You can check them in Folder "results"*** 
 
 # Data
 
