@@ -77,25 +77,33 @@
 
 ***meanSdPlot***
 
+   - ntd
+
 ![1061637735979_ pic](https://user-images.githubusercontent.com/89502586/143190809-68bad2f7-2036-475f-8346-36198f7ac810.jpg)
 
-
+   - vsd
+   
 ![1081637736297_ pic](https://user-images.githubusercontent.com/89502586/143190994-d1f5618a-2baf-4738-8da4-b5d12802b9f5.jpg)
 
 ***HeatMap***
 
+   - ntd
+
 ![1091637736334_ pic](https://user-images.githubusercontent.com/89502586/143191038-254028be-fd05-4f29-b5cf-6679f3f9a2de.jpg)
+
+   - vsd
 
 ![1111637736343_ pic](https://user-images.githubusercontent.com/89502586/143191101-cbd637d4-f351-4e18-bd16-a5c0dc1a020c.jpg)
 
+   - sample-to-sample distances
+   
 ![1121637736412_ pic](https://user-images.githubusercontent.com/89502586/143191156-0b23d937-5654-46cb-9a70-9ee208633995.jpg)
+
 
 ***PCA PLots***
 
-
-
-
+   - Default
 ![1131637736424_ pic](https://user-images.githubusercontent.com/89502586/143191505-71031ce6-a0da-475f-8910-8824d487cb22.jpg)
 
-
+   - customize 
 ![1151637736439_ pic](https://user-images.githubusercontent.com/89502586/143191519-8926c59d-5c93-4802-9d35-54afb5056bd2.jpg)
