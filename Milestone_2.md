@@ -38,18 +38,6 @@
     Parts of the results are showed below:
     ![](https://github.com/Margery0011/510_Final_Project/blob/main/images/921637724249_.pic.jpg)
     
-
-### Choose Differential Expressed Gene
-
-- Step1: Choose Differential Expressed Gene 
-   
-    - 1. ***Filter the results by choosing `padj < 0.05 & abs(log2FoldChange) > 1`***   ---1490 elements left
-    - 2. ***Save them as `DEG_Lobular_Duct.csv`. You can check them in Folder "results"*** 
-
-- Step2: Transfer the EnsemblID to  DED_hgnc_symble   (Compeled by script `Diff_Ensembl_Trams.Rmd`
-
-    - 1. ***Transfer the EnsemblID to hgnc_symble and add descriptions of filtered genes*** ---1454 elements left(Duplicate Names have been removed)
-    - 2. ***Save them as `DED_hgnc_symble.csv`. You can check them in Folder "results"*** 
     
 ### Data Visulization
 
@@ -109,3 +97,23 @@
    - Customize 
    
 ![1151637736439_ pic](https://user-images.githubusercontent.com/89502586/143191519-8926c59d-5c93-4802-9d35-54afb5056bd2.jpg)
+
+### Transfer EnsemblID to hgnc_symble of DEG  
+
+- Step1: Choose Differential Expressed Gene 
+   
+    - 1. ***Filter the results by choosing `padj < 0.05 & abs(log2FoldChange) > 1`***   ---1490 elements left
+    - 2. ***Save them as `DEG_Lobular_Duct.csv`. You can check them in Folder "results"*** 
+
+- Step2: Transfer the EnsemblID to  DED_hgnc_symble   (Compeled by script `Diff_Ensembl_Trams.Rmd`)
+
+    - 1. ***Transfer the EnsemblID to hgnc_symble and add descriptions of filtered genes*** ---1454 elements left(Duplicate Names have been removed)
+    - 2. ***Save them as `DED_hgnc_symble.csv`. You can check them in Folder "results"*** 
+
+# Data
+
+All Data has been uploaded to my Google Drive
+
+# Known Issues
+
+Too many differential expressed genes
