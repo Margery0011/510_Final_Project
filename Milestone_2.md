@@ -98,12 +98,14 @@
    
 ![1151637736439_ pic](https://user-images.githubusercontent.com/89502586/143191519-8926c59d-5c93-4802-9d35-54afb5056bd2.jpg)
 
-### Transfer EnsemblID to hgnc_symble of DEG  
+### DEG
 
 - Step1: Choose Differential Expressed Gene 
    
     - 1. ***Filter the results by choosing `padj < 0.05 & abs(log2FoldChange) > 1`***   ---1490 elements left
     - 2. ***Save them as `DEG_Lobular_Duct.csv`. You can check them in Folder "results"*** 
+
+# Transfer ID. (2 scripts, the Second one is more succint and simple)
 
 - Step2: Transfer the EnsemblID to  DED_hgnc_symble   (Compeled by script `Diff_Ensembl_Transform.Rmd`)  [Diff_Ensembl_Transform.Rmd](https://github.com/Margery0011/510_Final_Project/blob/main/scripts/Diff_Ensembl_Transform.Rmd)
 
