@@ -107,6 +107,7 @@
 
 - Step2: Transfer the EnsemblID to  DED_hgnc_symble   (Compeled by script `Diff_Ensembl_Trams.Rmd`)
 
+    - 1. ***Remove the number after \. in the EnsemblID***
     - 1. ***Transfer the EnsemblID to hgnc_symble and add descriptions of filtered genes*** ---1454 elements left(Duplicate Names have been removed)
     - 2. ***Save them as `DED_hgnc_symble.csv`. You can check them in Folder "results"*** 
 
