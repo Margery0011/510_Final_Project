@@ -28,13 +28,13 @@
       
 - Step4: Pre-filtering & Specify the factor levels  ---the number of elements has decreased from 60483 to 50860
 
-     - 1.***Remove the rows which are less than 10 reads***
-     - 2.***Sepcify how the `contrast` is set by fuction `factor`***
+     - 1. ***Remove the rows which are less than 10 reads***
+     - 2. ***Sepcify how the `contrast` is set by fuction `factor`***
    
 - Step5: Differential Expression Analysis 
 
-     - 1.***Use function `results` to generate 6 columns including log2FC, P-value, corrected P-value .etc***
-     - 2.***Save them as "Lobular_Duct_res.csv". You can check them in Folder "results"***
+     - 1. ***Use function `results` to generate 6 columns including log2FC, P-value, corrected P-value .etc***
+     - 2. ***Save them as "Lobular_Duct_res.csv". You can check them in Folder "results"***
     Parts of the results are showed below:
     ![](https://github.com/Margery0011/510_Final_Project/blob/main/images/921637724249_.pic.jpg)
     
@@ -43,12 +43,12 @@
 
 - Step1: Choose Differential Expressed Gene 
    
-    - 1.***Filter the results by choosing `padj < 0.05 & abs(log2FoldChange) > 1`***   ---1490 elements left
-    - 2***Save them as `DEG_Lobular_Duct.csv`. You can check them in Folder "results"*** 
+    - 1. ***Filter the results by choosing `padj < 0.05 & abs(log2FoldChange) > 1`***   ---1490 elements left
+    - 2. ***Save them as `DEG_Lobular_Duct.csv`. You can check them in Folder "results"*** 
 
 - Step2: Transfer the EnsemblID to  DED_hgnc_symble
 
-    - 1.***Transfer the EnsemblID to hgnc_symble and add descriptions of filtered genes*** ---1454 elements left(Duplicate Names have been removed)
-    - 2.***Save them as `DED_hgnc_symble.csv`. You can check them in Folder "results"*** 
+    - 1. ***Transfer the EnsemblID to hgnc_symble and add descriptions of filtered genes*** ---1454 elements left(Duplicate Names have been removed)
+    - 2. ***Save them as `DED_hgnc_symble.csv`. You can check them in Folder "results"*** 
     
 ### Data Visulization
