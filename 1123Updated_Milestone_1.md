@@ -7,12 +7,14 @@
 
      1. Group of **Loular Carcinoma**  - Get 130 Files & 130 Cases ( referred as  `Logroup` in the following ) 
      
-     ![image](https://github.com/Margery0011/510_Final_Project/blob/main/images/891637643908_.pic.jpg)
+     
+     ![891637643908_ pic](https://user-images.githubusercontent.com/89502586/143204022-62808922-5318-4e95-8c83-a5acae0c873b.jpg)
 
     
      2. Group of **Infiltrating Duct Carcinoma**  -Get 135 Files & 35 Cases ( referred as  `Ductgroup` in the following ) 
 
-     ![image](https://github.com/Margery0011/510_Final_Project/blob/main/images/901637645023_.pic.jpg)
+     
+    ![901637645023_ pic](https://user-images.githubusercontent.com/89502586/143204093-76add9a3-a720-4c81-a680-df0dbe0534bc.jpg)
 
 **Note: To make sure get  similar number of 2 groups, in the `Logroup`, I choosed the stage I, stage IA, stage IB, stage II, stage IIA. stage IIB , and in `Ductgroup`, the stages are only stage I ,stage IA and stage IB.**
 
@@ -61,13 +63,6 @@
    6. set the directory to point at this file for further analysis in `Rstudio`
       
 
-### Deseq2_shrinked.Rmd
-
-- step1: Change the name of group Lobular to "logroup" and the name of group Duct to "ductgroup", put them in a new folder named "gdc_download_36Duct"
-
-！[](https://github.com/Margery0011/510_Final_Project/blob/main/images/711636791515_.pic.jpg)
-
-- Repeat step2-5 in Deseq2.Rmd and save the reulst as "res_shinked.csv".You can check them in Folder "results".
 
 ### Optional Scripts Explanation
 
@@ -83,7 +78,7 @@
 **ID Transfer.Rmd**
 
 - Transfer the EnsemblID to Genename
-- Save the files as "Lo_Counts_expMatrix.csv" and "Duct_Counts_expMatrix.csv". You can check them in Folder "results"
+- `Save the files as "Lo_Counts_expMatrix.csv" and "Duct_Counts_expMatrix.csv". You can check them in Folder "results" `
 
 
 
