@@ -1,0 +1,169 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+# Make readble gtf file in R
+```{r}
+if(!require("rtracklayer")) BiocManager::install("rtracklayer") 
+gtf1 <- rtracklayer::import("Homo_sapiens.GRCh38.104.chr.gtf")
+gtf_df <- as.data.frame(gtf1)
+```
+
+
+```{r}
+save(gtf_df,file = "gtf_df.Rdata")
+```
+
+# Use AnnotationDbi package to do ID transfer
+
+```{r}
+get_map = function(input) {
+  if (is.character(input)) {
+    if(!file.exists(input)) stop("Bad input file.")
+    message("Treat input as file")
+    input = data.table::fread(input, header = FALSE)
+  } else {
+    data.table::setDT(input)
+  }
+  
+  input = input[input[[3]] == "gene", ]
+  
+  pattern_id = ".*gene_id \"([^;]+)\";.*"
+  pattern_name = ".*gene_name \"([^;]+)\";.*"
+  
+  
+  gene_id = sub(pattern_id, "\\1", input[[9]])
+  gene_name = sub(pattern_name, "\\1", input[[9]])
+  
+  Ensembl_ID_TO_Genename <- data.frame(gene_id = gene_id,
+                                        gene_name = gene_name,
+                                        stringsAsFactors = FALSE)
+  return(Ensembl_ID_TO_Genename)
+}
+```
+```{r}
+Ensembl_ID_TO_Genename <- get_map("gencode.v29.annotation.gtf") 
+```
+
+
+
+```{r}
+gtf_Ensembl_ID <- substr(Ensembl_ID_TO_Genename[,1],1,15)
+Ensembl_ID_TO_Genename <- data.frame(gtf_Ensembl_ID,Ensembl_ID_TO_Genename[,2])
+```
+```{r}
+
+colnames(Ensembl_ID_TO_Genename) <- c("Ensembl_ID","gene_id")
+
+```
+```{r}
+write.csv(Ensembl_ID_TO_Genename,file = "Ensembl_ID_TO_Genename.csv",row.names = F)
+```
+
+
+
+
+
+
+
+
+# Transfer the name in DEG
+
+
+```{r}
+diff_gene_deseq2 <- read_csv("DEG_Lobular_Duct.csv")
+```
+```{r}
+colnames(diff_gene_deseq2)[1] <- "Ensembl_ID"
+```
+
+# Remove the doc in ensemble ID in DEG
+
+```{r}
+library(tidyr)
+diff_gene_deseq2_nopoint <- diff_gene_deseq2%>%
+  tidyr::separate(Ensembl_ID,into = c("Ensembl_ID"),sep = "\\.")
+```
+
+
+
+```{r}
+DEG_res_geneid_point<- merge(Ensembl_ID_TO_Genename,diff_gene_deseq2_nopoint,by="Ensembl_ID")
+```
+
+```{r}
+write.csv(DEG_res_geneid_point,file="DEG_res_geneid_nopoint.csv",row.names= F)
+```
+
+
+
+# Remove the doc in ensemble ID in ALL
+
+```{r}
+library(tidyr)
+all_gene_deseq2_nopoint <- Lobular_Duct_res%>%
+  tidyr::separate(Ensembl_ID,into = c("Ensembl_ID"),sep = "\\.")
+```
+
+
+
+```{r}
+All_res_geneid_point<- merge(Ensembl_ID_TO_Genename,all_gene_deseq2_nopoint,by="Ensembl_ID")
+```
+
+```{r}
+write.csv(All_res_geneid_point,file="Lobular_Duct_res_geneid_nopoint.csv",row.names= F)
+```
+
+
+
+```{r}
+Lobular_Duct_res <- read_csv("Lobular_Duct_res.csv")
+colnames(Lobular_Duct_res)[1] <- "Ensembl_ID"
+Lobular_Duct_res_geneid <- merge(Ensembl_ID_TO_Genename,Lobular_Duct_res,by="Ensembl_ID")
+```
+```{r}
+write.csv(Lobular_Duct_res_geneid,file="Lobular_Duct_res_geneid_nopoint.csv",row.names = F)
+
+```
+
+# Remove the repulicated gene in DEG
+
+(actually, there is none)
+
+```{r}
+mergeLo_DuctSeq <- DEG_res_geneid_point[order(DEG_res_geneid_point[,"gene_id"]),]
+```
+```{r}
+index<-duplicated(mergeLo_DuctSeq$gene_id)
+```
+
+```{r}
+mergeLo_DuctSeq <- mergeLo_DuctSeq[!index,]
+rownames(mergeLo_DuctSeq) <-mergeLo_DuctSeq[,"gene_id"]
+DEG_Lo_Duct_Counts_expMatrix <- mergeLo_DuctSeq[,-c(1:2)]
+```
+
+```{r}
+write.csv(DEG_Lo_Duct_Counts_expMatrix,"DEG_Lo_Duct_Counts_expMatrix.csv")
+```
+
+# Remove the repulicated gene in All
+
+```{r}
+All_mergeLo_DuctSeq <- All_res_geneid_point[order(All_res_geneid_point[,"gene_id"]),]
+```
+```{r}
+index<-duplicated(All_mergeLo_DuctSeq$gene_id)
+```
+
+```{r}
+All_mergeLo_DuctSeq <- All_mergeLo_DuctSeq[!index,]
+rownames(All_mergeLo_DuctSeq) <-All_mergeLo_DuctSeq[,"gene_id"]
+All_Lo_Duct_Counts_expMatrix <- All_mergeLo_DuctSeq[,-c(1:2)]
+```
+
+```{r}
+write.csv(All_Lo_Duct_Counts_expMatrix,"All_Lo_Duct_Counts_expMatrix.csv")
+```
+
