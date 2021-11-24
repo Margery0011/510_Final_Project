@@ -1,5 +1,5 @@
 
-###  Analyzing RNA-seq data with `DESeq2` based on the Tutorial 
+#  Analyzing RNA-seq data with `DESeq2` based on the Tutorial 
 
    [DESeq2 Tutorial Website](http://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)
 
@@ -37,3 +37,10 @@
     ![](https://github.com/Margery0011/510_Final_Project/blob/main/images/921637724249_.pic.jpg)
     
 
+### Differential Expressed Gene
+
+- Step1: Differential Expressed Gene 
+   
+    - 1.***Filter the results by choosing `padj < 0.05 & abs(log2FoldChange) > 1`***   ---1490 elements left
+    - 2.***Transfer the EnsemblID to hgnc_symble and add descriptions of filtered genes *** 
+    - 3.***Save them as "DED_hgnc_symble.csv". You can check them in Folder "results"***
