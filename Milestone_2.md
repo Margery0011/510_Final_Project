@@ -1,4 +1,4 @@
-
+*Still working on it* 
 #  Analyzing RNA-seq data with `DESeq2` based on the Tutorial   [deseq2.Rmd](https://github.com/Margery0011/510_Final_Project/blob/main/scripts/deseq2.Rmd)
 
 ### Preparation
