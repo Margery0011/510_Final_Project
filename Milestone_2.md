@@ -46,7 +46,7 @@
     - 1. ***Filter the results by choosing `padj < 0.05 & abs(log2FoldChange) > 1`***   ---1490 elements left
     - 2. ***Save them as `DEG_Lobular_Duct.csv`. You can check them in Folder "results"*** 
 
-- Step2: Transfer the EnsemblID to  DED_hgnc_symble
+- Step2: Transfer the EnsemblID to  DED_hgnc_symble   (Compeled by script `Diff_Ensembl_Trams.Rmd`
 
     - 1. ***Transfer the EnsemblID to hgnc_symble and add descriptions of filtered genes*** ---1454 elements left(Duplicate Names have been removed)
     - 2. ***Save them as `DED_hgnc_symble.csv`. You can check them in Folder "results"*** 
