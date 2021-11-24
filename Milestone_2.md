@@ -1,6 +1,8 @@
 
 #  Analyzing RNA-seq data with `DESeq2` based on the Tutorial 
 
+### Preparation
+
    [DESeq2 Tutorial Website](http://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)
 
 - Step1: Set the Directory to point at the folder with changed names of both groups & library all the required packages
