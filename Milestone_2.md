@@ -138,9 +138,9 @@ I transfered the Ensembl ID to gene ID and remove the version number in Ensembl 
 
 `Lobular_Duct_res_geneid_nopoint.csv` : Ensembl_ID , gene_id and DESeq2 results of All the samples [Lobular_Duct_res_geneid_nopoint.csv](https://github.com/Margery0011/510_Final_Project/blob/main/results/Lobular_Duct_res_geneid_nopoint.csv)
 
-`DEG_Lo_Duct_Counts_expMatrix.csv` : Matrix  [](https://github.com/Margery0011/510_Final_Project/blob/main/results/DEG_Lo_Duct_Counts_expMatrix.csv)
+`DEG_Lo_Duct_Counts_expMatrix.csv` : Matrix  [DEG_Lo_Duct_Counts_expMatrix.csv](https://github.com/Margery0011/510_Final_Project/blob/main/results/DEG_Lo_Duct_Counts_expMatrix.csv)
 
-`All_Lo_Duct_Counts_expMatrix.csv` : Matrix [](https://github.com/Margery0011/510_Final_Project/blob/main/results/All_Lo_Duct_Counts_expMatrix.csv)
+`All_Lo_Duct_Counts_expMatrix.csv` : Matrix [All_Lo_Duct_Counts_expMatrix.csv](https://github.com/Margery0011/510_Final_Project/blob/main/results/All_Lo_Duct_Counts_expMatrix.csv)
 
 
 # Data
