@@ -11,7 +11,7 @@
      ![891637643908_ pic](https://user-images.githubusercontent.com/89502586/143204022-62808922-5318-4e95-8c83-a5acae0c873b.jpg)
 
     
-     2. Group of **Infiltrating Duct Carcinoma**  -Get 135 Files & 35 Cases ( referred as  `Ductgroup` in the following ) 
+     2. Group of **Infiltrating Duct Carcinoma**  -Get 135 Files & 135 Cases ( referred as  `Ductgroup` in the following ) 
 
      
     ![901637645023_ pic](https://user-images.githubusercontent.com/89502586/143204093-76add9a3-a720-4c81-a680-df0dbe0534bc.jpg)
