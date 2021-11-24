@@ -100,6 +100,7 @@ write.csv(DEG_res_geneid_point,file="DEG_res_geneid_nopoint.csv",row.names= F)
 # Remove the doc in ensemble ID in ALL
 
 ```{r}
+Lobular_Duct_res <- read_csv("Lobular_Duct_res.csv")
 library(tidyr)
 all_gene_deseq2_nopoint <- Lobular_Duct_res%>%
   tidyr::separate(Ensembl_ID,into = c("Ensembl_ID"),sep = "\\.")
@@ -116,16 +117,6 @@ write.csv(All_res_geneid_point,file="Lobular_Duct_res_geneid_nopoint.csv",row.na
 ```
 
 
-
-```{r}
-Lobular_Duct_res <- read_csv("Lobular_Duct_res.csv")
-colnames(Lobular_Duct_res)[1] <- "Ensembl_ID"
-Lobular_Duct_res_geneid <- merge(Ensembl_ID_TO_Genename,Lobular_Duct_res,by="Ensembl_ID")
-```
-```{r}
-write.csv(Lobular_Duct_res_geneid,file="Lobular_Duct_res_geneid_nopoint.csv",row.names = F)
-
-```
 
 # Remove the repulicated gene in DEG
 
