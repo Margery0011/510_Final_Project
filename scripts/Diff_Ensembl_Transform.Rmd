@@ -83,3 +83,12 @@ diff_name <- merge(a3,hg_symbols1,by="ensembl_gene_id")
 ```{r}
 write.csv(diff_name,"DED_hgnc_symble.csv")
 ```
+# Transfer the ensembl Name to HGNC_symble name in the `res.csv`
+
+```{r}
+diff_res <- merge(diff_name,diff_gene_deseq2,by="ensembl_gene_id")
+```
+
+```{r}
+write.csv(diff_res,file="TransformedID_Lobular_Duct_res.csv",row.names = F)
+```
