@@ -1,0 +1,85 @@
+
+
+```{r}
+diff_gene_deseq2 <- read_csv("DEG_Lobular_Duct.csv")
+```
+
+```{r}
+row.names(diff_gene_deseq2) <- diff_gene_deseq2$...1
+```
+
+```{r}
+my_ensembl_gene_id<-row.names(diff_gene_deseq2)
+```
+
+```{r}
+my_ensembl_gene_id <- as.data.frame(my_ensembl_gene_id)
+```
+
+```{r}
+colnames(my_ensembl_gene_id)[1] <- "ensembl_gene_id"
+```
+```{r}
+row.names(my_ensembl_gene_id) <- my_ensembl_gene_id$ensembl_gene_id
+```
+
+```{r}
+write.csv(my_ensembl_gene_id[1],"diff_id_1.txt",row.names = F)
+```
+
+```{r}
+rm(list=ls())
+options(stringsAsFactors = F)
+a=read.table('diff_id_1.txt')
+library(org.Hs.eg.db)
+```
+
+```{r}
+a2 <- separate(a,V1,into = "ensembl_id",sep = "[.]")
+a3 <- separate(a,V1,into = c("ensembl_id","drop"),sep = "[.]") %>%
+  select(-drop)
+```
+
+
+```{r}
+a3=a3[-1,]
+a3 <- as.data.frame(a3)
+colnames(a3) <- c("ensembl_gene_id")
+```
+
+```{r}
+diff_gene_deseq2 <- read_csv("DEG_Lobular_Duct.csv",show_col_types = FALSE)
+```
+```{r}
+diff_gene_deseq2$ensembl_gene_id <- a3$ensembl_gene_id
+```
+```{r}
+diff_gene_deseq2 <- diff_gene_deseq2[,-1]
+```
+
+```{r}
+library('biomaRt')
+library("curl")
+mart <- useDataset("hsapiens_gene_ensembl", useMart("ensembl"))
+```
+```{r}
+row.names(diff_gene_deseq2) <- diff_gene_deseq2$ensembl_gene_id
+```
+
+```{r}
+my_ensembl_gene_id <- rownames(diff_gene_deseq2)
+```
+
+```{r}
+#listAttributes(mart)
+hg_symbols1<- getBM(attributes=c("ensembl_gene_id", "hgnc_symbol","description"),
+                     values = my_ensembl_gene_id, mart = mart)
+```
+
+```{r}
+diff_name <- merge(a3,hg_symbols1,by="ensembl_gene_id")
+```
+
+```{r}
+write.csv(diff_name,"DED_hgnc_symble.csv")
+```
