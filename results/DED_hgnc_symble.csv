@@ -1,0 +1,1455 @@
+ensembl_gene_id,hgnc_symbol,description
+ENSG00000000005,TNMD,tenomodulin [Source:HGNC Symbol;Acc:HGNC:17757]
+ENSG00000001626,CFTR,CF transmembrane conductance regulator [Source:HGNC Symbol;Acc:HGNC:1884]
+ENSG00000003249,DBNDD1,dysbindin domain containing 1 [Source:HGNC Symbol;Acc:HGNC:28455]
+ENSG00000004799,PDK4,pyruvate dehydrogenase kinase 4 [Source:HGNC Symbol;Acc:HGNC:8812]
+ENSG00000006377,DLX6,distal-less homeobox 6 [Source:HGNC Symbol;Acc:HGNC:2919]
+ENSG00000010438,PRSS3,serine protease 3 [Source:HGNC Symbol;Acc:HGNC:9486]
+ENSG00000011677,GABRA3,gamma-aminobutyric acid type A receptor subunit alpha3 [Source:HGNC Symbol;Acc:HGNC:4077]
+ENSG00000012817,KDM5D,lysine demethylase 5D [Source:HGNC Symbol;Acc:HGNC:11115]
+ENSG00000013293,SLC7A14,solute carrier family 7 member 14 [Source:HGNC Symbol;Acc:HGNC:29326]
+ENSG00000015520,NPC1L1,NPC1 like intracellular cholesterol transporter 1 [Source:HGNC Symbol;Acc:HGNC:7898]
+ENSG00000019186,CYP24A1,cytochrome P450 family 24 subfamily A member 1 [Source:HGNC Symbol;Acc:HGNC:2602]
+ENSG00000019505,SYT13,synaptotagmin 13 [Source:HGNC Symbol;Acc:HGNC:14962]
+ENSG00000026559,KCNG1,potassium voltage-gated channel modifier subfamily G member 1 [Source:HGNC Symbol;Acc:HGNC:6248]
+ENSG00000029559,IBSP,integrin binding sialoprotein [Source:HGNC Symbol;Acc:HGNC:5341]
+ENSG00000036473,OTC,ornithine transcarbamylase [Source:HGNC Symbol;Acc:HGNC:8512]
+ENSG00000039068,CDH1,cadherin 1 [Source:HGNC Symbol;Acc:HGNC:1748]
+ENSG00000047457,CP,ceruloplasmin [Source:HGNC Symbol;Acc:HGNC:2295]
+ENSG00000054598,FOXC1,forkhead box C1 [Source:HGNC Symbol;Acc:HGNC:3800]
+ENSG00000054938,CHRDL2,chordin like 2 [Source:HGNC Symbol;Acc:HGNC:24168]
+ENSG00000058404,CAMK2B,calcium/calmodulin dependent protein kinase II beta [Source:HGNC Symbol;Acc:HGNC:1461]
+ENSG00000064886,CHI3L2,chitinase 3 like 2 [Source:HGNC Symbol;Acc:HGNC:1933]
+ENSG00000065371,ROPN1,rhophilin associated tail protein 1 [Source:HGNC Symbol;Acc:HGNC:17692]
+ENSG00000066032,CTNNA2,catenin alpha 2 [Source:HGNC Symbol;Acc:HGNC:2510]
+ENSG00000069482,GAL,galanin and GMAP prepropeptide [Source:HGNC Symbol;Acc:HGNC:4114]
+ENSG00000071677,PRLH,prolactin releasing hormone [Source:HGNC Symbol;Acc:HGNC:17945]
+ENSG00000071909,MYO3B,myosin IIIB [Source:HGNC Symbol;Acc:HGNC:15576]
+ENSG00000071991,CDH19,cadherin 19 [Source:HGNC Symbol;Acc:HGNC:1758]
+ENSG00000072041,SLC6A15,solute carrier family 6 member 15 [Source:HGNC Symbol;Acc:HGNC:13621]
+ENSG00000073792,IGF2BP2,insulin like growth factor 2 mRNA binding protein 2 [Source:HGNC Symbol;Acc:HGNC:28867]
+ENSG00000074803,SLC12A1,solute carrier family 12 member 1 [Source:HGNC Symbol;Acc:HGNC:10910]
+ENSG00000075043,KCNQ2,potassium voltage-gated channel subfamily Q member 2 [Source:HGNC Symbol;Acc:HGNC:6296]
+ENSG00000077009,NMRK2,nicotinamide riboside kinase 2 [Source:HGNC Symbol;Acc:HGNC:17871]
+ENSG00000077522,ACTN2,actinin alpha 2 [Source:HGNC Symbol;Acc:HGNC:164]
+ENSG00000077935,SMC1B,structural maintenance of chromosomes 1B [Source:HGNC Symbol;Acc:HGNC:11112]
+ENSG00000078018,MAP2,microtubule associated protein 2 [Source:HGNC Symbol;Acc:HGNC:6839]
+ENSG00000081041,CXCL2,C-X-C motif chemokine ligand 2 [Source:HGNC Symbol;Acc:HGNC:4603]
+ENSG00000081985,IL12RB2,interleukin 12 receptor subunit beta 2 [Source:HGNC Symbol;Acc:HGNC:5972]
+ENSG00000082556,OPRK1,opioid receptor kappa 1 [Source:HGNC Symbol;Acc:HGNC:8154]
+ENSG00000084674,APOB,apolipoprotein B [Source:HGNC Symbol;Acc:HGNC:603]
+ENSG00000087128,TMPRSS11E,transmembrane serine protease 11E [Source:HGNC Symbol;Acc:HGNC:24465]
+ENSG00000087250,MT3,metallothionein 3 [Source:HGNC Symbol;Acc:HGNC:7408]
+ENSG00000088386,SLC15A1,solute carrier family 15 member 1 [Source:HGNC Symbol;Acc:HGNC:10920]
+ENSG00000088538,DOCK3,dedicator of cytokinesis 3 [Source:HGNC Symbol;Acc:HGNC:2989]
+ENSG00000089116,LHX5,LIM homeobox 5 [Source:HGNC Symbol;Acc:HGNC:14216]
+ENSG00000090512,FETUB,fetuin B [Source:HGNC Symbol;Acc:HGNC:3658]
+ENSG00000091129,NRCAM,neuronal cell adhesion molecule [Source:HGNC Symbol;Acc:HGNC:7994]
+ENSG00000091482,SMPX,small muscle protein X-linked [Source:HGNC Symbol;Acc:HGNC:11122]
+ENSG00000091651,ORC6,origin recognition complex subunit 6 [Source:HGNC Symbol;Acc:HGNC:17151]
+ENSG00000092758,COL9A3,collagen type IX alpha 3 chain [Source:HGNC Symbol;Acc:HGNC:2219]
+ENSG00000094755,GABRP,gamma-aminobutyric acid type A receptor subunit pi [Source:HGNC Symbol;Acc:HGNC:4089]
+ENSG00000094796,KRT31,keratin 31 [Source:HGNC Symbol;Acc:HGNC:6448]
+ENSG00000095777,MYO3A,myosin IIIA [Source:HGNC Symbol;Acc:HGNC:7601]
+ENSG00000096006,CRISP3,cysteine rich secretory protein 3 [Source:HGNC Symbol;Acc:HGNC:16904]
+ENSG00000099725,PRKY,protein kinase Y-linked (pseudogene) [Source:HGNC Symbol;Acc:HGNC:9444]
+ENSG00000100121,GGTLC2,gamma-glutamyltransferase light chain 2 [Source:HGNC Symbol;Acc:HGNC:18596]
+ENSG00000100167,SEPTIN3,septin 3 [Source:HGNC Symbol;Acc:HGNC:10750]
+ENSG00000100344,PNPLA3,patatin like phospholipase domain containing 3 [Source:HGNC Symbol;Acc:HGNC:18590]
+ENSG00000100362,PVALB,parvalbumin [Source:HGNC Symbol;Acc:HGNC:9704]
+ENSG00000100604,CHGA,chromogranin A [Source:HGNC Symbol;Acc:HGNC:1929]
+ENSG00000100867,DHRS2,dehydrogenase/reductase 2 [Source:HGNC Symbol;Acc:HGNC:18349]
+ENSG00000101057,MYBL2,MYB proto-oncogene like 2 [Source:HGNC Symbol;Acc:HGNC:7548]
+ENSG00000101074,R3HDML,R3H domain containing like [Source:HGNC Symbol;Acc:HGNC:16249]
+ENSG00000101098,RIMS4,regulating synaptic membrane exocytosis 4 [Source:HGNC Symbol;Acc:HGNC:16183]
+ENSG00000101282,RSPO4,R-spondin 4 [Source:HGNC Symbol;Acc:HGNC:16175]
+ENSG00000101292,PROKR2,prokineticin receptor 2 [Source:HGNC Symbol;Acc:HGNC:15836]
+ENSG00000101311,FERMT1,fermitin family member 1 [Source:HGNC Symbol;Acc:HGNC:15889]
+ENSG00000101323,HAO1,hydroxyacid oxidase 1 [Source:HGNC Symbol;Acc:HGNC:4809]
+ENSG00000101425,BPI,bactericidal permeability increasing protein [Source:HGNC Symbol;Acc:HGNC:1095]
+ENSG00000101489,CELF4,CUGBP Elav-like family member 4 [Source:HGNC Symbol;Acc:HGNC:14015]
+ENSG00000102021,LUZP4,leucine zipper protein 4 [Source:HGNC Symbol;Acc:HGNC:24971]
+ENSG00000102109,PCSK1N,proprotein convertase subtilisin/kexin type 1 inhibitor [Source:HGNC Symbol;Acc:HGNC:17301]
+ENSG00000102243,VGLL1,vestigial like family member 1 [Source:HGNC Symbol;Acc:HGNC:20985]
+ENSG00000102290,PCDH11X,protocadherin 11 X-linked [Source:HGNC Symbol;Acc:HGNC:8656]
+ENSG00000102794,ACOD1,aconitate decarboxylase 1 [Source:HGNC Symbol;Acc:HGNC:33904]
+ENSG00000102854,MSLN,mesothelin [Source:HGNC Symbol;Acc:HGNC:7371]
+ENSG00000103355,PRSS33,serine protease 33 [Source:HGNC Symbol;Acc:HGNC:30405]
+ENSG00000103546,SLC6A2,solute carrier family 6 member 2 [Source:HGNC Symbol;Acc:HGNC:11048]
+ENSG00000104044,OCA2,OCA2 melanosomal transmembrane protein [Source:HGNC Symbol;Acc:HGNC:8101]
+ENSG00000104112,SCG3,secretogranin III [Source:HGNC Symbol;Acc:HGNC:13707]
+ENSG00000104371,DKK4,dickkopf WNT signaling pathway inhibitor 4 [Source:HGNC Symbol;Acc:HGNC:2894]
+ENSG00000105131,EPHX3,epoxide hydrolase 3 [Source:HGNC Symbol;Acc:HGNC:23760]
+ENSG00000105141,CASP14,caspase 14 [Source:HGNC Symbol;Acc:HGNC:1502]
+ENSG00000105143,SLC1A6,solute carrier family 1 member 6 [Source:HGNC Symbol;Acc:HGNC:10944]
+ENSG00000105173,CCNE1,cyclin E1 [Source:HGNC Symbol;Acc:HGNC:1589]
+ENSG00000105205,CLC,Charcot-Leyden crystal galectin [Source:HGNC Symbol;Acc:HGNC:2014]
+ENSG00000105641,SLC5A5,solute carrier family 5 member 5 [Source:HGNC Symbol;Acc:HGNC:11040]
+ENSG00000105825,TFPI2,tissue factor pathway inhibitor 2 [Source:HGNC Symbol;Acc:HGNC:11761]
+ENSG00000105877,DNAH11,dynein axonemal heavy chain 11 [Source:HGNC Symbol;Acc:HGNC:2942]
+ENSG00000105894,PTN,pleiotrophin [Source:HGNC Symbol;Acc:HGNC:9630]
+ENSG00000106013,ANKRD7,ankyrin repeat domain 7 [Source:HGNC Symbol;Acc:HGNC:18588]
+ENSG00000107159,CA9,carbonic anhydrase 9 [Source:HGNC Symbol;Acc:HGNC:1383]
+ENSG00000107295,SH3GL2,"SH3 domain containing GRB2 like 2, endophilin A1 [Source:HGNC Symbol;Acc:HGNC:10831]"
+ENSG00000107807,TLX1,T cell leukemia homeobox 1 [Source:HGNC Symbol;Acc:HGNC:5056]
+ENSG00000107984,DKK1,dickkopf WNT signaling pathway inhibitor 1 [Source:HGNC Symbol;Acc:HGNC:2891]
+ENSG00000108342,CSF3,colony stimulating factor 3 [Source:HGNC Symbol;Acc:HGNC:2438]
+ENSG00000108551,RASD1,ras related dexamethasone induced 1 [Source:HGNC Symbol;Acc:HGNC:15828]
+ENSG00000108688,CCL7,C-C motif chemokine ligand 7 [Source:HGNC Symbol;Acc:HGNC:10634]
+ENSG00000109158,GABRA4,gamma-aminobutyric acid type A receptor subunit alpha4 [Source:HGNC Symbol;Acc:HGNC:4078]
+ENSG00000109181,UGT2B10,UDP glucuronosyltransferase family 2 member B10 [Source:HGNC Symbol;Acc:HGNC:12544]
+ENSG00000109208,SMR3A,submaxillary gland androgen regulated protein 3A [Source:HGNC Symbol;Acc:HGNC:19216]
+ENSG00000109424,UCP1,uncoupling protein 1 [Source:HGNC Symbol;Acc:HGNC:12517]
+ENSG00000110148,CCKBR,cholecystokinin B receptor [Source:HGNC Symbol;Acc:HGNC:1571]
+ENSG00000110169,HPX,hemopexin [Source:HGNC Symbol;Acc:HGNC:5171]
+ENSG00000110203,FOLR3,folate receptor gamma [Source:HGNC Symbol;Acc:HGNC:3795]
+ENSG00000110245,APOC3,apolipoprotein C3 [Source:HGNC Symbol;Acc:HGNC:610]
+ENSG00000110693,SOX6,SRY-box transcription factor 6 [Source:HGNC Symbol;Acc:HGNC:16421]
+ENSG00000110975,SYT10,synaptotagmin 10 [Source:HGNC Symbol;Acc:HGNC:19266]
+ENSG00000111249,CUX2,cut like homeobox 2 [Source:HGNC Symbol;Acc:HGNC:19347]
+ENSG00000111404,RERGL,RERG like [Source:HGNC Symbol;Acc:HGNC:26213]
+ENSG00000111700,SLCO1B3,solute carrier organic anion transporter family member 1B3 [Source:HGNC Symbol;Acc:HGNC:10961]
+ENSG00000111704,NANOG,Nanog homeobox [Source:HGNC Symbol;Acc:HGNC:20857]
+ENSG00000111713,GYS2,glycogen synthase 2 [Source:HGNC Symbol;Acc:HGNC:4707]
+ENSG00000111732,AICDA,activation induced cytidine deaminase [Source:HGNC Symbol;Acc:HGNC:13203]
+ENSG00000112238,PRDM13,PR/SET domain 13 [Source:HGNC Symbol;Acc:HGNC:13998]
+ENSG00000112333,NR2E1,nuclear receptor subfamily 2 group E member 1 [Source:HGNC Symbol;Acc:HGNC:7973]
+ENSG00000113296,THBS4,thrombospondin 4 [Source:HGNC Symbol;Acc:HGNC:11788]
+ENSG00000113946,CLDN16,claudin 16 [Source:HGNC Symbol;Acc:HGNC:2037]
+ENSG00000114204,SERPINI2,serpin family I member 2 [Source:HGNC Symbol;Acc:HGNC:8945]
+ENSG00000114547,ROPN1B,rhophilin associated tail protein 1B [Source:HGNC Symbol;Acc:HGNC:31927]
+ENSG00000114805,PLCH1,phospholipase C eta 1 [Source:HGNC Symbol;Acc:HGNC:29185]
+ENSG00000115592,PRKAG3,protein kinase AMP-activated non-catalytic subunit gamma 3 [Source:HGNC Symbol;Acc:HGNC:9387]
+ENSG00000115596,WNT6,Wnt family member 6 [Source:HGNC Symbol;Acc:HGNC:12785]
+ENSG00000115844,DLX2,distal-less homeobox 2 [Source:HGNC Symbol;Acc:HGNC:2915]
+ENSG00000115850,LCT,lactase [Source:HGNC Symbol;Acc:HGNC:6530]
+ENSG00000116675,DNAJC6,DnaJ heat shock protein family (Hsp40) member C6 [Source:HGNC Symbol;Acc:HGNC:15469]
+ENSG00000116748,AMPD1,adenosine monophosphate deaminase 1 [Source:HGNC Symbol;Acc:HGNC:468]
+ENSG00000116996,ZP4,zona pellucida glycoprotein 4 [Source:HGNC Symbol;Acc:HGNC:15770]
+ENSG00000117115,PADI2,peptidyl arginine deiminase 2 [Source:HGNC Symbol;Acc:HGNC:18341]
+ENSG00000117148,ACTL8,actin like 8 [Source:HGNC Symbol;Acc:HGNC:24018]
+ENSG00000118702,GHRH,growth hormone releasing hormone [Source:HGNC Symbol;Acc:HGNC:4265]
+ENSG00000119147,ECRG4,ECRG4 augurin precursor [Source:HGNC Symbol;Acc:HGNC:24642]
+ENSG00000120068,HOXB8,homeobox B8 [Source:HGNC Symbol;Acc:HGNC:5119]
+ENSG00000120289,MAGEB4,MAGE family member B4 [Source:HGNC Symbol;Acc:HGNC:6811]
+ENSG00000120563,LYZL1,lysozyme like 1 [Source:HGNC Symbol;Acc:HGNC:30502]
+ENSG00000120738,EGR1,early growth response 1 [Source:HGNC Symbol;Acc:HGNC:3238]
+ENSG00000120907,ADRA1A,adrenoceptor alpha 1A [Source:HGNC Symbol;Acc:HGNC:277]
+ENSG00000121039,RDH10,retinol dehydrogenase 10 [Source:HGNC Symbol;Acc:HGNC:19975]
+ENSG00000122133,PAEP,progestagen associated endometrial protein [Source:HGNC Symbol;Acc:HGNC:8573]
+ENSG00000122585,NPY,neuropeptide Y [Source:HGNC Symbol;Acc:HGNC:7955]
+ENSG00000122733,PHF24,PHD finger protein 24 [Source:HGNC Symbol;Acc:HGNC:29180]
+ENSG00000123358,NR4A1,nuclear receptor subfamily 4 group A member 1 [Source:HGNC Symbol;Acc:HGNC:7980]
+ENSG00000123407,HOXC12,homeobox C12 [Source:HGNC Symbol;Acc:HGNC:5124]
+ENSG00000123977,DAW1,dynein assembly factor with WD repeats 1 [Source:HGNC Symbol;Acc:HGNC:26383]
+ENSG00000124102,PI3,peptidase inhibitor 3 [Source:HGNC Symbol;Acc:HGNC:8947]
+ENSG00000124107,SLPI,secretory leukocyte peptidase inhibitor [Source:HGNC Symbol;Acc:HGNC:11092]
+ENSG00000124134,KCNS1,potassium voltage-gated channel modifier subfamily S member 1 [Source:HGNC Symbol;Acc:HGNC:6300]
+ENSG00000124143,ARHGAP40,Rho GTPase activating protein 40 [Source:HGNC Symbol;Acc:HGNC:16226]
+ENSG00000124159,MATN4,matrilin 4 [Source:HGNC Symbol;Acc:HGNC:6910]
+ENSG00000124205,EDN3,endothelin 3 [Source:HGNC Symbol;Acc:HGNC:3178]
+ENSG00000124253,PCK1,phosphoenolpyruvate carboxykinase 1 [Source:HGNC Symbol;Acc:HGNC:8724]
+ENSG00000124391,IL17C,interleukin 17C [Source:HGNC Symbol;Acc:HGNC:5983]
+ENSG00000124575,H1-3,"H1.3 linker histone, cluster member [Source:HGNC Symbol;Acc:HGNC:4717]"
+ENSG00000124610,H1-1,"H1.1 linker histone, cluster member [Source:HGNC Symbol;Acc:HGNC:4715]"
+ENSG00000124635,H2BC11,H2B clustered histone 11 [Source:HGNC Symbol;Acc:HGNC:4761]
+ENSG00000125740,FOSB,"FosB proto-oncogene, AP-1 transcription factor subunit [Source:HGNC Symbol;Acc:HGNC:3797]"
+ENSG00000125798,FOXA2,forkhead box A2 [Source:HGNC Symbol;Acc:HGNC:5022]
+ENSG00000125823,CSTL1,cystatin like 1 [Source:HGNC Symbol;Acc:HGNC:15958]
+ENSG00000125831,CST11,cystatin 11 [Source:HGNC Symbol;Acc:HGNC:15959]
+ENSG00000125851,PCSK2,proprotein convertase subtilisin/kexin type 2 [Source:HGNC Symbol;Acc:HGNC:8744]
+ENSG00000125872,LRRN4,leucine rich repeat neuronal 4 [Source:HGNC Symbol;Acc:HGNC:16208]
+ENSG00000125965,GDF5,growth differentiation factor 5 [Source:HGNC Symbol;Acc:HGNC:4220]
+ENSG00000126545,CSN1S1,casein alpha s1 [Source:HGNC Symbol;Acc:HGNC:2445]
+ENSG00000126562,WNK4,WNK lysine deficient protein kinase 4 [Source:HGNC Symbol;Acc:HGNC:14544]
+ENSG00000126895,AVPR2,arginine vasopressin receptor 2 [Source:HGNC Symbol;Acc:HGNC:897]
+ENSG00000127743,IL17B,interleukin 17B [Source:HGNC Symbol;Acc:HGNC:5982]
+ENSG00000127928,GNGT1,G protein subunit gamma transducin 1 [Source:HGNC Symbol;Acc:HGNC:4411]
+ENSG00000129988,LBP,lipopolysaccharide binding protein [Source:HGNC Symbol;Acc:HGNC:6517]
+ENSG00000130234,ACE2,angiotensin I converting enzyme 2 [Source:HGNC Symbol;Acc:HGNC:13557]
+ENSG00000130294,KIF1A,kinesin family member 1A [Source:HGNC Symbol;Acc:HGNC:888]
+ENSG00000130561,SAG,S-antigen visual arrestin [Source:HGNC Symbol;Acc:HGNC:10521]
+ENSG00000130595,TNNT3,"troponin T3, fast skeletal type [Source:HGNC Symbol;Acc:HGNC:11950]"
+ENSG00000131019,ULBP3,UL16 binding protein 3 [Source:HGNC Symbol;Acc:HGNC:14895]
+ENSG00000131203,IDO1,"indoleamine 2,3-dioxygenase 1 [Source:HGNC Symbol;Acc:HGNC:6059]"
+ENSG00000131686,CA6,carbonic anhydrase 6 [Source:HGNC Symbol;Acc:HGNC:1380]
+ENSG00000131737,KRT34,keratin 34 [Source:HGNC Symbol;Acc:HGNC:6452]
+ENSG00000132204,LINC00470,long intergenic non-protein coding RNA 470 [Source:HGNC Symbol;Acc:HGNC:1225]
+ENSG00000132437,DDC,dopa decarboxylase [Source:HGNC Symbol;Acc:HGNC:2719]
+ENSG00000133019,CHRM3,cholinergic receptor muscarinic 3 [Source:HGNC Symbol;Acc:HGNC:1952]
+ENSG00000133069,TMCC2,transmembrane and coiled-coil domain family 2 [Source:HGNC Symbol;Acc:HGNC:24239]
+ENSG00000133124,IRS4,insulin receptor substrate 4 [Source:HGNC Symbol;Acc:HGNC:6128]
+ENSG00000133392,MYH11,myosin heavy chain 11 [Source:HGNC Symbol;Acc:HGNC:7569]
+ENSG00000133488,SEC14L4,SEC14 like lipid binding 4 [Source:HGNC Symbol;Acc:HGNC:20627]
+ENSG00000133636,NTS,neurotensin [Source:HGNC Symbol;Acc:HGNC:8038]
+ENSG00000133863,TEX15,"testis expressed 15, meiosis and synapsis associated [Source:HGNC Symbol;Acc:HGNC:11738]"
+ENSG00000133980,VRTN,vertebrae development associated [Source:HGNC Symbol;Acc:HGNC:20223]
+ENSG00000134020,PEBP4,phosphatidylethanolamine binding protein 4 [Source:HGNC Symbol;Acc:HGNC:28319]
+ENSG00000134438,RAX,retina and anterior neural fold homeobox [Source:HGNC Symbol;Acc:HGNC:18662]
+ENSG00000134824,FADS2,fatty acid desaturase 2 [Source:HGNC Symbol;Acc:HGNC:3575]
+ENSG00000134827,TCN1,transcobalamin 1 [Source:HGNC Symbol;Acc:HGNC:11652]
+ENSG00000135069,PSAT1,phosphoserine aminotransferase 1 [Source:HGNC Symbol;Acc:HGNC:19129]
+ENSG00000135116,HRK,"harakiri, BCL2 interacting protein [Source:HGNC Symbol;Acc:HGNC:5185]"
+ENSG00000135220,UGT2A3,UDP glucuronosyltransferase family 2 member A3 [Source:HGNC Symbol;Acc:HGNC:28528]
+ENSG00000135222,CSN2,casein beta [Source:HGNC Symbol;Acc:HGNC:2447]
+ENSG00000135226,UGT2B28,UDP glucuronosyltransferase family 2 member B28 [Source:HGNC Symbol;Acc:HGNC:13479]
+ENSG00000135346,CGA,"glycoprotein hormones, alpha polypeptide [Source:HGNC Symbol;Acc:HGNC:1885]"
+ENSG00000135374,ELF5,E74 like ETS transcription factor 5 [Source:HGNC Symbol;Acc:HGNC:3320]
+ENSG00000135413,LACRT,lacritin [Source:HGNC Symbol;Acc:HGNC:16430]
+ENSG00000135443,KRT85,keratin 85 [Source:HGNC Symbol;Acc:HGNC:6462]
+ENSG00000135625,EGR4,early growth response 4 [Source:HGNC Symbol;Acc:HGNC:3241]
+ENSG00000136099,PCDH8,protocadherin 8 [Source:HGNC Symbol;Acc:HGNC:8660]
+ENSG00000136244,IL6,interleukin 6 [Source:HGNC Symbol;Acc:HGNC:6018]
+ENSG00000136352,NKX2-1,NK2 homeobox 1 [Source:HGNC Symbol;Acc:HGNC:11825]
+ENSG00000136535,TBR1,T-box brain transcription factor 1 [Source:HGNC Symbol;Acc:HGNC:11590]
+ENSG00000136688,IL36G,interleukin 36 gamma [Source:HGNC Symbol;Acc:HGNC:15741]
+ENSG00000136694,IL36A,interleukin 36 alpha [Source:HGNC Symbol;Acc:HGNC:15562]
+ENSG00000136695,IL36RN,interleukin 36 receptor antagonist [Source:HGNC Symbol;Acc:HGNC:15561]
+ENSG00000136928,GABBR2,gamma-aminobutyric acid type B receptor subunit 2 [Source:HGNC Symbol;Acc:HGNC:4507]
+ENSG00000137090,DMRT1,doublesex and mab-3 related transcription factor 1 [Source:HGNC Symbol;Acc:HGNC:2934]
+ENSG00000137142,IGFBPL1,insulin like growth factor binding protein like 1 [Source:HGNC Symbol;Acc:HGNC:20081]
+ENSG00000137204,SLC22A7,solute carrier family 22 member 7 [Source:HGNC Symbol;Acc:HGNC:10971]
+ENSG00000137440,FGFBP1,fibroblast growth factor binding protein 1 [Source:HGNC Symbol;Acc:HGNC:19695]
+ENSG00000137648,TMPRSS4,transmembrane serine protease 4 [Source:HGNC Symbol;Acc:HGNC:11878]
+ENSG00000137673,MMP7,matrix metallopeptidase 7 [Source:HGNC Symbol;Acc:HGNC:7174]
+ENSG00000138083,SIX3,SIX homeobox 3 [Source:HGNC Symbol;Acc:HGNC:10889]
+ENSG00000138136,LBX1,ladybird homeobox 1 [Source:HGNC Symbol;Acc:HGNC:16960]
+ENSG00000138622,HCN4,hyperpolarization activated cyclic nucleotide gated potassium channel 4 [Source:HGNC Symbol;Acc:HGNC:16882]
+ENSG00000138675,FGF5,fibroblast growth factor 5 [Source:HGNC Symbol;Acc:HGNC:3683]
+ENSG00000139151,PLCZ1,phospholipase C zeta 1 [Source:HGNC Symbol;Acc:HGNC:19218]
+ENSG00000139219,COL2A1,collagen type II alpha 1 chain [Source:HGNC Symbol;Acc:HGNC:2200]
+ENSG00000139292,LGR5,leucine rich repeat containing G protein-coupled receptor 5 [Source:HGNC Symbol;Acc:HGNC:4504]
+ENSG00000139304,PTPRQ,protein tyrosine phosphatase receptor type Q [Source:HGNC Symbol;Acc:HGNC:9679]
+ENSG00000139797,RNF113B,ring finger protein 113B [Source:HGNC Symbol;Acc:HGNC:17267]
+ENSG00000139915,MDGA2,MAM domain containing glycosylphosphatidylinositol anchor 2 [Source:HGNC Symbol;Acc:HGNC:19835]
+ENSG00000140519,RHCG,Rh family C glycoprotein [Source:HGNC Symbol;Acc:HGNC:18140]
+ENSG00000140522,RLBP1,retinaldehyde binding protein 1 [Source:HGNC Symbol;Acc:HGNC:10024]
+ENSG00000140600,SH3GL3,"SH3 domain containing GRB2 like 3, endophilin A3 [Source:HGNC Symbol;Acc:HGNC:10832]"
+ENSG00000140835,CHST4,carbohydrate sulfotransferase 4 [Source:HGNC Symbol;Acc:HGNC:1972]
+ENSG00000141639,MAPK4,mitogen-activated protein kinase 4 [Source:HGNC Symbol;Acc:HGNC:6878]
+ENSG00000142224,IL19,interleukin 19 [Source:HGNC Symbol;Acc:HGNC:5990]
+ENSG00000142449,FBN3,fibrillin 3 [Source:HGNC Symbol;Acc:HGNC:18794]
+ENSG00000142515,KLK3,kallikrein related peptidase 3 [Source:HGNC Symbol;Acc:HGNC:6364]
+ENSG00000142609,CFAP74,cilia and flagella associated protein 74 [Source:HGNC Symbol;Acc:HGNC:29368]
+ENSG00000142619,PADI3,peptidyl arginine deiminase 3 [Source:HGNC Symbol;Acc:HGNC:18337]
+ENSG00000142698,C1orf94,chromosome 1 open reading frame 94 [Source:HGNC Symbol;Acc:HGNC:28250]
+ENSG00000142700,DMRTA2,DMRT like family A2 [Source:HGNC Symbol;Acc:HGNC:13908]
+ENSG00000143032,BARHL2,BarH like homeobox 2 [Source:HGNC Symbol;Acc:HGNC:954]
+ENSG00000143125,PROK1,prokineticin 1 [Source:HGNC Symbol;Acc:HGNC:18454]
+ENSG00000143318,CASQ1,calsequestrin 1 [Source:HGNC Symbol;Acc:HGNC:1512]
+ENSG00000143452,HORMAD1,HORMA domain containing 1 [Source:HGNC Symbol;Acc:HGNC:25245]
+ENSG00000143536,CRNN,cornulin [Source:HGNC Symbol;Acc:HGNC:1230]
+ENSG00000143546,S100A8,S100 calcium binding protein A8 [Source:HGNC Symbol;Acc:HGNC:10498]
+ENSG00000143556,S100A7,S100 calcium binding protein A7 [Source:HGNC Symbol;Acc:HGNC:10497]
+ENSG00000143595,AQP10,aquaporin 10 [Source:HGNC Symbol;Acc:HGNC:16029]
+ENSG00000144015,TRIM43,tripartite motif containing 43 [Source:HGNC Symbol;Acc:HGNC:19015]
+ENSG00000144045,DQX1,DEAQ-box RNA dependent ATPase 1 [Source:HGNC Symbol;Acc:HGNC:20410]
+ENSG00000144278,GALNT13,polypeptide N-acetylgalactosaminyltransferase 13 [Source:HGNC Symbol;Acc:HGNC:23242]
+ENSG00000144285,SCN1A,sodium voltage-gated channel alpha subunit 1 [Source:HGNC Symbol;Acc:HGNC:10585]
+ENSG00000144339,TMEFF2,transmembrane protein with EGF like and two follistatin like domains 2 [Source:HGNC Symbol;Acc:HGNC:11867]
+ENSG00000144481,TRPM8,transient receptor potential cation channel subfamily M member 8 [Source:HGNC Symbol;Acc:HGNC:17961]
+ENSG00000144771,LRTM1,leucine rich repeats and transmembrane domains 1 [Source:HGNC Symbol;Acc:HGNC:25023]
+ENSG00000144908,ALDH1L1,aldehyde dehydrogenase 1 family member L1 [Source:HGNC Symbol;Acc:HGNC:3978]
+ENSG00000145063,,novel transcript
+ENSG00000145321,GC,GC vitamin D binding protein [Source:HGNC Symbol;Acc:HGNC:4187]
+ENSG00000145451,GLRA3,glycine receptor alpha 3 [Source:HGNC Symbol;Acc:HGNC:4328]
+ENSG00000145681,HAPLN1,hyaluronan and proteoglycan link protein 1 [Source:HGNC Symbol;Acc:HGNC:2380]
+ENSG00000146090,RASGEF1C,RasGEF domain family member 1C [Source:HGNC Symbol;Acc:HGNC:27400]
+ENSG00000146453,PNLDC1,"PARN like, ribonuclease domain containing 1 [Source:HGNC Symbol;Acc:HGNC:21185]"
+ENSG00000146857,STRA8,stimulated by retinoic acid 8 [Source:HGNC Symbol;Acc:HGNC:30653]
+ENSG00000147160,AWAT2,acyl-CoA wax alcohol acyltransferase 2 [Source:HGNC Symbol;Acc:HGNC:23251]
+ENSG00000147381,MAGEA4,MAGE family member A4 [Source:HGNC Symbol;Acc:HGNC:6802]
+ENSG00000147485,PXDNL,peroxidasin like [Source:HGNC Symbol;Acc:HGNC:26359]
+ENSG00000147509,RGS20,regulator of G protein signaling 20 [Source:HGNC Symbol;Acc:HGNC:14600]
+ENSG00000147689,FAM83A,family with sequence similarity 83 member A [Source:HGNC Symbol;Acc:HGNC:28210]
+ENSG00000147697,GSDMC,gasdermin C [Source:HGNC Symbol;Acc:HGNC:7151]
+ENSG00000148482,SLC39A12,solute carrier family 39 member 12 [Source:HGNC Symbol;Acc:HGNC:20860]
+ENSG00000148604,RGR,retinal G protein coupled receptor [Source:HGNC Symbol;Acc:HGNC:9990]
+ENSG00000148677,ANKRD1,ankyrin repeat domain 1 [Source:HGNC Symbol;Acc:HGNC:15819]
+ENSG00000148798,INA,internexin neuronal intermediate filament protein alpha [Source:HGNC Symbol;Acc:HGNC:6057]
+ENSG00000150361,KLHL1,kelch like family member 1 [Source:HGNC Symbol;Acc:HGNC:6352]
+ENSG00000150625,GPM6A,glycoprotein M6A [Source:HGNC Symbol;Acc:HGNC:4460]
+ENSG00000151033,LYZL2,lysozyme like 2 [Source:HGNC Symbol;Acc:HGNC:29613]
+ENSG00000152076,CCDC74B,coiled-coil domain containing 74B [Source:HGNC Symbol;Acc:HGNC:25267]
+ENSG00000152192,POU4F1,POU class 4 homeobox 1 [Source:HGNC Symbol;Acc:HGNC:9218]
+ENSG00000152430,BOLL,"boule homolog, RNA binding protein [Source:HGNC Symbol;Acc:HGNC:14273]"
+ENSG00000152463,OLAH,oleoyl-ACP hydrolase [Source:HGNC Symbol;Acc:HGNC:25625]
+ENSG00000152578,GRIA4,glutamate ionotropic receptor AMPA type subunit 4 [Source:HGNC Symbol;Acc:HGNC:4574]
+ENSG00000152779,SLC16A12,solute carrier family 16 member 12 [Source:HGNC Symbol;Acc:HGNC:23094]
+ENSG00000153002,CPB1,carboxypeptidase B1 [Source:HGNC Symbol;Acc:HGNC:2299]
+ENSG00000153802,TMPRSS11D,transmembrane serine protease 11D [Source:HGNC Symbol;Acc:HGNC:24059]
+ENSG00000153822,KCNJ16,potassium inwardly rectifying channel subfamily J member 16 [Source:HGNC Symbol;Acc:HGNC:6262]
+ENSG00000154277,UCHL1,ubiquitin C-terminal hydrolase L1 [Source:HGNC Symbol;Acc:HGNC:12513]
+ENSG00000154645,CHODL,chondrolectin [Source:HGNC Symbol;Acc:HGNC:17807]
+ENSG00000154975,CA10,carbonic anhydrase 10 [Source:HGNC Symbol;Acc:HGNC:1369]
+ENSG00000155622,XAGE2,X antigen family member 2 [Source:HGNC Symbol;Acc:HGNC:4112]
+ENSG00000155918,RAET1L,retinoic acid early transcript 1L [Source:HGNC Symbol;Acc:HGNC:16798]
+ENSG00000156096,UGT2B4,UDP glucuronosyltransferase family 2 member B4 [Source:HGNC Symbol;Acc:HGNC:12553]
+ENSG00000156219,ART3,ADP-ribosyltransferase 3 (inactive) [Source:HGNC Symbol;Acc:HGNC:725]
+ENSG00000156222,SLC28A1,solute carrier family 28 member 1 [Source:HGNC Symbol;Acc:HGNC:11001]
+ENSG00000157193,LRP8,LDL receptor related protein 8 [Source:HGNC Symbol;Acc:HGNC:6700]
+ENSG00000157542,KCNJ6,potassium inwardly rectifying channel subfamily J member 6 [Source:HGNC Symbol;Acc:HGNC:6267]
+ENSG00000157851,DPYSL5,dihydropyrimidinase like 5 [Source:HGNC Symbol;Acc:HGNC:20637]
+ENSG00000158164,TMSB15A,thymosin beta 15A [Source:HGNC Symbol;Acc:HGNC:30744]
+ENSG00000158406,H4C8,H4 clustered histone 8 [Source:HGNC Symbol;Acc:HGNC:4788]
+ENSG00000159251,ACTC1,actin alpha cardiac muscle 1 [Source:HGNC Symbol;Acc:HGNC:143]
+ENSG00000159388,BTG2,BTG anti-proliferation factor 2 [Source:HGNC Symbol;Acc:HGNC:1131]
+ENSG00000159648,TEPP,"testis, prostate and placenta expressed [Source:HGNC Symbol;Acc:HGNC:33745]"
+ENSG00000160180,TFF3,trefoil factor 3 [Source:HGNC Symbol;Acc:HGNC:11757]
+ENSG00000160182,TFF1,trefoil factor 1 [Source:HGNC Symbol;Acc:HGNC:11755]
+ENSG00000160678,S100A1,S100 calcium binding protein A1 [Source:HGNC Symbol;Acc:HGNC:10486]
+ENSG00000160886,LY6K,lymphocyte antigen 6 family member K [Source:HGNC Symbol;Acc:HGNC:24225]
+ENSG00000161133,USP41,ubiquitin specific peptidase 41 [Source:HGNC Symbol;Acc:HGNC:20070]
+ENSG00000161634,DCD,dermcidin [Source:HGNC Symbol;Acc:HGNC:14669]
+ENSG00000161896,IP6K3,inositol hexakisphosphate kinase 3 [Source:HGNC Symbol;Acc:HGNC:17269]
+ENSG00000162267,ITIH3,inter-alpha-trypsin inhibitor heavy chain 3 [Source:HGNC Symbol;Acc:HGNC:6168]
+ENSG00000162365,CYP4A22,cytochrome P450 family 4 subfamily A member 22 [Source:HGNC Symbol;Acc:HGNC:20575]
+ENSG00000162621,LRRC53,leucine rich repeat containing 53 [Source:HGNC Symbol;Acc:HGNC:25255]
+ENSG00000162670,BRINP3,BMP/retinoic acid inducible neural specific 3 [Source:HGNC Symbol;Acc:HGNC:22393]
+ENSG00000162772,ATF3,activating transcription factor 3 [Source:HGNC Symbol;Acc:HGNC:785]
+ENSG00000163040,CCDC74A,coiled-coil domain containing 74A [Source:HGNC Symbol;Acc:HGNC:25197]
+ENSG00000163064,EN1,engrailed homeobox 1 [Source:HGNC Symbol;Acc:HGNC:3342]
+ENSG00000163216,SPRR2D,small proline rich protein 2D [Source:HGNC Symbol;Acc:HGNC:11264]
+ENSG00000163239,TDRD10,tudor domain containing 10 [Source:HGNC Symbol;Acc:HGNC:25316]
+ENSG00000163273,NPPC,natriuretic peptide C [Source:HGNC Symbol;Acc:HGNC:7941]
+ENSG00000163347,CLDN1,claudin 1 [Source:HGNC Symbol;Acc:HGNC:2032]
+ENSG00000163377,TAFA4,TAFA chemokine like family member 4 [Source:HGNC Symbol;Acc:HGNC:21591]
+ENSG00000163395,IGFN1,immunoglobulin like and fibronectin type III domain containing 1 [Source:HGNC Symbol;Acc:HGNC:24607]
+ENSG00000163499,CRYBA2,crystallin beta A2 [Source:HGNC Symbol;Acc:HGNC:2395]
+ENSG00000163735,CXCL5,C-X-C motif chemokine ligand 5 [Source:HGNC Symbol;Acc:HGNC:10642]
+ENSG00000164007,CLDN19,claudin 19 [Source:HGNC Symbol;Acc:HGNC:2040]
+ENSG00000164076,CAMKV,CaM kinase like vesicle associated [Source:HGNC Symbol;Acc:HGNC:28788]
+ENSG00000164265,SCGB3A2,secretoglobin family 3A member 2 [Source:HGNC Symbol;Acc:HGNC:18391]
+ENSG00000164326,CARTPT,CART prepropeptide [Source:HGNC Symbol;Acc:HGNC:24323]
+ENSG00000164398,ACSL6,acyl-CoA synthetase long chain family member 6 [Source:HGNC Symbol;Acc:HGNC:16496]
+ENSG00000164403,SHROOM1,shroom family member 1 [Source:HGNC Symbol;Acc:HGNC:24084]
+ENSG00000164404,GDF9,growth differentiation factor 9 [Source:HGNC Symbol;Acc:HGNC:4224]
+ENSG00000164411,GJB7,gap junction protein beta 7 [Source:HGNC Symbol;Acc:HGNC:16690]
+ENSG00000164434,FABP7,fatty acid binding protein 7 [Source:HGNC Symbol;Acc:HGNC:3562]
+ENSG00000164438,TLX3,T cell leukemia homeobox 3 [Source:HGNC Symbol;Acc:HGNC:13532]
+ENSG00000164458,TBXT,T-box transcription factor T [Source:HGNC Symbol;Acc:HGNC:11515]
+ENSG00000164485,IL22RA2,interleukin 22 receptor subunit alpha 2 [Source:HGNC Symbol;Acc:HGNC:14901]
+ENSG00000164778,EN2,engrailed homeobox 2 [Source:HGNC Symbol;Acc:HGNC:3343]
+ENSG00000164794,KCNV1,potassium voltage-gated channel modifier subfamily V member 1 [Source:HGNC Symbol;Acc:HGNC:18861]
+ENSG00000165349,SLC7A3,solute carrier family 7 member 3 [Source:HGNC Symbol;Acc:HGNC:11061]
+ENSG00000165553,NGB,neuroglobin [Source:HGNC Symbol;Acc:HGNC:14077]
+ENSG00000165973,NELL1,neural EGFL like 1 [Source:HGNC Symbol;Acc:HGNC:7750]
+ENSG00000166111,SVOP,SV2 related protein [Source:HGNC Symbol;Acc:HGNC:25417]
+ENSG00000166342,NETO1,neuropilin and tolloid like 1 [Source:HGNC Symbol;Acc:HGNC:13823]
+ENSG00000166407,LMO1,LIM domain only 1 [Source:HGNC Symbol;Acc:HGNC:6641]
+ENSG00000166426,CRABP1,cellular retinoic acid binding protein 1 [Source:HGNC Symbol;Acc:HGNC:2338]
+ENSG00000166535,A2ML1,alpha-2-macroglobulin like 1 [Source:HGNC Symbol;Acc:HGNC:23336]
+ENSG00000166592,RRAD,"RRAD, Ras related glycolysis inhibitor and calcium channel regulator [Source:HGNC Symbol;Acc:HGNC:10446]"
+ENSG00000166670,MMP10,matrix metallopeptidase 10 [Source:HGNC Symbol;Acc:HGNC:7156]
+ENSG00000166869,CHP2,calcineurin like EF-hand protein 2 [Source:HGNC Symbol;Acc:HGNC:24927]
+ENSG00000166917,MIR202HG,MIR202 host gene [Source:HGNC Symbol;Acc:HGNC:49402]
+ENSG00000167080,B4GALNT2,"beta-1,4-N-acetyl-galactosaminyltransferase 2 [Source:HGNC Symbol;Acc:HGNC:24136]"
+ENSG00000167165,UGT1A6,UDP glucuronosyltransferase family 1 member A6 [Source:HGNC Symbol;Acc:HGNC:12538]
+ENSG00000167531,LALBA,lactalbumin alpha [Source:HGNC Symbol;Acc:HGNC:6480]
+ENSG00000167549,CORO6,coronin 6 [Source:HGNC Symbol;Acc:HGNC:21356]
+ENSG00000167656,LY6D,lymphocyte antigen 6 family member D [Source:HGNC Symbol;Acc:HGNC:13348]
+ENSG00000167757,KLK11,kallikrein related peptidase 11 [Source:HGNC Symbol;Acc:HGNC:6359]
+ENSG00000167771,RCOR2,REST corepressor 2 [Source:HGNC Symbol;Acc:HGNC:27455]
+ENSG00000167800,TBX10,T-box transcription factor 10 [Source:HGNC Symbol;Acc:HGNC:11593]
+ENSG00000167941,SOST,sclerostin [Source:HGNC Symbol;Acc:HGNC:13771]
+ENSG00000168062,BATF2,basic leucine zipper ATF-like transcription factor 2 [Source:HGNC Symbol;Acc:HGNC:25163]
+ENSG00000168065,SLC22A11,solute carrier family 22 member 11 [Source:HGNC Symbol;Acc:HGNC:18120]
+ENSG00000168124,OR1F1,olfactory receptor family 1 subfamily F member 1 [Source:HGNC Symbol;Acc:HGNC:8194]
+ENSG00000168333,PPDPFL,pancreatic progenitor cell differentiation and proliferation factor like [Source:HGNC Symbol;Acc:HGNC:31745]
+ENSG00000168412,MTNR1A,melatonin receptor 1A [Source:HGNC Symbol;Acc:HGNC:7463]
+ENSG00000168484,SFTPC,surfactant protein C [Source:HGNC Symbol;Acc:HGNC:10802]
+ENSG00000168497,CAVIN2,caveolae associated protein 2 [Source:HGNC Symbol;Acc:HGNC:10690]
+ENSG00000168619,ADAM18,ADAM metallopeptidase domain 18 [Source:HGNC Symbol;Acc:HGNC:196]
+ENSG00000168621,GDNF,glial cell derived neurotrophic factor [Source:HGNC Symbol;Acc:HGNC:4232]
+ENSG00000169006,NTSR2,neurotensin receptor 2 [Source:HGNC Symbol;Acc:HGNC:8040]
+ENSG00000169085,VXN,vexin [Source:HGNC Symbol;Acc:HGNC:28498]
+ENSG00000169213,RAB3B,"RAB3B, member RAS oncogene family [Source:HGNC Symbol;Acc:HGNC:9778]"
+ENSG00000169245,CXCL10,C-X-C motif chemokine ligand 10 [Source:HGNC Symbol;Acc:HGNC:10637]
+ENSG00000169248,CXCL11,C-X-C motif chemokine ligand 11 [Source:HGNC Symbol;Acc:HGNC:10638]
+ENSG00000169347,GP2,glycoprotein 2 [Source:HGNC Symbol;Acc:HGNC:4441]
+ENSG00000169436,COL22A1,collagen type XXII alpha 1 chain [Source:HGNC Symbol;Acc:HGNC:22989]
+ENSG00000169469,SPRR1B,small proline rich protein 1B [Source:HGNC Symbol;Acc:HGNC:11260]
+ENSG00000169474,SPRR1A,small proline rich protein 1A [Source:HGNC Symbol;Acc:HGNC:11259]
+ENSG00000169509,CRCT1,cysteine rich C-terminal 1 [Source:HGNC Symbol;Acc:HGNC:29875]
+ENSG00000169548,ZNF280A,zinc finger protein 280A [Source:HGNC Symbol;Acc:HGNC:18597]
+ENSG00000169551,CT55,cancer/testis antigen 55 [Source:HGNC Symbol;Acc:HGNC:26047]
+ENSG00000170099,SERPINA6,serpin family A member 6 [Source:HGNC Symbol;Acc:HGNC:1540]
+ENSG00000170298,LGALS9B,galectin 9B [Source:HGNC Symbol;Acc:HGNC:24842]
+ENSG00000170419,VSTM2A,V-set and transmembrane domain containing 2A [Source:HGNC Symbol;Acc:HGNC:28499]
+ENSG00000170423,KRT78,keratin 78 [Source:HGNC Symbol;Acc:HGNC:28926]
+ENSG00000170442,KRT86,keratin 86 [Source:HGNC Symbol;Acc:HGNC:6463]
+ENSG00000170454,KRT75,keratin 75 [Source:HGNC Symbol;Acc:HGNC:24431]
+ENSG00000170465,KRT6C,keratin 6C [Source:HGNC Symbol;Acc:HGNC:20406]
+ENSG00000170477,KRT4,keratin 4 [Source:HGNC Symbol;Acc:HGNC:6441]
+ENSG00000170498,KISS1,KiSS-1 metastasis suppressor [Source:HGNC Symbol;Acc:HGNC:6341]
+ENSG00000170523,KRT83,keratin 83 [Source:HGNC Symbol;Acc:HGNC:6460]
+ENSG00000170558,CDH2,cadherin 2 [Source:HGNC Symbol;Acc:HGNC:1759]
+ENSG00000170893,TRH,thyrotropin releasing hormone [Source:HGNC Symbol;Acc:HGNC:12298]
+ENSG00000171060,C8orf74,chromosome 8 open reading frame 74 [Source:HGNC Symbol;Acc:HGNC:32296]
+ENSG00000171102,OBP2B,odorant binding protein 2B [Source:HGNC Symbol;Acc:HGNC:23381]
+ENSG00000171195,MUC7,"mucin 7, secreted [Source:HGNC Symbol;Acc:HGNC:7518]"
+ENSG00000171199,OPRPN,opiorphin prepropeptide [Source:HGNC Symbol;Acc:HGNC:17279]
+ENSG00000171208,NETO2,neuropilin and tolloid like 2 [Source:HGNC Symbol;Acc:HGNC:14644]
+ENSG00000171209,CSN3,casein kappa [Source:HGNC Symbol;Acc:HGNC:2446]
+ENSG00000171234,UGT2B7,UDP glucuronosyltransferase family 2 member B7 [Source:HGNC Symbol;Acc:HGNC:12554]
+ENSG00000171360,KRT38,keratin 38 [Source:HGNC Symbol;Acc:HGNC:6456]
+ENSG00000171403,KRT9,keratin 9 [Source:HGNC Symbol;Acc:HGNC:6447]
+ENSG00000171431,KRT20,keratin 20 [Source:HGNC Symbol;Acc:HGNC:20412]
+ENSG00000171446,KRT27,keratin 27 [Source:HGNC Symbol;Acc:HGNC:30841]
+ENSG00000171450,CDK5R2,cyclin dependent kinase 5 regulatory subunit 2 [Source:HGNC Symbol;Acc:HGNC:1776]
+ENSG00000171560,FGA,fibrinogen alpha chain [Source:HGNC Symbol;Acc:HGNC:3661]
+ENSG00000171564,FGB,fibrinogen beta chain [Source:HGNC Symbol;Acc:HGNC:3662]
+ENSG00000171819,ANGPTL7,angiopoietin like 7 [Source:HGNC Symbol;Acc:HGNC:24078]
+ENSG00000171855,IFNB1,interferon beta 1 [Source:HGNC Symbol;Acc:HGNC:5434]
+ENSG00000172073,TEX37,testis expressed 37 [Source:HGNC Symbol;Acc:HGNC:26341]
+ENSG00000172232,AZU1,azurocidin 1 [Source:HGNC Symbol;Acc:HGNC:913]
+ENSG00000172247,C1QTNF4,C1q and TNF related 4 [Source:HGNC Symbol;Acc:HGNC:14346]
+ENSG00000173237,C11orf86,chromosome 11 open reading frame 86 [Source:HGNC Symbol;Acc:HGNC:34442]
+ENSG00000173250,GPR151,G protein-coupled receptor 151 [Source:HGNC Symbol;Acc:HGNC:23624]
+ENSG00000173262,SLC2A14,solute carrier family 2 member 14 [Source:HGNC Symbol;Acc:HGNC:18301]
+ENSG00000173894,CBX2,chromobox 2 [Source:HGNC Symbol;Acc:HGNC:1552]
+ENSG00000174015,CBY2,chibby family member 2 [Source:HGNC Symbol;Acc:HGNC:30720]
+ENSG00000174016,TENT5D,terminal nucleotidyltransferase 5D [Source:HGNC Symbol;Acc:HGNC:28399]
+ENSG00000174156,GSTA3,glutathione S-transferase alpha 3 [Source:HGNC Symbol;Acc:HGNC:4628]
+ENSG00000174171,,"novel transcript, antisense to SPTBN5"
+ENSG00000174343,CHRNA9,cholinergic receptor nicotinic alpha 9 subunit [Source:HGNC Symbol;Acc:HGNC:14079]
+ENSG00000174502,SLC26A9,solute carrier family 26 member 9 [Source:HGNC Symbol;Acc:HGNC:14469]
+ENSG00000174607,UGT8,UDP glycosyltransferase 8 [Source:HGNC Symbol;Acc:HGNC:12555]
+ENSG00000174680,GRIK1-AS1,GRIK1 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:16458]
+ENSG00000174963,ZIC4,Zic family member 4 [Source:HGNC Symbol;Acc:HGNC:20393]
+ENSG00000175084,DES,desmin [Source:HGNC Symbol;Acc:HGNC:2770]
+ENSG00000175093,SPSB4,splA/ryanodine receptor domain and SOCS box containing 4 [Source:HGNC Symbol;Acc:HGNC:30630]
+ENSG00000175121,WFDC5,WAP four-disulfide core domain 5 [Source:HGNC Symbol;Acc:HGNC:20477]
+ENSG00000175329,ISX,intestine specific homeobox [Source:HGNC Symbol;Acc:HGNC:28084]
+ENSG00000175697,GPR156,G protein-coupled receptor 156 [Source:HGNC Symbol;Acc:HGNC:20844]
+ENSG00000175868,CALCB,calcitonin related polypeptide beta [Source:HGNC Symbol;Acc:HGNC:1438]
+ENSG00000176076,KCNE5,potassium voltage-gated channel subfamily E regulatory subunit 5 [Source:HGNC Symbol;Acc:HGNC:6241]
+ENSG00000176194,CIDEA,cell death inducing DFFA like effector a [Source:HGNC Symbol;Acc:HGNC:1976]
+ENSG00000176289,IDSP1,iduronate 2-sulfatase pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:5390]
+ENSG00000176349,,"novel transcript, antisense to MAD1L1"
+ENSG00000176381,PRR18,proline rich 18 [Source:HGNC Symbol;Acc:HGNC:28574]
+ENSG00000176406,RIMS2,regulating synaptic membrane exocytosis 2 [Source:HGNC Symbol;Acc:HGNC:17283]
+ENSG00000176597,B3GNT5,"UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 5 [Source:HGNC Symbol;Acc:HGNC:15684]"
+ENSG00000176654,NANOGP1,Nanog homeobox pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:23099]
+ENSG00000176769,TCERG1L,transcription elongation regulator 1 like [Source:HGNC Symbol;Acc:HGNC:23533]
+ENSG00000176887,SOX11,SRY-box transcription factor 11 [Source:HGNC Symbol;Acc:HGNC:11191]
+ENSG00000177108,ZDHHC22,zinc finger DHHC-type palmitoyltransferase 22 [Source:HGNC Symbol;Acc:HGNC:20106]
+ENSG00000177133,PRDM16-DT,PRDM16 divergent transcript [Source:HGNC Symbol;Acc:HGNC:48664]
+ENSG00000177459,ERICH5,glutamate rich 5 [Source:HGNC Symbol;Acc:HGNC:26823]
+ENSG00000177553,C1orf167-AS1,C1orf167 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:41091]
+ENSG00000177614,PGBD5,piggyBac transposable element derived 5 [Source:HGNC Symbol;Acc:HGNC:19405]
+ENSG00000177938,CAPZA3,capping actin protein of muscle Z-line subunit alpha 3 [Source:HGNC Symbol;Acc:HGNC:24205]
+ENSG00000178403,NEUROG2,neurogenin 2 [Source:HGNC Symbol;Acc:HGNC:13805]
+ENSG00000178445,GLDC,glycine decarboxylase [Source:HGNC Symbol;Acc:HGNC:4313]
+ENSG00000178597,PSAPL1,prosaposin like 1 [Source:HGNC Symbol;Acc:HGNC:33131]
+ENSG00000178776,C5orf46,chromosome 5 open reading frame 46 [Source:HGNC Symbol;Acc:HGNC:33768]
+ENSG00000178828,RNF186,ring finger protein 186 [Source:HGNC Symbol;Acc:HGNC:25978]
+ENSG00000179008,C14orf39,chromosome 14 open reading frame 39 [Source:HGNC Symbol;Acc:HGNC:19849]
+ENSG00000179046,TRIML2,tripartite motif family like 2 [Source:HGNC Symbol;Acc:HGNC:26378]
+ENSG00000179059,ZFP42,ZFP42 zinc finger protein [Source:HGNC Symbol;Acc:HGNC:30949]
+ENSG00000179066,,novel transcript
+ENSG00000179136,LINC00670,long intergenic non-protein coding RNA 670 [Source:HGNC Symbol;Acc:HGNC:44338]
+ENSG00000179256,SMCO3,single-pass membrane protein with coiled-coil domains 3 [Source:HGNC Symbol;Acc:HGNC:34401]
+ENSG00000179388,EGR3,early growth response 3 [Source:HGNC Symbol;Acc:HGNC:3240]
+ENSG00000179455,MKRN3,makorin ring finger protein 3 [Source:HGNC Symbol;Acc:HGNC:7114]
+ENSG00000179593,ALOX15B,arachidonate 15-lipoxygenase type B [Source:HGNC Symbol;Acc:HGNC:434]
+ENSG00000179750,APOBEC3B,apolipoprotein B mRNA editing enzyme catalytic subunit 3B [Source:HGNC Symbol;Acc:HGNC:17352]
+ENSG00000179796,LRRC3B,leucine rich repeat containing 3B [Source:HGNC Symbol;Acc:HGNC:28105]
+ENSG00000179869,ABCA13,ATP binding cassette subfamily A member 13 [Source:HGNC Symbol;Acc:HGNC:14638]
+ENSG00000179915,NRXN1,neurexin 1 [Source:HGNC Symbol;Acc:HGNC:8008]
+ENSG00000180019,,ribosomal protein S27a (RPS27A) pseudogene
+ENSG00000180139,ACTA2-AS1,ACTA2 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:45169]
+ENSG00000180264,ADGRD2,adhesion G protein-coupled receptor D2 [Source:HGNC Symbol;Acc:HGNC:18651]
+ENSG00000180422,LINC00304,long intergenic non-protein coding RNA 304 [Source:HGNC Symbol;Acc:HGNC:26713]
+ENSG00000180438,TPRXL,tetrapeptide repeat homeobox like (pseudogene) [Source:HGNC Symbol;Acc:HGNC:32178]
+ENSG00000180537,RNF182,ring finger protein 182 [Source:HGNC Symbol;Acc:HGNC:28522]
+ENSG00000180613,GSX2,GS homeobox 2 [Source:HGNC Symbol;Acc:HGNC:24959]
+ENSG00000180772,AGTR2,angiotensin II receptor type 2 [Source:HGNC Symbol;Acc:HGNC:338]
+ENSG00000180861,LINC01559,long intergenic non-protein coding RNA 1559 [Source:HGNC Symbol;Acc:HGNC:26598]
+ENSG00000180914,OXTR,oxytocin receptor [Source:HGNC Symbol;Acc:HGNC:8529]
+ENSG00000181072,CHRM2,cholinergic receptor muscarinic 2 [Source:HGNC Symbol;Acc:HGNC:1951]
+ENSG00000181355,OFCC1,orofacial cleft 1 candidate 1 [Source:HGNC Symbol;Acc:HGNC:21017]
+ENSG00000181418,DDN,dendrin [Source:HGNC Symbol;Acc:HGNC:24458]
+ENSG00000181997,AQP7P2,aquaporin 7 pseudogene 2 [Source:HGNC Symbol;Acc:HGNC:32049]
+ENSG00000182077,PTCHD3,patched domain containing 3 [Source:HGNC Symbol;Acc:HGNC:24776]
+ENSG00000182256,GABRG3,gamma-aminobutyric acid type A receptor subunit gamma3 [Source:HGNC Symbol;Acc:HGNC:4088]
+ENSG00000182533,CAV3,caveolin 3 [Source:HGNC Symbol;Acc:HGNC:1529]
+ENSG00000182545,RNASE10,ribonuclease A family member 10 (inactive) [Source:HGNC Symbol;Acc:HGNC:19275]
+ENSG00000182632,CCNYL2,cyclin Y like 2 (pseudogene) [Source:HGNC Symbol;Acc:HGNC:23495]
+ENSG00000182793,GSTA5,glutathione S-transferase alpha 5 [Source:HGNC Symbol;Acc:HGNC:19662]
+ENSG00000183072,NKX2-5,NK2 homeobox 5 [Source:HGNC Symbol;Acc:HGNC:2488]
+ENSG00000183148,ANKRD20A2P,"ankyrin repeat domain 20 family member A2, pseudogene [Source:HGNC Symbol;Acc:HGNC:31979]"
+ENSG00000183206,POTEC,POTE ankyrin domain family member C [Source:HGNC Symbol;Acc:HGNC:33894]
+ENSG00000183463,URAD,ureidoimidazoline (2-oxo-4-hydroxy-4-carboxy-5-) decarboxylase [Source:HGNC Symbol;Acc:HGNC:17785]
+ENSG00000183566,BPIFA4P,"BPI fold containing family A member 4, pseudogene [Source:HGNC Symbol;Acc:HGNC:20469]"
+ENSG00000183571,PGPEP1L,pyroglutamyl-peptidase I like [Source:HGNC Symbol;Acc:HGNC:27080]
+ENSG00000183654,MARCHF11,membrane associated ring-CH-type finger 11 [Source:HGNC Symbol;Acc:HGNC:33609]
+ENSG00000183674,LINC00518,long intergenic non-protein coding RNA 518 [Source:HGNC Symbol;Acc:HGNC:28626]
+ENSG00000183695,MRGPRX2,MAS related GPR family member X2 [Source:HGNC Symbol;Acc:HGNC:17983]
+ENSG00000183709,IFNL2,interferon lambda 2 [Source:HGNC Symbol;Acc:HGNC:18364]
+ENSG00000183760,ACP7,"acid phosphatase 7, tartrate resistant (putative) [Source:HGNC Symbol;Acc:HGNC:33781]"
+ENSG00000184221,OLIG1,oligodendrocyte transcription factor 1 [Source:HGNC Symbol;Acc:HGNC:16983]
+ENSG00000184330,S100A7A,S100 calcium binding protein A7A [Source:HGNC Symbol;Acc:HGNC:21657]
+ENSG00000184357,H1-5,"H1.5 linker histone, cluster member [Source:HGNC Symbol;Acc:HGNC:4719]"
+ENSG00000184523,PTGER4P2,prostaglandin E receptor 4 pseudogene 2 [Source:HGNC Symbol;Acc:HGNC:9598]
+ENSG00000184599,TAFA3,TAFA chemokine like family member 3 [Source:HGNC Symbol;Acc:HGNC:21590]
+ENSG00000184601,C14orf180,chromosome 14 open reading frame 180 [Source:HGNC Symbol;Acc:HGNC:33795]
+ENSG00000184659,FOXD4L4,forkhead box D4 like 4 [Source:HGNC Symbol;Acc:HGNC:23762]
+ENSG00000184697,CLDN6,claudin 6 [Source:HGNC Symbol;Acc:HGNC:2048]
+ENSG00000184811,TRARG1,trafficking regulator of GLUT4 (SLC2A4) 1 [Source:HGNC Symbol;Acc:HGNC:29592]
+ENSG00000184956,MUC6,"mucin 6, oligomeric mucus/gel-forming [Source:HGNC Symbol;Acc:HGNC:7517]"
+ENSG00000185002,RFX6,regulatory factor X6 [Source:HGNC Symbol;Acc:HGNC:21478]
+ENSG00000185078,RPL9P14,ribosomal protein L9 pseudogene 14 [Source:HGNC Symbol;Acc:HGNC:36816]
+ENSG00000185149,NPY2R,neuropeptide Y receptor Y2 [Source:HGNC Symbol;Acc:HGNC:7957]
+ENSG00000185247,MAGEA11,MAGE family member A11 [Source:HGNC Symbol;Acc:HGNC:6798]
+ENSG00000185274,GALNT17,polypeptide N-acetylgalactosaminyltransferase 17 [Source:HGNC Symbol;Acc:HGNC:16347]
+ENSG00000185306,C12orf56,chromosome 12 open reading frame 56 [Source:HGNC Symbol;Acc:HGNC:26967]
+ENSG00000185479,KRT6B,keratin 6B [Source:HGNC Symbol;Acc:HGNC:6444]
+ENSG00000185559,DLK1,delta like non-canonical Notch ligand 1 [Source:HGNC Symbol;Acc:HGNC:2907]
+ENSG00000185634,SHC4,SHC adaptor protein 4 [Source:HGNC Symbol;Acc:HGNC:16743]
+ENSG00000185686,PRAME,PRAME nuclear receptor transcriptional regulator [Source:HGNC Symbol;Acc:HGNC:9336]
+ENSG00000185904,LINC00839,long intergenic non-protein coding RNA 839 [Source:HGNC Symbol;Acc:HGNC:28269]
+ENSG00000185915,KLHL34,kelch like family member 34 [Source:HGNC Symbol;Acc:HGNC:26634]
+ENSG00000186007,LEMD1,LEM domain containing 1 [Source:HGNC Symbol;Acc:HGNC:18725]
+ENSG00000186439,TRDN,triadin [Source:HGNC Symbol;Acc:HGNC:12261]
+ENSG00000186442,KRT3,keratin 3 [Source:HGNC Symbol;Acc:HGNC:6440]
+ENSG00000186474,KLK12,kallikrein related peptidase 12 [Source:HGNC Symbol;Acc:HGNC:6360]
+ENSG00000186526,CYP4F8,cytochrome P450 family 4 subfamily F member 8 [Source:HGNC Symbol;Acc:HGNC:2648]
+ENSG00000186603,HPDL,4-hydroxyphenylpyruvate dioxygenase like [Source:HGNC Symbol;Acc:HGNC:28242]
+ENSG00000186684,CYP27C1,cytochrome P450 family 27 subfamily C member 1 [Source:HGNC Symbol;Acc:HGNC:33480]
+ENSG00000186832,KRT16,keratin 16 [Source:HGNC Symbol;Acc:HGNC:6423]
+ENSG00000186847,KRT14,keratin 14 [Source:HGNC Symbol;Acc:HGNC:6416]
+ENSG00000186895,FGF3,fibroblast growth factor 3 [Source:HGNC Symbol;Acc:HGNC:3681]
+ENSG00000186897,C1QL4,complement C1q like 4 [Source:HGNC Symbol;Acc:HGNC:31416]
+ENSG00000187054,TMPRSS11A,transmembrane serine protease 11A [Source:HGNC Symbol;Acc:HGNC:27954]
+ENSG00000187122,SLIT1,slit guidance ligand 1 [Source:HGNC Symbol;Acc:HGNC:11085]
+ENSG00000187533,PRR27,proline rich 27 [Source:HGNC Symbol;Acc:HGNC:33193]
+ENSG00000187689,AMTN,amelotin [Source:HGNC Symbol;Acc:HGNC:33188]
+ENSG00000187772,LIN28B,lin-28 homolog B [Source:HGNC Symbol;Acc:HGNC:32207]
+ENSG00000187908,DMBT1,deleted in malignant brain tumors 1 [Source:HGNC Symbol;Acc:HGNC:2926]
+ENSG00000187922,LCN10,lipocalin 10 [Source:HGNC Symbol;Acc:HGNC:20892]
+ENSG00000187957,DNER,delta/notch like EGF repeat containing [Source:HGNC Symbol;Acc:HGNC:24456]
+ENSG00000187980,PLA2G2C,phospholipase A2 group IIC [Source:HGNC Symbol;Acc:HGNC:9032]
+ENSG00000188100,FAM25A,family with sequence similarity 25 member A [Source:HGNC Symbol;Acc:HGNC:23436]
+ENSG00000188162,OTOG,otogelin [Source:HGNC Symbol;Acc:HGNC:8516]
+ENSG00000188257,PLA2G2A,phospholipase A2 group IIA [Source:HGNC Symbol;Acc:HGNC:9031]
+ENSG00000188536,HBA2,hemoglobin subunit alpha 2 [Source:HGNC Symbol;Acc:HGNC:4824]
+ENSG00000188763,FZD9,frizzled class receptor 9 [Source:HGNC Symbol;Acc:HGNC:4047]
+ENSG00000188869,TMC3,transmembrane channel like 3 [Source:HGNC Symbol;Acc:HGNC:22995]
+ENSG00000188910,GJB3,gap junction protein beta 3 [Source:HGNC Symbol;Acc:HGNC:4285]
+ENSG00000188984,AADACL3,arylacetamide deacetylase like 3 [Source:HGNC Symbol;Acc:HGNC:32037]
+ENSG00000189001,SBSN,suprabasin [Source:HGNC Symbol;Acc:HGNC:24950]
+ENSG00000189013,KIR2DL4,"killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6332]"
+ENSG00000189182,KRT77,keratin 77 [Source:HGNC Symbol;Acc:HGNC:20411]
+ENSG00000189229,,novel transcript
+ENSG00000189409,MMP23B,matrix metallopeptidase 23B [Source:HGNC Symbol;Acc:HGNC:7171]
+ENSG00000189433,GJB4,gap junction protein beta 4 [Source:HGNC Symbol;Acc:HGNC:4286]
+ENSG00000196196,HRCT1,histidine rich carboxyl terminus 1 [Source:HGNC Symbol;Acc:HGNC:33872]
+ENSG00000196228,SULT1C3,sulfotransferase family 1C member 3 [Source:HGNC Symbol;Acc:HGNC:33543]
+ENSG00000196350,ZNF729,zinc finger protein 729 [Source:HGNC Symbol;Acc:HGNC:32464]
+ENSG00000196353,CPNE4,copine 4 [Source:HGNC Symbol;Acc:HGNC:2317]
+ENSG00000196503,ARL9,ADP ribosylation factor like GTPase 9 [Source:HGNC Symbol;Acc:HGNC:23592]
+ENSG00000196553,CCDC196,coiled-coil domain containing 196 [Source:HGNC Symbol;Acc:HGNC:20100]
+ENSG00000196611,MMP1,matrix metallopeptidase 1 [Source:HGNC Symbol;Acc:HGNC:7155]
+ENSG00000196666,FAM180B,family with sequence similarity 180 member B [Source:HGNC Symbol;Acc:HGNC:34451]
+ENSG00000196747,H2AC13,H2A clustered histone 13 [Source:HGNC Symbol;Acc:HGNC:4725]
+ENSG00000196754,S100A2,S100 calcium binding protein A2 [Source:HGNC Symbol;Acc:HGNC:10492]
+ENSG00000196787,H2AC11,H2A clustered histone 11 [Source:HGNC Symbol;Acc:HGNC:4737]
+ENSG00000196866,H2AC7,H2A clustered histone 7 [Source:HGNC Symbol;Acc:HGNC:4729]
+ENSG00000197061,H4C3,H4 clustered histone 3 [Source:HGNC Symbol;Acc:HGNC:4787]
+ENSG00000197085,NPSR1-AS1,NPSR1 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:22128]
+ENSG00000197106,SLC6A17,solute carrier family 6 member 17 [Source:HGNC Symbol;Acc:HGNC:31399]
+ENSG00000197172,MAGEA6,MAGE family member A6 [Source:HGNC Symbol;Acc:HGNC:6804]
+ENSG00000197353,LYPD2,LY6/PLAUR domain containing 2 [Source:HGNC Symbol;Acc:HGNC:25215]
+ENSG00000197444,OGDHL,oxoglutarate dehydrogenase L [Source:HGNC Symbol;Acc:HGNC:25590]
+ENSG00000197446,CYP2F1,cytochrome P450 family 2 subfamily F member 1 [Source:HGNC Symbol;Acc:HGNC:2632]
+ENSG00000197520,FAM177B,family with sequence similarity 177 member B [Source:HGNC Symbol;Acc:HGNC:34395]
+ENSG00000197561,ELANE,"elastase, neutrophil expressed [Source:HGNC Symbol;Acc:HGNC:3309]"
+ENSG00000197582,GPX1P1,glutathione peroxidase pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:4560]
+ENSG00000197632,SERPINB2,serpin family B member 2 [Source:HGNC Symbol;Acc:HGNC:8584]
+ENSG00000197766,CFD,complement factor D [Source:HGNC Symbol;Acc:HGNC:2771]
+ENSG00000197838,CYP2A13,cytochrome P450 family 2 subfamily A member 13 [Source:HGNC Symbol;Acc:HGNC:2608]
+ENSG00000198077,CYP2A7,cytochrome P450 family 2 subfamily A member 7 [Source:HGNC Symbol;Acc:HGNC:2611]
+ENSG00000198185,ZNF334,zinc finger protein 334 [Source:HGNC Symbol;Acc:HGNC:15806]
+ENSG00000198570,RD3,RD3 regulator of GUCY2D [Source:HGNC Symbol;Acc:HGNC:19689]
+ENSG00000198729,PPP1R14C,protein phosphatase 1 regulatory inhibitor subunit 14C [Source:HGNC Symbol;Acc:HGNC:14952]
+ENSG00000198732,SMOC1,SPARC related modular calcium binding 1 [Source:HGNC Symbol;Acc:HGNC:20318]
+ENSG00000198797,BRINP2,BMP/retinoic acid inducible neural specific 2 [Source:HGNC Symbol;Acc:HGNC:13746]
+ENSG00000198914,POU3F3,POU class 3 homeobox 3 [Source:HGNC Symbol;Acc:HGNC:9216]
+ENSG00000198944,SOWAHA,sosondowah ankyrin repeat domain family member A [Source:HGNC Symbol;Acc:HGNC:27033]
+ENSG00000199130,MIR365A,microRNA 365a [Source:HGNC Symbol;Acc:HGNC:33692]
+ENSG00000199161,MIR126,microRNA 126 [Source:HGNC Symbol;Acc:HGNC:31508]
+ENSG00000199377,RNU5F-1,"RNA, U5F small nuclear 1 [Source:HGNC Symbol;Acc:HGNC:10216]"
+ENSG00000199472,,Y RNA [Source:RFAM;Acc:RF00019]
+ENSG00000199594,RNU6-1301P,"RNA, U6 small nuclear 1301, pseudogene [Source:HGNC Symbol;Acc:HGNC:48264]"
+ENSG00000199627,RNU6-1010P,"RNA, U6 small nuclear 1010, pseudogene [Source:HGNC Symbol;Acc:HGNC:47973]"
+ENSG00000199751,,Y RNA [Source:RFAM;Acc:RF00019]
+ENSG00000199805,RNU1-134P,"RNA, U1 small nuclear 134, pseudogene [Source:HGNC Symbol;Acc:HGNC:48476]"
+ENSG00000199977,,Small nucleolar RNA SNORA73 family [Source:RFAM;Acc:RF00045]
+ENSG00000200087,SNORA73B,"small nucleolar RNA, H/ACA box 73B [Source:HGNC Symbol;Acc:HGNC:10116]"
+ENSG00000200354,SNORA71D,"small nucleolar RNA, H/ACA box 71D [Source:HGNC Symbol;Acc:HGNC:32657]"
+ENSG00000200732,RNU6-194P,"RNA, U6 small nuclear 194, pseudogene [Source:HGNC Symbol;Acc:HGNC:47157]"
+ENSG00000200795,RNU4-1,"RNA, U4 small nuclear 1 [Source:HGNC Symbol;Acc:HGNC:10192]"
+ENSG00000200959,SNORA74A,"small nucleolar RNA, H/ACA box 74A [Source:HGNC Symbol;Acc:HGNC:10119]"
+ENSG00000201428,RN7SKP71,RN7SK pseudogene 71 [Source:HGNC Symbol;Acc:HGNC:45795]
+ENSG00000201533,RN7SKP237,RN7SK pseudogene 237 [Source:HGNC Symbol;Acc:HGNC:45961]
+ENSG00000201592,,
+ENSG00000201998,SNORA23,"small nucleolar RNA, H/ACA box 23 [Source:HGNC Symbol;Acc:HGNC:32613]"
+ENSG00000202360,RN7SKP249,RN7SK pseudogene 249 [Source:HGNC Symbol;Acc:HGNC:45973]
+ENSG00000202538,RNU4-2,"RNA, U4 small nuclear 2 [Source:HGNC Symbol;Acc:HGNC:10193]"
+ENSG00000203523,TAS2R2P,"taste 2 receptor member 2, pseudogene [Source:HGNC Symbol;Acc:HGNC:20615]"
+ENSG00000203685,STUM,"stum, mechanosensory transduction mediator homolog [Source:HGNC Symbol;Acc:HGNC:30491]"
+ENSG00000203688,LINC02487,long intergenic non-protein coding RNA 2487 [Source:HGNC Symbol;Acc:HGNC:53466]
+ENSG00000203721,LINC00862,long intergenic non-protein coding RNA 862 [Source:HGNC Symbol;Acc:HGNC:21901]
+ENSG00000203729,LINC00272,long intergenic non-protein coding RNA 272 [Source:HGNC Symbol;Acc:HGNC:26898]
+ENSG00000203730,TEDDM1,transmembrane epididymal protein 1 [Source:HGNC Symbol;Acc:HGNC:30233]
+ENSG00000203812,H2AC18,H2A clustered histone 18 [Source:HGNC Symbol;Acc:HGNC:4736]
+ENSG00000203877,RIPPLY2,ripply transcriptional repressor 2 [Source:HGNC Symbol;Acc:HGNC:21390]
+ENSG00000203878,CHIAP2,"chitinase, acidic pseudogene 2 [Source:HGNC Symbol;Acc:HGNC:44463]"
+ENSG00000203971,,novel transcript
+ENSG00000204001,LCN8,lipocalin 8 [Source:HGNC Symbol;Acc:HGNC:27038]
+ENSG00000204019,CT83,cancer/testis antigen 83 [Source:HGNC Symbol;Acc:HGNC:33494]
+ENSG00000204065,TCEAL5,transcription elongation factor A like 5 [Source:HGNC Symbol;Acc:HGNC:22282]
+ENSG00000204086,RPA4,replication protein A4 [Source:HGNC Symbol;Acc:HGNC:30305]
+ENSG00000204296,TSBP1,testis expressed basic protein 1 [Source:HGNC Symbol;Acc:HGNC:13922]
+ENSG00000204446,LINC02872,long intergenic non-protein coding RNA 2872 [Source:HGNC Symbol;Acc:HGNC:33817]
+ENSG00000204511,MCCD1,mitochondrial coiled-coil domain 1 [Source:HGNC Symbol;Acc:HGNC:20668]
+ENSG00000204544,MUC21,"mucin 21, cell surface associated [Source:HGNC Symbol;Acc:HGNC:21661]"
+ENSG00000204610,TRIM15,tripartite motif containing 15 [Source:HGNC Symbol;Acc:HGNC:16284]
+ENSG00000204655,MOG,myelin oligodendrocyte glycoprotein [Source:HGNC Symbol;Acc:HGNC:7197]
+ENSG00000204710,SPDYC,speedy/RINGO cell cycle regulator family member C [Source:HGNC Symbol;Acc:HGNC:32681]
+ENSG00000204779,FOXD4L5,forkhead box D4 like 5 [Source:HGNC Symbol;Acc:HGNC:18522]
+ENSG00000204790,,COBW domain containing protein pseudogene
+ENSG00000204876,,novel transcript
+ENSG00000204983,PRSS1,serine protease 1 [Source:HGNC Symbol;Acc:HGNC:9475]
+ENSG00000205002,AARD,alanine and arginine rich domain containing protein [Source:HGNC Symbol;Acc:HGNC:33842]
+ENSG00000205076,LGALS7,galectin 7 [Source:HGNC Symbol;Acc:HGNC:6568]
+ENSG00000205301,MGAT4D,MGAT4 family member D [Source:HGNC Symbol;Acc:HGNC:43619]
+ENSG00000205325,,novel transcript
+ENSG00000205334,LINC01460,long intergenic non-protein coding RNA 1460 [Source:HGNC Symbol;Acc:HGNC:50858]
+ENSG00000205409,OR52E6,olfactory receptor family 52 subfamily E member 6 [Source:HGNC Symbol;Acc:HGNC:15215]
+ENSG00000205424,PCBP3-AS1,PCBP3 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:40426]
+ENSG00000205426,KRT81,keratin 81 [Source:HGNC Symbol;Acc:HGNC:6458]
+ENSG00000205682,,novel transcript
+ENSG00000205809,KLRC2,killer cell lectin like receptor C2 [Source:HGNC Symbol;Acc:HGNC:6375]
+ENSG00000205897,OR7E136P,olfactory receptor family 7 subfamily E member 136 pseudogene [Source:HGNC Symbol;Acc:HGNC:19557]
+ENSG00000206014,OR7E161P,olfactory receptor family 7 subfamily E member 161 pseudogene [Source:HGNC Symbol;Acc:HGNC:31234]
+ENSG00000206026,SMIM21,small integral membrane protein 21 [Source:HGNC Symbol;Acc:HGNC:27598]
+ENSG00000206043,C18orf63,chromosome 18 open reading frame 63 [Source:HGNC Symbol;Acc:HGNC:40037]
+ENSG00000206075,SERPINB5,serpin family B member 5 [Source:HGNC Symbol;Acc:HGNC:8949]
+ENSG00000206129,,novel transcript
+ENSG00000206181,ELOA2,elongin A2 [Source:HGNC Symbol;Acc:HGNC:30771]
+ENSG00000206249,,novel transcript
+ENSG00000206702,RNU1-11P,"RNA, U1 small nuclear 11, pseudogene [Source:HGNC Symbol;Acc:HGNC:10137]"
+ENSG00000206931,RNU6-1042P,"RNA, U6 small nuclear 1042, pseudogene [Source:HGNC Symbol;Acc:HGNC:48005]"
+ENSG00000207242,RNU6-1065P,"RNA, U6 small nuclear 1065, pseudogene [Source:HGNC Symbol;Acc:HGNC:48028]"
+ENSG00000207258,,Y RNA [Source:RFAM;Acc:RF00019]
+ENSG00000207296,RNU6-140P,"RNA, U6 small nuclear 140, pseudogene [Source:HGNC Symbol;Acc:HGNC:47103]"
+ENSG00000207340,RNVU1-1,"RNA, variant U1 small nuclear 1 [Source:HGNC Symbol;Acc:HGNC:10133]"
+ENSG00000207445,SNORD15B,"small nucleolar RNA, C/D box 15B [Source:HGNC Symbol;Acc:HGNC:16649]"
+ENSG00000207493,SNORA46,"small nucleolar RNA, H/ACA box 46 [Source:HGNC Symbol;Acc:HGNC:32639]"
+ENSG00000207507,RNU6-9,"RNA, U6 small nuclear 9 [Source:HGNC Symbol;Acc:HGNC:34269]"
+ENSG00000207808,MIR27A,microRNA 27a [Source:HGNC Symbol;Acc:HGNC:31613]
+ENSG00000207980,MIR23A,microRNA 23a [Source:HGNC Symbol;Acc:HGNC:31605]
+ENSG00000207997,MIR644A,microRNA 644a [Source:HGNC Symbol;Acc:HGNC:32900]
+ENSG00000208005,MIR503,microRNA 503 [Source:HGNC Symbol;Acc:HGNC:32138]
+ENSG00000208017,MIR140,microRNA 140 [Source:HGNC Symbol;Acc:HGNC:31527]
+ENSG00000208892,SNORA49,"small nucleolar RNA, H/ACA box 49 [Source:HGNC Symbol;Acc:HGNC:32642]"
+ENSG00000211452,DIO1,iodothyronine deiodinase 1 [Source:HGNC Symbol;Acc:HGNC:2883]
+ENSG00000211623,IGKV2D-26,immunoglobulin kappa variable 2D-26 [Source:HGNC Symbol;Acc:HGNC:5798]
+ENSG00000211648,IGLV1-47,immunoglobulin lambda variable 1-47 [Source:HGNC Symbol;Acc:HGNC:5880]
+ENSG00000211657,IGLV3-32,immunoglobulin lambda variable 3-32 (non-functional) [Source:HGNC Symbol;Acc:HGNC:5914]
+ENSG00000211888,TRAJ1,T cell receptor alpha joining 1 (non-functional) [Source:HGNC Symbol;Acc:HGNC:12037]
+ENSG00000211890,IGHA2,immunoglobulin heavy constant alpha 2 (A2m marker) [Source:HGNC Symbol;Acc:HGNC:5479]
+ENSG00000211895,IGHA1,immunoglobulin heavy constant alpha 1 [Source:HGNC Symbol;Acc:HGNC:5478]
+ENSG00000211898,IGHD,immunoglobulin heavy constant delta [Source:HGNC Symbol;Acc:HGNC:5480]
+ENSG00000212402,SNORA74B,"small nucleolar RNA, H/ACA box 74B [Source:HGNC Symbol;Acc:HGNC:32660]"
+ENSG00000212464,SNORA12,"small nucleolar RNA, H/ACA box 12 [Source:HGNC Symbol;Acc:HGNC:32600]"
+ENSG00000212939,,novel transcript
+ENSG00000213045,,cofilin 1 (non-muscle) (CFL1) pseudogene
+ENSG00000213130,EEF1DP5,eukaryotic translation elongation factor 1 delta pseudogene 5 [Source:HGNC Symbol;Acc:HGNC:33524]
+ENSG00000213316,LTC4S,leukotriene C4 synthase [Source:HGNC Symbol;Acc:HGNC:6719]
+ENSG00000213587,,peptidylprolyl isomerase A (cyclophilin A) (PPIA) pseudogene
+ENSG00000213657,RPL31P44,ribosomal protein L31 pseudogene 44 [Source:HGNC Symbol;Acc:HGNC:35523]
+ENSG00000213759,UGT2B11,UDP glucuronosyltransferase family 2 member B11 [Source:HGNC Symbol;Acc:HGNC:12545]
+ENSG00000213886,UBD,ubiquitin D [Source:HGNC Symbol;Acc:HGNC:18795]
+ENSG00000214107,MAGEB1,MAGE family member B1 [Source:HGNC Symbol;Acc:HGNC:6808]
+ENSG00000214318,ATP5MC1P6,ATP synthase membrane subunit c locus 1 pseudogene 6 [Source:HGNC Symbol;Acc:HGNC:39509]
+ENSG00000214376,VSTM5,V-set and transmembrane domain containing 5 [Source:HGNC Symbol;Acc:HGNC:34443]
+ENSG00000214381,LINC00488,long intergenic non-protein coding RNA 488 [Source:HGNC Symbol;Acc:HGNC:32675]
+ENSG00000214415,GNAT3,G protein subunit alpha transducin 3 [Source:HGNC Symbol;Acc:HGNC:22800]
+ENSG00000214429,CYCSP6,CYCS pseudogene 6 [Source:HGNC Symbol;Acc:HGNC:24421]
+ENSG00000214617,SLC6A10P,"solute carrier family 6 member 10, pseudogene [Source:HGNC Symbol;Acc:HGNC:11043]"
+ENSG00000214651,,"ATPase, H+ transporting, lysosomal 56/58kDa, V1 subunit B, isoform 2 (ATP6V1B2) pseudogene"
+ENSG00000214754,,"splicing factor, arginine/serine-rich 2B (SFRS2B) pseudogene"
+ENSG00000214797,,novel transcript
+ENSG00000214866,DCDC2C,doublecortin domain containing 2C [Source:HGNC Symbol;Acc:HGNC:32696]
+ENSG00000214897,PNMA6E,PNMA family member 6E [Source:HGNC Symbol;Acc:HGNC:50767]
+ENSG00000214919,,"novel transcript, sense intronic to PLCH1"
+ENSG00000215148,PRSS41,serine protease 41 [Source:HGNC Symbol;Acc:HGNC:30715]
+ENSG00000215184,RPS12P16,ribosomal protein S12 pseudogene 16 [Source:HGNC Symbol;Acc:HGNC:36595]
+ENSG00000215369,RPL37P3,ribosomal protein L37 pseudogene 3 [Source:HGNC Symbol;Acc:HGNC:17238]
+ENSG00000216359,,"glucosaminyl (N-acetyl) transferase 1, core 2 (beta-1,6-N-acetylglucosaminyltransferase) (GCNT1) pseudogene"
+ENSG00000216588,IGSF23,immunoglobulin superfamily member 23 [Source:HGNC Symbol;Acc:HGNC:40040]
+ENSG00000216915,GPR89P,G protein-coupled receptor 89 pseudogene [Source:HGNC Symbol;Acc:HGNC:13951]
+ENSG00000217236,SP9,Sp9 transcription factor [Source:HGNC Symbol;Acc:HGNC:30690]
+ENSG00000217275,,ribosomal protein S10 (RPS10) pseudogene
+ENSG00000217447,,MAD2 mitotic arrest deficient-like 1 (yeast) (MAD2L1) pseudogene
+ENSG00000217482,HMGB1P17,high mobility group box 1 pseudogene 17 [Source:HGNC Symbol;Acc:HGNC:39099]
+ENSG00000217862,H4C10P,"H4 clustered histone 10, pseudogene [Source:HGNC Symbol;Acc:HGNC:4786]"
+ENSG00000218020,THAP12P5,THAP domain containing 12 pseudogene 5 [Source:HGNC Symbol;Acc:HGNC:39569]
+ENSG00000218565,,"DnaJ (Hsp40) homolog, subfamily C, member 7 (DNAJC7) pseudogene"
+ENSG00000218690,H2AC10P,"H2A clustered histone 10, pseudogene [Source:HGNC Symbol;Acc:HGNC:4732]"
+ENSG00000220702,,novel transcript
+ENSG00000220842,RPL21P16,ribosomal protein L21 pseudogene 16 [Source:HGNC Symbol;Acc:HGNC:31396]
+ENSG00000220891,,uncharacterized LOC648691 [Source:NCBI gene (formerly Entrezgene);Acc:648691]
+ENSG00000221275,MIR548I2,microRNA 548i-2 [Source:HGNC Symbol;Acc:HGNC:35353]
+ENSG00000221540,MIR1180,microRNA 1180 [Source:HGNC Symbol;Acc:HGNC:35261]
+ENSG00000221937,TAS2R40,taste 2 receptor member 40 [Source:HGNC Symbol;Acc:HGNC:18885]
+ENSG00000221957,KIR2DS4,"killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]"
+ENSG00000221962,TMEM14EP,"transmembrane protein 14E, pseudogene [Source:HGNC Symbol;Acc:HGNC:34386]"
+ENSG00000222317,RNA5SP118,"RNA, 5S ribosomal pseudogene 118 [Source:HGNC Symbol;Acc:HGNC:42916]"
+ENSG00000222449,RNU6-1140P,"RNA, U6 small nuclear 1140, pseudogene [Source:HGNC Symbol;Acc:HGNC:48103]"
+ENSG00000223138,RNA5SP450,"RNA, 5S ribosomal pseudogene 450 [Source:HGNC Symbol;Acc:HGNC:43350]"
+ENSG00000223409,RPL17P17,ribosomal protein L17 pseudogene 17 [Source:HGNC Symbol;Acc:HGNC:35515]
+ENSG00000223523,,"novel transcript, overlapping DIRC1"
+ENSG00000223553,SMPD4P1,sphingomyelin phosphodiesterase 4 pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:39673]
+ENSG00000223564,CYP4F32P,"cytochrome P450 family 4 subfamily F member 32, pseudogene [Source:HGNC Symbol;Acc:HGNC:39951]"
+ENSG00000223669,,novel transcript
+ENSG00000223770,CACNA2D1-AS1,CACNA2D1 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:40120]
+ENSG00000223774,,novel transcript
+ENSG00000223784,LINP1,lncRNA in non-homologous end joining pathway 1 [Source:HGNC Symbol;Acc:HGNC:53170]
+ENSG00000223823,LINC01342,long intergenic non-protein coding RNA 1342 [Source:HGNC Symbol;Acc:HGNC:50551]
+ENSG00000223863,LINC01805,long intergenic non-protein coding RNA 1805 [Source:HGNC Symbol;Acc:HGNC:52597]
+ENSG00000223876,RPS27P1,ribosomal protein S27 pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:23740]
+ENSG00000223941,LINC01014,long intergenic non-protein coding RNA 1014 [Source:HGNC Symbol;Acc:HGNC:41353]
+ENSG00000224153,LINC02054,long intergenic non-protein coding RNA 2054 [Source:HGNC Symbol;Acc:HGNC:52894]
+ENSG00000224223,VSTM2A-OT1,VSTM2A overlapping transcript 1 [Source:HGNC Symbol;Acc:HGNC:50770]
+ENSG00000224255,PDCL3P6,PDCL3 pseudogene 6 [Source:HGNC Symbol;Acc:HGNC:44507]
+ENSG00000224318,CHL1-AS2,CHL1 antisense RNA 2 [Source:HGNC Symbol;Acc:HGNC:40147]
+ENSG00000224371,,novel transcript
+ENSG00000224387,,novel transcript
+ENSG00000224593,,ribosomal protein L21 (RPL21) pseudogene
+ENSG00000224604,,"tubulin, beta 2C (TUBB2C) pseudogene"
+ENSG00000224661,,novel transcript
+ENSG00000224717,LEMD1-DT,LEMD1 divergent transcript [Source:HGNC Symbol;Acc:HGNC:27631]
+ENSG00000224758,LINC01167,long intergenic non-protein coding RNA 1167 [Source:HGNC Symbol;Acc:HGNC:49536]
+ENSG00000224807,DUX4L9,double homeobox 4 like 9 (pseudogene) [Source:HGNC Symbol;Acc:HGNC:33855]
+ENSG00000224817,,novel transcript
+ENSG00000224853,LINC00393,long intergenic non-protein coding RNA 393 [Source:HGNC Symbol;Acc:HGNC:42721]
+ENSG00000224854,CDKN2A-DT,CDKN2A divergent transcript [Source:HGNC Symbol;Acc:HGNC:23831]
+ENSG00000224887,NFYCP2,NFYC pseudogene 2 [Source:HGNC Symbol;Acc:HGNC:54924]
+ENSG00000224920,TACC1P1,transforming acidic coiled-coil containing protein 1 pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:44974]
+ENSG00000225107,,novel transcript
+ENSG00000225243,,"novel transcript, antisense to FMO2"
+ENSG00000225255,PSLNR,prostate enriched lncRNA [Source:HGNC Symbol;Acc:HGNC:54405]
+ENSG00000225298,LINC00113,long intergenic non-protein coding RNA 113 [Source:HGNC Symbol;Acc:HGNC:1264]
+ENSG00000225398,PGM5P4,phosphoglucomutase 5 pseudogene 4 [Source:HGNC Symbol;Acc:HGNC:49605]
+ENSG00000225438,KRT41P,keratin 41 pseudogene [Source:HGNC Symbol;Acc:HGNC:6457]
+ENSG00000225522,,novel pseudogene
+ENSG00000225542,ZNF385D-AS1,ZNF385D antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:41136]
+ENSG00000225639,PGAM1P2,phosphoglycerate mutase 1 pseudogene 2 [Source:HGNC Symbol;Acc:HGNC:42449]
+ENSG00000225670,CADM3-AS1,CADM3 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:40812]
+ENSG00000225698,IGHV3-72,immunoglobulin heavy variable 3-72 [Source:HGNC Symbol;Acc:HGNC:5622]
+ENSG00000225703,,novel transcript
+ENSG00000225802,WARS1P1,tryptophanyl-tRNA synthetase 1 pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:50482]
+ENSG00000225833,,uncharacterized LOC104798195 [Source:NCBI gene (formerly Entrezgene);Acc:104798195]
+ENSG00000225867,,novel transcript
+ENSG00000225882,LINC01456,long intergenic non-protein coding RNA 1456 [Source:HGNC Symbol;Acc:HGNC:50846]
+ENSG00000225937,PCA3,prostate cancer associated 3 [Source:HGNC Symbol;Acc:HGNC:8637]
+ENSG00000225972,MTND1P23,MT-ND1 pseudogene 23 [Source:HGNC Symbol;Acc:HGNC:42092]
+ENSG00000226005,LINC02660,long intergenic non-protein coding RNA 2660 [Source:HGNC Symbol;Acc:HGNC:54146]
+ENSG00000226022,,novel transcript
+ENSG00000226025,,galectin 14 pseudogene [Source:NCBI gene (formerly Entrezgene);Acc:400696]
+ENSG00000226080,RPL6P4,ribosomal protein L6 pseudogene 4 [Source:HGNC Symbol;Acc:HGNC:36344]
+ENSG00000226133,LINC02794,long intergenic non-protein coding RNA 2794 [Source:HGNC Symbol;Acc:HGNC:54318]
+ENSG00000226358,KRT8P38,keratin 8 pseudogene 38 [Source:HGNC Symbol;Acc:HGNC:39872]
+ENSG00000226453,LINC02542,long intergenic non-protein coding RNA 2542 [Source:HGNC Symbol;Acc:HGNC:53576]
+ENSG00000226476,LINC01748,long intergenic non-protein coding RNA 1748 [Source:HGNC Symbol;Acc:HGNC:52535]
+ENSG00000226482,ADIPOQ-AS1,ADIPOQ antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:40648]
+ENSG00000226533,BTBD9-AS1,BTBD9 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:40959]
+ENSG00000226580,RPL39P40,ribosomal protein L39 pseudogene 40 [Source:HGNC Symbol;Acc:HGNC:35823]
+ENSG00000226636,,tetratricopeptide repeat domain 14 (TTC14) pseudogene
+ENSG00000226668,,"pseudogene similar to family with sequence similarity 75, member A1"
+ENSG00000226871,,novel transcript
+ENSG00000227019,OR7E101P,olfactory receptor family 7 subfamily E member 101 pseudogene [Source:HGNC Symbol;Acc:HGNC:15342]
+ENSG00000227036,LINC00511,long intergenic non-protein coding RNA 511 [Source:HGNC Symbol;Acc:HGNC:43564]
+ENSG00000227128,LBX1-AS1,LBX1 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:48678]
+ENSG00000227186,,novel transcript
+ENSG00000227234,SPANXB1,SPANX family member B1 [Source:HGNC Symbol;Acc:HGNC:14329]
+ENSG00000227265,GXYLT1P7,GXYLT1 pseudogene 7 [Source:HGNC Symbol;Acc:HGNC:54735]
+ENSG00000227279,,"novel transcript, antisense to CDH2"
+ENSG00000227475,,novel transcript
+ENSG00000227521,TUBB4BP8,TUBB4B pseudogene 8 [Source:HGNC Symbol;Acc:HGNC:55021]
+ENSG00000227579,,novel transcript
+ENSG00000227588,CNTN4-AS2,CNTN4 antisense RNA 2 [Source:HGNC Symbol;Acc:HGNC:39986]
+ENSG00000227659,CLYBL-AS2,CLYBL antisense RNA 2 [Source:HGNC Symbol;Acc:HGNC:39894]
+ENSG00000227683,,novel transcript
+ENSG00000227863,,novel transcript
+ENSG00000228033,,novel transcript
+ENSG00000228036,HSPD1P9,heat shock protein family D (Hsp60) member 1 pseudogene 9 [Source:HGNC Symbol;Acc:HGNC:35132]
+ENSG00000228058,LINC01736,long intergenic non-protein coding RNA 1736 [Source:HGNC Symbol;Acc:HGNC:52524]
+ENSG00000228162,,novel transcript
+ENSG00000228221,LINC00578,long intergenic non-protein coding RNA 578 [Source:HGNC Symbol;Acc:HGNC:43807]
+ENSG00000228522,,methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 1-like (MTHFD1L) pseudogene
+ENSG00000228528,,novel transcript
+ENSG00000228547,OR7E26P,olfactory receptor family 7 subfamily E member 26 pseudogene [Source:HGNC Symbol;Acc:HGNC:8398]
+ENSG00000228566,,novel transcript
+ENSG00000228714,,"novel transcript, antisense to DEC1"
+ENSG00000228718,LINC02521,long intergenic non-protein coding RNA 2521 [Source:HGNC Symbol;Acc:HGNC:53560]
+ENSG00000228874,,ribosomal protein S24 (RPS24) pseudogene
+ENSG00000228952,LINC02041,long intergenic non-protein coding RNA 2041 [Source:HGNC Symbol;Acc:HGNC:52881]
+ENSG00000229019,,novel transcript
+ENSG00000229028,KRT223P,"keratin 223, pseudogene [Source:HGNC Symbol;Acc:HGNC:32968]"
+ENSG00000229032,,40s ribosomal protein S26 (RPS26) pseudogene
+ENSG00000229156,,novel pseudogene
+ENSG00000229205,LINC00200,long intergenic non-protein coding RNA 200 [Source:HGNC Symbol;Acc:HGNC:30974]
+ENSG00000229255,,novel transcript
+ENSG00000229258,LPGAT1-AS1,LPGAT1 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:41221]
+ENSG00000229276,REV3L-IT1,REV3L intronic transcript 1 [Source:HGNC Symbol;Acc:HGNC:41377]
+ENSG00000229352,,novel transcript
+ENSG00000229393,,novel transcript
+ENSG00000229401,MIR5689HG,MIR5689 host gene [Source:HGNC Symbol;Acc:HGNC:52007]
+ENSG00000229415,SFTA3,surfactant associated 3 [Source:HGNC Symbol;Acc:HGNC:18387]
+ENSG00000229544,NKX1-2,NK1 homeobox 2 [Source:HGNC Symbol;Acc:HGNC:31652]
+ENSG00000229585,RPL21P44,ribosomal protein L21 pseudogene 44 [Source:HGNC Symbol;Acc:HGNC:33820]
+ENSG00000229588,,novel transcript
+ENSG00000229672,,novel transcript
+ENSG00000229703,LYPD9P,"LY6/PLAUR domain containing 9, pseudogene [Source:HGNC Symbol;Acc:HGNC:53735]"
+ENSG00000229970,,"novel transcript, antisense to ICA1"
+ENSG00000230033,,novel transcript
+ENSG00000230090,,novel transcript
+ENSG00000230105,,novel transcript
+ENSG00000230164,MAS1LP1,MAS1L pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:33448]
+ENSG00000230201,ATP6V0CP1,ATPase H+ transporting V0 subunit c pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:31323]
+ENSG00000230251,PHBP4,prohibitin pseudogene 4 [Source:HGNC Symbol;Acc:HGNC:8916]
+ENSG00000230257,NFE4,"nuclear factor, erythroid 4 [Source:HGNC Symbol;Acc:HGNC:29902]"
+ENSG00000230387,,novel transcript
+ENSG00000230425,RSU1P1,Ras suppressor protein 1 pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:31114]
+ENSG00000230432,,novel transcript
+ENSG00000230501,ANKRD30BP3,ankyrin repeat domain 30B pseudogene 3 [Source:HGNC Symbol;Acc:HGNC:27873]
+ENSG00000230524,COL6A4P1,collagen type VI alpha 4 pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:33484]
+ENSG00000230570,,1-aminocyclopropane-1-carboxylate synthase pseudogene
+ENSG00000230597,,novel transcript
+ENSG00000230709,,novel transcript
+ENSG00000230790,,novel transcript
+ENSG00000230910,,novel transcript
+ENSG00000230916,MTCO1P53,MT-CO1 pseudogene 53 [Source:HGNC Symbol;Acc:HGNC:52118]
+ENSG00000230988,RPL23AP11,ribosomal protein L23a pseudogene 11 [Source:HGNC Symbol;Acc:HGNC:19808]
+ENSG00000231106,LINC01436,long intergenic non-protein coding RNA 1436 [Source:HGNC Symbol;Acc:HGNC:50754]
+ENSG00000231107,LINC01508,long intergenic non-protein coding RNA 1508 [Source:HGNC Symbol;Acc:HGNC:51190]
+ENSG00000231131,LNCAROD,lncRNA activating regulator of DKK1 [Source:HGNC Symbol;Acc:HGNC:50913]
+ENSG00000231156,,novel transcript
+ENSG00000231189,,novel transcript
+ENSG00000231213,PLSCR5,phospholipid scramblase family member 5 [Source:HGNC Symbol;Acc:HGNC:19952]
+ENSG00000231270,COBLP1,COBL pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:55060]
+ENSG00000231381,RNF2P1,ring finger protein 2 pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:33987]
+ENSG00000231453,LINC01305,long intergenic non-protein coding RNA 1305 [Source:HGNC Symbol;Acc:HGNC:27690]
+ENSG00000231476,,novel transcript
+ENSG00000231490,RPL7L1P2,ribosomal protein L7 like 1 pseudogene 2 [Source:HGNC Symbol;Acc:HGNC:39484]
+ENSG00000231533,,novel transcript
+ENSG00000231550,PTCHD3P2,patched domain containing 3 pseudogene 2 [Source:HGNC Symbol;Acc:HGNC:44946]
+ENSG00000231574,LINC02015,long intergenic non-protein coding RNA 2015 [Source:HGNC Symbol;Acc:HGNC:52850]
+ENSG00000231604,,novel transcript
+ENSG00000231725,VN1R110P,vomeronasal 1 receptor 110 pseudogene [Source:HGNC Symbol;Acc:HGNC:37438]
+ENSG00000231764,DLX6-AS1,DLX6 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:37151]
+ENSG00000231817,LINC01198,long intergenic non-protein coding RNA 1198 [Source:HGNC Symbol;Acc:HGNC:49598]
+ENSG00000231868,,"novel transcript, antisense to ESPN"
+ENSG00000231882,F10-AS1,F10 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:40225]
+ENSG00000231927,,novel transcript
+ENSG00000231943,PGM5P4-AS1,PGM5P4 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:51195]
+ENSG00000231980,,novel transcript
+ENSG00000232044,SILC1,sciatic injury induced lincRNA upregulator of SOX11 [Source:HGNC Symbol;Acc:HGNC:26403]
+ENSG00000232190,LINC02181,long intergenic non-protein coding RNA 2181 [Source:HGNC Symbol;Acc:HGNC:53043]
+ENSG00000232197,,novel transcript
+ENSG00000232325,,novel transcript
+ENSG00000232486,DEPDC1P2,DEP domain containing 1 pseudogene 2 [Source:HGNC Symbol;Acc:HGNC:33975]
+ENSG00000232560,LINC01549,long intergenic non-protein coding RNA 1549 [Source:HGNC Symbol;Acc:HGNC:1277]
+ENSG00000232598,,novel transcript
+ENSG00000232717,TRIM51JP,"tripartite motif-containing 51J, pseudogene [Source:HGNC Symbol;Acc:HGNC:43978]"
+ENSG00000232747,IGKV1D-35,immunoglobulin kappa variable 1D-35 (pseudogene) [Source:HGNC Symbol;Acc:HGNC:5754]
+ENSG00000233018,,pseudogene similar to part of ribosomal protein L32 (RPL32)
+ENSG00000233041,PHGR1,"proline, histidine and glycine rich 1 [Source:HGNC Symbol;Acc:HGNC:37226]"
+ENSG00000233052,,novel transcript
+ENSG00000233061,TTLL7-IT1,TTLL7 intronic transcript 1 [Source:HGNC Symbol;Acc:HGNC:41486]
+ENSG00000233064,,novel transcript
+ENSG00000233125,ACTBP12,ACTB pseudogene 12 [Source:HGNC Symbol;Acc:HGNC:150]
+ENSG00000233133,,pseudogene similar to part of aminopeptidase puromycin sensitive NPEPPS
+ENSG00000233321,LINC02669,long intergenic non-protein coding RNA 2669 [Source:HGNC Symbol;Acc:HGNC:54155]
+ENSG00000233365,,novel transcript
+ENSG00000233586,,novel pseudogene (FLJ39739)
+ENSG00000233677,DDX39BP1,DEAD-box helicase 39B pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:33450]
+ENSG00000233733,H2AZP6,H2A.Z histone pseudogene 6 [Source:HGNC Symbol;Acc:HGNC:38019]
+ENSG00000233894,,novel transcript
+ENSG00000233936,,novel transcript
+ENSG00000233975,LINC02574,long intergenic non-protein coding RNA 2574 [Source:HGNC Symbol;Acc:HGNC:53746]
+ENSG00000233996,KDM3AP1,KDM3A pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:54795]
+ENSG00000234030,TMEM97P1,transmembrane protein 97 pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:39640]
+ENSG00000234264,DEPDC1-AS1,DEPDC1 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:50592]
+ENSG00000234352,,"novel transcript, antisense to CHRM2"
+ENSG00000234418,,novel transcript
+ENSG00000234566,RPL7AP71,ribosomal protein L7a pseudogene 71 [Source:HGNC Symbol;Acc:HGNC:35754]
+ENSG00000234597,,novel transcript
+ENSG00000234703,,novel transcript
+ENSG00000234753,FOXP4-AS1,FOXP4 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:50332]
+ENSG00000234770,GULOP,"gulonolactone (L-) oxidase, pseudogene [Source:HGNC Symbol;Acc:HGNC:4695]"
+ENSG00000234800,PCMTD1P3,protein-L-isoaspartate (D-aspartate) O-methyltransferase domain containing 1 pseudogene 3 [Source:HGNC Symbol;Acc:HGNC:38806]
+ENSG00000234899,SOX9-AS1,SOX9 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:49321]
+ENSG00000234979,,novel transcript
+ENSG00000235123,DSCAM-AS1,DSCAM antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:40197]
+ENSG00000235205,TATDN2P3,TatD DNase domain containing 2 pseudogene 3 [Source:HGNC Symbol;Acc:HGNC:39256]
+ENSG00000235251,,pseudogene similar to part of SUMO-1 activating enzyme subunit 2 (UBA2)
+ENSG00000235277,,novel transcript
+ENSG00000235295,LINC01634,long intergenic non-protein coding RNA 1634 [Source:HGNC Symbol;Acc:HGNC:52421]
+ENSG00000235338,DUSP5P2,dual specificity phosphatase 5 pseudogene 2 [Source:HGNC Symbol;Acc:HGNC:44482]
+ENSG00000235491,LINC01889,long intergenic non-protein coding RNA 1889 [Source:HGNC Symbol;Acc:HGNC:52708]
+ENSG00000235526,,novel transcript
+ENSG00000235563,,novel transcript
+ENSG00000235623,OR7E110P,olfactory receptor family 7 subfamily E member 110 pseudogene [Source:HGNC Symbol;Acc:HGNC:15126]
+ENSG00000235711,ANKRD34C,ankyrin repeat domain 34C [Source:HGNC Symbol;Acc:HGNC:33888]
+ENSG00000235876,FEM1AP4,fem-1 homolog A pseudogene 4 [Source:HGNC Symbol;Acc:HGNC:39832]
+ENSG00000235967,COX5BP3,cytochrome c oxidase subunit 5B pseudogene 3 [Source:HGNC Symbol;Acc:HGNC:2272]
+ENSG00000236007,MTCO1P46,MT-CO1 pseudogene 46 [Source:HGNC Symbol;Acc:HGNC:52111]
+ENSG00000236040,CHIAP1,"chitinase, acidic pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:44462]"
+ENSG00000236056,GAPDHP14,glyceraldehyde-3-phosphate dehydrogenase pseudogene 14 [Source:HGNC Symbol;Acc:HGNC:4160]
+ENSG00000236069,,novel transcript
+ENSG00000236117,LINC01639,long intergenic non-protein coding RNA 1639 [Source:HGNC Symbol;Acc:HGNC:52426]
+ENSG00000236197,PPP1R9A-AS1,PPP1R9A antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:40696]
+ENSG00000236226,,novel transcript
+ENSG00000236242,MYO16-AS1,MYO16 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:39913]
+ENSG00000236295,,novel transcript
+ENSG00000236311,TLX1NB,TLX1 neighbor [Source:HGNC Symbol;Acc:HGNC:37183]
+ENSG00000236318,LINC02888,long intergenic non-protein coding RNA 2888 [Source:HGNC Symbol;Acc:HGNC:53765]
+ENSG00000236333,TRHDE-AS1,TRHDE antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:27471]
+ENSG00000236347,,novel transcript
+ENSG00000236366,,novel transcript
+ENSG00000236385,,novel transcript
+ENSG00000236390,,novel transcript
+ENSG00000236502,SIX3-AS1,SIX3 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:40532]
+ENSG00000236671,PRKG1-AS1,PRKG1 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:45029]
+ENSG00000236713,,pseudogene similar to part of short coiled-coil protein (SCOC)
+ENSG00000236740,,novel transcript
+ENSG00000236838,,"novel transcript, antisense to SMG6"
+ENSG00000236849,LINC01474,long intergenic non-protein coding RNA 1474 [Source:HGNC Symbol;Acc:HGNC:51111]
+ENSG00000236969,GGT8P,gamma-glutamyltransferase 8 pseudogene [Source:HGNC Symbol;Acc:HGNC:33438]
+ENSG00000237065,NANOGP4,Nanog homeobox pseudogene 4 [Source:HGNC Symbol;Acc:HGNC:23102]
+ENSG00000237136,C4orf51,chromosome 4 open reading frame 51 [Source:HGNC Symbol;Acc:HGNC:37264]
+ENSG00000237167,,novel transcript
+ENSG00000237224,,novel transcript
+ENSG00000237243,CREB3L2-AS1,CREB3L2 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:41030]
+ENSG00000237331,XIAP-AS1,XIAP antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:40078]
+ENSG00000237373,BRWD1-IT1,BRWD1 intronic transcript 1 [Source:HGNC Symbol;Acc:HGNC:41920]
+ENSG00000237451,CDK2AP2P2,cyclin dependent kinase 2 associated protein 2 pseudogene 2 [Source:HGNC Symbol;Acc:HGNC:38493]
+ENSG00000237494,,novel transcript
+ENSG00000237617,,"dynein, axonemal, heavy chain 11 (DNAH11) pseudogene"
+ENSG00000237650,OR11Q1P,olfactory receptor family 11 subfamily Q member 1 pseudogene [Source:HGNC Symbol;Acc:HGNC:31239]
+ENSG00000237670,LINC01866,long intergenic non-protein coding RNA 1866 [Source:HGNC Symbol;Acc:HGNC:52685]
+ENSG00000237685,,"novel transcript, antisense to GCNT2"
+ENSG00000237751,LINC01143,long intergenic non-protein coding RNA 1143 [Source:HGNC Symbol;Acc:HGNC:49458]
+ENSG00000237838,,novel transcript
+ENSG00000237863,,"novel transcript, antisense to IRS4"
+ENSG00000237923,LINC02570,long intergenic non-protein coding RNA 2570 [Source:HGNC Symbol;Acc:HGNC:39766]
+ENSG00000237931,CLIC4P3,chloride intracellular channel 4 pseudogene 3 [Source:HGNC Symbol;Acc:HGNC:49799]
+ENSG00000237973,MTCO1P12,MT-CO1 pseudogene 12 [Source:HGNC Symbol;Acc:HGNC:52014]
+ENSG00000237978,KCNMB2-AS1,KCNMB2 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:51409]
+ENSG00000237988,OR2I1P,olfactory receptor family 2 subfamily I member 1 pseudogene [Source:HGNC Symbol;Acc:HGNC:8258]
+ENSG00000238039,,novel transcript
+ENSG00000238125,SLC9A3P2,solute carrier family 9 member 3 pseudogene 2 [Source:HGNC Symbol;Acc:HGNC:19325]
+ENSG00000238224,,novel transcript
+ENSG00000238266,LINC00707,long intergenic non-protein coding RNA 707 [Source:HGNC Symbol;Acc:HGNC:44691]
+ENSG00000238269,PAGE2B,PAGE family member 2B [Source:HGNC Symbol;Acc:HGNC:31805]
+ENSG00000238283,TBC1D3P1,TBC1 domain family member 3 pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:27445]
+ENSG00000238420,RNU6-437P,"RNA, U6 small nuclear 437, pseudogene [Source:HGNC Symbol;Acc:HGNC:47400]"
+ENSG00000238554,RNU1-88P,"RNA, U1 small nuclear 88, pseudogene [Source:HGNC Symbol;Acc:HGNC:48430]"
+ENSG00000239002,SCARNA10,small Cajal body-specific RNA 10 [Source:HGNC Symbol;Acc:HGNC:32567]
+ENSG00000239112,SNORD123,"small nucleolar RNA, C/D box 123 [Source:HGNC Symbol;Acc:HGNC:33562]"
+ENSG00000239311,,novel transcript
+ENSG00000239508,PLCH1-AS1,PLCH1 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:41231]
+ENSG00000239572,,novel transcript
+ENSG00000239793,,ribosomal protein S21 (RPS21) pseudogene
+ENSG00000240233,RN7SL587P,"RNA, 7SL, cytoplasmic 587, pseudogene [Source:HGNC Symbol;Acc:HGNC:46603]"
+ENSG00000240280,TCAM1P,"testicular cell adhesion molecule 1, pseudogene [Source:HGNC Symbol;Acc:HGNC:30707]"
+ENSG00000240405,SAMMSON,survival associated mitochondrial melanoma specific oncogenic non-coding RNA [Source:HGNC Symbol;Acc:HGNC:49644]
+ENSG00000240436,RPL35AP14,ribosomal protein L35a pseudogene 14 [Source:HGNC Symbol;Acc:HGNC:36783]
+ENSG00000240521,,novel transcript
+ENSG00000240661,,novel V-set domain-containing pseudogene
+ENSG00000240770,C21orf91-OT1,C21orf91 overlapping transcript 1 [Source:HGNC Symbol;Acc:HGNC:16729]
+ENSG00000241354,,ribosomal protein S15a (RPS15A) pseudogene
+ENSG00000241439,,pseudogene similar to part of fibrosin-like 1 (FBRSL1)
+ENSG00000241462,,ribosomal protein S12 (RPS12) pseudogene
+ENSG00000241644,INMT,indolethylamine N-methyltransferase [Source:HGNC Symbol;Acc:HGNC:6069]
+ENSG00000241697,TMEFF1,transmembrane protein with EGF like and two follistatin like domains 1 [Source:HGNC Symbol;Acc:HGNC:11866]
+ENSG00000242207,HOXB-AS4,HOXB cluster antisense RNA 4 [Source:HGNC Symbol;Acc:HGNC:40285]
+ENSG00000242252,BGLAP,bone gamma-carboxyglutamate protein [Source:HGNC Symbol;Acc:HGNC:1043]
+ENSG00000242267,SKINT1L,Skint1 like (pseudogene) [Source:HGNC Symbol;Acc:HGNC:33993]
+ENSG00000242268,LINC02082,long intergenic non-protein coding RNA 2082 [Source:HGNC Symbol;Acc:HGNC:52931]
+ENSG00000242407,,novel transcript
+ENSG00000242488,,ribosomal protein S2 (RPS2) pseudogene
+ENSG00000242512,LINC01206,long intergenic non-protein coding RNA 1206 [Source:HGNC Symbol;Acc:HGNC:49637]
+ENSG00000242540,,novel transcript
+ENSG00000242575,TUBAP13,tubulin alpha pseudogene 13 [Source:HGNC Symbol;Acc:HGNC:54880]
+ENSG00000242753,,novel transcript
+ENSG00000242770,CD200R1L-AS1,CD200R1L antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:54071]
+ENSG00000242795,,novel transcript
+ENSG00000243137,PSG4,pregnancy specific beta-1-glycoprotein 4 [Source:HGNC Symbol;Acc:HGNC:9521]
+ENSG00000243384,,novel transcript
+ENSG00000243468,INGX,"inhibitor of growth family, X-linked (pseudogene) [Source:HGNC Symbol;Acc:HGNC:6064]"
+ENSG00000243810,CFAP61-AS1,CFAP61 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:40731]
+ENSG00000243953,,novel transcript
+ENSG00000243955,GSTA1,glutathione S-transferase alpha 1 [Source:HGNC Symbol;Acc:HGNC:4626]
+ENSG00000244067,GSTA2,glutathione S-transferase alpha 2 [Source:HGNC Symbol;Acc:HGNC:4627]
+ENSG00000244122,UGT1A7,UDP glucuronosyltransferase family 1 member A7 [Source:HGNC Symbol;Acc:HGNC:12539]
+ENSG00000244676,,"novel transcript, antisense to C21orf91"
+ENSG00000244730,,PHD finger protein 5A (PHF5A) pseudogene
+ENSG00000244738,,novel transcript
+ENSG00000246022,ALDH1L1-AS2,ALDH1L1 antisense RNA 2 [Source:HGNC Symbol;Acc:HGNC:42446]
+ENSG00000246095,LINC01096,long intergenic non-protein coding RNA 1096 [Source:HGNC Symbol;Acc:HGNC:27739]
+ENSG00000246228,CASC8,cancer susceptibility 8 [Source:HGNC Symbol;Acc:HGNC:45129]
+ENSG00000246820,RIC3-DT,RIC3 divergent transcript [Source:HGNC Symbol;Acc:HGNC:54191]
+ENSG00000246985,SOCS2-AS1,SOCS2 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:27054]
+ENSG00000248211,TRPC7-AS1,TRPC7 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:40936]
+ENSG00000248238,LINC02438,long intergenic non-protein coding RNA 2438 [Source:HGNC Symbol;Acc:HGNC:53370]
+ENSG00000248359,,novel transcript
+ENSG00000248409,,coiled-coil domain containing 188 (CCDC188) pseudogene
+ENSG00000248431,,novel transcript
+ENSG00000248475,,novel transcript
+ENSG00000248498,ASNSP1,asparagine synthetase pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:754]
+ENSG00000248515,,novel transcript
+ENSG00000248538,,novel transcript
+ENSG00000248560,,transmembrane and tetratricopeptide repeat containing 4 (TMTC4) pseudogne
+ENSG00000248590,GLDCP1,glycine decarboxylase pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:4314]
+ENSG00000248599,,uncharacterized LOC441374 [Source:NCBI gene (formerly Entrezgene);Acc:441374]
+ENSG00000248738,,novel transcript
+ENSG00000248779,,novel transcript
+ENSG00000248810,LINC02432,long intergenic non-protein coding RNA 2432 [Source:HGNC Symbol;Acc:HGNC:53363]
+ENSG00000248846,LINC02065,long intergenic non-protein coding RNA 2065 [Source:HGNC Symbol;Acc:HGNC:52910]
+ENSG00000249007,,novel transcript
+ENSG00000249086,,"novel transcript, sense overlapping LSP1"
+ENSG00000249138,,"proteoglycan 3, pro eosinophil major basic protein 2 pseudogene [Source:NCBI gene (formerly Entrezgene);Acc:643036]"
+ENSG00000249304,,novel transcript
+ENSG00000249306,LINC01411,long intergenic non-protein coding RNA 1411 [Source:HGNC Symbol;Acc:HGNC:50703]
+ENSG00000249395,CASC9,cancer susceptibility 9 [Source:HGNC Symbol;Acc:HGNC:48906]
+ENSG00000249413,,novel transcript
+ENSG00000249425,LINC02477,long intergenic non-protein coding RNA 2477 [Source:HGNC Symbol;Acc:HGNC:53425]
+ENSG00000249426,,novel transcript
+ENSG00000249463,,novel transcript
+ENSG00000249505,,jumonji domain containing 4 (JMJD4) pseudogene
+ENSG00000249601,LINC01187,long intergenic non-protein coding RNA 1187 [Source:HGNC Symbol;Acc:HGNC:49575]
+ENSG00000249609,,novel transcript
+ENSG00000249669,CARMN,cardiac mesoderm enhancer-associated non-coding RNA [Source:HGNC Symbol;Acc:HGNC:42872]
+ENSG00000249693,THEGL,theg spermatid protein like [Source:HGNC Symbol;Acc:HGNC:43771]
+ENSG00000249721,,ribosomal protein L23a (RPL23A) pseudogene
+ENSG00000249797,LINC02147,long intergenic non-protein coding RNA 2147 [Source:HGNC Symbol;Acc:HGNC:53007]
+ENSG00000249816,LINC00964,long intergenic non-protein coding RNA 964 [Source:HGNC Symbol;Acc:HGNC:27226]
+ENSG00000249916,,novel transcript
+ENSG00000249937,LINC02223,long intergenic non-protein coding RNA 2223 [Source:HGNC Symbol;Acc:HGNC:53092]
+ENSG00000249956,UGT2B24P,"UDP glucuronosyltransferase family 2 member B24, pseudogene [Source:HGNC Symbol;Acc:HGNC:12548]"
+ENSG00000249984,,novel transcript
+ENSG00000249992,TMEM158,transmembrane protein 158 [Source:HGNC Symbol;Acc:HGNC:30293]
+ENSG00000250166,,novel transcript
+ENSG00000250195,,novel transcript
+ENSG00000250241,,novel transcript
+ENSG00000250267,,novel transcript
+ENSG00000250313,LINC02229,long intergenic non-protein coding RNA 2229 [Source:HGNC Symbol;Acc:HGNC:53098]
+ENSG00000250328,,uncharacterized LOC153163 [Source:NCBI gene (formerly Entrezgene);Acc:153163]
+ENSG00000250418,,novel transcript
+ENSG00000250476,ENPP7P9,ectonucleotide pyrophosphatase/phosphodiesterase 7 pseudogene 9 [Source:HGNC Symbol;Acc:HGNC:48692]
+ENSG00000250501,,novel transcript
+ENSG00000250510,GPR162,G protein-coupled receptor 162 [Source:HGNC Symbol;Acc:HGNC:16693]
+ENSG00000250535,STK19B,serine/threonine kinase 19B (pseudogene) [Source:HGNC Symbol;Acc:HGNC:21668]
+ENSG00000250546,,novel transcript
+ENSG00000250563,KNOP1P5,lysine rich nucleolar protein 1 pseudogene 5 [Source:HGNC Symbol;Acc:HGNC:48923]
+ENSG00000250567,,novel transcript
+ENSG00000250577,,novel transcript
+ENSG00000250590,LINC02492,long intergenic non-protein coding RNA 2492 [Source:HGNC Symbol;Acc:HGNC:53476]
+ENSG00000250612,,UDP glucuronosyltransferase 2 family pseudogene
+ENSG00000250620,LINC02515,long intergenic non-protein coding RNA 2515 [Source:HGNC Symbol;Acc:HGNC:53504]
+ENSG00000250696,,"novel transcript, antisense to UGT2B11"
+ENSG00000250942,ENPP7P11,ectonucleotide pyrophosphatase/phosphodiesterase 7 pseudogene 11 [Source:HGNC Symbol;Acc:HGNC:48694]
+ENSG00000250974,LINC02196,long intergenic non-protein coding RNA 2196 [Source:HGNC Symbol;Acc:HGNC:53062]
+ENSG00000251026,LINC02163,long intergenic non-protein coding RNA 2163 [Source:HGNC Symbol;Acc:HGNC:53024]
+ENSG00000251128,WWC2-AS1,WWC2 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:41041]
+ENSG00000251144,,novel transcript
+ENSG00000251165,F11-AS1,F11 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:27725]
+ENSG00000251273,LINC02228,long intergenic non-protein coding RNA 2228 [Source:HGNC Symbol;Acc:HGNC:53097]
+ENSG00000251320,,novel transcript
+ENSG00000251517,,novel transcript
+ENSG00000251550,,COX assembly mitochondrial protein homolog (S. cerevisiae) (CMC1) pseudogene
+ENSG00000251629,LINC02241,long intergenic non-protein coding RNA 2241 [Source:HGNC Symbol;Acc:HGNC:53126]
+ENSG00000251791,SCARNA6,small Cajal body-specific RNA 6 [Source:HGNC Symbol;Acc:HGNC:32562]
+ENSG00000251835,RNU6ATAC32P,"RNA, U6atac small nuclear 32, pseudogene [Source:HGNC Symbol;Acc:HGNC:46931]"
+ENSG00000251868,RNU7-71P,"RNA, U7 small nuclear 71 pseudogene [Source:HGNC Symbol;Acc:HGNC:34167]"
+ENSG00000252010,SCARNA5,small Cajal body-specific RNA 5 [Source:HGNC Symbol;Acc:HGNC:32561]
+ENSG00000252213,SNORA74D,"small nucleolar RNA, H/ACA box 74D [Source:HGNC Symbol;Acc:HGNC:52219]"
+ENSG00000252539,RNA5SP462,"RNA, 5S ribosomal pseudogene 462 [Source:HGNC Symbol;Acc:HGNC:43362]"
+ENSG00000252984,RNU6-844P,"RNA, U6 small nuclear 844, pseudogene [Source:HGNC Symbol;Acc:HGNC:47807]"
+ENSG00000253112,,novel transcript
+ENSG00000253130,,novel transcript
+ENSG00000253164,,novel transcript
+ENSG00000253196,,novel transcript
+ENSG00000253217,,novel transcript
+ENSG00000253266,,novel transcript
+ENSG00000253301,LINC01606,long intergenic non-protein coding RNA 1606 [Source:HGNC Symbol;Acc:HGNC:51656]
+ENSG00000253308,,novel transcript
+ENSG00000253348,,novel transcript
+ENSG00000253355,,novel transcript
+ENSG00000253395,,novel transcript
+ENSG00000253417,LINC02159,long intergenic non-protein coding RNA 2159 [Source:HGNC Symbol;Acc:HGNC:27749]
+ENSG00000253434,LINC02237,long intergenic non-protein coding RNA 2237 [Source:HGNC Symbol;Acc:HGNC:53108]
+ENSG00000253477,,novel transcript
+ENSG00000253479,LINC01603,long intergenic non-protein coding RNA 1603 [Source:HGNC Symbol;Acc:HGNC:51652]
+ENSG00000253525,CPP,ceruloplasmin pseudogene [Source:HGNC Symbol;Acc:HGNC:2322]
+ENSG00000253591,KCNIP1-AS1,KCNIP1 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:40710]
+ENSG00000253596,,novel transcript
+ENSG00000253632,,novel transcript
+ENSG00000253644,LINC02845,long intergenic non-protein coding RNA 2845 [Source:HGNC Symbol;Acc:HGNC:54380]
+ENSG00000253664,,novel transcript
+ENSG00000253737,,novel transcript
+ENSG00000253821,,novel transcript
+ENSG00000253824,,novel transcript
+ENSG00000253868,FER1L6-AS2,FER1L6 antisense RNA 2 [Source:HGNC Symbol;Acc:HGNC:26534]
+ENSG00000253937,NATP,N-acetyltransferase pseudogene [Source:HGNC Symbol;Acc:HGNC:15]
+ENSG00000254089,,novel transcript
+ENSG00000254157,IGKV2-18,immunoglobulin kappa variable 2-18 (pseudogene) [Source:HGNC Symbol;Acc:HGNC:5778]
+ENSG00000254202,,novel transcript
+ENSG00000254205,,novel transcript
+ENSG00000254220,IGKV2D-18,immunoglobulin kappa variable 2D-18 (pseudogene) [Source:HGNC Symbol;Acc:HGNC:5794]
+ENSG00000254338,MAFA-AS1,MAFA antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:51203]
+ENSG00000254367,,novel transcript
+ENSG00000254404,,novel transcript
+ENSG00000254416,LINC02732,long intergenic non-protein coding RNA 2732 [Source:HGNC Symbol;Acc:HGNC:54249]
+ENSG00000254417,LINC02584,long intergenic non-protein coding RNA 2584 [Source:HGNC Symbol;Acc:HGNC:33275]
+ENSG00000254529,MRGPRX7P,"MAS related GPR family member X7, pseudogene [Source:HGNC Symbol;Acc:HGNC:54331]"
+ENSG00000254547,,Ankyrin repeat domain-containing pseudogene
+ENSG00000254607,,"novel transcript, antisense to KIRREL3"
+ENSG00000254626,,novel transcript
+ENSG00000254656,RTL1,retrotransposon Gag like 1 [Source:HGNC Symbol;Acc:HGNC:14665]
+ENSG00000254687,,novel transcript
+ENSG00000254799,SLC25A47P1,solute carrier family 25 member 47 pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:43860]
+ENSG00000254855,,novel transcript
+ENSG00000254879,PTPRJ-AS1,PTPRJ antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:50634]
+ENSG00000254898,,"novel transcript, antisense to NSD3"
+ENSG00000254948,OR7E158P,olfactory receptor family 7 subfamily E member 158 pseudogene [Source:HGNC Symbol;Acc:HGNC:31232]
+ENSG00000255014,ARL6IP1P3,ADP ribosylation factor like GTPase 6 interacting protein 1 pseudogene 3 [Source:HGNC Symbol;Acc:HGNC:44972]
+ENSG00000255020,,"novel transcript, antisense to TDH"
+ENSG00000255021,,novel transcript
+ENSG00000255027,,"novel transcript, antisense to DDX25"
+ENSG00000255045,,novel transcript
+ENSG00000255111,,Ankyrin repeat domain-containing protein 33 (ANKRD33B) pseudogene
+ENSG00000255133,LINC02721,long intergenic non-protein coding RNA 2721 [Source:HGNC Symbol;Acc:HGNC:54238]
+ENSG00000255220,DDX18P5,DEAD-box helicase 18 pseudogene 5 [Source:HGNC Symbol;Acc:HGNC:33968]
+ENSG00000255239,TREHP1,trehalase pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:51907]
+ENSG00000255327,LINC02697,long intergenic non-protein coding RNA 2697 [Source:HGNC Symbol;Acc:HGNC:54211]
+ENSG00000255345,,novel transcript
+ENSG00000255479,,novel transcript
+ENSG00000255545,B3GAT1-DT,B3GAT1 diverget transcript [Source:HGNC Symbol;Acc:HGNC:27449]
+ENSG00000255648,,"novel transcript, antisense to PLCZ1"
+ENSG00000255910,,novel transcript
+ENSG00000255974,CYP2A6,cytochrome P450 family 2 subfamily A member 6 [Source:HGNC Symbol;Acc:HGNC:2610]
+ENSG00000256019,TAS2R63P,taste 2 receptor member 63 pseudogene [Source:HGNC Symbol;Acc:HGNC:20641]
+ENSG00000256064,,novel transcript
+ENSG00000256209,,novel transcript
+ENSG00000256218,,novel transcript
+ENSG00000256222,MTRNR2L3,MT-RNR2 like 3 [Source:HGNC Symbol;Acc:HGNC:37157]
+ENSG00000256287,LINC02398,long intergenic non-protein coding RNA 2398 [Source:HGNC Symbol;Acc:HGNC:53325]
+ENSG00000256417,,novel transcript
+ENSG00000256481,,"novel transcript, antisense to MACROD1"
+ENSG00000256499,LINC02468,long intergenic non-protein coding RNA 2468 [Source:HGNC Symbol;Acc:HGNC:53406]
+ENSG00000256508,MRGPRF-AS1,MRGPRF antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:51140]
+ENSG00000256571,,novel transcript
+ENSG00000256678,,chromosome 1 open reading frame 144 (C1orf144) pseudogene
+ENSG00000256714,,novel transcript
+ENSG00000256779,,serine/arginine-rich splicing factor 8 (SRSF8) pseudogene
+ENSG00000256875,,novel transcript
+ENSG00000256972,,novel transcript
+ENSG00000257008,GPR142,G protein-coupled receptor 142 [Source:HGNC Symbol;Acc:HGNC:20088]
+ENSG00000257017,HP,haptoglobin [Source:HGNC Symbol;Acc:HGNC:5141]
+ENSG00000257060,,novel transcript
+ENSG00000257271,KIRREL3-AS1,KIRREL3 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:42655]
+ENSG00000257277,,"novel transcript, antisense to ARHGAP15"
+ENSG00000257335,MGAM,maltase-glucoamylase [Source:HGNC Symbol;Acc:HGNC:7043]
+ENSG00000257456,,novel transcript
+ENSG00000257761,,"novel transcript, antisense to LGR5"
+ENSG00000257869,,novel transcript
+ENSG00000257884,,ubiquitin specific peptidase 10 (USP10) pseudogene
+ENSG00000258077,,novel transcript
+ENSG00000258088,,novel transcript
+ENSG00000258170,,novel transcript
+ENSG00000258230,,suppression of tumorigenicity 13 (colon carcinoma) (Hsp70 interacting protein) (ST13) pseudogene
+ENSG00000258292,LINC02410,long intergenic non-protein coding RNA 2410 [Source:HGNC Symbol;Acc:HGNC:53339]
+ENSG00000258314,,novel transcript
+ENSG00000258401,ATP5MC2P2,ATP synthase membrane subunit c locus 2 pseudogene 2 [Source:HGNC Symbol;Acc:HGNC:19672]
+ENSG00000258483,LINC02251,long intergenic non-protein coding RNA 2251 [Source:HGNC Symbol;Acc:HGNC:53149]
+ENSG00000258537,FRMD6-AS2,FRMD6 antisense RNA 2 [Source:HGNC Symbol;Acc:HGNC:43637]
+ENSG00000258611,YBX2P2,YBX2 pseudogene 2 [Source:HGNC Symbol;Acc:HGNC:54721]
+ENSG00000258628,RHPN2P1,rhophilin Rho GTPase binding protein 2 pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:37708]
+ENSG00000258649,,novel transcript
+ENSG00000258692,SALL4P7,spalt like transcription factor 4 pseudogene 7 [Source:HGNC Symbol;Acc:HGNC:43900]
+ENSG00000258696,,"novel transcript, antisense to TTC6"
+ENSG00000258700,LINC00871,long intergenic non-protein coding RNA 871 [Source:HGNC Symbol;Acc:HGNC:47038]
+ENSG00000258752,,"novel transcript, antisense to FOXN3"
+ENSG00000258820,,"novel transcript, antisense to a novel orphan protein"
+ENSG00000258868,,novel transcript
+ENSG00000258910,LINC01956,long intergenic non-protein coding RNA 1956 [Source:HGNC Symbol;Acc:HGNC:52777]
+ENSG00000258917,ZMYND19P1,zinc finger MYND-type containing 19 pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:44540]
+ENSG00000258947,TUBB3,tubulin beta 3 class III [Source:HGNC Symbol;Acc:HGNC:20772]
+ENSG00000258986,TMEM179,transmembrane protein 179 [Source:HGNC Symbol;Acc:HGNC:20137]
+ENSG00000259001,,ribonuclease P RNA component H1
+ENSG00000259048,,"novel transcript, antisense to TTC6"
+ENSG00000259094,,"novel transcript, antisense to MARCO"
+ENSG00000259144,RANBP20P,RAN binding protein 20 pseudogene [Source:HGNC Symbol;Acc:HGNC:19734]
+ENSG00000259196,HMBOX1-IT1,HMBOX1 intronic transcript 1 [Source:HGNC Symbol;Acc:HGNC:43632]
+ENSG00000259222,,novel transcript
+ENSG00000259230,LINC02323,long intergenic non-protein coding RNA 2323 [Source:HGNC Symbol;Acc:HGNC:53242]
+ENSG00000259335,HNRNPMP1,heterogeneous nuclear ribonucleoprotein M pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:48745]
+ENSG00000259359,,novel transcript
+ENSG00000259374,NDUFB4P11,NADH:ubiquinone oxidoreductase subunit B4 pseudogene 11 [Source:HGNC Symbol;Acc:HGNC:45259]
+ENSG00000259457,,novel transcript
+ENSG00000259482,RORA-AS2,RORA antisense RNA 2 [Source:HGNC Symbol;Acc:HGNC:51411]
+ENSG00000259496,GEMIN8P1,gem nuclear organelle associated protein 8 pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:31818]
+ENSG00000259579,,novel transcript
+ENSG00000259666,LINGO1-AS1,LINGO1 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:27368]
+ENSG00000259727,,novel transcript
+ENSG00000259793,,"novel transcript, antisense to DGKD"
+ENSG00000259803,SLC22A31,solute carrier family 22 member 31 [Source:HGNC Symbol;Acc:HGNC:27091]
+ENSG00000259884,NR4A1AS,NR4A1 antisense RNA [Source:HGNC Symbol;Acc:HGNC:54409]
+ENSG00000259887,FIGNL2-DT,FIGNL2 divergent transcript [Source:HGNC Symbol;Acc:HGNC:53299]
+ENSG00000259974,LINC00261,long intergenic non-protein coding RNA 261 [Source:HGNC Symbol;Acc:HGNC:16189]
+ENSG00000260007,,novel protein
+ENSG00000260015,,"novel transcript, sense intronic to ZNF19"
+ENSG00000260026,LINC02189,long intergenic non-protein coding RNA 2189 [Source:HGNC Symbol;Acc:HGNC:53051]
+ENSG00000260066,,novel transcript
+ENSG00000260120,,novel transcript
+ENSG00000260182,,"novel transcript, intronic to TPSD1"
+ENSG00000260194,,"novel transcript, antisense to FTO"
+ENSG00000260246,,"novel transcript, antisense to GSTM1"
+ENSG00000260281,ITFG1-AS1,ITFG1 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:51383]
+ENSG00000260289,,novel transcript
+ENSG00000260328,,novel transcript
+ENSG00000260422,,novel transcript
+ENSG00000260459,FTLP14,ferritin light chain pseudogene 14 [Source:HGNC Symbol;Acc:HGNC:37964]
+ENSG00000260498,,novel transcript
+ENSG00000260621,,"novel transcript, antisense to AMFR"
+ENSG00000260653,,novel transcript
+ENSG00000260679,,novel transcript
+ENSG00000260701,,"novel transcript, antisense to ADAMTS18"
+ENSG00000260734,TLE7,TLE family member 7 [Source:HGNC Symbol;Acc:HGNC:53648]
+ENSG00000260746,KIF18BP1,kinesin family member 18B pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:51808]
+ENSG00000260782,,nuclear factor (erythroid-derived 2)-like 3 (NFE2L3) pseudogene
+ENSG00000261026,,"novel transcript, overlapping to EGR3"
+ENSG00000261070,,novel transcript
+ENSG00000261083,LINC02516,long intergenic non-protein coding RNA 2516 [Source:HGNC Symbol;Acc:HGNC:53505]
+ENSG00000261113,,"novel transcript, antisense to EEF2K"
+ENSG00000261115,TMEM178B,transmembrane protein 178B [Source:HGNC Symbol;Acc:HGNC:44112]
+ENSG00000261175,LINC02188,long intergenic non-protein coding RNA 2188 [Source:HGNC Symbol;Acc:HGNC:53050]
+ENSG00000261231,LINC02133,long intergenic non-protein coding RNA 2133 [Source:HGNC Symbol;Acc:HGNC:52993]
+ENSG00000261241,LINC02128,long intergenic non-protein coding RNA 2128 [Source:HGNC Symbol;Acc:HGNC:52986]
+ENSG00000261257,,novel transcript
+ENSG00000261276,,"novel transcript, antisense to MRGPRF"
+ENSG00000261393,,"novel transcript, antisense to BRD7"
+ENSG00000261396,,"novel transcript, antisense to FAM65A"
+ENSG00000261480,GOLGA8M,golgin A8 family member M [Source:HGNC Symbol;Acc:HGNC:44404]
+ENSG00000261489,,novel transcript
+ENSG00000261520,DLGAP1-AS5,DLGAP1 antisense RNA 5 [Source:HGNC Symbol;Acc:HGNC:27586]
+ENSG00000261522,,methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 1-like (MTHFD1L) pseudogene
+ENSG00000261578,,"novel transcript, overlapping to TSKU"
+ENSG00000261617,LINC02177,long intergenic non-protein coding RNA 2177 [Source:HGNC Symbol;Acc:HGNC:53039]
+ENSG00000261649,GOLGA6L7,golgin A6 family like 7 [Source:HGNC Symbol;Acc:HGNC:37442]
+ENSG00000261711,FRG2DP,"FSHD region gene 2 family member D, pseudogene [Source:HGNC Symbol;Acc:HGNC:27093]"
+ENSG00000261762,,"novel transcript, antisense to CHRNA5"
+ENSG00000262133,,"novel transcript, antisense to NXN"
+ENSG00000262406,MMP12,matrix metallopeptidase 12 [Source:HGNC Symbol;Acc:HGNC:7158]
+ENSG00000262470,TVP23CP2,TVP23C pseudogene 2 [Source:HGNC Symbol;Acc:HGNC:44647]
+ENSG00000262484,CCER2,coiled-coil glutamate rich protein 2 [Source:HGNC Symbol;Acc:HGNC:44662]
+ENSG00000262495,,zinc finger protein fiamily pseudogene
+ENSG00000262521,,novel transcript
+ENSG00000262619,LINC00621,long intergenic non-protein coding RNA 621 [Source:HGNC Symbol;Acc:HGNC:44227]
+ENSG00000262902,MTCO1P40,MT-CO1 pseudogene 40 [Source:HGNC Symbol;Acc:HGNC:52105]
+ENSG00000263588,,novel transcript
+ENSG00000263618,,novel transcript
+ENSG00000263655,,novel transcript
+ENSG00000263680,,novel transcript
+ENSG00000263711,LINC02864,long intergenic non-protein coding RNA 2864 [Source:HGNC Symbol;Acc:HGNC:54480]
+ENSG00000263745,,novel transcript
+ENSG00000263893,,novel transcript
+ENSG00000263914,MTND2P13,MT-ND2 pseudogene 13 [Source:HGNC Symbol;Acc:HGNC:42114]
+ENSG00000264026,LINC02003,long intergenic non-protein coding RNA 2003 [Source:HGNC Symbol;Acc:HGNC:27099]
+ENSG00000264215,,novel transcript
+ENSG00000264464,LINC02837,long intergenic non-protein coding RNA 2837 [Source:HGNC Symbol;Acc:HGNC:54371]
+ENSG00000264829,,"novel transcript, antisense to SAP30BP"
+ENSG00000265015,,kinase suppressor of ras 1 pseudogene
+ENSG00000265043,,novel transcript
+ENSG00000265139,,novel transcript
+ENSG00000265182,SRP72P1,signal recognition particle 72 pseudogene 1 [Source:HGNC Symbol;Acc:HGNC:31095]
+ENSG00000265190,ANXA8,annexin A8 [Source:HGNC Symbol;Acc:HGNC:546]
+ENSG00000265380,,novel transcript
+ENSG00000265417,,"ATPase family, AAA domain containing (ATD1) pseudogene"
+ENSG00000265579,,"novel transcript , sense intronic to NETO1"
+ENSG00000265786,LINC01906,long intergenic non-protein coding RNA 1906 [Source:HGNC Symbol;Acc:HGNC:52725]
+ENSG00000265933,LINC00668,long intergenic non-protein coding RNA 668 [Source:HGNC Symbol;Acc:HGNC:44328]
+ENSG00000265992,ESRG,embryonic stem cell related [Source:HGNC Symbol;Acc:HGNC:39079]
+ENSG00000266278,LINC01910,long intergenic non-protein coding RNA 1910 [Source:HGNC Symbol;Acc:HGNC:52729]
+ENSG00000266369,,"novel transcript, antisense to CCDC144NL"
+ENSG00000266560,,MAGEA10-MAGEA5 readthrough [Source:NCBI gene (formerly Entrezgene);Acc:100533997]
+ENSG00000266602,,novel transcript
+ENSG00000266869,,novel transcript
+ENSG00000266955,,"novel transcript, antisense IMPA2"
+ENSG00000266965,,novel transcript
+ENSG00000267013,LINC01929,long intergenic non-protein coding RNA 1929 [Source:HGNC Symbol;Acc:HGNC:52751]
+ENSG00000267038,,novel transcript
+ENSG00000267095,,novel transcript
+ENSG00000267134,LINC01924,long intergenic non-protein coding RNA 1924 [Source:HGNC Symbol;Acc:HGNC:27600]
+ENSG00000267147,LINC01842,long intergenic non-protein coding RNA 1842 [Source:HGNC Symbol;Acc:HGNC:52656]
+ENSG00000267206,LCN6,lipocalin 6 [Source:HGNC Symbol;Acc:HGNC:17337]
+ENSG00000267284,,novel transcript
+ENSG00000267327,,novel transcript
+ENSG00000267328,,novel transcript
+ENSG00000267339,LINC00906,long intergenic non-protein coding RNA 906 [Source:HGNC Symbol;Acc:HGNC:27121]
+ENSG00000267354,,novel transcript
+ENSG00000267393,,"novel transcript, antisense C18orf1"
+ENSG00000267413,LINC01901,long intergenic non-protein coding RNA 1901 [Source:HGNC Symbol;Acc:HGNC:52720]
+ENSG00000267432,DNAH17-AS1,DNAH17 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:48594]
+ENSG00000267453,CLEC4O,C-type lectin domain family 4 member O [Source:HGNC Symbol;Acc:HGNC:52651]
+ENSG00000267594,CYP4F24P,"cytochrome P450 family 4 subfamily F member 24, pseudogene [Source:HGNC Symbol;Acc:HGNC:39945]"
+ENSG00000267636,,novel transcript
+ENSG00000268104,SLC6A14,solute carrier family 6 member 14 [Source:HGNC Symbol;Acc:HGNC:11047]
+ENSG00000268170,,"novel transcript, antisense to TAS2R40"
+ENSG00000268287,,novel transcript
+ENSG00000268390,,novel transcript
+ENSG00000268496,,"novel transcript, sense intronic to TTYH1"
+ENSG00000268623,,apolipoprotein A-I binding protein (APOA1BP) pseudogene
+ENSG00000268649,,novel transcript
+ENSG00000268673,,novel transcript
+ENSG00000268683,,"novel transcript, sense intronic to SCGB2B2"
+ENSG00000268696,ZNF723,zinc finger protein 723 [Source:HGNC Symbol;Acc:HGNC:32286]
+ENSG00000268818,,novel transcript
+ENSG00000268864,,"solute carrier family 7 (cationic amino acid transporter, y+ system), member 2 (SLC7A2) pseudogene"
+ENSG00000268873,,"novel transcript, antisense to DTNA"
+ENSG00000268902,CSAG2,CSAG family member 2 [Source:HGNC Symbol;Acc:HGNC:16847]
+ENSG00000268906,,"novel transcript, antisense to KLK12"
+ENSG00000268916,CSAG3,CSAG family member 3 [Source:HGNC Symbol;Acc:HGNC:26237]
+ENSG00000268975,MIA-RAB4B,MIA-RAB4B readthrough (NMD candidate) [Source:HGNC Symbol;Acc:HGNC:48352]
+ENSG00000269055,BNIP3P18,BCL2 interacting protein 3 pseudogene 18 [Source:HGNC Symbol;Acc:HGNC:49698]
+ENSG00000269113,TRABD2B,TraB domain containing 2B [Source:HGNC Symbol;Acc:HGNC:44200]
+ENSG00000269235,ZNF350-AS1,ZNF350 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:48598]
+ENSG00000269404,SPIB,Spi-B transcription factor [Source:HGNC Symbol;Acc:HGNC:11242]
+ENSG00000269891,ARHGAP19-SLIT1,ARHGAP19-SLIT1 readthrough (NMD candidate) [Source:HGNC Symbol;Acc:HGNC:48348]
+ENSG00000269898,,"novel transcript, antisense to C16orf74"
+ENSG00000270317,,folliculogenesis specific basic helix-loop-helix (FIGLA) pseudogene
+ENSG00000270424,,"PRKC, apoptosis, WT1, regulator (PAWR) pseudogene"
+ENSG00000270640,,"novel transcript, sense intronic to FOSL2"
+ENSG00000270722,RNVU1-31,"RNA, variant U1 small nuclear 31 [Source:HGNC Symbol;Acc:HGNC:54448]"
+ENSG00000270986,HMGB1P51,high mobility group box 1 pseudogene 51 [Source:HGNC Symbol;Acc:HGNC:52369]
+ENSG00000271021,,"UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase-like 1 (B3GNTL1) pseudogene"
+ENSG00000271065,SLC4A8-AS1,SLC4A8 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:55259]
+ENSG00000271275,,POM121 transmembrane nucleoporin (POM121) pseudogene
+ENSG00000271278,ELOCP33,elongin C pseudogene 33 [Source:HGNC Symbol;Acc:HGNC:49174]
+ENSG00000271314,,"novel transcript, antisense to PTCH1"
+ENSG00000271375,,immunoglobulin kappa variable 1D-39 (IGKV1D-39) pseudogene
+ENSG00000271573,,ataxin 1-like (ATXN1L) pseudogene
+ENSG00000271742,,novel transcript
+ENSG00000271771,,novel transcript
+ENSG00000271826,PLS3-AS1,PLS3 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:50343]
+ENSG00000271830,,novel transcript
+ENSG00000272057,ANKH-DT,ANKH divergent transcript [Source:HGNC Symbol;Acc:HGNC:55234]
+ENSG00000272161,,"novel transcript, sense intronic to MORN1"
+ENSG00000272203,,novel transcript
+ENSG00000272249,,"novel transcript, antisense to CPQ"
+ENSG00000272321,,"novel transcript, antisense to STK3"
+ENSG00000272468,,novel transcript
+ENSG00000272506,,novel transcript
+ENSG00000272549,LINC02538,long intergenic non-protein coding RNA 2538 [Source:HGNC Symbol;Acc:HGNC:53571]
+ENSG00000272583,,novel transcript
+ENSG00000272620,AFAP1-AS1,AFAP1 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:28141]
+ENSG00000272668,,"novel transcript, antisense to VSIG8"
+ENSG00000272693,,"nuclear protein 2, transcriptional regulator (NUPR2) pseudogene"
+ENSG00000272703,,novel transcript
+ENSG00000272763,,novel transcript
+ENSG00000272797,,novel transcript
+ENSG00000272824,,novel transcript
+ENSG00000272865,,"novel transcript, antisense to PLD5"
+ENSG00000273093,,novel transcript
+ENSG00000273132,,"novel transcript, antisense to LRP11"
+ENSG00000273248,,novel transcript
+ENSG00000273252,OR7E39P,olfactory receptor family 7 subfamily E member 39 pseudogene [Source:HGNC Symbol;Acc:HGNC:8412]
+ENSG00000273760,,novel transcript
+ENSG00000273802,H2BC8,H2B clustered histone 8 [Source:HGNC Symbol;Acc:HGNC:4746]
+ENSG00000273838,,novel transcript
+ENSG00000273983,H3C8,H3 clustered histone 8 [Source:HGNC Symbol;Acc:HGNC:4772]
+ENSG00000274310,,SRY (sex determining region Y)-box 17 (SOX17) pseudogene
+ENSG00000274373,,novel transcript
+ENSG00000274444,,novel transcript
+ENSG00000274520,,
+ENSG00000274827,LINC01297,long intergenic non-protein coding RNA 1297 [Source:HGNC Symbol;Acc:HGNC:50443]
+ENSG00000274892,,"FSHD region gene 2 family, member C (FRG2C) pseudogene"
+ENSG00000274997,H2AC12,H2A clustered histone 12 [Source:HGNC Symbol;Acc:HGNC:13671]
+ENSG00000275004,ZNF280B,zinc finger protein 280B [Source:HGNC Symbol;Acc:HGNC:23022]
+ENSG00000275090,RN7SL296P,"RNA, 7SL, cytoplasmic 296, pseudogene [Source:HGNC Symbol;Acc:HGNC:46312]"
+ENSG00000275152,CCL16,C-C motif chemokine ligand 16 [Source:HGNC Symbol;Acc:HGNC:10614]
+ENSG00000275178,,"novel transcript, antisense to MBP"
+ENSG00000275186,,"novel transcript, antisense to NFATC1"
+ENSG00000275216,,novel transcript
+ENSG00000275312,,ankyrin repeat domain 30B-like (ANKRD30BL) pseudogene
+ENSG00000275379,H3C11,H3 clustered histone 11 [Source:HGNC Symbol;Acc:HGNC:4771]
+ENSG00000275385,CCL18,C-C motif chemokine ligand 18 [Source:HGNC Symbol;Acc:HGNC:10616]
+ENSG00000275484,,novel transcript
+ENSG00000275688,CCL15-CCL14,CCL15-CCL14 readthrough (NMD candidate) [Source:HGNC Symbol;Acc:HGNC:44436]
+ENSG00000275852,LINC01742,long intergenic non-protein coding RNA 1742 [Source:HGNC Symbol;Acc:HGNC:52530]
+ENSG00000275874,PICSAR,P38 inhibited cutaneous squamous cell carcinoma associated lincRNA [Source:HGNC Symbol;Acc:HGNC:19725]
+ENSG00000275896,PRSS2,serine protease 2 [Source:HGNC Symbol;Acc:HGNC:9483]
+ENSG00000276085,CCL3L3,C-C motif chemokine ligand 3 like 1 [Source:HGNC Symbol;Acc:HGNC:10628]
+ENSG00000276085,CCL3L1,C-C motif chemokine ligand 3 like 1 [Source:HGNC Symbol;Acc:HGNC:10628]
+ENSG00000276122,,novel transcript
+ENSG00000276368,H2AC14,H2A clustered histone 14 [Source:HGNC Symbol;Acc:HGNC:4727]
+ENSG00000276410,H2BC3,H2B clustered histone 3 [Source:HGNC Symbol;Acc:HGNC:4751]
+ENSG00000276527,,novel transcript
+ENSG00000276645,,Metazoan signal recognition particle RNA [Source:RFAM;Acc:RF00017]
+ENSG00000276772,,novel transcript
+ENSG00000276850,,novel transcript
+ENSG00000277075,H2AC8,H2A clustered histone 8 [Source:HGNC Symbol;Acc:HGNC:4724]
+ENSG00000277270,,novel transcript
+ENSG00000277463,,novel transcript
+ENSG00000277494,GPIHBP1,glycosylphosphatidylinositol anchored high density lipoprotein binding protein 1 [Source:HGNC Symbol;Acc:HGNC:24945]
+ENSG00000277521,MIR8078,microRNA 8078 [Source:HGNC Symbol;Acc:HGNC:50102]
+ENSG00000277631,PGM5P3-AS1,PGM5P3 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:51194]
+ENSG00000277748,,IGF-like family member 4 (IGFL4) pseudogene
+ENSG00000277775,H3C7,H3 clustered histone 7 [Source:HGNC Symbol;Acc:HGNC:4773]
+ENSG00000278097,,novel transcript
+ENSG00000278146,,novel transcript
+ENSG00000278234,,U2 spliceosomal RNA [Source:RFAM;Acc:RF00004]
+ENSG00000278236,,
+ENSG00000278531,,ankyrin repeat domain 30B-like (ANKRD30BL) pseudogene
+ENSG00000278588,H2BC10,H2B clustered histone 10 [Source:HGNC Symbol;Acc:HGNC:4756]
+ENSG00000278685,IQCA1L,IQ motif containing with AAA domain 1 like [Source:HGNC Symbol;Acc:HGNC:22831]
+ENSG00000278705,H4C2,H4 clustered histone 2 [Source:HGNC Symbol;Acc:HGNC:4789]
+ENSG00000278771,RN7SL3,RNA component of signal recognition particle 7SL3 [Source:HGNC Symbol;Acc:HGNC:23135]
+ENSG00000278783,MIR6071,microRNA 6071 [Source:HGNC Symbol;Acc:HGNC:50229]
+ENSG00000278828,H3C10,H3 clustered histone 10 [Source:HGNC Symbol;Acc:HGNC:4775]
+ENSG00000278902,,TEC
+ENSG00000278910,BANCR,BRAF-activated non-protein coding RNA [Source:HGNC Symbol;Acc:HGNC:43877]
+ENSG00000278965,,tec
+ENSG00000279021,,novel transcript
+ENSG00000279047,,"novel transcript, antisense to PCDHB1 and PCDHB2"
+ENSG00000279243,LINC02736,long intergenic non-protein coding RNA 2736 [Source:HGNC Symbol;Acc:HGNC:54253]
+ENSG00000279271,,TEC
+ENSG00000279379,,TEC
+ENSG00000279648,,TEC
+ENSG00000279694,,TEC
+ENSG00000279930,,TEC
+ENSG00000280009,,novel transcript
+ENSG00000280081,LINC01667,long intergenic non-protein coding RNA 1667 [Source:HGNC Symbol;Acc:HGNC:52455]
+ENSG00000280262,,tec
+ENSG00000280285,,TEC
+ENSG00000280356,,novel transcript
+ENSG00000280362,,TEC
+ENSG00000280429,,novel transcript
+ENSG00000280431,,TEC
+ENSG00000280432,,TEC
+ENSG00000280623,PCAT14,prostate cancer associated transcript 14 [Source:HGNC Symbol;Acc:HGNC:48977]
+ENSG00000280719,PCAT5,prostate cancer associated transcript 5 [Source:HGNC Symbol;Acc:HGNC:48665]
+ENSG00000280780,JAKMIP2-AS1,JAKMIP2 antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:27203]
+ENSG00000280916,FOXCUT,FOXC1 upstream transcript [Source:HGNC Symbol;Acc:HGNC:50650]
+ENSG00000281131,SCHLAP1,SWI/SNF complex antagonist associated with prostate cancer 1 [Source:HGNC Symbol;Acc:HGNC:48603]
+ENSG00000281406,BLACAT1,bladder cancer associated transcript 1 [Source:HGNC Symbol;Acc:HGNC:48597]
+ENSG00000281566,,novel transcript
+ENSG00000281591,DBET,D4Z4 binding element transcript [Source:HGNC Symbol;Acc:HGNC:43904]
