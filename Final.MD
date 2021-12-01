@@ -170,10 +170,6 @@
      
      -1. Transfer the result into data.frame
 
-
-![image](https://user-images.githubusercontent.com/89502586/144285917-d98df31b-4241-4444-9171-5d4412e034c1.png)
-
-
 ### Log fold change shrinkage for visualization and ranking
 
 Pass the `dds` object to the function  `lfcShrink` and use `apeglm`  to shrink effect size.
