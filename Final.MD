@@ -217,7 +217,9 @@
      
     The number of DEG has reduced from 480 to 328 
     
+    
     - 5. Save the result as "Refiltered_Dinstinct_genesymble.csv", you can check the result (have not been put)
+
 
 ### Log fold change shrinkage for visualization and ranking
 
