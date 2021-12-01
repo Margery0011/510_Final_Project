@@ -146,6 +146,33 @@
     Parts of the results are showed below:
     
      ![1961638341892_ pic_hd](https://user-images.githubusercontent.com/89502586/144186802-d3765f11-da42-43fd-9cc9-05ba6d7c6b82.jpg)
+     
+### Define differential expressed genes and filter them
+
+- Step1:
+
+     - 1. Define GEG as  `padj < 0.05 & abs(log2FoldChange) > 1.5`
+     - 2. Check its dimension 
+
+     ```
+     diff_gene_deseq2 <-subset(res, padj < 0.05 & abs(log2FoldChange) > 1.5)
+     dim(diff_gene_deseq2)
+     head(diff_gene_deseq2)
+     ```
+
+![2011638380505_ pic](https://user-images.githubusercontent.com/89502586/144285619-79adda3f-45d0-4769-9619-738285ecc629.jpg)
+
+     - 3. Save the result as `ReFiltered_DEG_Lobular_Duct.csv`
+     
+     - 4. You can check the result here. ReFiltered_DEG_Lobular_Duct.csv (need to change)
+     
+- Step2 : Name Transfer 
+     
+     -1. Transfer the result into data.frame
+
+
+![image](https://user-images.githubusercontent.com/89502586/144285917-d98df31b-4241-4444-9171-5d4412e034c1.png)
+
 
 ### Log fold change shrinkage for visualization and ranking
 
@@ -161,13 +188,24 @@ resLFC
 `resLFC` is more compacted compared to `res`
  column `stat` is removed after shrinking 
 
+### Information of results columns
+
+     ```
+     mcols(res)$description   
+     ```
      
-## Plot  Vignette 
+     ![1991638379214_ pic](https://user-images.githubusercontent.com/89502586/144282346-b283506a-9e11-4383-9ae2-678ad21ae51a.jpg)
+
+     
+### Plot  Vignette 
 
 - MA plot 
     
     - res
 
+     ```
+     plotMA(res, ylim=c(-2,2))
+     ```
 
 ![1011637735879_ pic_hd](https://user-images.githubusercontent.com/89502586/144274461-70ac29c8-2fa8-442f-9e6b-517aa77cd8d7.jpg)
 
@@ -177,7 +215,38 @@ Points which fall out of the window are plotted as open triangles pointing eithe
 
      - resLFC
  
--
+     ```
+     plotMA(resLFC, ylim=c(-2,2))
+     ```
+     
+     
+![1981638377382_ pic_hd](https://user-images.githubusercontent.com/89502586/144277351-2a7f8315-0c6f-4eeb-aaf4-be202a960bb1.jpg)
+
+Lots of noise associated with log2 fold changes from low count genes has been removed without requiring arbitrary filtering thresholds.
+ 
+- Plot Counts
+
+Use the function `plotCount` to look for differences between groups for a particular gene of interest. Counts groups by groups.
+
+Use function `plotCounts` to normalize counts by the estimated size factors and add a pseudocount of 1/2 to allow for log scale plotting , counts are grouped by the variables in `intgroup`.
+
+Plot-Gene can be selected by rowname or by numeric index , here we selected the gene with the smallest p value which is HORMAD1 (ensemblID : ENSG00000143452)
+
+
+     ```
+     plotCounts(dds, gene=which.min(res$padj), intgroup="condition")
+     ```
+
+![1041637735965_ pic](https://user-images.githubusercontent.com/89502586/144279820-e07fb29a-04e7-419d-8fc6-426d98c78013.jpg)
+
+
+For customized plotting, an argument  `returnData` specifies that the function should only return a data.frame for plotting with `ggplot`.
+
+
+
+
+
+
 
 
 
