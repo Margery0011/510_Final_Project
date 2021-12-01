@@ -66,10 +66,14 @@
 
    6. set the directory to point at this file for further analysis in `Rstudio`
 
-## Use `DESeq2` to graw vignette
+## Analyzing RNA-seq data with DESeq2
 
 
    [DESeq2 Tutorial Website](http://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)
+   
+   
+   
+### Differential expression analysis
 
 - Step1: Set the Directory to point at the folder with changed names of both groups & library all the required packages
   ```{r}
@@ -142,5 +146,42 @@
     Parts of the results are showed below:
     
      ![1961638341892_ pic_hd](https://user-images.githubusercontent.com/89502586/144186802-d3765f11-da42-43fd-9cc9-05ba6d7c6b82.jpg)
+
+### Log fold change shrinkage for visualization and ranking
+
+Pass the `dds` object to the function  `lfcShrink` and use `apeglm`  to shrink effect size.
+
+```
+resLFC <- lfcShrink(dds, coef="condition_Lobulargroup_vs_Ductgroup", type="apeglm")
+resLFC
+```
+
+![1971638377071_ pic_hd](https://user-images.githubusercontent.com/89502586/144276277-82db13a4-478c-4ec1-93d0-ede11b3ab8e5.jpg)
+
+`resLFC` is more compacted compared to `res`
+ column `stat` is removed after shrinking 
+
+     
+## Plot  Vignette 
+
+- MA plot 
+    
+    - res
+
+
+![1011637735879_ pic_hd](https://user-images.githubusercontent.com/89502586/144274461-70ac29c8-2fa8-442f-9e6b-517aa77cd8d7.jpg)
+
+It shows the log2 fold changes attributable to a given variable over the mean of normalized counts for all the samples in the DESeqDataSet.
+
+Points which fall out of the window are plotted as open triangles pointing either up or down.
+
+     - resLFC
+ 
+-
+
+
+
+     
+ 
 
    
