@@ -143,10 +143,13 @@
 
      - 1. ***Use function `results` to generate 6 columns including log2FC, P-value, corrected P-value .etc***
      - 2. ***Save them as "Lobular_Duct_res.csv". You can check them in Folder "results"*** [Lobular_Duct_res.csv](https://raw.githubusercontent.com/Margery0011/510_Final_Project/main/results/Lobular_Duct_res.csv)
+    
+    
     Parts of the results are showed below:
     
      ![1961638341892_ pic_hd](https://user-images.githubusercontent.com/89502586/144186802-d3765f11-da42-43fd-9cc9-05ba6d7c6b82.jpg)
      
+
 ### Define differential expressed genes and filter them
 
 - Step1:
@@ -162,13 +165,59 @@
 
 ![2011638380505_ pic](https://user-images.githubusercontent.com/89502586/144285619-79adda3f-45d0-4769-9619-738285ecc629.jpg)
 
-     - 3. Save the result as `ReFiltered_DEG_Lobular_Duct.csv`
+     - 3. 480 DEG are saved  the as `ReFiltered_DEG_Lobular_Duct.csv`
      
-     - 4. You can check the result here. ReFiltered_DEG_Lobular_Duct.csv (need to cha
+     - 4. You can check the result here. ReFiltered_DEG_Lobular_Duct.csv (need to change)
      
 - Step2 : Name Transfer 
      
-     -1. Transfer the result into data.frame
+     - 1. Transfer the DEG results into data.frame
+     
+     ```
+     library(dplyr)
+     library(tibble)
+     filtered_res <- diff_gene_deseq2 %>% 
+     data.frame() %>% 
+     rownames_to_column("gene_id")
+     ```
+     - 2. Remove the version number of EnsemblID
+
+     ```
+     row.names(filtered_res) <- filtered_res$gene_id
+     gene_id <- substr(row.names(filtered_res),1,15)
+     filtered_res$gene_id <- gene_id
+     ```
+     
+     - 3. Add transfered gene symble ID for recognization and Entrizid  ID (just in case)
+     
+     ```
+     library(AnnotationDbi)
+     library(org.Hs.eg.db)
+     filtered_res$symbol <- mapIds(org.Hs.eg.db,
+                     keys=filtered_res$gene_id,
+                     column="SYMBOL",
+                     keytype="ENSEMBL",
+                     multiVals="first")
+     filtered_res$entrez <- mapIds(org.Hs.eg.db,
+                     keys=filtered_res$gene_id,
+                     column="ENTREZID",
+                     keytype="ENSEMBL",
+                     multiVals="first")
+     ```
+     - 4. Remove genes if the symbol is NA or duplicate 
+
+     ```
+     library(dplyr)
+     gene_distinct <- filtered_res %>% 
+     ## remove NA
+     filter(symbol!="NA") %>% 
+     ## remove duplicate
+     distinct(symbol,.keep_all = T)
+      ```
+     
+    The number of DEG has reduced from 480 to 328 
+    
+    - 5. Save the result as "Refiltered_Dinstinct_genesymble.csv", you can check the result (have not been put)
 
 ### Log fold change shrinkage for visualization and ranking
 
@@ -190,7 +239,7 @@ resLFC
      mcols(res)$description   
      ```
      
-     ![1991638379214_ pic](https://user-images.githubusercontent.com/89502586/144282346-b283506a-9e11-4383-9ae2-678ad21ae51a.jpg)
+ ![1991638379214_ pic](https://user-images.githubusercontent.com/89502586/144282346-b283506a-9e11-4383-9ae2-678ad21ae51a.jpg)
 
      
 ### Plot  Vignette 
@@ -210,7 +259,7 @@ It shows the log2 fold changes attributable to a given variable over the mean of
 Points which fall out of the window are plotted as open triangles pointing either up or down.
 
      - resLFC
- 
+     
      ```
      plotMA(resLFC, ylim=c(-2,2))
      ```
@@ -218,8 +267,10 @@ Points which fall out of the window are plotted as open triangles pointing eithe
      
 ![1981638377382_ pic_hd](https://user-images.githubusercontent.com/89502586/144277351-2a7f8315-0c6f-4eeb-aaf4-be202a960bb1.jpg)
 
+
 Lots of noise associated with log2 fold changes from low count genes has been removed without requiring arbitrary filtering thresholds.
  
+
 - Plot Counts
 
 Use the function `plotCount` to look for differences between groups for a particular gene of interest. Counts groups by groups.
