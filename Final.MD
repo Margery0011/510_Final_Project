@@ -164,7 +164,7 @@
 
      - 3. Save the result as `ReFiltered_DEG_Lobular_Duct.csv`
      
-     - 4. You can check the result here. ReFiltered_DEG_Lobular_Duct.csv (need to change)
+     - 4. You can check the result here. ReFiltered_DEG_Lobular_Duct.csv (need to cha
      
 - Step2 : Name Transfer 
      
