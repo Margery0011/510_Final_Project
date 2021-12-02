@@ -274,7 +274,7 @@ sampleTable <- sampleTable %>%
 
      - 1. Use function `results` to generate 6 columns including log2FC, P-value, corrected P-value .etc
      - 2. Save them as "Lobular_Duct_res.csv". You can check them in Folder "results" [Lobular_Duct_res.csv](https://raw.githubusercontent.com/Margery0011/510_Final_Project/main/results/Lobular_Duct_res.csv)
-     - 3. Partial Resutls of **res**
+     - 3. Partial Resutls of **res** ##Remove)
    
     
      ![1961638341892_ pic_hd](https://user-images.githubusercontent.com/89502586/144186802-d3765f11-da42-43fd-9cc9-05ba6d7c6b82.jpg)
@@ -295,12 +295,11 @@ sampleTable <- sampleTable %>%
      - 2. Check its dimension 
 
      ```
-     diff_gene_deseq2 <-subset(res, padj < 0.05 & abs(log2FoldChange) > 1.5)
-     dim(diff_gene_deseq2)
-     head(diff_gene_deseq2)
+     diff_gene <- subset(res, padj < 0.05 & abs(log2FoldChange) > 1.5)
+     dim(diff_gene)
+     head(diff_gene)
      ```
 
-![2011638380505_ pic](https://user-images.githubusercontent.com/89502586/144285619-79adda3f-45d0-4769-9619-738285ecc629.jpg)
 
      - 3. 480 DEG are saved  the as `ReFiltered_DEG_Lobular_Duct.csv`
      
