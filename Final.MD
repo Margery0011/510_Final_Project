@@ -28,6 +28,7 @@
      
      1.  Download `Manifest` files of both groups
      2.  Download `json` files of both groups
+     3.  Download `clinical` files of both groups
      
 - 2.2 Extract files
 
@@ -157,6 +158,7 @@
 ### Differential expression analysis
 
 - Step1: Set the Directory to point at the folder with changed names of both groups & library all the required packages
+  
   ```{r}
     library("DESeq2")
     library("apeglm")
@@ -164,9 +166,7 @@
     library("vsn")
     library("pheatmap")
     library("RColorBrewer")
-    ```
-   ```
-   directory <- "~/Lobular_Duct/" 
+   directory <- "~/New_Lobular_Duct/" 
    ```
    *Note: in the script, it is the Absolute path* 
 
@@ -185,8 +185,6 @@
     sampleTable$condition <- factor(sampleTable$condition)
 ```
 
-*Note : Extract the conditional information directly on the basis of the name of files , which ensures the one-to-one correspondence betweem the expression matrix and the sample*
-
 - Step3 : Build the `DESeqDataset` ---Get 60483 elements
 
     ```
@@ -198,8 +196,60 @@
     ```
     
     ![1941638340881_ pic](https://user-images.githubusercontent.com/89502586/144184917-fa529835-d60f-49f1-ad21-8645bffcd387.jpg)
+
+
+*Note : Extract the conditional information directly on the basis of the name of files , which ensures the one-to-one correspondence betweem the expression matrix and the sample*
+
+
+- Step4 : Build sampleTable with **multiple factors** (condition: Ductgroup/Lobulargroup & Stage)
+
+     - 1. remove the suffix of filename in `sampleTable`
+
+```
+library(tidyr)
+sampleTable <- sampleTable %>%
+  tidyr::separate(fileName,into = c("fileName"),sep = "\\.")
+```
+     
+     - 2. Merge the name information and clinicla information
+     
+     ```
+     colnames(Col_Duct_Lobular)[2] <- "fileName"
+     sampleTable <- merge(sampleTable,Col_Duct_Lobular,by="fileName")
+     ```
+     
+     - 3. Select the necessary columnns only
+     
+     ```
+     library(dplyr)
+     sampleTableselect <- sampleTable%>%
+     dplyr::select(fileName,sampleName.x,condition,ajcc_pathologic_stage)
+     ```
+
+     - 4. Add the `Stage` factor
+     
+     ```
+     sampleTableselect$condition <- factor(sampleTableselect$condition)
+     sampleTableselect$Stage <- factor(sampleTableselect$ajcc_pathologic_stage)
+     ```
+     
+     ![2081638486290_ pic](https://user-images.githubusercontent.com/89502586/144517079-d170bf33-2ef0-4495-8861-f49e84336fef.jpg)
+
+
+     - 5. Build the `DESeqDataset` by Multiple factors
+     
+     ```
+     ddsMF <- DESeqDataSetFromHTSeqCount(sampleTable = sampleTableselect,
+                                       directory = directory,
+                                       design= ~ condition + Stage)
+     ddsMF
+     ```
+     
+     ![2071638486138_ pic](https://user-images.githubusercontent.com/89502586/144516844-6cf5cba0-822d-4b5b-9448-b71292537066.jpg)
+
+
     
-- Step4: Pre-filtering & Specify the factor levels  ---the number of elements has decreased from 60483 to 50860
+- Step5: Pre-filtering & Specify the factor levels  ---the number of elements has decreased from 60483 to 50860
 
      - 1. ***Remove the rows which are less than 10 reads***
      
@@ -210,7 +260,7 @@
           ```
           As a result, the number of elements has decreased from 60483 to 50860
           
-     - 2. ***By default, R will choose a reference level for factors based on alphabetical order, in this case , the reference is Ductgroup***
+     - 2. **Check Factors**
           
           `head(dds$condition)`
   
@@ -222,14 +272,20 @@
 
 - Step5: Differential Expression Analysis 
 
-     - 1. ***Use function `results` to generate 6 columns including log2FC, P-value, corrected P-value .etc***
-     - 2. ***Save them as "Lobular_Duct_res.csv". You can check them in Folder "results"*** [Lobular_Duct_res.csv](https://raw.githubusercontent.com/Margery0011/510_Final_Project/main/results/Lobular_Duct_res.csv)
-    
-    
-    Parts of the results are showed below:
+     - 1. Use function `results` to generate 6 columns including log2FC, P-value, corrected P-value .etc
+     - 2. Save them as "Lobular_Duct_res.csv". You can check them in Folder "results" [Lobular_Duct_res.csv](https://raw.githubusercontent.com/Margery0011/510_Final_Project/main/results/Lobular_Duct_res.csv)
+     - 3. Partial Resutls of **res**
+   
     
      ![1961638341892_ pic_hd](https://user-images.githubusercontent.com/89502586/144186802-d3765f11-da42-43fd-9cc9-05ba6d7c6b82.jpg)
      
+     - 4 . Partial Resutls of **resMF**
+
+
+
+     ![2091638486773_ pic](https://user-images.githubusercontent.com/89502586/144517887-930f557e-7da4-4705-8312-d31c868c67bd.jpg)
+
+
 
 ### Define differential expressed genes and filter them
 
@@ -246,7 +302,7 @@
 
 ![2011638380505_ pic](https://user-images.githubusercontent.com/89502586/144285619-79adda3f-45d0-4769-9619-738285ecc629.jpg)
 
-   - 3. 480 DEG are saved  the as `ReFiltered_DEG_Lobular_Duct.csv`
+     - 3. 480 DEG are saved  the as `ReFiltered_DEG_Lobular_Duct.csv`
      
      - 4. You can check the result here. ReFiltered_DEG_Lobular_Duct.csv (need to change)
      
