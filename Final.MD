@@ -220,7 +220,7 @@
     
  - 5. Save the organized result as "symbolID_refiltered.csv". 
  
- Here is the result ["symbolID_refiltered.csv"](https://github.com/Margery0011/510_Final_Project/blob/main/Results/symbolID_refiltered.csv)
+ ["symbolID_refiltered.csv"](https://github.com/Margery0011/510_Final_Project/blob/main/Results/symbolID_refiltered.csv)
 
 
 ### Log fold change shrinkage for visualization and ranking
