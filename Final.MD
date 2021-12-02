@@ -291,19 +291,19 @@ sampleTable <- sampleTable %>%
 
 - Step1:
 
-     - 1. Define GEG as  `padj < 0.05 & abs(log2FoldChange) > 1.5`
+     - 1. Define GEG as  `padj <= 0.05 & abs(log2FoldChange) >= 1.5`
      - 2. Check its dimension 
 
      ```
-     diff_gene <- subset(res, padj < 0.05 & abs(log2FoldChange) > 1.5)
-     dim(diff_gene)
-     head(diff_gene)
+     diff_gene_deseq2 <-subset(res, padj <= 0.05 & abs(log2FoldChange) >= 1.5)
+     dim(diff_gene_deseq2)
+     head(diff_gene_deseq2)
      ```
 
 
-     - 3. 480 DEG are saved  the as `ReFiltered_DEG_Lobular_Duct.csv`
+     - 3. 463 DEG are saved  the as `New_DEG_Lobular_Duct.csv"`
      
-     - 4. You can check the result here. ReFiltered_DEG_Lobular_Duct.csv (need to change)
+     - 4. You can check the result here [New_DEG_Lobular_Duct.csv]( https://github.com/Margery0011/510_Final_Project/blob/main/Results/New_DEG_Lobular_Duct.csv)
      
 - Step2 : Name Transfer 
      
