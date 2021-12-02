@@ -42,9 +42,36 @@
        ```
 
        
-- 2.3 Rename files
+## Rename files & Builda Coldata 
+
+- Step1 : Read Downloaded clinical csv in both groups
+     - 1. Read files
+     
+     ```{r}
+     coldata_lobular <- read.csv("clinical.cart.2021-12-02.Lobu/clinicalLobular.tsv",sep = "\t")
+     coldata_Duct <- read.csv("clinical.cart.2021-12-02Duct/clinicalDuct.tsv",sep = "\t")
+     ```
+     - 2. Remove duplicated values
+
+     ```
+     coldata_Duct <- coldata_Duct  %>% 
+       distinct(case_submitter_id,.keep_all = T)
+     coldata_lobular <- coldata_lobular  %>% 
+       distinct(case_submitter_id,.keep_all = T)
+     ```
+     
+     - 3. Combine 2 groups
+
+     ```
+     coldata <- rbind(coldata_Duct,coldata_lobular)
+     ```
+
+- Step2 : Find corresponding name : File name-TCGAid-clinicalinformation 
+
+
   
-   1. Map Filenames to TCGA id & Save it as `sample2id_Duct/Lobular.txt`
+  
+     - 1. Map Filenames to TCGA id & Save it as `sample2id_Duct/Lobular.txt`
       
       The example script is provided by the following code:
       ```
@@ -54,9 +81,20 @@
           naid_df[i,1] <- metadata$file_name[i]
           naid_df[i,2] <- metadata$associated_entities[i][[1]]$entity_submitter_id} 
         ```
-      
-      
-   2. Use `change_name.sh` to change the filenames into TCGA-Format
+     - 2. only chose the TCGA's first 12 characters in clinical file
+
+     ```
+     attach(naid_df)
+     naid_df$TCGA_id=substr(TCGA_id,regexpr("T",TCGA_id,),regexpr("T",TCGA_id)+11)  
+     ```
+     - 3. save the file  to  change file names  
+
+     ```
+     write.table(naid_df,"Duct_filename_TCGAid.txt", quote = FALSE, row.names = FALSE,col.names = F)
+     ```
+  
+  
+     - 4.  Use `change_name.sh` to change the filenames into TCGA-Format
    
    3. Add Pre-fix `Lobulargroup` in the filename of `Logroup` 
    
