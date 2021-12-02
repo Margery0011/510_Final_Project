@@ -42,10 +42,11 @@
        ```
 
        
-## Rename files & Builda Coldata 
+## Rename files & Builda clinical data  frame
 
 - Step1 : Read Downloaded clinical csv in both groups
-     - 1. Read files
+    
+    - 1. Read files
      
      ```{r}
      coldata_lobular <- read.csv("clinical.cart.2021-12-02.Lobu/clinicalLobular.tsv",sep = "\t")
@@ -66,43 +67,85 @@
      coldata <- rbind(coldata_Duct,coldata_lobular)
      ```
 
-- Step2 : Find corresponding name : File name-TCGAid-clinicalinformation 
+- Step2 : Find the corresponding  TCGA id by filename and change htseq counts filenames 
 
-
-  
-  
-     - 1. Map Filenames to TCGA id & Save it as `sample2id_Duct/Lobular.txt`
+     - 1. Map Filenames to TCGA id & Save it as `Duct/Lobular_filename_TCGAid.txt.txt`
       
       The example script is provided by the following code:
-      ```
+      
+     ```
       metadata <- jsonlite::fromJSON("*Meta.json*")
       naid_df <- data.frame()
       for (i in 1:nrow(metadata)){
           naid_df[i,1] <- metadata$file_name[i]
           naid_df[i,2] <- metadata$associated_entities[i][[1]]$entity_submitter_id} 
-        ```
+        
+     ```
+     
      - 2. only chose the TCGA's first 12 characters in clinical file
 
      ```
      attach(naid_df)
      naid_df$TCGA_id=substr(TCGA_id,regexpr("T",TCGA_id,),regexpr("T",TCGA_id)+11)  
      ```
+     
      - 3. save the file  to  change file names  
 
+     
      ```
-     write.table(naid_df,"Duct_filename_TCGAid.txt", quote = FALSE, row.names = FALSE,col.names = F)
+     write.table(naid_df,"Lobular/Duct_filename_TCGAid.txt", quote = FALSE, row.names = FALSE,col.names = F)
      ```
   
   
      - 4.  Use `change_name.sh` to change the filenames into TCGA-Format
-   
-   3. Add Pre-fix `Lobulargroup` in the filename of `Logroup` 
-   
-   4. Add Pre-fix `Ductgroup` in the filename of `Ductgroup`
-   
-   5. Paste these files into a new folder named `Lobular_Duct`
 
-   6. set the directory to point at this file for further analysis in `Rstudio`
+     ```
+     #!/bin/bash
+
+     cat $1 |while read line
+     do
+          arr=($line)
+          filename=${arr[0]}
+          submitterid=${arr[1]}
+          mv ${filename} ${submitterid}.htseq.counts.gz
+     done
+     ```
+    
+    
+- Step3: Change filename 
+
+      - 1.  Use `change_name.sh` to change the filenames into TCGA-Format
+
+     ```
+     #!/bin/bash
+
+     cat $1 |while read line
+     do
+          arr=($line)
+          filename=${arr[0]}
+          submitterid=${arr[1]}
+          mv ${filename} ${submitterid}.htseq.counts.gz
+     done
+     ```
+
+     - 2. I want the filename to be as "Ductgroup/Lobulargroup + Digital seria number" 
+     - 3. So, I Used Excel to connect this name to TCGA id 
+     - 4. Change the filename (TCGA-ID format ) to "Ductgroup/Lobulargroup + Digital seria number" by their correspondence I build from Excel 
+     
+     ```
+     #!/bin/bash
+
+     cat $1 |while read line
+     do
+          arr=($line)
+          filename=${arr[1]}
+          TCGAid=${arr[0]}
+          mv ${filename}.gz ${TCGAid}.gz
+     done
+     ```
+     - 5. Paste these files into a new folder named `New_Lobular_Duct`
+
+     - 6. Set the directory to point at this file for further analysis in `Rstudio`
 
 ## Analyzing RNA-seq data with DESeq2
 
