@@ -165,7 +165,7 @@
 
 ![2011638380505_ pic](https://user-images.githubusercontent.com/89502586/144285619-79adda3f-45d0-4769-9619-738285ecc629.jpg)
 
-     - 3. 480 DEG are saved  the as `ReFiltered_DEG_Lobular_Duct.csv`
+   - 3. 480 DEG are saved  the as `ReFiltered_DEG_Lobular_Duct.csv`
      
      - 4. You can check the result here. ReFiltered_DEG_Lobular_Duct.csv (need to change)
      
@@ -218,7 +218,9 @@
     The number of DEG has reduced from 480 to 328 
     
     
-    - 5. Save the result as "Refiltered_Dinstinct_genesymble.csv", you can check the result (have not been put)
+ - 5. Save the organized result as "symbolID_refiltered.csv". 
+ 
+ Here is the result ["symbolID_refiltered.csv"](https://github.com/Margery0011/510_Final_Project/blob/main/Results/symbolID_refiltered.csv)
 
 
 ### Log fold change shrinkage for visualization and ranking
