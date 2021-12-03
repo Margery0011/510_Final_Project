@@ -4,12 +4,11 @@
 
 
 ```{r}
-coldata_lobular <- read.csv("clinical.cart.2021-12-02.Lobu/clinicalLobular.tsv",sep = "\t")
+coldata_lobular <- read.csv("~/Files/clinicalLobular.tsv",sep = "\t")
 ```
 
-coldata_lobular <- read.csv("~/Scripts/clinicalLobular.tsv",sep = "\t")
 ```{r}
-coldata_Duct <- read.csv("clinical.cart.2021-12-02Duct/clinicalDuct.tsv",sep = "\t")
+coldata_Duct <- read.csv("~/Files/clinicalDuct.tsv",sep = "\t")
 ```
 
 
@@ -60,6 +59,7 @@ for (dirname in dir('New_Lobular/')){
 
 
 # To find the TCGA ID corresponding to the file name (Lobular)
+
 ```{r}
 metadata <- jsonlite::fromJSON("metadata.cart.12.2Lobular.json")
 naid_df <- data.frame()
@@ -90,7 +90,7 @@ write.table(naid_df,"Duct_filename_TCGAid.txt", quote = FALSE, row.names = FALSE
 
 ## To find the TCGA ID corresponding to the file name （Duct）
 ```{r}
-metadata <- jsonlite::fromJSON("metadata.cart.duct12-01.json")
+metadata <- jsonlite::fromJSON("~/Files/metadata.cart.duct12-01.json")
 naid_df <- data.frame()
 for (i in 1:nrow(metadata)){
   naid_df[i,1] <- metadata$file_name[i]
@@ -131,7 +131,7 @@ write.table(naid_df,"Lobular_filename_TCGAid.txt", quote = FALSE, row.names = FA
 
 ```{r}
 library(readxl)
-Lobular1<-read_excel("Lobulargroup_id.xlsx")
+Lobular1<-read_excel("~/Files/Lobulargroup_id.xlsx")
 Lobular1 <- as.data.frame(Lobular1)
 ```
 
@@ -144,7 +144,7 @@ write.table(Lobular1,"Lobulargroupchange.txt", quote = FALSE, row.names = FALSE,
 ```{r}
 
 library(readxl)
-Duct1<-read_excel("Ductgroup_id.xlsx")
+Duct1<-read_excel("~/Files/Ductgroup_id.xlsx")
 Duct1<- as.data.frame(Duct1)
 ```
 
