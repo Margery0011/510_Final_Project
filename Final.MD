@@ -264,9 +264,13 @@
           
      - 2. **Check Factors**
           
-          `head(dds$condition)`
-  
-  ![1951638341336_ pic](https://user-images.githubusercontent.com/89502586/144185784-3fee4eab-51c6-49fc-bd5f-6a514726f653.jpg)
+     ```
+          head(ddsMF$condition)
+          head(ddsMF$Stage)
+     ```
+          
+          ![2161638491629_ pic](https://user-images.githubusercontent.com/89502586/144524654-d23994e0-2b8e-44fe-a246-02b7aab9e387.jpg)
+
   
   log2 fold change and Wald test p value ： last level / reference level
   
@@ -276,12 +280,7 @@
 
      - 1. Use function `results` to generate 6 columns including log2FC, P-value, corrected P-value .etc
      - 2. Save them as "Lobular_Duct_res.csv". You can check them in Folder "results" [Lobular_Duct_res.csv](https://raw.githubusercontent.com/Margery0011/510_Final_Project/main/results/Lobular_Duct_res.csv)
-     - 3. Partial Resutls of **res** ##Remove)
    
-    
-     ![1961638341892_ pic_hd](https://user-images.githubusercontent.com/89502586/144186802-d3765f11-da42-43fd-9cc9-05ba6d7c6b82.jpg)
-     
-     
 ### Define differential expressed genes and filter them
 
 - Step1:
