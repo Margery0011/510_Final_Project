@@ -452,6 +452,8 @@ For customized plotting, an argument  `returnData` specifies that the function s
 
 ##  Transfer Names
 
+Done by this script [Name_Transfer(Genome & DEG).Rmd](https://github.com/Margery0011/510_Final_Project/blob/main/Scripts/Name_Transfer(Genome%20%26%20DEG).Rmd)
+
 ### Map EnsemblD to Gene ID in Genome
 
 I transfered the Ensembl ID to gene ID and remove the version number in Ensembl ID in all the files
