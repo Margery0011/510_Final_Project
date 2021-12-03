@@ -325,60 +325,6 @@ Done by [Changefilenames.Rmd](https://github.com/Margery0011/510_Final_Project/b
      
      - 4. You can check the result here [New_DEG_Lobular_Duct.csv]( https://github.com/Margery0011/510_Final_Project/blob/main/Results/New_DEG_Lobular_Duct.csv)
      
-- Step2 : Name Transfer 
-     
-     - 1. Transfer the DEG results into data.frame
-     
-     ```
-          library(dplyr)
-          library(tibble)
-          filtered_res <- diff_gene_deseq2 %>% 
-          data.frame() %>% 
-          rownames_to_column("gene_id")
-     ```
-     - 2. Remove the version number of EnsemblID
-
-     ```
-          library(tidyr)
-          filtered_res <- filtered_res %>%
-               tidyr::separate(gene_id,into = c("gene_id"),sep = "\\.")
-     ```
-     
-     - 3. Add transfered gene symble ID for recognization and Entrizid  ID (just in case)
-     
-     ```
-          library(AnnotationDbi)
-          library(org.Hs.eg.db)
-          filtered_res$symbol <- mapIds(org.Hs.eg.db,
-                     keys=filtered_res$gene_id,
-                     column="SYMBOL",
-                     keytype="ENSEMBL",
-                     multiVals="first")
-          filtered_res$entrez <- mapIds(org.Hs.eg.db,
-                     keys=filtered_res$gene_id,
-                     column="ENTREZID",
-                     keytype="ENSEMBL",
-                     multiVals="first")
-     ```
-     
-     - 4. Remove genes if the symbol is NA or duplicate 
-
-     ```
-          library(dplyr)
-          gene_distinct <- filtered_res %>% 
-          ## remove NA
-          filter(symbol!="NA") %>% 
-          ## remove duplicate
-          distinct(symbol,.keep_all = T)
-      ```
-     
-    The number of DEG has reduced from 309
-    
-    
- - 5. Save the organized result as "New_symbolID_refiltered.csv". 
- 
- ["New_symbolID_refiltered.csv"](https://github.com/Margery0011/510_Final_Project/tree/main/Results)
-
 
 ### Log fold change shrinkage for visualization and ranking
 
@@ -516,7 +462,7 @@ colnames(Ensembl_ID_TO_Genename) <- c("Ensembl_ID","gene_id")
 
 ### Transfer the name in DEG
 
-  - 1. Read GEG gene file 
+  - 1. Read DEG  file 
 
 ```
      diff_gene_deseq2 <- read.csv("New_DEG_Lobular_Duct.csv")
@@ -550,18 +496,18 @@ colnames(Ensembl_ID_TO_Genename) <- c("Ensembl_ID","gene_id")
 ```
 
 
-  - 5. Remove duplicated genes (There is none)
+  - 5. Remove duplicated genes 
 
 ```
      library(dplyr)
-     gene_distinct <- diff_gene_deseq2 %>% 
-      ## Remove NA
-      filter(symbol!="NA") %>% 
-      ## Remove Duplicate
-      distinct(symbol,.keep_all = T)
+     diff_gene_deseq2 <- diff_gene_deseq2 %>% 
+     ## Remove NA
+     filter(symbol!="NA") %>% 
+     ## Remove Duplicate
+     distinct(symbol,.keep_all = T)
 ```
 
-
+Number has been reduced to 309 from 463
 
   - 6. Remove the ensemble ID 
 
