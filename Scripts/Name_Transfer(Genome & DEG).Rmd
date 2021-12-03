@@ -109,6 +109,13 @@ diff_gene_deseq2 <- diff_gene_deseq2 %>%
 
 Number has been reduced to 309 from 463
 
+## Save the correspondence between Gene id and Ensembl ID 
+
+```{r}
+DEG_Ensemble_Symbol <- diff_gene_deseq2[,-c(2:7)]
+write_csv(DEG_Ensemble_Symbol, "DEG_Ensemble_Symbol.csv")
+```
+
 
 ## Remove the ensemble ID 
 
