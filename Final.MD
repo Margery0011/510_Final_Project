@@ -279,14 +279,7 @@ sampleTable <- sampleTable %>%
     
      ![1961638341892_ pic_hd](https://user-images.githubusercontent.com/89502586/144186802-d3765f11-da42-43fd-9cc9-05ba6d7c6b82.jpg)
      
-     - 4 . Partial Resutls of **resMF**
-
-
-
-     ![2091638486773_ pic](https://user-images.githubusercontent.com/89502586/144517887-930f557e-7da4-4705-8312-d31c868c67bd.jpg)
-
-
-
+     
 ### Define differential expressed genes and filter them
 
 - Step1:
@@ -354,9 +347,9 @@ sampleTable <- sampleTable %>%
     The number of DEG has reduced from 309
     
     
- - 5. Save the organized result as "symbolID_refiltered.csv". 
+ - 5. Save the organized result as "New_symbolID_refiltered.csv". 
  
- ["symbolID_refiltered.csv"](https://github.com/Margery0011/510_Final_Project/blob/main/Results/symbolID_refiltered.csv)
+ ["New_symbolID_refiltered.csv"](https://github.com/Margery0011/510_Final_Project/tree/main/Results)
 
 
 ### Log fold change shrinkage for visualization and ranking
