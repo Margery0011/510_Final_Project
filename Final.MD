@@ -30,17 +30,6 @@
      2.  Download `json` files of both groups
      3.  Download `clinical` files of both groups
      
-- 2.2 Extract files
-
-       Extract HT-Seq counts in different folders and put them into a new folder in both groups
-       The example script is provided by the following code:
-       ```
-       setwd("*Directory*")
-       dir.create("*NewFolderName*")
-       for (dirname in dir('*Downloaded GGC files* ')){  
-        file <- list.files(paste0(getwd(),'/*Downloaded GGC files dirname*),pattern = '*.counts')  
-        file.copy(paste0(getwd(),'/*Downloaded GGC files* /',dirname,'/',file),'*NewFolderName*')  
-       ```
 
        
 ## Rename files & Builda clinical data  frame
@@ -65,10 +54,24 @@
      - 3. Combine 2 groups
 
      ```
-     coldata <- rbind(coldata_Duct,coldata_lobular)
+          coldata <- rbind(coldata_Duct,coldata_lobular)
+    
      ```
+     
+- Step2: Extract files
 
-- Step2 : Find the corresponding  TCGA id by filename and change htseq counts filenames 
+    Extract HT-Seq counts in different folders and put them into a new folder in both groups
+    The example script is provided by the following code:
+       
+       ```
+          setwd("*Directory*")
+          dir.create("*NewFolderName*")
+          for (dirname in dir('*Downloaded GGC files* ')){  
+               file <- list.files(paste0(getwd(),'/*Downloaded GGC files dirname*),pattern = '*.counts')  
+               file.copy(paste0(getwd(),'/*Downloaded GGC files* /',dirname,'/',file),'*NewFolderName*')  
+       ```     
+
+- Step3 : Find the corresponding  TCGA id by filename and change htseq counts filenames 
 
      - 1. Map Filenames to TCGA id & Save it as `Duct/Lobular_filename_TCGAid.txt`
       
@@ -114,7 +117,7 @@
      ```
     
     
-- Step3: Change filename 
+- Step4: Change filename 
 
      - 1.  Use `change_name.sh` to change the filenames into TCGA-Format
 
