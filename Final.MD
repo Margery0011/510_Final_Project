@@ -319,9 +319,9 @@ sampleTable <- sampleTable %>%
      - 2. Remove the version number of EnsemblID
 
      ```
-     row.names(filtered_res) <- filtered_res$gene_id
-     gene_id <- substr(row.names(filtered_res),1,15)
-     filtered_res$gene_id <- gene_id
+     library(tidyr)
+     filtered_res <- filtered_res %>%
+     tidyr::separate(gene_id,into = c("gene_id"),sep = "\\.")
      ```
      
      - 3. Add transfered gene symble ID for recognization and Entrizid  ID (just in case)
@@ -351,7 +351,7 @@ sampleTable <- sampleTable %>%
      distinct(symbol,.keep_all = T)
       ```
      
-    The number of DEG has reduced from 480 to 328 
+    The number of DEG has reduced from 309
     
     
  - 5. Save the organized result as "symbolID_refiltered.csv". 
