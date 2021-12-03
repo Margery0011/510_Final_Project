@@ -22,7 +22,7 @@ Docs below the line mean Down-regulated
 ![991637735042_ pic_hd](https://user-images.githubusercontent.com/89502586/144653670-2ea2fca1-7a73-4a1e-bd75-247efbe949c5.jpg)
                                        
     
-  - resLFC -- 
+  - resLFC 
 
 `plotMA(resLFC, ylim=c(-2,2))`
 
@@ -31,6 +31,26 @@ Docs below the line mean Down-regulated
 `resLFC` directly removes the noise associated with LFC from low-expressed genes without the need to manually set the threshold
 
 
-  - resAsh 
+  - different Types
+
+`apeglm `is the adaptive t prior shrinkage estimator from the apeglm package (Zhu, Ibrahim, and Love 2018). As of version 1.28.0, it is the default estimator.
+
+`ashr` is the adaptive shrinkage estimator from the ashr package (Stephens 2016). Here DESeq2 uses the ashr option to fit a mixture of Normal distributions to form the prior, with method="shrinkage".
+
+`normal` is the the original DESeq2 shrinkage estimator, an adaptive Normal distribution as prior.
+
+![2211638565892_ pic_hd](https://user-images.githubusercontent.com/89502586/144673661-eb201646-ebcf-491f-996f-b639ecdee8df.jpg)
+
+`type='apeglm` and `type='ashr'` have shown to have less bias than `type='normal'`
 
 
+
+
+
+
+
+
+
+- 2. Plot Count
+
+From the IPA  result, 
