@@ -512,7 +512,70 @@ colnames(Ensembl_ID_TO_Genename) <- c("Ensembl_ID","gene_id")
 
 
 
-# Transfer the name in DEG
+### Transfer the name in DEG
+
+  - 1. Read GEG gene file 
+
+```
+     diff_gene_deseq2 <- read.csv("New_DEG_Lobular_Duct.csv")
+```
+
+  - 2. Change column name
+
+```
+     colnames(diff_gene_deseq2)[1] <- "gene_id"
+```
+
+
+  - 3. Remove the version number
+
+```
+     library(tidyr)
+     diff_gene_deseq2 <- diff_gene_deseq2 %>%
+          tidyr::separate(gene_id,into = c("gene_id"),sep = "\\.")
+```
+
+  - 4. Get gene symbol ID in DEG
+
+```
+     library(AnnotationDbi)
+     library(org.Hs.eg.db)
+     diff_gene_deseq2$symbol <- mapIds(org.Hs.eg.db,
+                              keys=diff_gene_deseq2$gene_id,
+                              column="SYMBOL",
+                              keytype="ENSEMBL",
+                              multiVals="first")
+```
+
+
+  - 5. Remove duplicated genes (There is none)
+
+```
+     library(dplyr)
+     gene_distinct <- diff_gene_deseq2 %>% 
+      ## Remove NA
+      filter(symbol!="NA") %>% 
+      ## Remove Duplicate
+      distinct(symbol,.keep_all = T)
+```
+
+
+
+  - 6. Remove the ensemble ID 
+
+```
+     diff_gene_deseq2$gene_id <- diff_gene_deseq2$symbol
+     diff_gene_deseq2 <- diff_gene_deseq2[,-8]
+```
+
+
+  - 7. Export Results to csv file
+
+```
+     write.csv(diff_gene_deseq2,"New_symbolID_refiltered.csv",row.names = F)
+```
+[New_symbolID_refiltered.csv](https://github.com/Margery0011/510_Final_Project/blob/main/Results/New_symbolID_refiltered.csv)
+
 
 
 
