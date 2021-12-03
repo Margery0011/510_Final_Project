@@ -325,7 +325,23 @@ Done by [Changefilenames.Rmd](https://github.com/Margery0011/510_Final_Project/b
      
      - 4. You can check the result here [New_DEG_Lobular_Duct.csv]( https://github.com/Margery0011/510_Final_Project/blob/main/Results/New_DEG_Lobular_Duct.csv)
      
+- Step2: ID Transfer 
 
+
+     - 1. Transfer the Ensemble ID to geneID in DEG
+     - 2. Extract Up-regulated genes
+     - 3. Extract Down-regulated genes
+     - 4. Annotate if this gene is UP/Down Regulated in the DEG
+     
+     Click to See Results 
+     
+     [All_diff_Reg.csv](https://github.com/Margery0011/510_Final_Project/blob/main/Results/All_diff_Reg.csv)
+     
+     [Down_diff.csv](https://github.com/Margery0011/510_Final_Project/blob/main/Results/Down_diff.csv)
+     
+     [Up_diff.csv](https://github.com/Margery0011/510_Final_Project/blob/main/Results/Up_diff.csv)
+     
+     
 ### Log fold change shrinkage for visualization and ranking
 
 Pass the `dds` object to the function  `lfcShrink` and use `apeglm`  to shrink effect size.
