@@ -32,7 +32,9 @@
      
 
        
-## Rename files & Builda clinical data  frame
+## Rename files & Build a clinical data  frame
+
+*Do not need to change the name of uploaded files in GoogleDrive*
 
 - Step1 : Read Downloaded clinical csv in both groups
     
@@ -58,7 +60,7 @@
     
      ```
      
-- Step2: Extract files
+- Step2: Extract files (Do not need when Using data in GoogleDrive
 
     Extract HT-Seq counts in different folders and put them into a new folder in both groups
     The example script is provided by the following code:
@@ -73,6 +75,7 @@
 
 - Step3 : Find the corresponding  TCGA id by filename and change htseq counts filenames 
 
+     
      - 1. Map Filenames to TCGA id & Save it as `Duct/Lobular_filename_TCGAid.txt`
       
   
@@ -87,7 +90,7 @@
         
      ```
      
-     - 2. only chose the TCGA's first 12 characters in clinical file
+     - 2. only grab the TCGA's first 12 characters in clinical file
 
      ```
      attach(naid_df)
@@ -101,27 +104,18 @@
      write.table(naid_df,"Lobular/Duct_filename_TCGAid.txt", quote = FALSE, row.names = FALSE,col.names = F)
      ```
   
+  Used Files : 
   
-     - 4.  Use `change_name.sh` to change the filenames into TCGA-Format
-
-     ```
-     #!/bin/bash
-
-     cat $1 |while read line
-     do
-          arr=($line)
-          filename=${arr[0]}
-          submitterid=${arr[1]}
-          mv ${filename} ${submitterid}.htseq.counts.gz
-     done
-     ```
+  [Lobular_filename_TCGAid.txt](https://github.com/Margery0011/510_Final_Project/blob/main/Scripts/Lobular_filename_TCGAid.txt)
+  
+  [Duct_filename_TCGAid.txt](https://github.com/Margery0011/510_Final_Project/blob/main/Scripts/Duct_filename_TCGAid.txt)
+  
     
     
 - Step4: Change filename 
 
-     - 1.  Use `change_name.sh` to change the filenames into TCGA-Format
+     - 1. Use `change_name.sh` to change the filenames into TCGA-Format
 
-     
      ```
      #!/bin/bash
 
@@ -133,10 +127,23 @@
           mv ${filename} ${submitterid}.htseq.counts.gz
      done
      ```
+     
+     *Useage* : 
+     
+     bash change_name.sh Lobular_filename_TCGAid.txt
+     
+     bash change_name.sh Duct_filename_TCGAid.txt
 
      - 2. I want the filename to be as "Ductgroup/Lobulargroup + Digital seria number" 
-     - 3. So, I Used Excel to connect this name to TCGA id 
-     - 4. Change the filename (TCGA-ID format ) to "Ductgroup/Lobulargroup + Digital seria number" by their correspondence I build from Excel 
+     - 3. So, I Used Excel to connect this name to TCGA id  
+     
+     **Built Files **
+     
+     [Lobulargroup_id.xlsx](https://github.com/Margery0011/510_Final_Project/blob/main/Scripts/Lobulargroup_id.xlsx)
+     
+     [Ductgroup_id.xlsx](https://github.com/Margery0011/510_Final_Project/blob/main/Scripts/Ductgroup_id.xlsx)
+     
+     - 4. Use `name_change.sh` Change the filename (TCGA-ID format ) to "Ductgroup/Lobulargroup + Digital seria number" based on their correspondence  (Built Files)
      
      ```
      #!/bin/bash
@@ -149,9 +156,24 @@
           mv ${filename}.gz ${TCGAid}.gz
      done
      ```
+     
+     **Used files**
+     
+     [Ductgroupchange.txt](https://github.com/Margery0011/510_Final_Project/blob/main/Scripts/Ductgroupchange.txt)
+     
+     [Lobulargroupchange.txt](https://github.com/Margery0011/510_Final_Project/blob/main/Scripts/Lobulargroupchange.txt)
+     
+     *Useage* : 
+     
+     bash name_change.sh Ductgroupchange.txt
+     bash name_change.sh Lobulargroupchange.txt
+     
+     
      - 5. Paste these files into a new folder named `New_Lobular_Duct`
+     
 
      - 6. Set the directory to point at this file for further analysis in `Rstudio`
+   
 
 ## Analyzing RNA-seq data with DESeq2
 
