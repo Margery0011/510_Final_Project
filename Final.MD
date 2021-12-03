@@ -450,9 +450,11 @@ Plot-Gene can be selected by rowname or by numeric index , here we selected the 
 
 For customized plotting, an argument  `returnData` specifies that the function should only return a data.frame for plotting with `ggplot`.
 
-## ID Transfer
+##  Transfer Names
 
-Ensembl_ID_TO_Genename.csv: I transfered the Ensembl ID to gene ID and remove the version number in Ensembl ID in all the files
+### Map EnsemblD to Gene ID in Genome
+
+I transfered the Ensembl ID to gene ID and remove the version number in Ensembl ID in all the files
 
   - 1. Make readble gtf file in R
 
