@@ -450,11 +450,67 @@ Plot-Gene can be selected by rowname or by numeric index , here we selected the 
 
 For customized plotting, an argument  `returnData` specifies that the function should only return a data.frame for plotting with `ggplot`.
 
+## ID Transfer
+
+Ensembl_ID_TO_Genename.csv: I transfered the Ensembl ID to gene ID and remove the version number in Ensembl ID in all the files
+
+  - 1. Make readble gtf file in R
+
+     ```
+          if(!require("rtracklayer")) BiocManager::install("rtracklayer") 
+          gtf1 <- rtracklayer::import("Homo_sapiens.GRCh38.104.chr.gtf")
+          gtf_df <- as.data.frame(gtf1)
+      
+      ```
+      
+  - 2. Use AnnotationDbi package to do ID transfer
+
+```
+get_map = function(input) {
+  if (is.character(input)) {
+    if(!file.exists(input)) stop("Bad input file.")
+    message("Treat input as file")
+    input = data.table::fread(input, header = FALSE)
+  } else {
+    data.table::setDT(input)
+  }
+  
+  input = input[input[[3]] == "gene", ]
+  
+  pattern_id = ".*gene_id \"([^;]+)\";.*"
+  pattern_name = ".*gene_name \"([^;]+)\";.*"
+  
+  
+  gene_id = sub(pattern_id, "\\1", input[[9]])
+  gene_name = sub(pattern_name, "\\1", input[[9]])
+  
+  Ensembl_ID_TO_Genename <- data.frame(gene_id = gene_id,
+                                        gene_name = gene_name,
+                                        stringsAsFactors = FALSE)
+  return(Ensembl_ID_TO_Genename)
+}
+
+Ensembl_ID_TO_Genename <- get_map("gencode.v29.annotation.gtf") 
+```
+
+
+  - 3. Remove the version number of EnsembleID
+
+```{r}
+gtf_Ensembl_ID <- substr(Ensembl_ID_TO_Genename[,1],1,15)
+Ensembl_ID_TO_Genename <- data.frame(gtf_Ensembl_ID,Ensembl_ID_TO_Genename[,2])
+
+colnames(Ensembl_ID_TO_Genename) <- c("Ensembl_ID","gene_id")
+
+```
+
+  - 4. Save the file as "Ensembl_ID_TO_Genename.csv".
+ 
+ [Ensembl_ID_TO_Genename.csv](https://raw.githubusercontent.com/Margery0011/510_Final_Project/main/Results/Ensembl_ID_TO_Genename.csv)
 
 
 
-
-
+# Transfer the name in DEG
 
 
 
