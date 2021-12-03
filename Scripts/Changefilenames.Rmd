@@ -1,0 +1,162 @@
+
+
+# Read clinicalt data 
+
+
+```{r}
+coldata_lobular <- read.csv("clinical.cart.2021-12-02.Lobu/clinicalLobular.tsv",sep = "\t")
+```
+
+coldata_lobular <- read.csv("~/Scripts/clinicalLobular.tsv",sep = "\t")
+```{r}
+coldata_Duct <- read.csv("clinical.cart.2021-12-02Duct/clinicalDuct.tsv",sep = "\t")
+```
+
+
+## Remove duplicated Rows
+
+```{r}
+coldata_Duct <- coldata_Duct  %>% 
+  distinct(case_submitter_id,.keep_all = T)
+coldata_lobular <- coldata_lobular  %>% 
+  distinct(case_submitter_id,.keep_all = T)
+```
+
+## Combine clinical information of both groups 
+
+```{r}
+coldata <- rbind(coldata_Duct,coldata_lobular)
+```
+
+
+
+
+
+
+# Make a new folder to store all the compressed files in different folder
+- Use function "list.file" to find all the compressed file in each foler
+- Use function "list.copy" to copy-past them into the new folder
+
+*No need when using the data in GoogleDrive*
+```{r}
+setwd("/Users/margery/Desktop/data/")
+dir.create("12_2_Duct")
+for (dirname in dir('12_1_duct/')){  
+  file <- list.files(paste0(getwd(),'/12_1_duct/',dirname),pattern = '*.counts')  
+  file.copy(paste0(getwd(),'/12_1_duct/',dirname,'/',file),'12_2_Duct')  
+}
+```
+
+
+
+```{r}
+setwd("/Users/margery/Desktop/data/")
+dir.create("12_2_Lobular")
+for (dirname in dir('New_Lobular/')){  
+  file <- list.files(paste0(getwd(),'/New_Lobular/',dirname),pattern = '*.counts')  
+  file.copy(paste0(getwd(),'/New_Lobular/',dirname,'/',file),'12_2_Lobular')  
+}
+```
+
+
+# To find the TCGA ID corresponding to the file name (Lobular)
+```{r}
+metadata <- jsonlite::fromJSON("metadata.cart.12.2Lobular.json")
+naid_df <- data.frame()
+for (i in 1:nrow(metadata)){
+  naid_df[i,1] <- metadata$file_name[i]
+  naid_df[i,2] <- metadata$associated_entities[i][[1]]$entity_submitter_id
+}
+colnames(naid_df) <- c('filename','TCGA_id')
+```
+
+
+### only chose the TCGA's first 12 characters in clinical 
+
+```{r}
+attach(naid_df)
+naid_df$TCGA_id=substr(TCGA_id,regexpr("T",TCGA_id,),regexpr("T",TCGA_id)+11)  
+```
+
+
+```{r}
+write.table(naid_df,"Duct_filename_TCGAid.txt", quote = FALSE, row.names = FALSE,col.names = F)
+```
+
+
+
+
+
+
+## To find the TCGA ID corresponding to the file name （Duct）
+```{r}
+metadata <- jsonlite::fromJSON("metadata.cart.duct12-01.json")
+naid_df <- data.frame()
+for (i in 1:nrow(metadata)){
+  naid_df[i,1] <- metadata$file_name[i]
+  naid_df[i,2] <- metadata$associated_entities[i][[1]]$entity_submitter_id
+}
+colnames(naid_df) <- c('filename','TCGA_id')
+```
+
+```{r}
+attach(naid_df)
+naid_df$TCGA_id=substr(TCGA_id,regexpr("T",TCGA_id,),regexpr("T",TCGA_id)+11)  
+```
+
+
+```{r}
+write.table(naid_df,"Lobular_filename_TCGAid.txt", quote = FALSE, row.names = FALSE,col.names = F)
+
+
+```
+
+# correspond the geneid and duct ?
+
+?
+
+```{r}
+#coldata_Duct$TCGA_id <- coldata_Duct$case_submitter_id
+```
+
+```{r}
+ #write.csv(coldata_Duct,"coldata_Duct.csv",row.names = F)
+# write.csv(coldata_lobular,"coldata_Lobular.csv",row.names = F)
+```
+
+
+# After building relationship between Lobular/Duct + group + "digital serial number" by Excel
+
+## Read this file
+
+```{r}
+library(readxl)
+Lobular1<-read_excel("Lobulargroup_id.xlsx")
+Lobular1 <- as.data.frame(Lobular1)
+```
+
+## Transfer it into TXT file to do name change 
+
+```{r}
+write.table(Lobular1,"Lobulargroupchange.txt", quote = FALSE, row.names = FALSE,col.names = F)
+```
+
+```{r}
+
+library(readxl)
+Duct1<-read_excel("Ductgroup_id.xlsx")
+Duct1<- as.data.frame(Duct1)
+```
+
+```{r}
+write.table(Duct1,"Ductgroupchange.txt", quote = FALSE, row.names = FALSE,col.names = F)
+```
+
+## Combind the relationship data of 2 groups and add them into clinical dataframe
+
+```{r}
+Duct_Lobular <- rbind(Duct1,Lobular1)
+Col_Duct_Lobular <- merge(Duct_Lobular,coldata,by="case_submitter_id")
+```
+
+
