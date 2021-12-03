@@ -487,18 +487,34 @@ ntd <- normTransform(ddsMF)
 ```
 
 
-### Data Evaluation and visualization (Using Multiple Factors : condition and Stage)
+### Data Quality Evaluation by sample clustering and visualization (Using Multiple Factors : condition and Stage)
 
 - Heatmap of the count matrix
 
-      - ntdMF
-      
-![2261638569283_ pic](https://user-images.githubusercontent.com/89502586/144679361-6885a07e-fb97-4c9b-b252-8aef21c46167.jpg)
+Choose Top 20 gene to draw heatmap
 
-     - vsdMF
+
+     library("pheatmap")
+     select <- order(rowMeans(counts(ddsMF,normalized=TRUE)),
+                    decreasing=TRUE)[1:20]
+
+ntdMF
+
+     pheatmap(assay(ntdMF)[select,], cluster_rows=FALSE,show_colnames=FALSE,
+         cluster_cols=FALSE,annotation = df,fontsize_row = 6)
+      
+![2291638574321_ pic](https://user-images.githubusercontent.com/89502586/144685909-6ecf9ff6-0032-4b19-919e-de04c9ef68e7.jpg)
+
+ 
+
+vsdMF
+
+     pheatmap(assay(vsdMF)[select,], cluster_rows=FALSE,show_colnames=FALSE,
+         cluster_cols=FALSE,annotation = df,fontsize_row = 6)
      
  ![2271638569294_ pic](https://user-images.githubusercontent.com/89502586/144679427-fde0fbcd-8b09-487f-937a-85204d0bc16b.jpg)
 
+The difference is not clear 
 
 -  Heatmap of the sample-to-sample distances
 
@@ -526,6 +542,29 @@ Use `Euclidean distance`
 ![2281638569531_ pic](https://user-images.githubusercontent.com/89502586/144679963-65ee89b3-a67f-4368-8786-644cfbed4420.jpg)
 
 This heatmap shows the similarity between samples.
+
+- PCA plot 
+ 
+Principal component plot of the samples
+Related to the distance matrix is the PCA plot, which shows the samples in the 2D plane spanned by their first two principal components. This type of plot is useful for visualizing the overall effect of experimental covariates and batch effects.
+
+     
+- `plotPCA` vsdMF
+
+![2301638574604_ pic](https://user-images.githubusercontent.com/89502586/144686324-4d63eaef-3bc7-40d8-b26b-3e73668c67cd.jpg)
+
+- `pcaplot` vsdMF
+
+![2341638574788_ pic](https://user-images.githubusercontent.com/89502586/144686369-45674169-8e14-46d8-b7a6-08c6504c6db2.jpg)
+
+- `plotPCA` ntdMF
+
+![image](https://user-images.githubusercontent.com/89502586/144686535-7675243c-0eb6-44af-a36e-c0d51bf0fb90.png)
+
+- `pcaplot` ntdMF
+
+![image](https://user-images.githubusercontent.com/89502586/144686571-7809516f-4758-42b4-aaee-a91a20924cda.png)
+
 
 ##  Transfer Names
 
