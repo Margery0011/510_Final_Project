@@ -160,5 +160,5 @@ Col_Duct_Lobular <- merge(Duct_Lobular,coldata,by="case_submitter_id")
 ```
 
 ```{r}
- write.csv(Col_Duct_Lobular,"Col_Duct_Lobular.csv")
+ write.csv(Col_Duct_Lobular,"Col_Duct_Lobular.csv",row.names = F)
 ``` 
