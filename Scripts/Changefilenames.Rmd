@@ -45,7 +45,7 @@ for (dirname in dir('12_1_duct/')){
   file.copy(paste0(getwd(),'/12_1_duct/',dirname,'/',file),'12_2_Duct')  
 }
 ```
-
+*No need when using the data in GoogleDrive*
 
 
 ```{r}
@@ -61,7 +61,7 @@ for (dirname in dir('New_Lobular/')){
 # To find the TCGA ID corresponding to the file name (Lobular)
 
 ```{r}
-metadata <- jsonlite::fromJSON("metadata.cart.12.2Lobular.json")
+metadata <- jsonlite::fromJSON("~/Files/metadata.cart.12.2Lobular.json")
 naid_df <- data.frame()
 for (i in 1:nrow(metadata)){
   naid_df[i,1] <- metadata$file_name[i]
@@ -109,19 +109,6 @@ naid_df$TCGA_id=substr(TCGA_id,regexpr("T",TCGA_id,),regexpr("T",TCGA_id)+11)
 write.table(naid_df,"Lobular_filename_TCGAid.txt", quote = FALSE, row.names = FALSE,col.names = F)
 
 
-```
-
-# correspond the geneid and duct ?
-
-?
-
-```{r}
-#coldata_Duct$TCGA_id <- coldata_Duct$case_submitter_id
-```
-
-```{r}
- #write.csv(coldata_Duct,"coldata_Duct.csv",row.names = F)
-# write.csv(coldata_lobular,"coldata_Lobular.csv",row.names = F)
 ```
 
 
