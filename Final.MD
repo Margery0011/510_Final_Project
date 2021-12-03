@@ -235,8 +235,6 @@
           sampleTableselect$Stage <- factor(sampleTableselect$ajcc_pathologic_stage)
      ```
      
-     ![2081638486290_ pic](https://user-images.githubusercontent.com/89502586/144517079-d170bf33-2ef0-4495-8861-f49e84336fef.jpg)
-
 
      - 5. Build the `DESeqDataset` by Multiple factors
      
@@ -269,7 +267,7 @@
           head(ddsMF$Stage)
      ```
           
-          ![2161638491629_ pic](https://user-images.githubusercontent.com/89502586/144524654-d23994e0-2b8e-44fe-a246-02b7aab9e387.jpg)
+  ![2161638491629_ pic](https://user-images.githubusercontent.com/89502586/144524654-d23994e0-2b8e-44fe-a246-02b7aab9e387.jpg)
 
   
   log2 fold change and Wald test p value ： last level / reference level
