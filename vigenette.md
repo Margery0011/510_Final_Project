@@ -53,4 +53,34 @@ Docs below the line mean Down-regulated
 
 - 2. Plot Count
 
-From the IPA  result, 
+From the IPA  result, gene `MAGEA4` which is  Down-Regulataed compared to the  reference (Duct group)  is in the PATHway of disease "HER2 non-overexpressing breast carcinoma" (Category : Cancer,Organismal Injury and Abnormalities,Reproductive System Disease) , so I chose this gene to Plot Counts
+  
+  - Plot Counts
+
+```
+  d <- plotCounts(dds, gene="ENSG00000147381.10", intgroup="condition", 
+                returnData=TRUE)
+  library("ggplot2")
+  ggplot(d, aes(x=condition, y=count)) + ggtitle("MAGEA4")+
+    geom_point(position=position_jitter(w=0.1,h=0)) + 
+    scale_y_log10(breaks=c(25,100,400))
+```
+![2221638567293_ pic](https://user-images.githubusercontent.com/89502586/144675796-7bd81773-988e-4ac4-8e16-54838007c852.jpg)
+
+
+  - Box plot
+  
+```
+
+  d1 <- plotCounts(dds,gene="ENSG00000147381.10", intgroup="condition",returnData = T)
+              
+  ggplot(d1,aes(condition, count)) + geom_boxplot(aes(fill=condition)) + scale_y_log10()
+
+```
+
+![2231638567382_ pic](https://user-images.githubusercontent.com/89502586/144675873-bfd3ad6a-dbd0-4916-a9c0-c1d2bc041f5f.jpg)
+
+
+
+From the boxplot, it is obvious that this gene is signicant expressed between 2 groups.
+
