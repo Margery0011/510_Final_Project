@@ -70,9 +70,10 @@
 
 - Step2 : Find the corresponding  TCGA id by filename and change htseq counts filenames 
 
-     - 1. Map Filenames to TCGA id & Save it as `Duct/Lobular_filename_TCGAid.txt.txt`
+     - 1. Map Filenames to TCGA id & Save it as `Duct/Lobular_filename_TCGAid.txt`
       
-      The example script is provided by the following code:
+  
+  The example script is provided by the following code:
       
      ```
       metadata <- jsonlite::fromJSON("*Meta.json*")
@@ -115,8 +116,9 @@
     
 - Step3: Change filename 
 
-      - 1.  Use `change_name.sh` to change the filenames into TCGA-Format
+     - 1.  Use `change_name.sh` to change the filenames into TCGA-Format
 
+     
      ```
      #!/bin/bash
 
@@ -205,32 +207,32 @@
 
      - 1. remove the suffix of filename in `sampleTable`
 
-```
-library(tidyr)
-sampleTable <- sampleTable %>%
-  tidyr::separate(fileName,into = c("fileName"),sep = "\\.")
-```
+     ```
+     library(tidyr)
+     sampleTable <- sampleTable %>%
+          tidyr::separate(fileName,into = c("fileName"),sep = "\\.")
+     ```
      
      - 2. Merge the name information and clinicla information
      
      ```
-     colnames(Col_Duct_Lobular)[2] <- "fileName"
-     sampleTable <- merge(sampleTable,Col_Duct_Lobular,by="fileName")
+          colnames(Col_Duct_Lobular)[2] <- "fileName"
+          sampleTable <- merge(sampleTable,Col_Duct_Lobular,by="fileName")
      ```
      
      - 3. Select the necessary columnns only
      
      ```
-     library(dplyr)
-     sampleTableselect <- sampleTable%>%
-     dplyr::select(fileName,sampleName.x,condition,ajcc_pathologic_stage)
+          library(dplyr)
+          sampleTableselect <- sampleTable%>%
+               dplyr::select(fileName,sampleName.x,condition,ajcc_pathologic_stage)
      ```
 
      - 4. Add the `Stage` factor
      
      ```
-     sampleTableselect$condition <- factor(sampleTableselect$condition)
-     sampleTableselect$Stage <- factor(sampleTableselect$ajcc_pathologic_stage)
+          sampleTableselect$condition <- factor(sampleTableselect$condition)
+          sampleTableselect$Stage <- factor(sampleTableselect$ajcc_pathologic_stage)
      ```
      
      ![2081638486290_ pic](https://user-images.githubusercontent.com/89502586/144517079-d170bf33-2ef0-4495-8861-f49e84336fef.jpg)
@@ -239,10 +241,10 @@ sampleTable <- sampleTable %>%
      - 5. Build the `DESeqDataset` by Multiple factors
      
      ```
-     ddsMF <- DESeqDataSetFromHTSeqCount(sampleTable = sampleTableselect,
+          ddsMF <- DESeqDataSetFromHTSeqCount(sampleTable = sampleTableselect,
                                        directory = directory,
                                        design= ~ condition + Stage)
-     ddsMF
+          ddsMF
      ```
      
      ![2071638486138_ pic](https://user-images.githubusercontent.com/89502586/144516844-6cf5cba0-822d-4b5b-9448-b71292537066.jpg)
@@ -288,9 +290,9 @@ sampleTable <- sampleTable %>%
      - 2. Check its dimension 
 
      ```
-     diff_gene_deseq2 <-subset(res, padj <= 0.05 & abs(log2FoldChange) >= 1.5)
-     dim(diff_gene_deseq2)
-     head(diff_gene_deseq2)
+          diff_gene_deseq2 <-subset(res, padj <= 0.05 & abs(log2FoldChange) >= 1.5)
+          dim(diff_gene_deseq2)
+          head(diff_gene_deseq2)
      ```
 
 
@@ -303,45 +305,46 @@ sampleTable <- sampleTable %>%
      - 1. Transfer the DEG results into data.frame
      
      ```
-     library(dplyr)
-     library(tibble)
-     filtered_res <- diff_gene_deseq2 %>% 
-     data.frame() %>% 
-     rownames_to_column("gene_id")
+          library(dplyr)
+          library(tibble)
+          filtered_res <- diff_gene_deseq2 %>% 
+          data.frame() %>% 
+          rownames_to_column("gene_id")
      ```
      - 2. Remove the version number of EnsemblID
 
      ```
-     library(tidyr)
-     filtered_res <- filtered_res %>%
-     tidyr::separate(gene_id,into = c("gene_id"),sep = "\\.")
+          library(tidyr)
+          filtered_res <- filtered_res %>%
+               tidyr::separate(gene_id,into = c("gene_id"),sep = "\\.")
      ```
      
      - 3. Add transfered gene symble ID for recognization and Entrizid  ID (just in case)
      
      ```
-     library(AnnotationDbi)
-     library(org.Hs.eg.db)
-     filtered_res$symbol <- mapIds(org.Hs.eg.db,
+          library(AnnotationDbi)
+          library(org.Hs.eg.db)
+          filtered_res$symbol <- mapIds(org.Hs.eg.db,
                      keys=filtered_res$gene_id,
                      column="SYMBOL",
                      keytype="ENSEMBL",
                      multiVals="first")
-     filtered_res$entrez <- mapIds(org.Hs.eg.db,
+          filtered_res$entrez <- mapIds(org.Hs.eg.db,
                      keys=filtered_res$gene_id,
                      column="ENTREZID",
                      keytype="ENSEMBL",
                      multiVals="first")
      ```
+     
      - 4. Remove genes if the symbol is NA or duplicate 
 
      ```
-     library(dplyr)
-     gene_distinct <- filtered_res %>% 
-     ## remove NA
-     filter(symbol!="NA") %>% 
-     ## remove duplicate
-     distinct(symbol,.keep_all = T)
+          library(dplyr)
+          gene_distinct <- filtered_res %>% 
+          ## remove NA
+          filter(symbol!="NA") %>% 
+          ## remove duplicate
+          distinct(symbol,.keep_all = T)
       ```
      
     The number of DEG has reduced from 309
@@ -357,8 +360,8 @@ sampleTable <- sampleTable %>%
 Pass the `dds` object to the function  `lfcShrink` and use `apeglm`  to shrink effect size.
 
 ```
-resLFC <- lfcShrink(dds, coef="condition_Lobulargroup_vs_Ductgroup", type="apeglm")
-resLFC
+     resLFC <- lfcShrink(dds, coef="condition_Lobulargroup_vs_Ductgroup", type="apeglm")
+     resLFC
 ```
 
 ![1971638377071_ pic_hd](https://user-images.githubusercontent.com/89502586/144276277-82db13a4-478c-4ec1-93d0-ede11b3ab8e5.jpg)
@@ -369,7 +372,7 @@ resLFC
 ### Information of results columns
 
      ```
-     mcols(res)$description   
+          mcols(res)$description   
      ```
      
  ![1991638379214_ pic](https://user-images.githubusercontent.com/89502586/144282346-b283506a-9e11-4383-9ae2-678ad21ae51a.jpg)
@@ -382,7 +385,7 @@ resLFC
     - res
 
      ```
-     plotMA(res, ylim=c(-2,2))
+          plotMA(res, ylim=c(-2,2))
      ```
 
 ![1011637735879_ pic_hd](https://user-images.githubusercontent.com/89502586/144274461-70ac29c8-2fa8-442f-9e6b-517aa77cd8d7.jpg)
@@ -394,7 +397,7 @@ Points which fall out of the window are plotted as open triangles pointing eithe
      - resLFC
      
      ```
-     plotMA(resLFC, ylim=c(-2,2))
+          plotMA(resLFC, ylim=c(-2,2))
      ```
      
      
@@ -414,7 +417,7 @@ Plot-Gene can be selected by rowname or by numeric index , here we selected the 
 
 
      ```
-     plotCounts(dds, gene=which.min(res$padj), intgroup="condition")
+          plotCounts(dds, gene=which.min(res$padj), intgroup="condition")
      ```
 
 ![1041637735965_ pic](https://user-images.githubusercontent.com/89502586/144279820-e07fb29a-04e7-419d-8fc6-426d98c78013.jpg)
