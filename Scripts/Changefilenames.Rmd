@@ -159,4 +159,6 @@ Duct_Lobular <- rbind(Duct1,Lobular1)
 Col_Duct_Lobular <- merge(Duct_Lobular,coldata,by="case_submitter_id")
 ```
 
-
+```{r}
+ write.csv(Col_Duct_Lobular,"Col_Duct_Lobular.csv")
+``` 
