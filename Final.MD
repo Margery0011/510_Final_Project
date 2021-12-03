@@ -34,6 +34,8 @@
        
 ## Rename files & Build a clinical data  frame
 
+Done by [Changefilenames.Rmd](https://github.com/Margery0011/510_Final_Project/blob/main/Scripts/Changefilenames.Rmd)
+
 *Do not need to change the name of uploaded files in GoogleDrive*
 
 - Step1 : Read Downloaded clinical csv in both groups
@@ -41,8 +43,8 @@
     - 1. Read files
      
      ```{r}
-     coldata_lobular <- read.csv("clinical.cart.2021-12-02.Lobu/clinicalLobular.tsv",sep = "\t")
-     coldata_Duct <- read.csv("clinical.cart.2021-12-02Duct/clinicalDuct.tsv",sep = "\t")
+     coldata_lobular <- read.csv("~/Files/linicalLobular.tsv",sep = "\t")
+     coldata_Duct <- read.csv("~/Files/clinicalDuct.tsv",sep = "\t")
      ```
      - 2. Remove duplicated values
 
@@ -130,9 +132,9 @@
      
      *Useage* : 
      
-     bash change_name.sh Lobular_filename_TCGAid.txt
+     bash change_name.sh ~/Files/Lobular_filename_TCGAid.txt
      
-     bash change_name.sh Duct_filename_TCGAid.txt
+     bash change_name.sh ~/Files/Duct_filename_TCGAid.txt
 
      - 2. I want the filename to be as "Ductgroup/Lobulargroup + Digital seria number" 
      - 3. So, I Used Excel to connect this name to TCGA id  
@@ -165,8 +167,8 @@
      
      *Useage* : 
      
-     bash name_change.sh Ductgroupchange.txt
-     bash name_change.sh Lobulargroupchange.txt
+     bash name_change.sh ~/Files/Ductgroupchange.txt
+     bash name_change.sh ~/Files/Lobulargroupchange.txt
      
      
      - 5. Paste these files into a new folder named `New_Lobular_Duct`
