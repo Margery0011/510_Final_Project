@@ -435,7 +435,81 @@ From the IPA  result, gene `MAGEA4` which is  Down-Regulataed compared to the  r
 
 From the boxplot, it is obvious that this gene is signicant expressed between 2 groups.
 
+### Data transformations and visualization 
 
+The mean and standard deviation of the converted data between samples were plotted by these Transformations
+
+- dds
+
+```
+vsd <- vst(dds, blind=FALSE)
+ntd <- normTransform(dds)
+```
+
+`meanSdPlot(assay(ntd))`
+
+![2241638568415_ pic](https://user-images.githubusercontent.com/89502586/144677759-8d8e5370-216f-4737-8347-8ff468c07827.jpg)
+
+this gives log2(n + 1)
+
+`meanSdPlot(assay(vsd))`
+
+
+![2251638568497_ pic](https://user-images.githubusercontent.com/89502586/144677871-99c19958-b889-4014-8189-77e1b3e56b93.jpg)
+
+variance stabilizing transformation
+
+The shifted logarithm has elevated standard deviation in the lower count range, and while for the variance stabilized data the standard deviation is roughly constant along the whole dynamic range.
+
+- ddsMF
+
+
+
+```
+vsd <- vst(ddsMF, blind=FALSE)
+ntd <- normTransform(ddsMF)
+```
+
+
+### Data Evaluation and visualization (Using Multiple Factors : condition and Stage)
+
+- Heatmap of the count matrix
+
+      - ntdMF
+      
+![2261638569283_ pic](https://user-images.githubusercontent.com/89502586/144679361-6885a07e-fb97-4c9b-b252-8aef21c46167.jpg)
+
+     - vsdMF
+     
+ ![2271638569294_ pic](https://user-images.githubusercontent.com/89502586/144679427-fde0fbcd-8b09-487f-937a-85204d0bc16b.jpg)
+
+
+-  Heatmap of the sample-to-sample distances
+
+Sample Clustering 
+
+Here, I applyed the `dist` function to the transpose of the transformed count matrix to get sample-to-sample distances.
+
+`sampleDists <- dist(t(assay(vsdMF)))`
+
+Use `Euclidean distance` 
+
+```
+     library("RColorBrewer")
+     sampleDistMatrix <- as.matrix(sampleDists)
+     rownames(sampleDistMatrix) <- paste(vsdMF$condition, vsdMF$type,vsdMF$Stage, sep="-")
+     colnames(sampleDistMatrix) <- NULL
+     colors <- colorRampPalette( rev(brewer.pal(9, "Blues")) )(255)
+
+     pheatmap(sampleDistMatrix,
+               clustering_distance_rows=sampleDists,
+               clustering_distance_cols=sampleDists,
+               col=colors,show_rownames = F)
+```
+
+![2281638569531_ pic](https://user-images.githubusercontent.com/89502586/144679963-65ee89b3-a67f-4368-8786-644cfbed4420.jpg)
+
+This heatmap shows the similarity between samples.
 
 ##  Transfer Names
 
