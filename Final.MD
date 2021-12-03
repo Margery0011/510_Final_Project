@@ -465,7 +465,7 @@ colnames(Ensembl_ID_TO_Genename) <- c("Ensembl_ID","gene_id")
   - 1. Read DEG  file 
 
 ```
-     diff_gene_deseq2 <- read.csv("New_DEG_Lobular_Duct.csv")
+     diff_gene_deseq2 <- read.csv("~/Results/New_DEG_Lobular_Duct.csv")
 ```
 
   - 2. Change column name
