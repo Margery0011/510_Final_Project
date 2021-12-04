@@ -1,0 +1,294 @@
+"Categories","Diseases or Functions Annotation","p-value","Molecules","# Molecules"
+"Cardiovascular Disease,Cardiovascular System Development and Function,Cell Morphology,Cellular Function and Maintenance,Organismal Injury and Abnormalities,Tissue Morphology","Permeability of endothelial cells",0.000173,"AZU1,NR4A1,PROK1",3
+"Cellular Development,Cellular Growth and Proliferation,Hematological System Development and Function,Hematopoiesis,Lymphoid Tissue Structure and Development,Tissue Development","Colony formation of granulocytes",0.000338,"CSF3,PROK1",2
+"Metabolic Disease,Organismal Injury and Abnormalities","Cobalamin disorder",0.000454,"DCDC2C,TCN1",2
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Abnormality of left ventricle",0.00049,"AGTR2,APOC3,DES,GABRA4",4
+"Cardiovascular Disease,Hematological Disease,Metabolic Disease,Organismal Injury and Abnormalities","Hypercholesterolemia",0.000654,"AGTR2,APOC3,GABRA4",3
+"Cellular Development,Cellular Growth and Proliferation,Hematological System Development and Function,Hematopoiesis,Lymphoid Tissue Structure and Development,Tissue Development","Colony formation of phagocytes",0.000659,"CSF3,PROK1",2
+"Cellular Development,Cellular Growth and Proliferation,Hematological System Development and Function,Hematopoiesis,Lymphoid Tissue Structure and Development,Tissue Development","Development of macrophages",0.000735,"CSF3,PROK1",2
+"Cell-To-Cell Signaling and Interaction","Signal transduction",0.000987,"ADGRD2,AGTR2,APOC3,CGA,EDN3,LALBA,NPY2R,NR4A1,PROK1",9
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Aortic valve disease",0.00101,"AGTR2,APOC3,GABRA4",3
+"Connective Tissue Disorders,Immunological Disease,Inflammatory Disease,Inflammatory Response,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Polyarticular juvenile rheumatoid arthritis",0.00169,"EDN3,FOSB,NR4A1",3
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Ischemia of heart",0.00173,"AGTR2,CSF3,GABRA4,mir-126",4
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Valvular regurgitation of mitral valve",0.00197,"AGTR2,GABRA4",2
+"Lipid Metabolism,Molecular Transport,Small Molecule Biochemistry","Uptake of dinoprost",0.00212,"SLC22A7",1
+"Endocrine System Disorders,Hereditary Disorder,Organismal Injury and Abnormalities,Reproductive System Disease","Premature ovarian failure type 14",0.00212,"GDF9",1
+"Cardiovascular System Development and Function","Fenestration of endothelial cells",0.00212,"PROK1",1
+"Cellular Function and Maintenance,Hematological System Development and Function,Inflammatory Response","Metabolism by neutrophils",0.00212,"CSF3",1
+"Cellular Development,Cellular Growth and Proliferation,Hematological System Development and Function,Hematopoiesis,Lymphoid Tissue Structure and Development,Tissue Development","Colony formation of neutrophils",0.00212,"CSF3",1
+"Endocrine System Disorders,Organismal Injury and Abnormalities,Reproductive System Disease","Formation of ovarian cyst",0.00212,"PROK1",1
+"Cellular Development,Cellular Growth and Proliferation,Connective Tissue Development and Function,Tissue Development","Proliferation of white adipocytes",0.00212,"VSTM2A",1
+"Developmental Disorder,Gastrointestinal Disease,Neurological Disease,Organismal Injury and Abnormalities","Susceptibility to Hirschsprung disease type 4",0.00212,"EDN3",1
+"Amino Acid Metabolism,Small Molecule Biochemistry","Catabolism of L-ornithine",0.00212,"OTC",1
+"Cardiovascular Disease,Hematological Disease,Metabolic Disease,Organismal Injury and Abnormalities","Hyperalphalipoproteinemia type 2",0.00212,"APOC3",1
+"Cardiovascular System Development and Function,Cellular Function and Maintenance,Tissue Development","Organization of microvascular endothelial cells",0.00212,"PROK1",1
+"Connective Tissue Disorders,Dermatological Diseases and Conditions,Developmental Disorder,Gastrointestinal Disease,Organismal Development,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Waardenburg syndrome type 4B",0.00212,"EDN3",1
+"Cellular Compromise","Calcification of fibroblasts",0.00212,"APOC3",1
+"Cardiovascular Disease,Hereditary Disorder,Organismal Injury and Abnormalities","Catecholaminergic polymorphic ventricular tachycardia type 5",0.00212,"TRDN",1
+"Cellular Function and Maintenance,Cellular Movement,Hematological System Development and Function,Infectious Diseases","Release of neutrophils",0.00212,"CSF3",1
+"Cellular Growth and Proliferation,Organismal Development","Growth of Enterococcus faecalis",0.00212,"AZU1",1
+"Cell Morphology,Cellular Assembly and Organization","Segmentation of nucleus",0.00212,"CSF3",1
+"Cardiovascular Disease,Cardiovascular System Development and Function,Hereditary Disorder,Organ Morphology,Organismal Development,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Dilated cardiomyopathy 1i",0.00212,"DES",1
+"Hereditary Disorder,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Kaeser type neurogenic scapuloperoneal syndrome",0.00212,"DES",1
+"Metabolic Disease,Nutritional Disease,Organismal Injury and Abnormalities","Transcobalamin I deficiency",0.00212,"TCN1",1
+"Cancer,Cellular Development,Organismal Injury and Abnormalities","Maturation of CML-BC progenitors",0.00212,"CSF3",1
+"Developmental Disorder,Hereditary Disorder,Organismal Functions,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Limb-girdle muscular dystrophy type 2R",0.00212,"DES",1
+"Cell Death and Survival,Organismal Survival","Survival of Escherichia coli 25922",0.00212,"TFPI2",1
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Left ventricular dysfunction",0.00226,"AGTR2,APOC3,DES",3
+"Endocrine System Development and Function,Molecular Transport,Small Molecule Biochemistry","Secretion of hormone",0.0028,"CGA,EDN3",2
+"Cardiovascular System Development and Function,Cell Death and Survival","Survival of vascular endothelial cells",0.0031,"NR4A1,PROK1",2
+"Cardiovascular Disease,Cardiovascular System Development and Function,Cell Morphology,Cellular Function and Maintenance,Organismal Injury and Abnormalities,Tissue Morphology","Permeability of vascular endothelial cells",0.00359,"NR4A1,PROK1",2
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Arrhythmia",0.00366,"AGTR2,DES,GABRA4,TRDN",4
+"Cardiovascular System Development and Function,Cell Death and Survival","Cell viability of microvascular endothelial cells",0.00424,"PROK1",1
+"Hematological System Development and Function,Hematopoiesis,Inflammatory Response,Tissue Morphology","Quantity of dendritic precursor cells",0.00424,"CSF3",1
+"Cellular Assembly and Organization,Cellular Compromise","Disruption of lipid bilayer",0.00424,"AZU1",1
+"Hematological System Development and Function,Inflammatory Response,Tissue Morphology","Quantity of plasmacytoid dendritic cells",0.00424,"CSF3",1
+"Cardiovascular Disease,Hereditary Disorder,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Desmin-related myopathy",0.00424,"DES",1
+"Developmental Disorder,Hereditary Disorder,Metabolic Disease,Organismal Injury and Abnormalities","Ornithine transcarbamylase deficiency",0.00424,"OTC",1
+"Cellular Function and Maintenance,Cellular Growth and Proliferation,Hematological System Development and Function","Production of lymphocytes",0.00424,"CSF3",1
+"Cell Signaling","G-protein signaling, coupled to cGMP nucleotide second messenger",0.00424,"AGTR2",1
+"Cellular Function and Maintenance,Cellular Growth and Proliferation,Hematological System Development and Function","Production of monocytes",0.00424,"CSF3",1
+"Cancer,Endocrine System Disorders,Organismal Injury and Abnormalities,Reproductive System Disease","Gonadotrophinoma",0.00424,"BRINP3",1
+"Tissue Morphology","Quantity of Pseudomonas aeruginosa",0.00424,"CSF3",1
+"Organismal Development","Production of mucus",0.00424,"NR4A1",1
+"Lipid Metabolism,Molecular Transport,Small Molecule Biochemistry,Vitamin and Mineral Metabolism","Quantity of vitamin A",0.00424,"APOC3",1
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Subclinical atherosclerosis",0.00424,"APOC3",1
+"Amino Acid Metabolism,Endocrine System Development and Function,Molecular Transport,Small Molecule Biochemistry","Secretion of L-triiodothyronine",0.00424,"CGA",1
+"Cell Death and Survival,Cell-To-Cell Signaling and Interaction,Hematological System Development and Function,Inflammatory Response","Antibody-dependent cell-mediated cytotoxic reaction of neutrophils",0.00424,"CSF3",1
+"Cell Cycle,Cell Morphology,Cellular Assembly and Organization,DNA Replication, Recombination, and Repair","Structure of chromatin",0.00424,"LALBA",1
+"Nutritional Disease","Obesity",0.00447,"AGTR2,APOC3,GABRA4,NPY2R,UCP1",5
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Stenosis of aortic valve",0.00467,"AGTR2,GABRA4",2
+"Cancer,Organismal Injury and Abnormalities","Adenoma",0.00492,"BRINP3,EDN3,FOSB,TCN1,UCP1",5
+"Cardiovascular Disease,Cell Death and Survival,Organismal Injury and Abnormalities","Myocardial necrosis",0.00525,"AGTR2,GABRA4",2
+"Cellular Function and Maintenance,Cellular Growth and Proliferation,Hematological System Development and Function","Production of neutrophils",0.00635,"CSF3",1
+"Carbohydrate Metabolism,Small Molecule Biochemistry","Synthesis of lactose",0.00635,"LALBA",1
+"Hematological System Development and Function,Hypersensitivity Response,Tissue Morphology","Quantity of basophils",0.00635,"CSF3",1
+"Amino Acid Metabolism,Small Molecule Biochemistry","Biosynthesis of citrulline",0.00635,"OTC",1
+"Cellular Movement,Hematological System Development and Function,Hematopoiesis,Immune Cell Trafficking,Inflammatory Response","Mobilization of colony-forming granulocyte-macrophages",0.00635,"CSF3",1
+"Cellular Movement","Migration of endocrine cell lines",0.00635,"BRINP3",1
+"Organismal Functions","Thermogenesis",0.00635,"UCP1",1
+"Cardiovascular Disease,Cellular Compromise,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Calcification of vascular smooth muscle cells",0.00635,"APOC3",1
+"Tissue Morphology","Remodeling of blood vessel",0.00635,"AGTR2",1
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Chronic New York Heart Association class II-IV heart failure",0.00635,"AGTR2",1
+"Molecular Transport,Nucleic Acid Metabolism,Small Molecule Biochemistry","Transport of cyclic GMP",0.00635,"SLC22A7",1
+"Connective Tissue Development and Function,Reproductive System Development and Function","Decidualization of stromal cells",0.00635,"CGA",1
+"Cell Death and Survival","Killing of Salmonella enterica subsp. enterica serovar Typhimurium",0.00635,"AZU1",1
+"Cardiovascular Disease,Hematological Disease,Metabolic Disease,Organismal Injury and Abnormalities","Severe hypertriglyceridemia",0.00635,"APOC3",1
+"DNA Replication, Recombination, and Repair,Gene Expression","Bending of DNA",0.00635,"TFF1",1
+"Metabolic Disease,Nutritional Disease,Organismal Injury and Abnormalities","Cobalamin deficiency",0.00635,"TCN1",1
+"Vitamin and Mineral Metabolism","Metabolism of vitamin",0.00637,"APOC3,GC,TCN1",3
+"Cellular Development,Cellular Growth and Proliferation,Hematological System Development and Function,Hematopoiesis,Tissue Development","Colony formation of hematopoietic progenitor cells",0.00675,"CSF3,PROK1",2
+"Cardiovascular System Development and Function,Cellular Movement","Migration of endothelial cells",0.00696,"CSF3,mir-126,NR4A1,PROK1",4
+"Cardiovascular System Development and Function,Cellular Development,Cellular Function and Maintenance,Cellular Growth and Proliferation,Organismal Development,Tissue Development","Cell proliferation of vascular endothelial cells",0.00729,"mir-126,NR4A1,PROK1",3
+"Post-Translational Modification,Protein Degradation,Protein Synthesis","Hydrolysis of protein fragment",0.00751,"AZU1,KLK12,mir-126",3
+"Cardiovascular System Development and Function,Cellular Movement","Migration of vascular endothelial cells",0.00761,"CSF3,NR4A1,PROK1",3
+"Cell Morphology","Keratinization",0.00817,"KLK12,KRT27,KRT77",3
+"Cellular Movement","Invasion of endocrine cell lines",0.00846,"BRINP3",1
+"Drug Metabolism,Molecular Transport,Small Molecule Biochemistry","Uptake of indomethacin",0.00846,"SLC22A7",1
+"Endocrine System Development and Function,Molecular Transport,Small Molecule Biochemistry","Secretion of peptide hormone derivative",0.00846,"EDN3",1
+"Drug Metabolism,Molecular Transport,Small Molecule Biochemistry","Uptake of ibuprofen",0.00846,"SLC22A7",1
+"Cellular Development,Cellular Growth and Proliferation,Connective Tissue Development and Function,Skeletal and Muscular System Development and Function,Tissue Development","Colony formation of osteoclast precursor cells",0.00846,"PROK1",1
+"Cell-To-Cell Signaling and Interaction","Binding of Pseudomonas aeruginosa",0.00846,"TFPI2",1
+"Cellular Development,Cellular Growth and Proliferation,Hematological System Development and Function,Inflammatory Response,Lymphoid Tissue Structure and Development","Proliferation of neutrophils",0.00846,"CSF3",1
+"Hematological System Development and Function,Immune Cell Trafficking,Inflammatory Response,Tissue Development","Accumulation of neutrophils",0.00846,"CSF3",1
+"Drug Metabolism,Molecular Transport,Small Molecule Biochemistry","Uptake of salicylic acid",0.00846,"SLC22A7",1
+"Hematological System Development and Function,Lymphoid Tissue Structure and Development,Tissue Morphology","Quantity of Th17 cells",0.00846,"CSF3",1
+"Cardiovascular Disease,Organismal Injury and Abnormalities","New York Heart Association class IV heart failure",0.00846,"AGTR2",1
+"Infectious Diseases","Infection by Clostridium difficile",0.00846,"CSF3",1
+"Drug Metabolism,Molecular Transport,Small Molecule Biochemistry","Uptake of ketoprofen",0.00846,"SLC22A7",1
+"Developmental Disorder,Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities,Psychological Disorders,Respiratory Disease","Autosomal dominant congenital central hypoventilation syndrome",0.00846,"EDN3",1
+"Cardiovascular System Development and Function,Cell Morphology,Cellular Development,Organismal Development,Tissue Development","Sprouting of microvascular endothelial cells",0.00846,"PROK1",1
+"Cellular Development,Cellular Growth and Proliferation,Hematological System Development and Function,Hematopoiesis,Lymphoid Tissue Structure and Development,Tissue Development","Colony formation of colony-forming unit macrophages",0.00846,"PROK1",1
+"Developmental Disorder,Hereditary Disorder,Organismal Functions,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Limb-girdle muscular dystrophy type 2",0.00943,"DES,mir-126",2
+"Cancer,Dermatological Diseases and Conditions,Organismal Injury and Abnormalities","Skin squamous cell carcinoma",0.0101,"BRINP3,CSN1S1,CSN2,MUC7,NELL1,TCN1,TRDN",7
+"Cardiovascular System Development and Function,Organ Development,Organ Morphology","Contraction of heart",0.0102,"DES,TRDN",2
+"Developmental Disorder,Hereditary Disorder,Metabolic Disease,Organismal Injury and Abnormalities,Renal and Urological Disease","Methylmalonic aciduria with homocystinuria cblC type",0.0106,"DCDC2C",1
+"Cancer,Dermatological Diseases and Conditions,Organismal Injury and Abnormalities","Invasive cutaneous melanoma",0.0106,"EDN3",1
+"Organismal Functions","Basal metabolic rate",0.0106,"UCP1",1
+"Cell Death and Survival","Survival of bone marrow cell lines",0.0106,"CSF3",1
+"Cardiovascular Disease,Organismal Injury and Abnormalities","New York Heart Association class II heart failure",0.0106,"AGTR2",1
+"Cell Death and Survival","Killing of prostate cancer cell lines",0.0106,"NR4A1",1
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Symptomatic stage chronic systolic heart failure",0.0106,"AGTR2",1
+"Cell-To-Cell Signaling and Interaction,Cellular Growth and Proliferation,Hematological System Development and Function,Inflammatory Response","Stimulation of neutrophils",0.0106,"CSF3",1
+"Cell-To-Cell Signaling and Interaction","Binding of Escherichia coli 25922",0.0106,"TFPI2",1
+"Cardiovascular Disease,Inflammatory Disease,Organismal Injury and Abnormalities","Postmyocardial infarction syndrome",0.0106,"AGTR2",1
+"Respiratory Disease","Respiratory failure",0.0108,"EDN3,GABRA4",2
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Disorder of coronary artery",0.0108,"AGTR2,APOC3,GABRA4,mir-126",4
+"Cancer,Endocrine System Disorders,Organismal Injury and Abnormalities","Benign neoplasm of endocrine gland",0.0109,"BRINP3,FOSB,UCP1",3
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Acute coronary syndrome",0.0119,"AGTR2,CSF3,GABRA4",3
+"Cancer,Organismal Injury and Abnormalities","Mucosal melanoma",0.0122,"ADGRD2,KRT27,OTC,TCN1,VSTM2A",5
+"Embryonic Development","Frequency of embryoid body cells",0.0127,"CSF3",1
+"Hematological Disease,Immunological Disease","Febrile neutropenia",0.0127,"CSF3",1
+"Cellular Development,Cellular Growth and Proliferation,Tissue Development","Colony formation of stem cells",0.0127,"PROK1",1
+"Cell Death and Survival","Killing of Enterococcus faecalis",0.0127,"AZU1",1
+"Lipid Metabolism,Molecular Transport,Small Molecule Biochemistry","Quantity of fat",0.0127,"UCP1",1
+"Hematological System Development and Function,Hematopoiesis,Inflammatory Response,Tissue Morphology","Quantity of colony-forming granulocyte-macrophages",0.0127,"CSF3",1
+"Embryonic Development,Organ Development,Organismal Development,Reproductive System Development and Function,Tissue Development","Lactation",0.0127,"CSN2",1
+"Connective Tissue Development and Function,Hematological System Development and Function,Organismal Development,Tissue Morphology","Quantity of PBMCs",0.0127,"CSF3",1
+"Carbohydrate Metabolism,Small Molecule Biochemistry","Signaling of inositol phosphate",0.0127,"EDN3",1
+"Cardiovascular Disease,Organismal Injury and Abnormalities","New York Heart Association class III heart failure",0.0127,"AGTR2",1
+"Cancer,Endocrine System Disorders,Organismal Injury and Abnormalities","Aldosterone producing adrenocortical adenoma",0.0128,"FOSB,UCP1",2
+"Neurological Disease,Organismal Injury and Abnormalities","Epileptic seizure",0.0143,"FOSB,GABRA4,NR4A1",3
+"Nutritional Disease","Severe obesity",0.0144,"GABRA4,NPY2R",2
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Stable disease stage heart failure",0.0148,"AGTR2",1
+"Cellular Movement,Nervous System Development and Function","Migration of neuroglia",0.0148,"AZU1",1
+"Cellular Development,Connective Tissue Development and Function,Tissue Development","Differentiation of brown adipocytes",0.0148,"VSTM2A",1
+"Developmental Disorder,Gastrointestinal Disease,Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities,Psychological Disorders,Respiratory Disease","Haddad syndrome",0.0148,"EDN3",1
+"Cell Death and Survival","Killing of Staphylococcus aureus",0.0148,"AZU1",1
+"Antimicrobial Response,Inflammatory Response","Antibacterial response",0.0157,"AZU1,LALBA",2
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Atherosclerosis",0.0165,"APOC3,FOSB,GABRA4,mir-126",4
+"Cellular Movement,Hematological System Development and Function,Immune Cell Trafficking,Inflammatory Response","Chemotaxis of neutrophils",0.0167,"AZU1,EDN3",2
+"Connective Tissue Development and Function,Tissue Morphology","Quantity of connective tissue",0.0167,"CSF3,UCP1",2
+"Organismal Injury and Abnormalities","Benign lesion",0.0168,"BRINP3,EDN3,FOSB,GABRA4,NR4A1,TCN1,UCP1",7
+"Cellular Development,Cellular Growth and Proliferation,Hematological System Development and Function,Hematopoiesis,Lymphoid Tissue Structure and Development,Tissue Development","Colony formation of colony-forming units granulocytes",0.0168,"PROK1",1
+"Cellular Movement","Chemotaxis of melanoma cell lines",0.0168,"mir-126",1
+"Lipid Metabolism,Molecular Transport,Small Molecule Biochemistry","Import of cholesterol",0.0168,"APOC3",1
+"Cardiovascular System Development and Function,Hematological System Development and Function","Mean arterial pressure",0.0168,"AGTR2",1
+"Cell Signaling,Post-Translational Modification","Activation of protein kinase C",0.0168,"AZU1",1
+"Cellular Growth and Proliferation,Organismal Development","Growth of Candida albicans",0.0168,"AZU1",1
+"Cell Death and Survival","Killing of Pseudomonas aeruginosa",0.0168,"AZU1",1
+"Nutritional Disease","Body mass index",0.017,"NPY2R,UCP1",2
+"Cellular Movement","Chemotaxis",0.0174,"AZU1,EDN3,mir-126,NR4A1",4
+"Cardiovascular Disease,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Ischemic cardiomyopathy",0.0184,"AGTR2,mir-126",2
+"Cardiovascular System Development and Function,Embryonic Development,Organismal Development,Tissue Development","Morphogenesis of outflow tract",0.0189,"NPY2R",1
+"Cellular Development,Cellular Growth and Proliferation,Hematological System Development and Function,Hematopoiesis,Lymphoid Tissue Structure and Development","Proliferation of CD34+ cells",0.0189,"CSF3",1
+"Tissue Morphology","Quantity of lymphoma cell lines",0.0189,"CSF3",1
+"Hereditary Disorder,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Autosomal dominant myofibrillar myopathy",0.0189,"DES",1
+"Cell Cycle","G0/G1 phase transition of leukemia cell lines",0.0189,"CSF3",1
+"Cell Death and Survival","Apoptosis of CD34+ cells",0.0189,"CSF3",1
+"Cellular Growth and Proliferation","Proliferation of bone marrow cell lines",0.0189,"CSF3",1
+"Cellular Development,Embryonic Development,Organismal Development","Differentiation of embryoid body cells",0.0189,"CSF3",1
+"Lipid Metabolism,Molecular Transport,Small Molecule Biochemistry","Secretion of triacylglycerol",0.0189,"APOC3",1
+"Cardiovascular System Development and Function,Cell Morphology,Cellular Development,Organismal Development,Tissue Development","Tubulation of vascular endothelial cells",0.0191,"mir-126,NR4A1",2
+"Inflammatory Response","Inflammatory response",0.0207,"AZU1,EDN3,GC,mir-126",4
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Failure of heart",0.0207,"AGTR2,GABRA4,PROK1",3
+"Small Molecule Biochemistry","Efficacy of cisplatin",0.021,"CGA",1
+"Cancer,Organismal Injury and Abnormalities,Tumor Morphology","Regression of tumor",0.021,"NR4A1",1
+"Cardiovascular System Development and Function,Cell-To-Cell Signaling and Interaction","Attachment of endothelial cells",0.021,"TFPI2",1
+"Amino Acid Metabolism,Cell Signaling","Urea cycle",0.021,"OTC",1
+"Cell Death and Survival","Apoptosis of bone marrow cells",0.021,"CSF3",1
+"Cellular Assembly and Organization,Cellular Function and Maintenance,Tissue Development","Formation of intermediate filaments",0.021,"DES",1
+"Molecular Transport","Secretion of molecule",0.0211,"APOC3,CGA,EDN3",3
+"Cancer,Dermatological Diseases and Conditions,Organismal Injury and Abnormalities","Skin cancer",0.0211,"ADAM18,ADGRD2,AGTR2,AZU1,BRINP3,CGA,CRCT1,CSN1S1,CSN2,DCDC2C,DES,EDN3,FOSB,GABRA4,GC,GDF9,HOXB8,KRT27,KRT77,LALBA,MUC7,NELL1,NPY2R,NR4A1,OPRPN,OTC,PAGE2/PAGE2B,SLC22A7,TCN1,TEDDM1,TFF1,TFPI2,TRDN,VSTM2A",34
+"Organismal Development","Development of multicellular organism",0.0217,"CSF3,EDN3",2
+"Lipid Metabolism,Small Molecule Biochemistry,Vitamin and Mineral Metabolism","Metabolism of terpenoid",0.0225,"APOC3,CGA,GC",3
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Coronary artery disease",0.0227,"APOC3,GABRA4,mir-126",3
+"Cellular Movement,Hematopoiesis,Immune Cell Trafficking,Inflammatory Response","Migration of bone marrow cells",0.0231,"CSF3",1
+"Cellular Growth and Proliferation,Organismal Development","Proliferation of E. coli",0.0231,"AZU1",1
+"Neurological Disease,Organismal Injury and Abnormalities","Reye syndrome",0.0231,"OTC",1
+"Cardiovascular Disease,Neurological Disease,Organismal Injury and Abnormalities","Ischemic stroke",0.0232,"AGTR2,GABRA4",2
+"Cellular Development,Connective Tissue Development and Function,Tissue Development","Differentiation of connective tissue cells",0.0239,"FOSB,NELL1,VSTM2A",3
+"Cardiovascular Disease,Hereditary Disorder,Organismal Injury and Abnormalities","Familial arrhythmia",0.0248,"DES,TRDN",2
+"Cellular Movement","Migration of glioma cells",0.0252,"CSF3",1
+"Cardiovascular Disease,Hereditary Disorder,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Arrhythmogenic right ventricular dysplasia familial 9",0.0252,"DES",1
+"Cardiovascular Disease,Cardiovascular System Development and Function,Hereditary Disorder,Organ Morphology,Organismal Development,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Dilated cardiomyopathy 1S",0.0252,"DES",1
+"Cell Death and Survival","Killing of E. coli",0.0252,"AZU1",1
+"Cardiovascular Disease,Hematological Disease,Hereditary Disorder,Metabolic Disease,Organismal Injury and Abnormalities","Familial combined hyperlipidemia",0.0252,"APOC3",1
+"Molecular Transport","Transport of organic anion",0.0252,"SLC22A7",1
+"Cardiovascular Disease,Cardiovascular System Development and Function,Cell Morphology,Cellular Function and Maintenance,Organismal Injury and Abnormalities,Tissue Morphology","Permeability of microvascular endothelial cells",0.0252,"PROK1",1
+"Cellular Development,Cellular Growth and Proliferation,Connective Tissue Development and Function,Hematological System Development and Function,Hematopoiesis,Organismal Development,Tissue Development","Colony formation of erythroid cells",0.0252,"CSF3",1
+"Cell-To-Cell Signaling and Interaction,Hematological System Development and Function","Activation of myeloid cells",0.0252,"AZU1,GC",2
+"Infectious Diseases,Respiratory Disease","Infection of respiratory tract",0.0268,"AGTR2,GABRA4,TCN1",3
+"Organismal Injury and Abnormalities,Reproductive System Disease","Recurrent implantation failure",0.0272,"GABRA4",1
+"Cellular Assembly and Organization,Cellular Function and Maintenance","Organization of intermediate filaments",0.0272,"DES",1
+"Nervous System Development and Function","Nociception",0.0272,"OPRPN",1
+"Endocrine System Development and Function,Protein Synthesis,Small Molecule Biochemistry","Processing of peptide hormone derivative",0.0272,"CGA",1
+"Cellular Development,Connective Tissue Development and Function,Tissue Development","Differentiation of adipocytes",0.0281,"FOSB,VSTM2A",2
+"Gastrointestinal Disease,Organismal Injury and Abnormalities","Obstruction of intestine",0.0285,"EDN3,GABRA4",2
+"Cellular Development,Tissue Development","Maturation of bone marrow cells",0.0293,"CSF3",1
+"Hematological System Development and Function,Inflammatory Response,Tissue Morphology","Quantity of neutrophils",0.0293,"CSF3",1
+"Cellular Development,Cellular Growth and Proliferation,Embryonic Development,Organ Development,Organismal Development,Reproductive System Development and Function,Tissue Development","Generation of female germ cells",0.0293,"GDF9",1
+"Infectious Diseases","Extensively drug-resistant tuberculosis",0.0293,"GABRA4",1
+"Neurological Disease,Organismal Injury and Abnormalities,Psychological Disorders","Sleep Disorders",0.0293,"EDN3,GABRA4",2
+"Organismal Injury and Abnormalities,Renal and Urological Disease","Chronic kidney disease",0.0303,"AGTR2,CSF3,GABRA4",3
+"Connective Tissue Disorders,Inflammatory Disease,Inflammatory Response,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Osteoarthritis",0.0303,"GABRA4,NR4A1,TFPI2",3
+"Respiratory Disease","Respiratory distress",0.031,"AGTR2,GABRA4,TCN1",3
+"Cardiovascular Disease,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Acute myocardial infarction",0.0311,"AGTR2,CSF3",2
+"Cell Death and Survival,Organismal Injury and Abnormalities","Apoptosis of endothelial cells",0.0311,"AZU1,CSF3",2
+"Cellular Development","Epithelial-mesenchymal transition of adenocarcinoma cell lines",0.0314,"mir-126",1
+"Neurological Disease,Organismal Injury and Abnormalities","Atonic seizure",0.0314,"GABRA4",1
+"Cellular Development,Cellular Growth and Proliferation,Endocrine System Development and Function","Proliferation of endocrine cell lines",0.0314,"BRINP3",1
+"Organismal Survival","Survival of organism",0.0315,"CSF3,NR4A1,TFPI2",3
+"Inflammatory Disease,Organismal Injury and Abnormalities,Respiratory Disease","Acute respiratory distress syndrome",0.032,"AGTR2,GABRA4",2
+"Endocrine System Disorders,Gastrointestinal Disease,Metabolic Disease,Organismal Injury and Abnormalities,Renal and Urological Disease","Early stage diabetic nephropathy",0.032,"AGTR2,NR4A1",2
+"Cardiovascular Disease,Cardiovascular System Development and Function,Organ Morphology,Organismal Development,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Dilated cardiomyopathy",0.0325,"AGTR2,DES,mir-126",3
+"Neurological Disease,Organismal Injury and Abnormalities","Epilepsia partialis continua",0.0334,"GABRA4",1
+"Metabolic Disease,Organismal Injury and Abnormalities,Renal and Urological Disease","Microalbuminuria",0.0334,"AGTR2",1
+"Infectious Diseases,Inflammatory Disease,Inflammatory Response,Neurological Disease","Tuberculosis meningitis",0.0334,"GABRA4",1
+"Organismal Injury and Abnormalities,Psychological Disorders","Panic disorder without agoraphobia",0.0334,"GABRA4",1
+"Organismal Injury and Abnormalities,Psychological Disorders","Panic disorder with agoraphobia",0.0334,"GABRA4",1
+"Infectious Diseases","Disseminated tuberculosis",0.0334,"GABRA4",1
+"Behavior","Locomotion",0.0334,"NPY2R",1
+"Lipid Metabolism,Small Molecule Biochemistry","Homeostasis of triacylglycerol",0.0334,"APOC3",1
+"Neurological Disease,Organismal Injury and Abnormalities,Psychological Disorders","Complex insomnia",0.0334,"GABRA4",1
+"Neurological Disease,Organismal Injury and Abnormalities","Acute encephalopathy",0.0338,"AGTR2,GABRA4",2
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Stenosis of artery",0.0338,"GABRA4,mir-126",2
+"Organismal Development,Reproductive System Development and Function","Development of reproductive system",0.0347,"CSN2,GDF9",2
+"Cell-To-Cell Signaling and Interaction,Hematological System Development and Function,Immune Cell Trafficking,Inflammatory Response","Activation of phagocytes",0.0351,"AZU1,GC",2
+"Molecular Transport","Transport of molecule",0.0354,"APOC3,CGA,CSN2,EDN3,GC,SLC22A7,UCP1",7
+"Cell Death and Survival,Endocrine System Disorders,Gastrointestinal Disease,Organismal Injury and Abnormalities","Cell death of beta islet cells",0.0355,"APOC3",1
+"Cardiovascular System Development and Function,Cellular Development,Cellular Function and Maintenance,Cellular Growth and Proliferation,Organismal Development,Tissue Development","Proliferation of microvascular endothelial cells",0.0355,"PROK1",1
+"Cardiovascular Disease,Hematological Disease,Hereditary Disorder,Metabolic Disease,Organismal Injury and Abnormalities","Hyperlipoproteinemia type I",0.0355,"APOC3",1
+"Cell Death and Survival","Killing of cells",0.0361,"AZU1,NR4A1",2
+"Developmental Disorder,Hereditary Disorder,Metabolic Disease,Organismal Injury and Abnormalities","Inborn error of amino acid metabolism",0.0365,"DCDC2C,OTC",2
+"Cellular Assembly and Organization,Tissue Development","Formation of filaments",0.0369,"CSF3,DES,NR4A1",3
+"Lipid Metabolism,Small Molecule Biochemistry,Vitamin and Mineral Metabolism","Metabolism of vitamin D",0.0375,"GC",1
+"Cellular Movement","Migration of rhabdomyosarcoma cell lines",0.0375,"NR4A1",1
+"Connective Tissue Disorders,Developmental Disorder,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Pectus excavatum",0.0375,"GABRA4",1
+"Cardiovascular Disease,Organismal Injury and Abnormalities,Respiratory Disease","Cardiorespiratory arrest",0.0375,"GABRA4",1
+"Organismal Injury and Abnormalities,Renal and Urological Disease","Severe acute renal failure",0.0375,"GABRA4",1
+"Organismal Injury and Abnormalities,Renal and Urological Disease","End-stage chronic kidney disease",0.0375,"GABRA4",1
+"Cancer,Dermatological Diseases and Conditions,Organismal Injury and Abnormalities","Development of skin tumor",0.0375,"EDN3",1
+"Lipid Metabolism,Small Molecule Biochemistry","Catabolism of triacylglycerol",0.0375,"APOC3",1
+"Neurological Disease,Respiratory Disease,Skeletal and Muscular Disorders","Laryngismus",0.0375,"GABRA4",1
+"Organismal Injury and Abnormalities,Renal and Urological Disease","End-stage renal failure",0.0375,"GABRA4",1
+"Cancer,Organismal Injury and Abnormalities","Benign solid tumor",0.0381,"BRINP3,EDN3,FOSB,NR4A1,TCN1,UCP1",6
+"Cardiovascular Disease,Organismal Injury and Abnormalities,Respiratory Disease","Pulmonary Hypertension",0.0384,"AGTR2,GABRA4",2
+"Cardiovascular Disease","Severe cardiovascular disorder",0.0389,"AGTR2,APOC3",2
+"Cancer,Gastrointestinal Disease,Organismal Injury and Abnormalities","Advanced Dukes' stage colorectal cancer",0.0396,"mir-126",1
+"Lipid Metabolism,Molecular Transport,Small Molecule Biochemistry","Efflux of phospholipid",0.0396,"APOC3",1
+"Infectious Diseases,Inflammatory Disease,Inflammatory Response,Organismal Injury and Abnormalities,Respiratory Disease","Pneumocystosis jiroveci pneumonia",0.0396,"GABRA4",1
+"Cancer,Organismal Injury and Abnormalities","Development of melanoma",0.0396,"EDN3",1
+"Cancer,Cellular Development,Cellular Growth and Proliferation,Neurological Disease,Organismal Injury and Abnormalities,Tumor Morphology","Proliferation of glioma cells",0.0396,"CSF3",1
+"Neurological Disease","Acute tremor",0.0396,"GABRA4",1
+"Cell-To-Cell Signaling and Interaction","Intercellular communication",0.0408,"EDN3,LALBA",2
+"Gene Expression","Transcription",0.0409,"AZU1,CGA,CSF3,EDN3,FOSB,NELL1,NR4A1,TFF1,VSTM2A",9
+"Cell Morphology,Embryonic Development,Hair and Skin Development and Function,Organ Development,Organismal Development,Tissue Development","Keratinization of epidermis",0.0413,"KRT27,KRT77",2
+"Neurological Disease,Organismal Injury and Abnormalities,Psychological Disorders","Chronic insomnia",0.0416,"GABRA4",1
+"Molecular Transport","Transmembrane transport of H+",0.0416,"UCP1",1
+"Cardiovascular Disease,Hereditary Disorder,Organismal Injury and Abnormalities","Familial coronary disease",0.0416,"APOC3",1
+"Neurological Disease,Organismal Injury and Abnormalities","Acute prolonged motor seizure",0.0416,"GABRA4",1
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Heart failure with preserved ejection fraction",0.0416,"AGTR2",1
+"Connective Tissue Disorders,Inflammatory Disease,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Rheumatic Disease",0.0417,"AZU1,EDN3,FOSB,GABRA4,mir-126,NELL1,NR4A1,TFPI2",8
+"Organismal Injury and Abnormalities,Renal and Urological Disease","Chronic renal failure",0.0418,"CSF3,GABRA4",2
+"Cellular Movement","Cell movement",0.042,"AZU1,BRINP3,CSF3,EDN3,FOSB,GC,mir-126,NR4A1,PROK1,TFF1",10
+"Endocrine System Disorders,Gastrointestinal Disease,Metabolic Disease,Organismal Injury and Abnormalities","Diabetes mellitus",0.0427,"AGTR2,APOC3,GABRA4,GC,mir-126,NR4A1",6
+"Cellular Movement","Invasion of kidney cell lines",0.0436,"TFF1",1
+"Infectious Diseases","Infection of mammalia",0.0436,"CSF3",1
+"Developmental Disorder,Endocrine System Disorders,Organismal Injury and Abnormalities,Reproductive System Disease","Cryptorchidism",0.0436,"GABRA4",1
+"Cancer,Cellular Development,Organismal Injury and Abnormalities,Tumor Morphology","Differentiation of myeloid leukemia cells",0.0436,"CSF3",1
+"Small Molecule Biochemistry,Vitamin and Mineral Metabolism","Metabolism of cyanocobalamin",0.0436,"TCN1",1
+"Cancer,Dermatological Diseases and Conditions,Organismal Injury and Abnormalities","Skin carcinoma",0.0437,"ADAM18,BRINP3,CSN1S1,CSN2,DCDC2C,GABRA4,GC,HOXB8,LALBA,MUC7,NELL1,OPRPN,TCN1,TEDDM1,TFPI2,TRDN",16
+"Endocrine System Disorders,Organismal Injury and Abnormalities,Reproductive System Disease","Polycystic ovary syndrome",0.0438,"GDF9,LINC00200",2
+"Skeletal and Muscular System Development and Function","Muscle contraction",0.0453,"DES,TRDN",2
+"Behavior,Nervous System Development and Function","Memory",0.0457,"CSF3",1
+"Cardiovascular Disease","Stage II systolic hypertension",0.0457,"AGTR2",1
+"Neurological Disease","Unconsciousness",0.0457,"GABRA4",1
+"Cancer,Organismal Injury and Abnormalities","Carcinoma",0.0468,"ADAM18,ADGRD2,AGTR2,APOC3,AZU1,BRINP3,CGA,CHIAP2,CRCT1,CSF3,CSN1S1,CSN2,DCDC2C,DES,EDN3,FOSB,GABRA4,GC,GDF9,HOXB8,KLK12,KRT27,KRT77,LALBA,mir-126,MUC7,NELL1,NPY2R,NR4A1,OPRPN,OTC,PAGE2/PAGE2B,PCA3,PROK1,SLC22A7,STUM,TCN1,TEDDM1,TFF1,TFPI2,TRDN,UCP1,VSTM2A",43
+"Connective Tissue Disorders,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Non-traumatic arthropathy",0.047,"EDN3,FOSB,GABRA4,NELL1,NR4A1,TFPI2",6
+"Cellular Development,Cellular Growth and Proliferation","Colony formation of cells",0.0471,"CSF3,NR4A1,PROK1,TFF1",4
+"Cardiovascular Disease,Neurological Disease,Organismal Injury and Abnormalities","Acute stroke",0.0477,"AGTR2",1
+"Cardiovascular System Development and Function","Vasoconstriction of blood vessel",0.0477,"EDN3",1
+"Auditory Disease,Inflammatory Disease,Organismal Injury and Abnormalities","Chronic otitis media",0.0477,"GABRA4",1
+"Cellular Movement,Embryonic Development","Invasion of embryonic cell lines",0.0477,"NR4A1",1
+"Neurological Disease,Organismal Injury and Abnormalities,Psychological Disorders","Primary insomnia",0.0477,"GABRA4",1
+"Hematological System Development and Function","Circulation of blood",0.0477,"EDN3",1
+"Cardiovascular Disease,Hereditary Disorder,Organismal Injury and Abnormalities","Familial heart disease",0.0478,"APOC3,DES,TRDN",3
+"Cardiovascular Disease","Refractory essential hypertension",0.0497,"AGTR2",1
+"Dental Disease,Digestive System Development and Function,Embryonic Development,Gastrointestinal Disease,Organ Development,Organismal Development,Organismal Injury and Abnormalities","Dental caries",0.0497,"GABRA4",1
+"Endocrine System Disorders,Gastrointestinal Disease,Immunological Disease,Inflammatory Disease,Inflammatory Response,Organismal Injury and Abnormalities","Autoimmune pancreatitis",0.0497,"GC",1
+"Cardiovascular Disease,Cardiovascular System Development and Function,Hereditary Disorder,Organ Morphology,Organismal Development,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Dilated cardiomyopathy 1A",0.0497,"DES",1
+"Neurological Disease,Organismal Injury and Abnormalities","Temporal lobe epilepsy",0.0497,"GABRA4",1
+"Infectious Diseases,Organismal Injury and Abnormalities,Respiratory Disease","Pulmonary tuberculosis",0.0497,"GABRA4",1
+"Cellular Movement","Migration of stem cells",0.0497,"CSF3",1
+"Cell Death and Survival","Cell death of lymphoid cells",0.05,"CSF3,LALBA",2
