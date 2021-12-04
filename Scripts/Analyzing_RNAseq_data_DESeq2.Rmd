@@ -30,10 +30,11 @@ library("RColorBrewer")
 The folder has been uploaded to Google Drive
 
 ```{r}
-directory <- "/Users/margery/Desktop/data/New_Lobular_Duct/" 
+#directory <- "/Users/margery/Desktop/data/New_Lobular_Duct/" 
 
 
-#direction<- "~/510_Final_Project_Data/New_Lobular_Duct"
+# In google Drivw
+direction<- "~/510_Final_Project_Data/New_Lobular_Duct"
 ```
 
 
@@ -95,7 +96,7 @@ log2 fold change ： log2 (Lobulargroupt / Ductgroup)
 
 
 ```{r}
-Col_Duct_Lobular <- read.csv("Col_Duct_Lobular.csv")
+Col_Duct_Lobular <- read.csv("~/Files/Col_Duct_Lobular.csv")
 ```
 
 
@@ -182,7 +183,7 @@ res
 ***Export the results to csv file***
 
 ```{r}
-write.csv(res,file="Res_Lobular_Duct_All.csv")
+write.csv(res,file="~/Results/Res_Lobular_Duct_All.csv")
 ```
 
 
@@ -240,7 +241,7 @@ write.csv(diff_gene_deseq2,file = "New_DEG_Lobular_Duct.csv")
 
 
 ```{r}
-diff_gene_deseq2 <- read.csv("/Users/margery/Desktop/Results/New_DEG_Lobular_Duct.csv")
+diff_gene_deseq2 <- read.csv("~/Results/New_DEG_Lobular_Duct.csv")
 ```
 
 ## ID Transfer
@@ -293,9 +294,9 @@ reg_diff <- rbind(Up_diff,Down_diff)
 
 
 ```{r}
-write.csv(Up_diff,"Up_diff.csv",row.names = F)
-write.csv(Down_diff,"Down_diff.csv",row.names = F)
-write.csv(reg_diff,"All_diff_Reg.csv",row.names = F)
+write.csv(Up_diff,"～/Results/Up_diff.csv",row.names = F)
+write.csv(Down_diff,"～/Results/Down_diff.csv",row.names = F)
+write.csv(reg_diff,"～/Results/All_diff_Reg.csv",row.names = F)
 ```
 
 
