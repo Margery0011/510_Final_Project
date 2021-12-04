@@ -421,7 +421,7 @@ Docs below the line mean Down-regulated
 
 `type='apeglm` and `type='ashr'` have shown to have less bias than `type='normal'`
 
-
+MA Plot fully demonstrated the relationship between gene abundance and expression changes. We can see that the lower to the left or the upper to the right, the more abundant and variable the genes are.
 
 
 
@@ -743,11 +743,49 @@ Click to see the Results
  
 
 
-## Conclusions
+## Summary
+
+**Input Summary** : 
+
+TCGA-BRCA in [TCGA_Portal](https://portal.gdc.cancer.gov/)
+
+-  Group Loular Carcinoma
+
+     - Cancer: Breast cancer
+     - Stage : stage I, stage IA, stage IB, stage II, stage IIA. stage IIB
+     - Diagnosis : Lobular Caricinoma 
+     - Sample Type: Primary tumor
+     - WorkFlow: HTSeq - Counts
+     - Data Category : transcriptome profilling
+     - Number:130 Files& 130Cases 
+     
+
+-  Group Loular Carcinoma
+
+     - Cancer: Breast cancer
+     - Stage : stage I, stage IA, stage IB
+     - Diagnosis : Lobular Caricinoma 
+     - Sample Type: Primary tumor
+     - WorkFlow: HTSeq - Counts
+     - Data Category : transcriptome profilling
+     - Number:135 Files & 135 Cases 
+
+**Differential Expressed Analysis by `DESeq2`**
+
+- Differential Expressed Genes 
+
+     - Define : padj <= 0.05, abs(log2FoldChange) >= 1.5
+     - DEG : 309 (After removing Duplicated & NA)
+     - Up-Regulated : 59
+     - Down-Regulated: 250
+
+**IPA Analysis**
+
 
 
 ## Known ISSues
 
-- 1. Have not found which Factor is driven the PCA plot
+- 1. Have not found which Factor is driven the PCA plot, Factor `Stage` is not the most significant facor.
+- 2. Have not dig into the Biologcal meaning of these results
 
 
