@@ -6,22 +6,20 @@
 
 ## Introduction 
 
-Breast cancers that have spread into surrounding breast tissue are known as invasive breast cancer.
-
-Most breast cancers are invasive, but there are different types of invasive breast cancer. 
+Breast cancers that have spread into surrounding breast tissue are known as `invasive breast cancer`.Most breast cancers are invasive, but there are different types of invasive breast cancer. 
 
 The two most common are `invasive ductal carcinoma` and `invasive lobular carcinoma`.
 
 **This projected is aimed to find the differential expressed genes in early stage  in these 2 types**
 
 
-- Invasive (infiltrating) ductal carcinoma (IDC)
+- **Invasive (infiltrating) ductal carcinoma (IDC)**
 
 This is the most common type of breast cancer. About 8 in 10 invasive breast cancers are invasive (or infiltrating) ductal carcinomas (IDC).
 
 IDC starts in the cells that line a milk duct in the breast. From there, the cancer breaks through the wall of the duct, and grows into the nearby breast tissues. At this point, it may be able to spread (metastasize) to other parts of the body through the lymph system and bloodstream.
 
-- Invasive lobular carcinoma (ILC)
+- **Invasive lobular carcinoma (ILC)**
 
 About 1 in 10 invasive breast cancers is an invasive lobular carcinoma (ILC).
 
