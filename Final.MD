@@ -2,7 +2,7 @@
 
 **Yutian (Margery) Liu**
 
-*Note: All data has been put in my Google Drive under the Folder 510_Final_Project *
+*Note: All data has been put in my Google Drive under the Folder 510_Final_Project*
 
 ## DATA Acquisition & Pre-processing
 
