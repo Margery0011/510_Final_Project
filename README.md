@@ -783,7 +783,7 @@ TCGA-BRCA in [TCGA_Portal](https://portal.gdc.cancer.gov/)
 
 
 
-## Known ISSues
+## Known Issues
 
 - 1. Have not found which Factor is driven the PCA plot, Factor `Stage` is not the most significant facor.
 - 2. Have not  delved into the Biological Significance of the results
