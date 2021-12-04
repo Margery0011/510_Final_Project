@@ -25,6 +25,7 @@ About 1 in 10 invasive breast cancers is an invasive lobular carcinoma (ILC).
 
 ILC starts in the milk-producing glands (lobules). Like IDC, it can spread (metastasize) to other parts of the body. Invasive lobular carcinoma may be harder to detect on physical exam and imaging, like mammograms, than invasive ductal carcinoma. And compared to other kinds of invasive carcinoma, about 1 in 5 women with ILC might have cancer in both breasts.
 
+
 ## DATA Acquisition & Pre-processing
 
 **I. Filter:**
@@ -755,6 +756,9 @@ Number has been reduced to 309 from 463
      - 1. Selcet Human as species to do Core Analysis 
      - 2. Save the PATHWay Results
 
+
+### Results
+
 Click to see the Results
 
 
@@ -771,7 +775,26 @@ Related Molecules are FABP7, PI3, CDH1, ELF5, CA9, MAGEA4 and CDH1.
 
 I want to focus on  `MAGEA4` whose Category is `Cancer,Organismal Injury and Abnormalities,Reproductive System Disease` and Disease/Function Annotation is `	HER2 non-overexpressing breast carcinoma`
 
+### MAGEA4 
 
+Basic Information: 
+
+This gene is a member of the MAGEA gene family. The members of this family encode proteins with 50 to 80% sequence identity to each other. The promoters and first exons of the MAGEA genes show considerable variability, suggesting that the existence of this gene family enables the same function to be expressed under different transcriptional controls. The MAGEA genes are clustered at chromosomal location Xq28. They have been implicated in some hereditary disorders, such as dyskeratosis congenita. Several variants encoding the same protein have been found for this gene. [provided by RefSeq, Aug 2020]
+
+Ref: https://www.ncbi.nlm.nih.gov/gene/4103
+
+Compare 2 groups - BoxPlot:
+
+
+![04_plotCounts_MAGEA4](https://user-images.githubusercontent.com/89502586/144700751-43940468-bfab-428d-91d3-fbe9a9923be9.png)
+
+Expressions between 2 groups are significantly different
+
+Expressions in Ductgroup are signicantly more than them in Lobulargroup
+
+Previous Study :
+
+[Proteomic Profiling of Triple-negative Breast Carcinomas in Combination With a Three-tier Orthogonal Technology Approach Identifies Mage-A4 as Potential Therapeutic Target in Estrogen Receptor Negative Breast Cance]()
 
 ## Summary
 
@@ -790,11 +813,11 @@ TCGA-BRCA in [TCGA_Portal](https://portal.gdc.cancer.gov/)
      - Number:130 Files& 130Cases 
      
 
--  Group Loular Carcinoma
+-  Group Infiltrating Duct Carcinoma
 
      - Cancer: Breast cancer
      - Stage : stage I, stage IA, stage IB
-     - Diagnosis : Lobular Caricinoma 
+     - Diagnosis : Infiltrating Duct Carcinoma
      - Sample Type: Primary tumor
      - WorkFlow: HTSeq - Counts
      - Data Category : transcriptome profilling
@@ -811,7 +834,7 @@ TCGA-BRCA in [TCGA_Portal](https://portal.gdc.cancer.gov/)
 
 **IPA Analysis**
 
-In IPA Analysis 
+Find interesting gene `MAGEA4`
 
 ## Known Issues
 
