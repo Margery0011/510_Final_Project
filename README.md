@@ -777,13 +777,20 @@ I want to focus on  `MAGEA4` whose Category is `Cancer,Organismal Injury and Abn
 
 ### MAGEA4 
 
-Basic Information: 
+- Basic Information: 
 
-This gene is a member of the MAGEA gene family. The members of this family encode proteins with 50 to 80% sequence identity to each other. The promoters and first exons of the MAGEA genes show considerable variability, suggesting that the existence of this gene family enables the same function to be expressed under different transcriptional controls. The MAGEA genes are clustered at chromosomal location Xq28. They have been implicated in some hereditary disorders, such as dyskeratosis congenita. Several variants encoding the same protein have been found for this gene. [provided by RefSeq, Aug 2020]
+  This gene is a member of the MAGEA gene family. The members of this family encode proteins with 50 to 80% sequence identity to each other. The promoters and first exons of the MAGEA genes show considerable variability, suggesting that the existence of this gene family enables the same function to be expressed under different transcriptional controls. The MAGEA genes are clustered at chromosomal location Xq28. They have been implicated in some hereditary disorders, such as dyskeratosis congenita. Several variants encoding the same protein have been found for this gene. [provided by RefSeq, Aug 2020]
 
 Ref: https://www.ncbi.nlm.nih.gov/gene/4103
 
-Compare 2 groups - BoxPlot:
+`MAGEA4` is mostly expressed in testis in normal tissues 
+
+![2461638602513_ pic](https://user-images.githubusercontent.com/89502586/144701485-ade128b0-5c29-4ba4-af2c-b81d6c7b7ea4.jpg)
+
+
+Cancer/testis antigens (CTAs) are expressed in a large variety of tumor types, whereas their expression in normal tissues is restricted to male germ cells, which are immune-privileged because of their lack of or low expression of human leukocyte antigen (HLA) molecules
+
+- Compare 2 groups - BoxPlot:
 
 
 ![04_plotCounts_MAGEA4](https://user-images.githubusercontent.com/89502586/144700751-43940468-bfab-428d-91d3-fbe9a9923be9.png)
@@ -792,9 +799,10 @@ Expressions between 2 groups are significantly different
 
 Expressions in Ductgroup are signicantly more than them in Lobulargroup
 
-Previous Study :
 
-[Proteomic Profiling of Triple-negative Breast Carcinomas in Combination With a Three-tier Orthogonal Technology Approach Identifies Mage-A4 as Potential Therapeutic Target in Estrogen Receptor Negative Breast Cance]()
+- Previous Study :
+
+[Proteomic Profiling of Triple-negative Breast Carcinomas in Combination With a Three-tier Orthogonal Technology Approach Identifies Mage-A4 as Potential Therapeutic Target in Estrogen Receptor Negative Breast Cance](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3567861/)
 
 ## Summary
 
@@ -834,11 +842,13 @@ TCGA-BRCA in [TCGA_Portal](https://portal.gdc.cancer.gov/)
 
 **IPA Analysis**
 
-Find interesting gene `MAGEA4`
+- Find interesting gene `MAGEA4`
+- Find previous study about its relationship with Breast Cancer
 
 ## Known Issues
 
 - 1. Have not found which Factor is driven the PCA plot, Factor `Stage` is not the most significant facor.
-- 2. Have not  delved into the Biological Significance of the results
+- 2. Pattern in Heatmap is not obvious 
+- 3. Have not  delved into the Biological Significance of the results.
 
 
