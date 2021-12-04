@@ -1,0 +1,501 @@
+"Categories","Diseases or Functions Annotation","p-value","Molecules","# Molecules"
+"Psychological Disorders","Tobacco-related disorder",4.76e-08,"CA6,CA9,CHRNA9,CYP2A6 (includes others),DDC,GABBR2,GABRP,OPRK1,SCN1A",9
+"Cell Morphology","Keratinization",3.71e-07,"CASP14,KRT20,KRT34,KRT38,KRT6C,KRT75,KRT81,KRT83,KRT85,PI3,SPRR1A,SPRR2D",12
+"Lipid Metabolism,Small Molecule Biochemistry","Conjugation of 12-hydroxyeicosatetraenoic acid",5.32e-07,"UGT1A9 (includes others),UGT2B10,UGT2B11,UGT2B4",4
+"Cell Morphology,Embryonic Development,Hair and Skin Development and Function,Organ Development,Organismal Development,Tissue Development","Keratinization of epidermis",1.5e-05,"CASP14,KRT20,KRT34,KRT38,KRT6C,KRT75,KRT81,KRT83,KRT85",9
+"Cancer,Organismal Injury and Abnormalities,Respiratory Disease","Malignant neoplasm of respiratory system",1.65e-05,"A2ML1,ACE2,ACTL8,ACTN2,AFAP1-AS1,C18orf63,C1orf94,CA9,CALCB,CCKBR,CDH1,CDH19,CHGA,CHRDL2,CT83,CYP24A1,CYP27C1,CYP2A6 (includes others),DDC,DIO1,DLK1,DLX6,DMRT1,DNER,EN1,FBN3,FETUB,FGA,FGB,FZD9,GABRP,GLDC,HAO1,HRCT1,IL36A,KCNQ2,KCNV1,KIF1A,KLHL1,KRT20,KRT38,KRT6C,KRT81,LACRT,LCT,LIN28B,LINC00261,LUZP4,LY6D,LYZL1,MAGEA3/MAGEA6,MAGEA4,MAGEA9/MAGEA9B,MAGEB4,MMP1,MSLN,MUC21,NETO1,NKX2-1,NR2E1,OPRK1,PADI3,PCDH11X,PCDH8,PGBD5,POU4F1,PRAME,PXDNL,RAET1L,RCOR2,RGR,SCN1A,SFTPC,SH3GL3,SLC12A1,SLC15A1,SLC26A9,SLC28A1,SLC39A12,SLIT1,SMR3A,SOX11,SPANXB1 (includes others),STRA8,SULT1C3,TAFA4,TBXT,TCERG1L,TMPRSS4,UGT1A6,UGT1A9 (includes others),UGT2B10,UGT2B11,UGT2B4,ZFP42,ZP4",96
+"Cancer,Organismal Injury and Abnormalities","Malignant soft tissue neoplasm",2.89e-05,"A2ML1,ACE2,ACTL8,ACTN2,AMTN,ANKRD1,ART3,BPI,C18orf63,C1orf94,CA6,CASP14,CCKBR,CCL7,CDH1,CDK5R2,CELF4,CHODL,CHRDL2,CHRNA9,CLDN6,COL9A3,CP,CPB1,CRABP1,CRISP3,CRNN,CT83,CYP24A1,CYP2A6 (includes others),CYP2F1,DCD,DDC,DHRS2,DLK1,DLX6,DMRT1,DNER,ELF5,EN1,FABP7,FADS2,FBN3,FETUB,FGA,FGB,FOXA2,GABBR2,GABRP,GGTLC2,GLDC,GNAT3,HAO1,HCN4,HORMAD1,HRCT1,IL36A,INA,KCNE5,KCNQ2,KCNV1,KIF1A,KLHL1,KLHL34,KRT20,KRT34,KRT6C,KRT75,KRT81,KRT83,KRT85,LACRT,LBP,LCT,LEMD1,LIN28B,LY6D,MAGEA3/MAGEA6,MAGEA4,MAGEB1,MAGEB4,MMP1,MSLN,MUC21,NETO1,NR2E1,OPRK1,PADI3,PCDH11X,PCDH8,PGBD5,PI3,PPP1R14C,PRAME,PRDM13,PRKAG3,PROKR2,PRR27,PRSS3,PRSS33,PSAPL1,PXDNL,RAB3B,S100A2,S100A8,SCN1A,SFTA3,SH3GL3,SLC12A1,SLC15A1,SLC1A6,SLC26A9,SLC28A1,SLC39A12,SLC6A17,SLIT1,SMC1B,SMOC1,SMR3A,SOST,SOX11,SPANXB1 (includes others),SPDYC,SPRR1A,SPRR2D,STRA8,SULT1C3,TAFA4,TBXT,TMPRSS4,TRIM15,UBD,UGT1A6,UGT1A9 (includes others),UGT2A3,UGT2B10,UGT2B11,UGT2B28,UGT2B4,VGLL1,WNT6,ZFP42,ZNF280A,ZP4",144
+"Cancer,Dermatological Diseases and Conditions,Organismal Injury and Abnormalities","Skin cancer",3.13e-05,"A2ML1,ACE2,ACTL8,ACTN2,AMTN,ANKRD1,ART3,BARHL2,BPI,C18orf63,C1orf94,CA6,CASP14,CCKBR,CCL7,CDH1,CDH19,CDK5R2,CELF4,CHODL,CHRDL2,CHRNA9,CLDN6,COL9A3,CP,CPB1,CRABP1,CRISP3,CRNN,CT83,CXCL10,CYP24A1,CYP27C1,CYP2A6 (includes others),CYP2F1,DCD,DDC,DHRS2,DLK1,DLX6,DMRT1,DNER,ELF5,EN1,FADS2,FBN3,FETUB,FGA,FGB,FOXA2,FZD9,GABBR2,GABRP,GGTLC2,GLDC,GNAT3,GNGT1,HAO1,HCN4,HORMAD1,HRCT1,IL36A,INA,KCNE5,KCNQ2,KCNV1,KIF1A,KLHL1,KLHL34,KRT20,KRT34,KRT38,KRT6C,KRT75,KRT81,KRT83,KRT85,LACRT,LBP,LCT,LEMD1,LIN28B,LY6D,MAGEA3/MAGEA6,MAGEA4,MAGEB1,MAGEB4,MMP1,MSLN,MUC21,NETO1,NR2E1,OPRK1,PADI3,PCDH11X,PCDH8,PGBD5,PI3,PPP1R14C,PRAME,PRDM13,PRKAG3,PROKR2,PRR27,PRSS3,PRSS33,PSAPL1,PXDNL,RAB3B,S100A8,SCN1A,SFTA3,SH3GL3,SLC12A1,SLC15A1,SLC1A6,SLC26A9,SLC28A1,SLC39A12,SLC6A17,SLIT1,SMC1B,SMOC1,SMR3A,SOST,SOX11,SPANXB1 (includes others),SPDYC,SPRR1A,SPRR2D,STRA8,SULT1C3,TAFA4,TBXT,TMPRSS4,TRIM15,UBD,UGT1A6,UGT1A9 (includes others),UGT2A3,UGT2B10,UGT2B11,UGT2B28,UGT2B4,VGLL1,ZFP42,ZNF280A,ZP4",148
+"Psychological Disorders","Drug dependence",3.17e-05,"CA6,CA9,CARTPT,CHRNA9,DDC,GABBR2,GABRP,OPRK1,SCN1A",9
+"Cancer,Organismal Injury and Abnormalities","Malignant connective or soft tissue neoplasm",3.23e-05,"A2ML1,ACE2,ACTL8,ACTN2,AMTN,ANKRD1,ART3,BPI,C18orf63,C1orf94,CA6,CALCB,CASP14,CCKBR,CCL7,CDH1,CDK5R2,CELF4,CHODL,CHRDL2,CHRNA9,CLDN6,COL9A3,CP,CPB1,CRABP1,CRISP3,CRNN,CT83,CYP24A1,CYP2A6 (includes others),CYP2F1,DCD,DDC,DHRS2,DLK1,DLX6,DMRT1,DNER,ELF5,EN1,FABP7,FADS2,FBN3,FETUB,FGA,FGB,FOXA2,GABBR2,GABRP,GGTLC2,GLDC,GNAT3,HAO1,HCN4,HORMAD1,HRCT1,IL36A,INA,KCNE5,KCNQ2,KCNV1,KIF1A,KLHL1,KLHL34,KRT20,KRT34,KRT6C,KRT75,KRT81,KRT83,KRT85,LACRT,LBP,LCT,LEMD1,LIN28B,LY6D,MAGEA3/MAGEA6,MAGEA4,MAGEB1,MAGEB4,MMP1,MSLN,MUC21,NETO1,NR2E1,OPRK1,PADI3,PCDH11X,PCDH8,PGBD5,PI3,PPP1R14C,PRAME,PRDM13,PRKAG3,PROKR2,PRR27,PRSS3,PRSS33,PSAPL1,PXDNL,RAB3B,S100A2,S100A8,SCN1A,SFTA3,SH3GL3,SLC12A1,SLC15A1,SLC1A6,SLC26A9,SLC28A1,SLC39A12,SLC6A17,SLIT1,SMC1B,SMOC1,SMR3A,SOST,SOX11,SPANXB1 (includes others),SPDYC,SPRR1A,SPRR2D,STRA8,SULT1C3,TAFA4,TBXT,TMPRSS4,TRIM15,UBD,UGT1A6,UGT1A9 (includes others),UGT2A3,UGT2B10,UGT2B11,UGT2B28,UGT2B4,VGLL1,WNT6,ZFP42,ZNF280A,ZP4",145
+"Psychological Disorders","Compulsive gambling",3.37e-05,"CA6,CA9,OPRK1,SCN1A",4
+"Psychological Disorders","Impulse control disorder",3.48e-05,"CA6,CA9,DDC,GABRP,OPRK1,SCN1A",6
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Abnormality of heart ventricle",4.08e-05,"ACE2,ACTN2,ANKRD1,CA6,CA9,GABRP,HCN4,MMP1,OPRK1,SLC12A1",10
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Abnormality of left ventricle",4.18e-05,"ACE2,ACTN2,ANKRD1,CA6,CA9,GABRP,HCN4,MMP1,SLC12A1",9
+"Cancer,Dermatological Diseases and Conditions,Organismal Injury and Abnormalities","Cutaneous melanoma",4.86e-05,"A2ML1,ACE2,ACTL8,ACTN2,AMTN,ANKRD1,ART3,BPI,C18orf63,C1orf94,CA6,CASP14,CCKBR,CCL7,CDK5R2,CELF4,CHODL,CHRDL2,CHRNA9,CLDN6,COL9A3,CP,CPB1,CRABP1,CRISP3,CRNN,CT83,CYP24A1,CYP2A6 (includes others),CYP2F1,DCD,DDC,DHRS2,DLK1,DLX6,DMRT1,DNER,ELF5,EN1,FADS2,FBN3,FETUB,FGA,FGB,FOXA2,GABBR2,GABRP,GGTLC2,GLDC,GNAT3,HAO1,HCN4,HORMAD1,IL36A,INA,KCNE5,KCNQ2,KCNV1,KIF1A,KLHL1,KLHL34,KRT20,KRT34,KRT6C,KRT75,KRT81,KRT83,KRT85,LACRT,LBP,LCT,LEMD1,LIN28B,LY6D,MAGEA3/MAGEA6,MAGEA4,MAGEB1,MAGEB4,MMP1,MSLN,MUC21,NETO1,NR2E1,OPRK1,PADI3,PCDH11X,PCDH8,PGBD5,PI3,PPP1R14C,PRAME,PRDM13,PRKAG3,PROKR2,PRR27,PRSS3,PRSS33,PSAPL1,PXDNL,RAB3B,S100A8,SCN1A,SFTA3,SH3GL3,SLC12A1,SLC15A1,SLC1A6,SLC26A9,SLC28A1,SLC39A12,SLC6A17,SLIT1,SMC1B,SMOC1,SMR3A,SOST,SOX11,SPANXB1 (includes others),SPDYC,SPRR1A,SPRR2D,STRA8,SULT1C3,TAFA4,TBXT,TMPRSS4,TRIM15,UBD,UGT1A6,UGT1A9 (includes others),UGT2A3,UGT2B10,UGT2B11,UGT2B28,UGT2B4,VGLL1,ZFP42,ZNF280A,ZP4",139
+"Cancer,Organismal Injury and Abnormalities,Respiratory Disease","Lung cancer",5.04e-05,"A2ML1,ACE2,ACTN2,AFAP1-AS1,C18orf63,C1orf94,CA9,CALCB,CCKBR,CDH1,CDH19,CHGA,CHRDL2,CT83,CYP24A1,CYP27C1,CYP2A6 (includes others),DDC,DIO1,DLK1,DLX6,DMRT1,DNER,EN1,FBN3,FETUB,FGA,FGB,FZD9,GABRP,GLDC,HAO1,HRCT1,IL36A,KCNQ2,KCNV1,KIF1A,KLHL1,KRT20,KRT38,KRT6C,LACRT,LCT,LIN28B,LINC00261,LUZP4,LYZL1,MAGEA3/MAGEA6,MAGEA4,MAGEA9/MAGEA9B,MAGEB4,MMP1,MUC21,NETO1,NKX2-1,NR2E1,OPRK1,PCDH11X,PCDH8,PGBD5,POU4F1,PRAME,PXDNL,RAET1L,RCOR2,RGR,SCN1A,SFTPC,SH3GL3,SLC12A1,SLC26A9,SLC28A1,SLC39A12,SLIT1,SMR3A,SPANXB1 (includes others),STRA8,SULT1C3,TAFA4,TBXT,TMPRSS4,UGT1A6,UGT1A9 (includes others),UGT2B10,UGT2B11,ZFP42,ZP4",87
+"Dermatological Diseases and Conditions,Neurological Disease,Organismal Injury and Abnormalities","Hyperalgesia",5.84e-05,"CA6,CA9,GABRP,OPRK1,SCN1A",5
+"Neurological Disease,Psychological Disorders","Restless legs syndrome",5.84e-05,"CA6,CA9,DDC,OPRK1,SCN1A",5
+"Cancer,Organismal Injury and Abnormalities,Respiratory Disease","Lung carcinoma",5.94e-05,"A2ML1,ACE2,ACTN2,AFAP1-AS1,C18orf63,C1orf94,CA9,CALCB,CCKBR,CDH1,CDH19,CHGA,CHRDL2,CT83,CYP24A1,CYP27C1,DDC,DIO1,DLK1,DLX6,DMRT1,DNER,EN1,FBN3,FETUB,FGA,FGB,FZD9,GABRP,GLDC,HAO1,HRCT1,IL36A,KCNQ2,KCNV1,KIF1A,KLHL1,KRT20,KRT38,KRT6C,LACRT,LCT,LIN28B,LINC00261,LUZP4,LYZL1,MAGEA3/MAGEA6,MAGEA4,MAGEA9/MAGEA9B,MAGEB4,MMP1,MUC21,NETO1,NKX2-1,NR2E1,OPRK1,PCDH11X,PCDH8,PGBD5,POU4F1,PRAME,PXDNL,RAET1L,RCOR2,RGR,SCN1A,SH3GL3,SLC12A1,SLC26A9,SLC28A1,SLC39A12,SLIT1,SMR3A,SPANXB1 (includes others),STRA8,SULT1C3,TAFA4,TBXT,TMPRSS4,UGT1A6,UGT1A9 (includes others),UGT2B10,UGT2B11,ZFP42,ZP4",85
+"Cancer,Organismal Injury and Abnormalities","Melanoma",6.04e-05,"A2ML1,ACE2,ACTL8,ACTN2,AMTN,ANKRD1,ART3,BPI,C18orf63,C1orf94,CA6,CASP14,CCKBR,CCL7,CDH1,CDH19,CDK5R2,CELF4,CHODL,CHRDL2,CHRNA9,CLDN6,COL9A3,CP,CPB1,CRABP1,CRISP3,CRNN,CT83,CYP24A1,CYP2A6 (includes others),CYP2F1,DCD,DDC,DHRS2,DLK1,DLX6,DMRT1,DNER,ELF5,EN1,FADS2,FBN3,FETUB,FGA,FGB,FOXA2,FZD9,GABBR2,GABRP,GGTLC2,GLDC,GNAT3,HAO1,HCN4,HORMAD1,HRCT1,IL36A,INA,KCNE5,KCNQ2,KCNV1,KIF1A,KLHL1,KLHL34,KRT20,KRT34,KRT6C,KRT75,KRT81,KRT83,KRT85,LACRT,LBP,LCT,LEMD1,LIN28B,LY6D,LYZL1,MAGEA3/MAGEA6,MAGEA4,MAGEB1,MAGEB4,MMP1,MSLN,MUC21,NETO1,NR2E1,OPRK1,PADI3,PCDH11X,PCDH8,PGBD5,PI3,PPDPFL,PPP1R14C,PRAME,PRDM13,PRKAG3,PROKR2,PRR27,PRSS3,PRSS33,PSAPL1,PXDNL,RAB3B,RLBP1,S100A2,S100A8,SCN1A,SFTA3,SFTPC,SH3GL3,SLC12A1,SLC15A1,SLC1A6,SLC26A9,SLC28A1,SLC39A12,SLC6A17,SLIT1,SMC1B,SMOC1,SMR3A,SOST,SOX11,SPANXB1 (includes others),SPDYC,SPRR1A,SPRR2D,STRA8,SULT1C3,SVOP,TAFA4,TBXT,TMPRSS4,TRIM15,UBD,UGT1A6,UGT1A9 (includes others),UGT2A3,UGT2B10,UGT2B11,UGT2B28,UGT2B4,VGLL1,ZFP42,ZNF280A,ZP4",149
+"Psychological Disorders","Alcoholism",6.1e-05,"CA6,CA9,CARTPT,CHRNA9,GABBR2,GABRP,OPRK1,SCN1A",8
+"Dermatological Diseases and Conditions,Organismal Injury and Abnormalities","Disorder of hair",6.1e-05,"A2ML1,CXCL10,KRT75,KRT81,KRT83,KRT85,PADI3,S100A8",8
+"Dermatological Diseases and Conditions,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Nail and hair disorder",6.75e-05,"KRT81,KRT83,KRT85",3
+"Psychological Disorders","Depressive disorder",7.08e-05,"CA6,CA9,CARTPT,CCKBR,CHGA,CHRNA9,CXCL10,DDC,GABRP,GAL,OPRK1,SCN1A,SLC1A6",13
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Valvulopathy",7.08e-05,"ACE2,ACTN2,CA6,CA9,GABRP,MMP1,OPRK1,SLC12A1",8
+"Neurological Disease,Organismal Injury and Abnormalities,Psychological Disorders","Cocaine dependence",9.88e-05,"CA6,CA9,CARTPT,OPRK1,SCN1A",5
+"Neurological Disease","Sensory disorders",0.000138,"CA6,CA9,GABRP,OPRK1,PROKR2,SCN1A",6
+"Psychological Disorders","Mood Disorders",0.00021,"CA6,CA9,CARTPT,CCKBR,CHGA,CHRNA9,CXCL10,DDC,FADS2,GABRP,GAL,GLDC,OPRK1,SCN1A,SLC1A6,STRA8",16
+"Organismal Injury and Abnormalities,Respiratory Disease","Chronic obstructive pulmonary disease",0.000219,"CA6,CA9,CHRNA9,CYP2A6 (includes others),GABRP,LBP,MMP1,NKX2-1,OPRK1",9
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Aortic valve disease",0.000258,"ACE2,CA6,CA9,GABRP,MMP1,SLC12A1",6
+"Developmental Disorder,Hematological Disease,Hereditary Disorder,Immunological Disease,Organismal Injury and Abnormalities","Autosomal recessive congenital afibrinogenemia",0.000266,"FGA,FGB",2
+"Developmental Disorder,Hematological Disease,Hereditary Disorder,Immunological Disease,Organismal Injury and Abnormalities","Congenital dysfibrinogenemia",0.000266,"FGA,FGB",2
+"Dermatological Diseases and Conditions,Developmental Disorder,Hereditary Disorder,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Autosomal dominant monilethrix",0.000266,"KRT81,KRT83",2
+"Lipid Metabolism,Small Molecule Biochemistry","Conjugation of 5-hydroxyeicosatetraenoic acid",0.000266,"UGT1A9 (includes others),UGT2B4",2
+"Cellular Development,Embryonic Development,Organ Development,Organismal Development,Reproductive System Development and Function,Tissue Development","Differentiation of mammary gland",0.000266,"EN1,FABP7",2
+"Embryonic Development,Hair and Skin Development and Function,Organ Development,Organismal Development,Tissue Development","Formation of skin",0.000335,"CASP14,CDH1,KRT20,KRT34,KRT38,KRT6C,KRT75,KRT81,KRT83,KRT85,SPRR1A",11
+"Neurological Disease,Organismal Injury and Abnormalities","Focal generalized tonic clonic epilepsy",0.000351,"CA6,CA9,SCN1A",3
+"Psychological Disorders","Nicotine dependence",0.000352,"CA6,CA9,CHRNA9,GABRP,SCN1A",5
+"Drug Metabolism","Metabolism of xenobiotic",0.000403,"CYP2A6 (includes others),CYP2F1,SULT1C3,UGT1A6,UGT1A9 (includes others),UGT2B11",6
+"Nutritional Disease,Psychological Disorders","Binge eating disorder",0.000404,"CA6,CA9,OPRK1,SCN1A",4
+"Neurological Disease,Organismal Injury and Abnormalities","Basilar-type migraine",0.000429,"CA6,CA9,SCN1A",3
+"Organismal Injury and Abnormalities,Psychological Disorders","Primary anxiety disorder",0.000429,"CA6,CA9,SCN1A",3
+"Cancer,Endocrine System Disorders,Organismal Injury and Abnormalities,Respiratory Disease","Small cell lung carcinoma",0.000445,"C18orf63,C1orf94,CALCB,CCKBR,CDH19,CHGA,CHRDL2,CT83,DDC,DLX6,DNER,FBN3,FETUB,FGA,FZD9,GLDC,HRCT1,IL36A,KLHL1,LACRT,LCT,LUZP4,LYZL1,MAGEA3/MAGEA6,MAGEA4,MAGEA9/MAGEA9B,MAGEB4,NETO1,NKX2-1,NR2E1,OPRK1,PCDH11X,PGBD5,PXDNL,RGR,SCN1A,SH3GL3,SLC12A1,SLC26A9,SLIT1,SMR3A,STRA8,SULT1C3,TAFA4,TBXT,TMPRSS4,UGT1A6,UGT1A9 (includes others),UGT2B10,ZP4",50
+"Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities","Tourette syndrome",0.000467,"CA6,CA9,OPRK1,SCN1A,SLC1A6",5
+"Organismal Injury and Abnormalities,Respiratory Disease","Edema of lung",0.000496,"CA6,CA9,GABRP,SLC12A1",4
+"Cardiovascular Disease,Organismal Injury and Abnormalities,Respiratory Disease","Pulmonary vascular disease",0.000514,"ANKRD1,CA6,CA9,CHRNA9,CXCL10,GABRP,SCN1A",7
+"Organismal Injury and Abnormalities,Psychological Disorders","Generalized social anxiety disorder",0.000517,"CA6,CA9,SCN1A",3
+"Hereditary Disorder,Nutritional Disease,Organismal Injury and Abnormalities,Psychological Disorders","Bulimia nervosa",0.000517,"CA6,CA9,SCN1A",3
+"Drug Metabolism,Endocrine System Development and Function,Lipid Metabolism,Small Molecule Biochemistry","Glucuronidation of beta-estradiol",0.000529,"UGT1A9 (includes others),UGT2B28",2
+"Cancer,Organismal Injury and Abnormalities","Tumorigenesis of cancer stem cells",0.000529,"GLDC,LIN28B",2
+"Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities","Familial focal epilepsy",0.000534,"CA6,CA9,GAL,KCNQ2,SCN1A",5
+"Psychological Disorders","Major affective disorder",0.000536,"CA6,CA9,CCKBR,CHGA,CHRNA9,CXCL10,DDC,FADS2,GABRP,GLDC,OPRK1,SCN1A,SLC1A6,STRA8",14
+"Embryonic Development,Hair and Skin Development and Function,Organ Development,Organismal Development,Tissue Development","Formation of epidermis",0.00057,"CASP14,KRT34,KRT83,KRT85,SPRR1A",5
+"Endocrine System Disorders,Gastrointestinal Disease,Metabolic Disease,Organismal Injury and Abnormalities","Adult-onset diabetes mellitus",0.000602,"CA6,CA9,FOXA2,SCN1A",4
+"Psychological Disorders","Alcohol use disorder",0.000705,"CA6,CA9,CXCL10,GABBR2,GABRP,OPRK1,SCN1A",7
+"Respiratory Disease","Sleep disordered breathing",0.000732,"CA6,CA9,DDC,GABRP,SCN1A,SLC12A1",6
+"Nutritional Disease","Pediatric obesity",0.000733,"CA6,CA9,CARTPT,GABRP,SCN1A",5
+"Nutritional Disease,Psychological Disorders","Eating Disorders",0.000767,"CA6,CA9,CARTPT,GABRP,OPRK1,SCN1A",6
+"Neurological Disease","Injury of nervous system",0.000789,"CA6,CA9,CHGA,CHRNA9,GABBR2,GABRP,SCN1A",7
+"Organismal Injury and Abnormalities,Renal and Urological Disease","Kidney stones",0.000789,"CA6,CA9,HAO1,OPRK1",4
+"Auditory Disease,Dermatological Diseases and Conditions,Organismal Injury and Abnormalities","Cholesteatoma formation",0.000789,"CDH19,MMP1,PI3,S100A8",4
+"Dermatological Diseases and Conditions,Organismal Injury and Abnormalities","Abnormality of skin morphology",0.000793,"CASP14,CCL7,CDH1,CDH19,DCD,FABP7,FADS2,GAL,KRT6C,MMP1,PI3,S100A2,S100A8",13
+"Dermatological Diseases and Conditions,Organismal Injury and Abnormalities","Hyperkeratosis",0.000826,"CDH19,KRT6C,MMP1,PI3,S100A8",5
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Mild aortic stenosis",0.000983,"CA6,CA9,SLC12A1",3
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Mild aortic regurgitation",0.000983,"CA6,CA9,SLC12A1",3
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Moderate aortic stenosis",0.000983,"CA6,CA9,SLC12A1",3
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Moderate aortic regurgitation",0.000983,"CA6,CA9,SLC12A1",3
+"Metabolic Disease,Organismal Injury and Abnormalities","Metabolic alkalosis",0.000983,"CA6,CA9,SLC12A1",3
+"Metabolic Disease,Organismal Injury and Abnormalities","Diabetes insipidus",0.000983,"CA6,CA9,SLC12A1",3
+"Endocrine System Disorders,Organismal Injury and Abnormalities,Renal and Urological Disease","Hypercalciuria",0.00119,"CA6,CA9,HAO1,SLC12A1",4
+"Neurological Disease,Organismal Injury and Abnormalities","Localization-related epilepsy",0.00119,"CA6,CA9,GABRP,GAL,KCNQ2,SCN1A",6
+"Protein Synthesis","Metabolism of cellular protein",0.00119,"AMTN,CP,FGA,H3C8,MMP1,MSLN,SFTA3,SFTPC",8
+"Neurological Disease,Organismal Injury and Abnormalities","Migraine with typical aura",0.00129,"CA6,CA9,SCN1A",3
+"Psychological Disorders","Cigarette habituation susceptibility syndrome",0.00131,"DDC,GABBR2",2
+"Organismal Injury and Abnormalities","Breakthrough pain",0.00131,"OPRK1,SCN1A",2
+"Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities","Benign rolandic epilepsy",0.00138,"CA6,CA9,KCNQ2,SCN1A",4
+"Molecular Transport","Secretion of molecule",0.00139,"ANKRD1,CARTPT,CHGA,FGA,FGB,FOXA2,GAL,LACRT,SLC1A6",9
+"Neurological Disease,Organismal Injury and Abnormalities","Encephalopathy with late-onset epilepsy",0.00143,"CA6,CA9,GABRP,KCNQ2,SCN1A",5
+"Developmental Disorder,Neurological Disease,Psychological Disorders","Aphasia",0.00146,"CA6,CA9,DDC",3
+"Endocrine System Development and Function,Lipid Metabolism,Small Molecule Biochemistry,Vitamin and Mineral Metabolism","Metabolism of estrogen",0.00146,"UGT1A9 (includes others),UGT2B11,UGT2B4",3
+"Cardiovascular Disease,Organismal Injury and Abnormalities,Renal and Urological Disease","Cardiorenal syndrome",0.00146,"CA6,CA9,SLC12A1",3
+"Neurological Disease,Organismal Injury and Abnormalities","Primary tonic-clonic seizure",0.00146,"CA6,CA9,SCN1A",3
+"Neurological Disease,Organismal Injury and Abnormalities","Chronic migraine",0.00146,"CA6,CA9,SCN1A",3
+"Cancer,Gastrointestinal Disease,Hepatic System Disease,Organismal Injury and Abnormalities","Cholangiocarcinoma",0.0017,"AFAP1-AS1,CDH1,FGA,KRT20,UGT1A6,UGT1A9 (includes others)",6
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Cardiovascular disorder of cardiac valve",0.00171,"CA6,CA9,GABRP,SLC12A1",4
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Valvular regurgitation",0.00171,"CA6,CA9,GABRP,SLC12A1",4
+"Psychological Disorders","Alcohol abuse",0.00171,"CA6,CA9,OPRK1,SCN1A",4
+"Respiratory Disease","Respiratory distress syndrome",0.00177,"ACE2,CHRNA9,CXCL10,GABRP,NKX2-1,SCN1A",6
+"Skeletal and Muscular Disorders","Abnormality of limb",0.00179,"COL9A3,KRT81,KRT83,KRT85,MMP1,OPRK1,SCN1A",7
+"Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities","Familial hemiplegic migraine",0.00182,"OPRK1,SCN1A",2
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Hemorrhagic shock",0.00182,"CXCL10,OPRK1",2
+"Gastrointestinal Disease,Organismal Injury and Abnormalities","Disorder of appendix",0.00183,"CHRNA9,KRT20,OPRK1,SCN1A",4
+"Cancer,Organismal Injury and Abnormalities,Respiratory Disease","Non-small cell lung carcinoma",0.00186,"A2ML1,ACE2,ACTN2,AFAP1-AS1,CA9,CCKBR,CDH1,CYP24A1,CYP27C1,DIO1,DLK1,DLX6,DMRT1,DNER,EN1,FGB,GABRP,GLDC,HAO1,KCNQ2,KCNV1,KIF1A,KLHL1,KRT20,KRT38,KRT6C,LCT,LIN28B,LINC00261,LUZP4,MAGEA3/MAGEA6,MAGEA4,MAGEA9/MAGEA9B,MAGEB4,MMP1,MUC21,NKX2-1,NR2E1,PCDH11X,PCDH8,POU4F1,PRAME,PXDNL,RAET1L,RCOR2,SCN1A,SH3GL3,SLC28A1,SLC39A12,SPANXB1 (includes others),UGT1A9 (includes others),UGT2B11,ZFP42,ZP4",54
+"Neurological Disease,Organismal Injury and Abnormalities,Psychological Disorders","Obsessive-compulsive spectrum disorder",0.00192,"CA6,CA9,CARTPT,GABRP,SCN1A",5
+"Cardiovascular Disease","Resistant hypertension",0.00207,"CA6,CA9,SLC12A1",3
+"Cardiovascular Disease","Vasospasm",0.00207,"CA6,CA9,SCN1A",3
+"Neurological Disease,Psychological Disorders","Major depression",0.00213,"CCKBR,CHGA,CHRNA9,CXCL10,DDC,GABRP,OPRK1,SCN1A,SLC1A6",9
+"Organismal Injury and Abnormalities,Renal and Urological Disease","Acute kidney injury",0.00231,"CA6,CA9,GABRP,SCN1A,SLC12A1",5
+"Psychological Disorders","Borderline personality disorder",0.00237,"CA6,CA9,GABRP,SCN1A",4
+"Respiratory Disease","Sleep apnea syndrome",0.00253,"CA6,CA9,DDC,GABRP,SLC12A1",5
+"Dermatological Diseases and Conditions,Organismal Injury and Abnormalities","Pruritus",0.00254,"CCL7,CHRNA9,CXCL10,IL36A,OPRK1,S100A2",6
+"Dermatological Diseases and Conditions,Organismal Injury and Abnormalities","Keratosis",0.00263,"CDH1,CDH19,KRT6C,MMP1,PI3,S100A8",6
+"Neurological Disease","Sedation",0.00268,"CHRNA9,GABRP,OPRK1,SCN1A",4
+"Cancer,Organismal Injury and Abnormalities,Reproductive System Disease","Female genital tract serous carcinoma",0.00269,"CDH1,CP,CRABP1,FOXA2,GAL,INA,KRT20,KRT34,KRT81,MSLN,PI3,S100A2,VGLL1",13
+"Cancer,Organismal Injury and Abnormalities","Pelvic serous carcinoma",0.00269,"CDH1,CP,CRABP1,FOXA2,GAL,INA,KRT20,KRT34,KRT81,MSLN,PI3,S100A2,VGLL1",13
+"Cardiovascular Disease,Organismal Injury and Abnormalities,Respiratory Disease","Pulmonary Hypertension",0.00272,"CA6,CA9,CHRNA9,CXCL10,GABRP,SCN1A",6
+"Carbohydrate Metabolism,Lipid Metabolism,Small Molecule Biochemistry","Binding of lipopolysaccharide",0.00308,"BPI,LBP",2
+"Cardiovascular Disease","Prehypertension",0.0031,"CA6,CA9,SLC12A1",3
+"Developmental Disorder,Neurological Disease,Organismal Injury and Abnormalities","Lennox-Gastaut syndrome",0.00319,"CA6,CA9,GABRP,SCN1A",4
+"Organismal Injury and Abnormalities,Psychological Disorders","Generalized anxiety disorder",0.00337,"CA6,CA9,GABRP,SCN1A",4
+"Gastrointestinal Disease,Inflammatory Disease,Inflammatory Response,Organismal Injury and Abnormalities","Appendicitis",0.0034,"CHRNA9,OPRK1,SCN1A",3
+"Cardiovascular Disease,Hereditary Disorder,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Brugada syndrome type 1",0.0034,"ANKRD1,HCN4,KCNE5",3
+"Neurological Disease,Organismal Injury and Abnormalities","Migraine with aura",0.00357,"CA6,CA9,OPRK1,SCN1A",4
+"Neurological Disease,Organismal Injury and Abnormalities,Psychological Disorders","Brain damage",0.00365,"CA6,CA9,CHRNA9,GABBR2,GABRP,SCN1A",6
+"Ophthalmic Disease,Organismal Injury and Abnormalities","Angle-closure glaucoma",0.00371,"CA6,CA9,SCN1A",3
+"Connective Tissue Disorders,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Anterior cruciate ligament injury",0.00371,"GABRP,OPRK1,SCN1A",3
+"Cardiovascular Disease,Hereditary Disorder,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Familial left ventricular noncompaction",0.00371,"ACTN2,ANKRD1,HCN4",3
+"Skeletal and Muscular Disorders","Hallux valgus",0.00382,"OPRK1,SCN1A",2
+"Cardiovascular Disease,Dermatological Diseases and Conditions,Organismal Injury and Abnormalities","Stasis ulcer",0.00382,"FGA,FGB",2
+"Neurological Disease,Organismal Injury and Abnormalities","Tonic-clonic seizure",0.00389,"CA6,CA9,GABBR2,GABRP,KCNQ2,SCN1A",6
+"Molecular Transport","Transport of bicarbonate",0.00404,"CA6,CA9,SLC26A9",3
+"Cancer,Endocrine System Disorders,Organismal Injury and Abnormalities","Small-cell carcinoma",0.00424,"C18orf63,C1orf94,CALCB,CCKBR,CDH19,CHGA,CHRDL2,CT83,DDC,DLX6,DNER,FBN3,FETUB,FGA,FZD9,GLDC,HRCT1,IL36A,KLHL1,KRT20,LACRT,LCT,LUZP4,LYZL1,MAGEA3/MAGEA6,MAGEA4,MAGEA9/MAGEA9B,MAGEB4,NETO1,NKX2-1,NR2E1,OPRK1,PCDH11X,PGBD5,PXDNL,RGR,S100A8,SCN1A,SH3GL3,SLC12A1,SLC26A9,SLIT1,SMR3A,STRA8,SULT1C3,TAFA4,TBXT,TMPRSS4,UGT1A6,UGT1A9 (includes others),UGT2B10,ZP4",52
+"Gastrointestinal Disease","Vomiting",0.0043,"CA6,CA9,GABRP,OPRK1,SCN1A",5
+"Hematological Disease,Metabolic Disease,Organismal Injury and Abnormalities","Hypokalemia",0.00439,"CA6,CA9,SLC12A1",3
+"Auditory Disease","Tinnitus",0.00439,"CA6,CA9,SCN1A",3
+"Neurological Disease,Organismal Injury and Abnormalities","Generalized epilepsy",0.00481,"CA6,CA9,GABBR2,GABRP,KCNQ2,SCN1A",6
+"Dermatological Diseases and Conditions,Inflammatory Disease,Organismal Injury and Abnormalities","Acne",0.00481,"CA6,CA9,MMP1,PI3,UGT1A9 (includes others)",5
+"Neurological Disease,Organismal Injury and Abnormalities,Psychological Disorders","Traumatic brain injury",0.00481,"CA6,CA9,CHRNA9,GABRP,SCN1A",5
+"Organismal Injury and Abnormalities,Respiratory Disease","Obstructive sleep apnea",0.00487,"CA6,CA9,DDC,GABRP",4
+"Cancer,Organismal Injury and Abnormalities,Reproductive System Disease","Hyperplasia of genital organ",0.00487,"CDH1,FOXA2,GABRP,MMP1",4
+"Respiratory Disease","Lower respiratory tract disorder",0.00507,"CA6,CA9,CHRNA9,CYP2A6 (includes others),DLK1,GABRP,LBP,MMP1,NKX2-1,OPRK1",10
+"Neurological Disease,Psychological Disorders","Attention deficit hyperactivity disorder",0.00512,"CARTPT,FADS2,GABRP,OPRK1",4
+"Developmental Disorder,Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities","Autosomal dominant early infantile epileptic encephalopathy",0.00514,"GABBR2,KCNQ2,SCN1A",3
+"Cancer,Organismal Injury and Abnormalities,Respiratory Disease","Primary non-small cell lung carcinoma",0.00514,"GLDC,LIN28B,NKX2-1",3
+"Immunological Disease","Delayed hypersensitive reaction",0.00514,"KRT6C,PI3,S100A2",3
+"Dermatological Diseases and Conditions,Organismal Injury and Abnormalities","Plaque psoriasis",0.00524,"CXCL10,KRT6C,PI3,S100A8,SPRR1A,SPRR2D",6
+"Gastrointestinal Disease,Organismal Injury and Abnormalities","Esophageal lesion",0.00531,"CA9,CDH1,CRISP3,DLX6,FADS2,KRT20,LACRT,LBP,MAGEA3/MAGEA6,MAGEA4,MAGEA9/MAGEA9B,PADI3,PROKR2,PXDNL,S100A8,SCN1A,SLC39A12,STRA8,UBD",19
+"Cell-To-Cell Signaling and Interaction,Hematological System Development and Function","Aggregation of blood cells",0.00536,"CDH1,CXCL10,FGA,FGB,S100A8",5
+"Psychological Disorders","Opioid-related disorder",0.00537,"CA6,CA9,GABRP,OPRK1",4
+"Cancer,Organismal Injury and Abnormalities","Blue round small cell tumor",0.0054,"A2ML1,C18orf63,C1orf94,CALCB,CCKBR,CDH19,CHGA,CHRDL2,CT83,DDC,DLX6,DNER,FBN3,FETUB,FGA,FZD9,GLDC,HRCT1,IL36A,KCNE5,KLHL1,KRT20,LACRT,LCT,LIN28B,LMO1,LUZP4,LYZL1,MAGEA3/MAGEA6,MAGEA4,MAGEA9/MAGEA9B,MAGEB4,NETO1,NKX2-1,NR2E1,OPRK1,PCDH11X,PGBD5,PXDNL,RGR,S100A8,SCN1A,SH3GL3,SLC12A1,SLC26A9,SLIT1,SMR3A,STRA8,SULT1C3,TAFA4,TBXT,TMPRSS4,UGT1A6,UGT1A9 (includes others),UGT2B10,ZP4",56
+"Organismal Injury and Abnormalities","Extraintestinal functional disorder",0.00552,"CA6,CA9,CARTPT,CHRNA9,CP,GABRP,LBX1,OPRK1,SCN1A,SLC1A6",10
+"Organismal Injury and Abnormalities","Acute postoperative pain",0.00554,"OPRK1,SCN1A",2
+"Cardiovascular Disease,Neurological Disease,Organismal Injury and Abnormalities","Cerebral vasospasm",0.00554,"CA6,CA9",2
+"Developmental Disorder,Organismal Injury and Abnormalities","Drug induced edema",0.00554,"CA6,CA9",2
+"Gastrointestinal Disease,Organismal Injury and Abnormalities","Periodontal disease",0.00555,"CRNN,MMP1,PRSS33,SCN1A,SPRR1A,SPRR2D",6
+"Developmental Disorder,Neurological Disease,Organismal Injury and Abnormalities","Developmental epilepsy",0.00571,"CA6,CA9,GABBR2,GABRP,KCNQ2,SCN1A",6
+"Antimicrobial Response,Inflammatory Response","Antimicrobial response",0.00572,"BPI,CHGA,DCD,LACRT,OPRK1,PI3,PRSS3,S100A8",8
+"Gastrointestinal Disease,Organismal Injury and Abnormalities","Chronic periodontal disease",0.00575,"CRNN,MMP1,PRSS33,SPRR1A,SPRR2D",5
+"Lipid Metabolism,Small Molecule Biochemistry,Vitamin and Mineral Metabolism","Metabolism of terpenoid",0.00596,"CYP24A1,CYP27C1,CYP2A6 (includes others),RLBP1,UGT1A9 (includes others),UGT2B11,UGT2B28,UGT2B4",8
+"Organismal Injury and Abnormalities,Psychological Disorders","Anxiety Disorders",0.00621,"CA6,CA9,CARTPT,GABRP,SCN1A,SLC1A6",6
+"Cancer,Organismal Injury and Abnormalities","Nonhematologic malignant neoplasm",0.00634,"A2ML1,AARD,ACE2,ACTL8,ACTN2,AFAP1-AS1,AMTN,ANKRD1,ART3,BARHL2,BPI,C11orf86,C18orf63,C1orf94,CA6,CA9,CALCB,CARTPT,CASP14,CCKBR,CCL7,CDH1,CDH19,CDK5R2,CELF4,CHGA,CHODL,CHRDL2,CHRNA9,CLDN6,COL9A3,CP,CPB1,CRABP1,CRISP3,CRNN,CT83,CXCL10,CYP24A1,CYP27C1,CYP2A6 (includes others),CYP2F1,DCD,DDC,DHRS2,DIO1,DLK1,DLX6,DMRT1,DNER,ELF5,EN1,FABP7,FADS2,FBN3,FETUB,FGA,FGB,FOXA2,FZD9,GABBR2,GABRP,GAL,GGTLC2,GLDC,GNAT3,GNGT1,GSTA2,HAO1,HCN4,HORMAD1,HRCT1,IL36A,INA,KCNE5,KCNQ2,KCNV1,KIF1A,KLHL1,KLHL34,KRT20,KRT34,KRT38,KRT6C,KRT75,KRT81,KRT83,KRT85,LACRT,LBP,LBX1,LCT,LEMD1,LIN28B,LINC00261,LMO1,LUZP4,LY6D,LYZL1,MAGEA3/MAGEA6,MAGEA4,MAGEA9/MAGEA9B,MAGEB1,MAGEB4,MMP1,MSLN,MUC21,NETO1,NGB,NKX1-2,NKX2-1,NR2E1,OPRK1,PADI3,PCDH11X,PCDH8,PCSK1N,PGBD5,PGPEP1L,PI3,PNMA6E,POU4F1,PPDPFL,PPP1R14C,PRAME,PRDM13,PRKAG3,PROKR2,PRR27,PRSS3,PRSS33,PSAPL1,PXDNL,RAB3B,RAET1L,RCOR2,RGR,RLBP1,ROPN1,S100A2,S100A8,SCHLAP1,SCN1A,SFTA3,SFTPC,SH3GL3,SLC12A1,SLC15A1,SLC1A6,SLC26A9,SLC28A1,SLC39A12,SLC6A17,SLIT1,SMC1B,SMOC1,SMR3A,SOST,SOX11,SPANXB1 (includes others),SPDYC,SPRR1A,SPRR2D,STRA8,SULT1C3,SVOP,TAFA4,TBXT,TCAM1P,TCERG1L,TLX3,TMPRSS4,TMSB15A,TRIM15,TRIM43/TRIM43B,UBD,UGT1A6,UGT1A9 (includes others),UGT2A3,UGT2B10,UGT2B11,UGT2B28,UGT2B4,VGLL1,WNT6,ZFP42,ZNF280A,ZP4",188
+"Neurological Disease,Psychological Disorders","Bipolar disorder",0.00635,"CA6,CA9,FADS2,GABRP,GLDC,OPRK1,SCN1A,SLC1A6,STRA8",9
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Left ventricular dysfunction",0.00637,"ACE2,ACTN2,ANKRD1,HCN4,MMP1",5
+"Developmental Disorder,Hereditary Disorder,Organismal Injury and Abnormalities","Prader-Willi syndrome",0.0064,"CA6,CA9,SCN1A",3
+"Neurological Disease,Organismal Injury and Abnormalities","Partial seizure",0.00646,"CA6,CA9,GABRP,SCN1A",4
+"Developmental Disorder,Neurological Disease,Organismal Injury and Abnormalities,Psychological Disorders","Landau Kleffner syndrome",0.00651,"CA6,CA9",2
+"Cellular Development,Nervous System Development and Function,Tissue Development","Differentiation of dopaminergic neurons",0.00651,"EN1,FOXA2",2
+"Cancer,Cellular Development,Cellular Growth and Proliferation,Organismal Injury and Abnormalities,Tumor Morphology","Proliferation of cancer stem cells",0.00651,"GLDC,LIN28B",2
+"Connective Tissue Disorders,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Osteoporosis",0.00676,"CA6,CA9,SLC12A1,SOST",4
+"Cancer,Gastrointestinal Disease,Organismal Injury and Abnormalities","Esophageal carcinoma",0.00681,"CA9,CDH1,DLX6,FADS2,KRT20,LACRT,LBP,MAGEA3/MAGEA6,MAGEA4,MAGEA9/MAGEA9B,PADI3,PROKR2,PXDNL,S100A8,SCN1A,SLC39A12,STRA8",17
+"Organismal Injury and Abnormalities","Bleeding",0.00725,"CA6,CA9,CHRNA9,FGA,FGB,GABRP,SCN1A",7
+"Inflammatory Disease,Ophthalmic Disease,Organismal Injury and Abnormalities","Anterior uveitis",0.00733,"CA6,CA9,GABRP",3
+"Neurological Disease","Tremor",0.00738,"CA6,CA9,GABRP,SCN1A",4
+"Organismal Injury and Abnormalities","Acute pain",0.00738,"GABBR2,GABRP,OPRK1,SCN1A",4
+"Dermatological Diseases and Conditions,Organismal Injury and Abnormalities","Psoriasis",0.00741,"CDH1,CXCL10,DCD,FABP7,FADS2,GAL,KRT6C,MMP1,PI3,PRSS3,S100A2,S100A8,SLC1A6,SPRR1A,SPRR2D",15
+"Cancer,Gastrointestinal Disease,Organismal Injury and Abnormalities","Gastro-esophageal carcinoma",0.00743,"A2ML1,AMTN,ART3,BPI,CA9,CCKBR,CDH1,CELF4,CHGA,CHRDL2,COL9A3,CRNN,CYP2A6 (includes others),CYP2F1,DLK1,DLX6,DMRT1,DNER,EN1,FABP7,FADS2,FBN3,FETUB,FGA,FOXA2,GABRP,GNGT1,INA,KCNQ2,KCNV1,KIF1A,KLHL1,KLHL34,KRT20,LACRT,LBP,LBX1,LCT,LINC00261,LYZL1,MAGEA3/MAGEA6,MAGEA4,MAGEA9/MAGEA9B,NETO1,NGB,NKX1-2,OPRK1,PADI3,PCDH11X,PI3,POU4F1,PROKR2,PRR27,PRSS3,PXDNL,RCOR2,S100A2,S100A8,SCN1A,SLC1A6,SLC26A9,SLC39A12,SOX11,STRA8,TCERG1L,TRIM15,UGT1A6,UGT1A9 (includes others),UGT2B11,UGT2B4,WNT6,ZFP42,ZP4",73
+"Ophthalmic Disease,Organismal Injury and Abnormalities","Secondary glaucoma",0.00754,"CA6,CA9",2
+"Organismal Injury and Abnormalities,Respiratory Disease","High-altitude pulmonary edema",0.00754,"CA6,CA9",2
+"Hematological Disease","Acquired hemophilia",0.00754,"FGA,FGB",2
+"Connective Tissue Disorders,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Spondylolisthesis",0.00754,"OPRK1,SCN1A",2
+"Developmental Disorder,Hereditary Disorder,Metabolic Disease,Organismal Injury and Abnormalities","Congenital disorder of glycosylation type 1a",0.00754,"CA6,CA9",2
+"Cell-To-Cell Signaling and Interaction,Molecular Transport,Small Molecule Biochemistry","Secretion of catecholamine",0.00754,"CARTPT,CHGA",2
+"Hematological Disease,Hereditary Disorder,Organismal Injury and Abnormalities","Hemophilia A",0.00754,"FGA,FGB",2
+"Neurological Disease,Organismal Injury and Abnormalities","Subarachnoid hemorrhage",0.0077,"CA6,CA9,CHRNA9,GABRP",4
+"Cancer,Gastrointestinal Disease,Organismal Injury and Abnormalities","Gastroesophageal cancer",0.00782,"A2ML1,AMTN,ART3,BPI,CA9,CCKBR,CDH1,CELF4,CHGA,CHRDL2,COL9A3,CRNN,CYP2A6 (includes others),CYP2F1,DDC,DLK1,DLX6,DMRT1,DNER,EN1,FABP7,FADS2,FBN3,FETUB,FGA,FOXA2,GABRP,GNGT1,INA,KCNQ2,KCNV1,KIF1A,KLHL1,KLHL34,KRT20,LACRT,LBP,LBX1,LCT,LINC00261,LYZL1,MAGEA3/MAGEA6,MAGEA4,MAGEA9/MAGEA9B,NETO1,NGB,NKX1-2,OPRK1,PADI3,PCDH11X,PI3,POU4F1,PROKR2,PRR27,PRSS3,PXDNL,RCOR2,S100A2,S100A8,SCN1A,SLC1A6,SLC26A9,SLC39A12,SOX11,STRA8,TCERG1L,TMPRSS4,TRIM15,UGT1A6,UGT1A9 (includes others),UGT2B11,UGT2B4,WNT6,ZFP42,ZP4",75
+"Developmental Disorder,Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities","Fragile X syndrome",0.00783,"GABBR2,SCN1A,SLC1A6",3
+"Organismal Injury and Abnormalities","Shoulder pain",0.00783,"CHRNA9,OPRK1,SCN1A",3
+"Cardiovascular Disease","Primary hypertension",0.00801,"ACE2,CA6,CA9,DDC,SLC12A1",5
+"Organismal Injury and Abnormalities","Disorder of pigmentation",0.00826,"CP,FABP7,FADS2,GAL,UGT1A6",5
+"Neurological Disease","Essential tremor",0.00834,"CA6,CA9,SCN1A",3
+"Inflammatory Disease,Organismal Injury and Abnormalities,Respiratory Disease","Acute respiratory distress syndrome",0.00853,"ACE2,CHRNA9,CXCL10,GABRP,SCN1A",5
+"Hematological Disease,Metabolic Disease,Organismal Injury and Abnormalities","Diuretic-induced hypokalemia",0.00865,"CA6,CA9",2
+"Cellular Development,Cellular Growth and Proliferation","Proliferation of embryonic cancer cell lines",0.00865,"LINC00261,TBXT",2
+"Neurological Disease,Organismal Injury and Abnormalities","Generalized convulsive epilepsy",0.00879,"CA6,CA9,GABBR2,KCNQ2,SCN1A",5
+"Neurological Disease,Organismal Injury and Abnormalities,Psychological Disorders","Withdrawal syndrome",0.00888,"CHRNA9,GABBR2,GABRP",3
+"Gastrointestinal Disease,Organismal Injury and Abnormalities","Ileus",0.00888,"GABRP,OPRK1,SCN1A",3
+"Endocrine System Disorders,Metabolic Disease,Organismal Injury and Abnormalities","Insulin resistance",0.009,"CA6,CA9,FOXA2,LBP,OPRK1,S100A8,SCN1A",7
+"Cancer,Endocrine System Disorders,Organismal Injury and Abnormalities","Neuroendocrine tumor",0.00905,"C18orf63,C1orf94,CALCB,CARTPT,CCKBR,CDH19,CHGA,CHRDL2,CT83,DDC,DLX6,DNER,FBN3,FETUB,FGA,FZD9,GAL,GLDC,GNGT1,HRCT1,IL36A,KLHL1,KRT20,LACRT,LCT,LUZP4,LYZL1,MAGEA3/MAGEA6,MAGEA4,MAGEA9/MAGEA9B,MAGEB4,NETO1,NKX2-1,NR2E1,OPRK1,PCDH11X,PGBD5,PXDNL,RGR,S100A8,SCN1A,SH3GL3,SLC12A1,SLC26A9,SLIT1,SMR3A,STRA8,SULT1C3,TAFA4,TBXT,TLX3,TMPRSS4,UGT1A6,UGT1A9 (includes others),UGT2B10,ZP4",56
+"Organismal Injury and Abnormalities,Psychological Disorders","Social anxiety disorder",0.00908,"CA6,CA9,SCN1A,SLC1A6",4
+"Nutritional Disease","Weight gain",0.00908,"CA6,CA9,GABRP,SCN1A",4
+"Cancer,Endocrine System Disorders,Organismal Injury and Abnormalities","Endocrine gland tumor",0.00942,"A2ML1,AARD,ACE2,ACTL8,ACTN2,AFAP1-AS1,AMTN,ANKRD1,BARHL2,BPI,C11orf86,C18orf63,C1orf94,CA6,CA9,CALCB,CARTPT,CASP14,CCKBR,CDH1,CDH19,CDK5R2,CELF4,CHGA,CHODL,CHRDL2,CHRNA9,CLDN6,COL9A3,CP,CPB1,CRABP1,CT83,CYP24A1,CYP27C1,CYP2A6 (includes others),CYP2F1,DDC,DHRS2,DIO1,DLX6,DMRT1,DNER,ELF5,EN1,FADS2,FBN3,FETUB,FGA,FGB,FOXA2,FZD9,GABBR2,GABRP,GAL,GGTLC2,GLDC,GNAT3,GNGT1,HCN4,HORMAD1,HRCT1,IL36A,INA,KCNE5,KCNQ2,KCNV1,KIF1A,KLHL1,KLHL34,KRT20,KRT34,KRT38,KRT6C,KRT75,KRT81,KRT83,KRT85,LACRT,LBP,LCT,LMO1,LUZP4,LY6D,LYZL1,MAGEA3/MAGEA6,MAGEA4,MAGEA9/MAGEA9B,MAGEB1,MAGEB4,MMP1,MSLN,NETO1,NKX1-2,NKX2-1,NR2E1,OPRK1,PADI3,PCDH11X,PCDH8,PCSK1N,PGBD5,POU4F1,PPDPFL,PPP1R14C,PRAME,PRDM13,PRKAG3,PROKR2,PRSS3,PRSS33,PXDNL,RAET1L,RCOR2,RGR,RLBP1,S100A8,SCN1A,SH3GL3,SLC12A1,SLC15A1,SLC1A6,SLC26A9,SLC28A1,SLC39A12,SLC6A17,SLIT1,SMC1B,SMOC1,SMR3A,SOST,SOX11,SPANXB1 (includes others),SPDYC,STRA8,SULT1C3,SVOP,TAFA4,TBXT,TCERG1L,TLX3,TMPRSS4,TRIM15,TRIM43/TRIM43B,UGT1A6,UGT1A9 (includes others),UGT2A3,UGT2B10,UGT2B11,UGT2B28,UGT2B4,VGLL1,WNT6,ZP4",154
+"Respiratory Disease","Respiratory insufficiency",0.00943,"CA6,CA9,CHRNA9",3
+"Cardiovascular Disease,Hereditary Disorder,Organismal Injury and Abnormalities","Inherited arrhythmia syndrome",0.00945,"ACTN2,ANKRD1,HCN4,KCNE5",4
+"Cancer,Cellular Movement,Organismal Injury and Abnormalities","Invasion of mammary epithelial cells",0.00948,"MMP1",1
+"Developmental Disorder,Endocrine System Disorders,Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities,Reproductive System Disease","Hypogonadotropic hypogonadism 3 without anosmia",0.00948,"PROKR2",1
+"Cancer,Endocrine System Disorders,Gastrointestinal Disease,Organismal Injury and Abnormalities","Non-functional pancreatic neuroendocrine tumor",0.00948,"CHGA",1
+"Organismal Injury and Abnormalities,Renal and Urological Disease","Urinary bladder voiding dysfunction",0.00948,"SCN1A",1
+"Cell Death and Survival","Cell viability of bronchial epithelial cells",0.00948,"UBD",1
+"Developmental Disorder,Hereditary Disorder,Metabolic Disease,Organismal Injury and Abnormalities","Uridine-cytidineuria",0.00948,"SLC28A1",1
+"Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities","Susceptibility to familial febrile seizures type 3A",0.00948,"SCN1A",1
+"Cardiovascular Disease,Hereditary Disorder,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Sick sinus syndrome 2 with cardiac noncompaction",0.00948,"HCN4",1
+"Developmental Disorder,Endocrine System Disorders,Hereditary Disorder,Metabolic Disease,Neurological Disease,Organismal Injury and Abnormalities,Psychological Disorders,Respiratory Disease","Congenital hypothyroidism with choreoathetosis and neonatal resporatory distress",0.00948,"NKX2-1",1
+"Hereditary Disorder,Organismal Functions,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Autosomal dominant adult-onset distal myopathy type 6",0.00948,"ACTN2",1
+"Developmental Disorder,Hereditary Disorder,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Congenital myopathy with structured cores and Z-line abnormalities",0.00948,"ACTN2",1
+"Cell-To-Cell Signaling and Interaction,Cellular Assembly and Organization","Cell-cell contact of squamous carcinoma cells",0.00948,"CDH1",1
+"Ophthalmic Disease,Organismal Injury and Abnormalities","Retinitis pigmentosa type 44",0.00948,"RGR",1
+"Cellular Movement","Intravasation of squamous cell carcinoma cell lines",0.00948,"MMP1",1
+"Amino Acid Metabolism,Molecular Transport,Small Molecule Biochemistry","Quantity of L-leucine",0.00948,"CA9",1
+"Dental Disease,Developmental Disorder,Gastrointestinal Disease,Hereditary Disorder,Organismal Injury and Abnormalities","Amelogenesis imperfecta type IIIB",0.00948,"AMTN",1
+"Cellular Movement","Transepithelial migration of squamous cell carcinoma cell lines",0.00948,"CDH1",1
+"Developmental Disorder,Endocrine System Disorders,Hematological Disease,Hereditary Disorder,Metabolic Disease,Organismal Injury and Abnormalities,Renal and Urological Disease","Bartter syndrome type 1",0.00948,"SLC12A1",1
+"Cancer,Organismal Injury and Abnormalities","Transformation of RPE cells",0.00948,"PGBD5",1
+"Developmental Disorder,Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities","Early infantile epileptic encephalopathy type 7",0.00948,"KCNQ2",1
+"Cellular Movement","Transepithelial migration of keratinocyte cancer cell lines",0.00948,"CDH1",1
+"Cancer,Gastrointestinal Disease,Organismal Injury and Abnormalities","TNM stage I gastric cancer",0.00948,"TMPRSS4",1
+"Cell Death and Survival,Reproductive System Development and Function","Survival of mammary epithelial cells",0.00948,"EN1",1
+"Lipid Metabolism,Small Molecule Biochemistry","Binding of lipoteichoic acid",0.00948,"LBP",1
+"Embryonic Development,Nervous System Development and Function,Organ Development,Organismal Development,Tissue Development","Development of globus pallidus",0.00948,"NKX2-1",1
+"Connective Tissue Disorders,Developmental Disorder,Hereditary Disorder,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Autosomal dominant craniodiaphyseal dysplasia",0.00948,"SOST",1
+"Cancer,Connective Tissue Disorders,Organismal Injury and Abnormalities,Respiratory Disease","Neoplastic cell transformation of pulmonary fibroblasts",0.00948,"GLDC",1
+"Drug Metabolism","Storage of levodopa",0.00948,"CHGA",1
+"Molecular Transport","Secretion of urea",0.00948,"FOXA2",1
+"Cell-To-Cell Signaling and Interaction","Reactivity of natural killer cells",0.00948,"CDH1",1
+"Developmental Disorder,Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities","Early infantile epileptic encephalopathy type 59",0.00948,"GABBR2",1
+"Developmental Disorder,Endocrine System Disorders,Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities,Reproductive System Disease,Respiratory Disease","Kallmann syndrome type 3",0.00948,"PROKR2",1
+"Cell Cycle","Arrest in Gap 0-Gap 1 phase of cholangiocarcinoma cell lines",0.00948,"AFAP1-AS1",1
+"Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities","Familial temporal lobe epilepsy type 8",0.00948,"GAL",1
+"Developmental Disorder,Hereditary Disorder,Ophthalmic Disease,Organismal Injury and Abnormalities","Newfoundland rod-cone dystrophy",0.00948,"RLBP1",1
+"Cancer,Gastrointestinal Disease,Hereditary Disorder,Organismal Injury and Abnormalities","Hereditary diffuse gastric adenocarcinoma",0.00948,"CDH1",1
+"Cancer,Gastrointestinal Disease,Hereditary Disorder,Organismal Injury and Abnormalities","Autosomal dominant hereditary diffuse gastric cancer",0.00948,"CDH1",1
+"Cell Morphology,Cell-To-Cell Signaling and Interaction,Cellular Assembly and Organization","Extension of focal adhesions",0.00948,"CDH1",1
+"Amino Acid Metabolism,Energy Production,Post-Translational Modification,Small Molecule Biochemistry","Auto-oxidation of cystine",0.00948,"CP",1
+"Connective Tissue Disorders,Developmental Disorder,Hereditary Disorder,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Sclerosteosis type 1",0.00948,"SOST",1
+"Cancer,Organismal Injury and Abnormalities,Reproductive System Disease","Well-differentiated malignant neoplasm of prostate",0.00948,"FABP7",1
+"Cell Cycle","Arrest in S/G2 phase transition of breast cancer cell lines",0.00948,"FABP7",1
+"Metabolic Disease,Organismal Injury and Abnormalities,Psychological Disorders","Protection against nicotine dependence",0.00948,"CYP2A6 (includes others)",1
+"Cancer","Establishment of lung cancer cell lines",0.00948,"FZD9",1
+"Developmental Disorder,Hereditary Disorder,Ophthalmic Disease,Organismal Injury and Abnormalities","Bothnia retinal dystrophy",0.00948,"RLBP1",1
+"Cell Cycle","Exit from mitosis of lung cancer cell lines",0.00948,"CYP24A1",1
+"Cell-To-Cell Signaling and Interaction","Adhesion of neural stem cells",0.00948,"CDH1",1
+"Cancer,Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities","Susceptibility to neuroblastoma type 7",0.00948,"LMO1",1
+"Hereditary Disorder,Metabolic Disease,Organismal Injury and Abnormalities","Deficiency of aromatic-l-amino-acid decarboxylase",0.00948,"DDC",1
+"Cell Cycle","Entry into S phase of skin cancer cell lines",0.00948,"CDH1",1
+"Hereditary Disorder,Metabolic Disease,Organismal Injury and Abnormalities","Deficiency of ferroxidase",0.00948,"CP",1
+"Cell Cycle","Tetraploidy of sarcoma cell lines",0.00948,"CDH1",1
+"Developmental Disorder,Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities","Myokymia with neonatal epilepsy",0.00948,"KCNQ2",1
+"Drug Metabolism","Hydroxylation of coumarin",0.00948,"CYP2A6 (includes others)",1
+"Cancer,Organismal Injury and Abnormalities,Respiratory Disease","Non-mucinous lung adenocarcinoma",0.00948,"NKX2-1",1
+"DNA Replication, Recombination, and Repair,Nucleic Acid Metabolism,Small Molecule Biochemistry","Metabolism of deoxyuridine",0.00948,"GLDC",1
+"Developmental Disorder,Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Limb-brain type ENDOVE syndrome",0.00948,"EN1",1
+"Cardiovascular Disease,Organismal Injury and Abnormalities,Reproductive System Disease","Postpartum preeclampsia",0.00948,"SLC12A1",1
+"Dermatological Diseases and Conditions,Hereditary Disorder,Organismal Injury and Abnormalities","Susceptibility to pseudofolliculitis barbae",0.00948,"KRT75",1
+"Organismal Development,Skeletal and Muscular System Development and Function","Formation of wing",0.00948,"VGLL1",1
+"Hematological Disease,Metabolic Disease,Nutritional Disease,Organismal Injury and Abnormalities","Systemic hemosiderosis due to aceruloplasminemia",0.00948,"CP",1
+"Cardiovascular System Development and Function,Cell-To-Cell Signaling and Interaction","Activation of HCAEC cells",0.00948,"LBP",1
+"Cancer,Endocrine System Disorders,Organismal Injury and Abnormalities,Reproductive System Disease","Primary small cell cervical cancer",0.00948,"NKX2-1",1
+"Cell Cycle","Tetraploidy of bone cancer cell lines",0.00948,"CDH1",1
+"Cell Death and Survival,Organismal Injury and Abnormalities","Apoptosis of squamous epithelial cells",0.00948,"CDH1",1
+"Cell Cycle","Arrest in G0 phase of breast cell lines",0.00948,"PI3",1
+"Cellular Function and Maintenance,Reproductive System Development and Function","Organization of gonadal cell lines",0.00948,"CDH1",1
+"Amino Acid Metabolism,Energy Production,Post-Translational Modification,Small Molecule Biochemistry","Auto-oxidation of L-cysteine",0.00948,"CP",1
+"Cardiovascular Disease,Hereditary Disorder,Organismal Injury and Abnormalities","Familial sinus bradycardia",0.00948,"HCN4",1
+"Connective Tissue Disorders,Developmental Disorder,Hereditary Disorder,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Sacral agenesis with vertebral anomalies",0.00948,"TBXT",1
+"Cancer,Hematological Disease,Immunological Disease,Organismal Injury and Abnormalities","Extranodal mantle cell lymphoma",0.00948,"SOX11",1
+"Developmental Disorder,Hereditary Disorder,Ophthalmic Disease,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Microphthalmia with limb anomalies",0.00948,"SMOC1",1
+"Drug Metabolism,Molecular Transport","Uptake of cephalexin",0.00948,"SLC15A1",1
+"Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities","Hereditary sensory neuropathy type IIC",0.00948,"KIF1A",1
+"Dermatological Diseases and Conditions,Developmental Disorder,Hereditary Disorder,Organismal Injury and Abnormalities","Erythrokeratodermia variabilis et progressiva 5",0.00948,"KRT83",1
+"Developmental Disorder,Endocrine System Disorders,Hereditary Disorder,Organismal Injury and Abnormalities,Reproductive System Disease","46, XY sex reversal type 4",0.00948,"DMRT1",1
+"Developmental Disorder,Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities,Psychological Disorders","Neurodevelopmental disorder with poor language and loss of hand skills",0.00948,"GABBR2",1
+"Connective Tissue Disorders,Developmental Disorder,Hereditary Disorder,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Multiple epiphyseal dysplasia with myopathy type 3",0.00948,"COL9A3",1
+"Cardiovascular Disease,Hereditary Disorder,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Familial hypertrophic cardiomyopathy type 23",0.00948,"ACTN2",1
+"Hereditary Disorder,Metabolic Disease,Organismal Injury and Abnormalities","Hereditary aceruloplasminemia",0.00948,"CP",1
+"Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Autosomal recessive spastic paraplegia type 30",0.00948,"KIF1A",1
+"Endocrine System Disorders,Hematological Disease,Hereditary Disorder,Organismal Injury and Abnormalities","Infantile hypercalcemia type 1",0.00948,"CYP24A1",1
+"Cancer,Organismal Injury and Abnormalities,Reproductive System Disease","Development of lobular breast adenocarcinoma",0.00948,"CDH1",1
+"Cell Cycle","Exit from G1 phase of breast cancer cell lines",0.00948,"ELF5",1
+"Cellular Assembly and Organization","Decapping of actin filaments",0.00948,"ACTN2",1
+"Connective Tissue Disorders,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Severe osteoporosis",0.00948,"SOST",1
+"Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities","Familial hemiplegic migraine type 3",0.00948,"SCN1A",1
+"Cell Death and Survival","Killing of B lymphoblastoid cell lines",0.00948,"RAET1L",1
+"Developmental Disorder,Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities","Autosomal dominant mental retardation type 27",0.00948,"SOX11",1
+"Cardiovascular Disease,Developmental Disorder,Organismal Injury and Abnormalities,Respiratory Disease","Total anomalous pulmonary venous return",0.00948,"ANKRD1",1
+"Embryonic Development,Tissue Development","Adhesion of embryoblast",0.00948,"CDH1",1
+"Cancer,Gastrointestinal Disease,Organismal Injury and Abnormalities","TNM stage II gastric cancer",0.00948,"TMPRSS4",1
+"Developmental Disorder,Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Benign familial neonatal seizures 1 and/or myokymia",0.00948,"KCNQ2",1
+"Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities","Generalized epilepsy with febrile seizures plus type 2",0.00948,"SCN1A",1
+"Dermatological Diseases and Conditions,Infectious Diseases,Organismal Injury and Abnormalities","Scabies",0.00948,"SCN1A",1
+"Developmental Disorder,Gastrointestinal Disease,Hereditary Disorder,Metabolic Disease,Organismal Injury and Abnormalities","Congenital lactase deficiency",0.00948,"LCT",1
+"Connective Tissue Disorders,Developmental Disorder,Gastrointestinal Disease,Hereditary Disorder,Ophthalmic Disease,Organismal Development,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Blepharocheilodontic syndrome type 1",0.00948,"CDH1",1
+"Developmental Disorder,Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities","Autosomal dominant mental retardation type 9",0.00948,"KIF1A",1
+"Developmental Disorder,Hereditary Disorder,Metabolic Disease,Organismal Injury and Abnormalities,Respiratory Disease","Surfactant metabolism dysfunction due to protein C deficiency",0.00948,"SFTPC",1
+"Hereditary Disorder,Organismal Injury and Abnormalities","FGA-related disorder",0.00948,"FGA",1
+"Neurological Disease,Organismal Injury and Abnormalities","Drug resistant multifocal epilepsy",0.00948,"SCN1A",1
+"Amino Acid Metabolism,Molecular Transport,Small Molecule Biochemistry","Quantity of L-tryptophan",0.00948,"CA9",1
+"Cancer,Connective Tissue Disorders,Developmental Disorder,Gastrointestinal Disease,Hereditary Disorder,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Hereditary diffuse gastric cancer and cleft lip",0.00948,"CDH1",1
+"Cell Death and Survival","Killing of Bacillus anthracis",0.00948,"CXCL10",1
+"Cell Cycle","Exit from mitosis of adenocarcinoma cell lines",0.00948,"CYP24A1",1
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Trauma-hemorrhagic shock",0.00948,"CXCL10",1
+"Amino Acid Metabolism,Molecular Transport,Small Molecule Biochemistry","Quantity of L-methionine",0.00948,"CA9",1
+"Cardiovascular Disease,Cardiovascular System Development and Function,Hereditary Disorder,Organ Morphology,Organismal Development,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Dilated cardiomyopathy type 1AA",0.00948,"ACTN2",1
+"Cardiovascular Disease,Cardiovascular System Development and Function,Hereditary Disorder,Organ Morphology,Organismal Development,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","ANKRD1-related dilated cardiomyopathy",0.00948,"ANKRD1",1
+"Cellular Assembly and Organization","Formation of filamentous network",0.00948,"INA",1
+"Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities","Autosomal dominant benign hereditary chorea",0.00948,"NKX2-1",1
+"Cardiovascular Disease,Hereditary Disorder,Organismal Injury and Abnormalities","Sick sinus syndrome type 2 with cardiac noncompaction and ascending aorta dilation",0.00948,"HCN4",1
+"Carbohydrate Metabolism,Small Molecule Biochemistry","Dissociation of lipopolysaccharide",0.00948,"LBP",1
+"Cell Death and Survival","Cell viability of embryonic cancer cell lines",0.00948,"TBXT",1
+"Small Molecule Biochemistry","Catabolism of glycolic acid",0.00948,"HAO1",1
+"Dermatological Diseases and Conditions,Developmental Disorder,Hereditary Disorder,Organismal Injury and Abnormalities","Autosomal recessive congenital ichthyosis type 12",0.00948,"CASP14",1
+"Lipid Metabolism,Small Molecule Biochemistry","Mobilization of all-trans-retinyl esters",0.00948,"RGR",1
+"Drug Metabolism","Catabolism of coumarin",0.00948,"CYP2A6 (includes others)",1
+"Gastrointestinal Disease,Hepatic System Disease,Organismal Injury and Abnormalities","Hepatic insufficiency",0.00948,"CHGA",1
+"Cellular Development,Cellular Growth and Proliferation","Delay in growth of breast cancer cell lines",0.00948,"CA9",1
+"Cancer,Organismal Injury and Abnormalities","Metastasis of squamous cell carcinoma cell lines",0.00948,"MMP1",1
+"Small Molecule Biochemistry","Production of putrescine",0.00948,"CA9",1
+"Cellular Assembly and Organization,Cellular Function and Maintenance","Organization of keratin intermediate filaments",0.00948,"KRT20",1
+"Cell Cycle","Senescence of kidney cells",0.00948,"CYP24A1",1
+"Dermatological Diseases and Conditions,Infectious Diseases,Organismal Injury and Abnormalities","Pediculosis capitis",0.00948,"SCN1A",1
+"Cancer","Establishment of carcinoma cell lines",0.00948,"FZD9",1
+"Cancer,Organismal Injury and Abnormalities,Reproductive System Disease","Uterine serous carcinoma",0.00948,"CDH1,CRABP1,GAL,INA,KRT34,KRT81,PI3,VGLL1",8
+"Organismal Injury and Abnormalities","Chronic pain",0.00963,"CA6,CA9,GABBR2,OPRK1,SCN1A",5
+"Organismal Injury and Abnormalities","Adverse drug reaction",0.00963,"CA6,CA9,GABRP,OPRK1,SLC12A1,UGT1A9 (includes others)",6
+"Cardiovascular Disease","Controlled hypertension",0.00982,"CA6,CA9",2
+"Connective Tissue Disorders,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Anterior cruciate ligament rupture",0.00982,"OPRK1,SCN1A",2
+"Connective Tissue Disorders,Hereditary Disorder,Inflammatory Disease,Organismal Injury and Abnormalities,Respiratory Disease","Familial idiopathic pulmonary fibrosis",0.00982,"MMP1,SFTPC",2
+"Developmental Disorder,Hereditary Disorder,Metabolic Disease,Organismal Injury and Abnormalities,Renal and Urological Disease","Inborn error renal tubular transport",0.01,"CA6,CA9,SLC12A1",3
+"Cancer,Endocrine System Disorders,Organismal Injury and Abnormalities","Extrapancreatic neuroendocrine tumor",0.01,"C18orf63,C1orf94,CALCB,CARTPT,CCKBR,CDH19,CHGA,CHRDL2,CT83,DDC,DLX6,DNER,FBN3,FETUB,FGA,FZD9,GAL,GLDC,GNGT1,HRCT1,IL36A,KLHL1,LACRT,LCT,LUZP4,LYZL1,MAGEA3/MAGEA6,MAGEA4,MAGEA9/MAGEA9B,MAGEB4,NETO1,NKX2-1,NR2E1,OPRK1,PCDH11X,PGBD5,PXDNL,RGR,S100A8,SCN1A,SH3GL3,SLC12A1,SLC26A9,SLIT1,SMR3A,STRA8,SULT1C3,TAFA4,TBXT,TLX3,TMPRSS4,UGT1A6,UGT1A9 (includes others),UGT2B10,ZP4",55
+"Digestive System Development and Function","Development of digestive system",0.0102,"AMTN,FOXA2,GABRP,WNT6",4
+"Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities","Autosomal dominant epilepsy",0.0102,"GABBR2,GAL,KCNQ2,SCN1A",4
+"Dermatological Diseases and Conditions,Organismal Injury and Abnormalities","Senile lentigo",0.0106,"FABP7,FADS2,GAL",3
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Chronic heart failure",0.0106,"CA6,CA9,SLC12A1",3
+"Respiratory Disease","Respiratory depression",0.0106,"GABRP,OPRK1,SCN1A",3
+"Developmental Disorder,Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities","Early infantile epileptic encephalopathy type 1",0.0111,"KCNQ2,SCN1A",2
+"Inflammatory Disease,Ophthalmic Disease,Organismal Injury and Abnormalities","Chronic anterior uveitis",0.0111,"CA6,CA9",2
+"Cancer,Organismal Injury and Abnormalities,Reproductive System Disease","Benign prostatic hyperplasia",0.0118,"CDH1,GABRP,MMP1",3
+"Neurological Disease,Skeletal and Muscular Disorders","Muscle spasm",0.0118,"GABRP,OPRK1,SCN1A",3
+"Cancer,Endocrine System Disorders,Organismal Injury and Abnormalities","Endocrine cancer",0.0119,"A2ML1,AARD,ACE2,ACTL8,ACTN2,AFAP1-AS1,AMTN,ANKRD1,BARHL2,BPI,C11orf86,C18orf63,C1orf94,CA6,CA9,CALCB,CASP14,CCKBR,CDH1,CDH19,CDK5R2,CELF4,CHGA,CHODL,CHRDL2,CHRNA9,CLDN6,COL9A3,CP,CPB1,CRABP1,CT83,CYP24A1,CYP27C1,CYP2A6 (includes others),CYP2F1,DDC,DHRS2,DIO1,DLX6,DMRT1,DNER,ELF5,EN1,FADS2,FBN3,FETUB,FGA,FGB,FOXA2,FZD9,GABBR2,GABRP,GAL,GGTLC2,GLDC,GNAT3,HCN4,HORMAD1,HRCT1,IL36A,INA,KCNE5,KCNQ2,KCNV1,KIF1A,KLHL1,KLHL34,KRT20,KRT34,KRT38,KRT6C,KRT75,KRT81,KRT83,KRT85,LACRT,LBP,LCT,LMO1,LUZP4,LY6D,LYZL1,MAGEA3/MAGEA6,MAGEA4,MAGEA9/MAGEA9B,MAGEB1,MAGEB4,MMP1,MSLN,NETO1,NKX1-2,NKX2-1,NR2E1,OPRK1,PADI3,PCDH11X,PCDH8,PCSK1N,PGBD5,POU4F1,PPDPFL,PPP1R14C,PRAME,PRDM13,PRKAG3,PROKR2,PRSS3,PRSS33,PXDNL,RAET1L,RCOR2,RGR,RLBP1,S100A8,SCN1A,SH3GL3,SLC12A1,SLC15A1,SLC1A6,SLC26A9,SLC28A1,SLC39A12,SLC6A17,SLIT1,SMC1B,SMOC1,SMR3A,SOST,SOX11,SPANXB1 (includes others),SPDYC,STRA8,SULT1C3,SVOP,TAFA4,TBXT,TCERG1L,TLX3,TMPRSS4,TRIM15,TRIM43/TRIM43B,UGT1A6,UGT1A9 (includes others),UGT2A3,UGT2B10,UGT2B11,UGT2B28,UGT2B4,VGLL1,WNT6,ZP4",152
+"Organismal Injury and Abnormalities,Renal and Urological Disease","Renal impairment",0.0122,"CA6,CA9,CHGA,CHRNA9,GABRP,SCN1A,SLC12A1",7
+"Cancer,Organismal Injury and Abnormalities","Cancer",0.0123,"A2ML1,AARD,ACE2,ACTL8,ACTN2,AFAP1-AS1,AMTN,ANKRD1,ART3,BARHL2,BPI,C11orf86,C18orf63,C1orf94,CA6,CA9,CALCB,CARTPT,CASP14,CCKBR,CCL7,CDH1,CDH19,CDK5R2,CELF4,CHGA,CHODL,CHRDL2,CHRNA9,CLDN6,COL9A3,CP,CPB1,CRABP1,CRISP3,CRNN,CSAG2/CSAG3,CT83,CXCL10,CYP24A1,CYP27C1,CYP2A6 (includes others),CYP2F1,DCD,DDC,DHRS2,DIO1,DLK1,DLX6,DMRT1,DNER,ELF5,EN1,FABP7,FADS2,FBN3,FETUB,FGA,FGB,FOXA2,FZD9,GABBR2,GABRP,GAL,GGTLC2,GLDC,GNAT3,GNGT1,GSTA2,HAO1,HCN4,HORMAD1,HRCT1,IL36A,INA,KCNE5,KCNQ2,KCNV1,KIF1A,KLHL1,KLHL34,KRT20,KRT34,KRT38,KRT6C,KRT75,KRT81,KRT83,KRT85,LACRT,LBP,LBX1,LCT,LEMD1,LIN28B,LINC00261,LINC00393,LMO1,LUZP4,LY6D,LYZL1,MAGEA3/MAGEA6,MAGEA4,MAGEA9/MAGEA9B,MAGEB1,MAGEB4,MMP1,MSLN,MUC21,NETO1,NGB,NKX1-2,NKX2-1,NR2E1,OPRK1,PADI3,PCDH11X,PCDH8,PCSK1N,PGBD5,PGPEP1L,PI3,PNMA6E,POU4F1,PPDPFL,PPP1R14C,PRAME,PRDM13,PRKAG3,PROKR2,PRR27,PRSS3,PRSS33,PSAPL1,PXDNL,RAB3B,RAET1L,RCOR2,RGR,RLBP1,ROPN1,S100A2,S100A8,SCHLAP1,SCN1A,SFTA3,SFTPC,SH3GL3,SLC12A1,SLC15A1,SLC1A6,SLC26A9,SLC28A1,SLC39A12,SLC6A17,SLIT1,SMC1B,SMOC1,SMR3A,SOST,SOX11,SPANXB1 (includes others),SPDYC,SPRR1A,SPRR2D,STRA8,SULT1C3,SVOP,TAFA4,TBXT,TCAM1P,TCERG1L,TLX3,TMPRSS4,TMSB15A,TRIM15,TRIM43/TRIM43B,UBD,UGT1A6,UGT1A9 (includes others),UGT2A3,UGT2B10,UGT2B11,UGT2B28,UGT2B4,VGLL1,WNT6,ZFP42,ZNF280A,ZP4",190
+"Dermatological Diseases and Conditions,Organismal Injury and Abnormalities","Loose anagen hair syndrome",0.0124,"A2ML1,KRT75",2
+"Cellular Compromise","Injury of cells",0.0124,"CHGA,PI3",2
+"Infectious Diseases,Inflammatory Disease,Ophthalmic Disease,Organismal Injury and Abnormalities","Infectious conjunctivitis",0.0124,"CA6,CA9",2
+"Organismal Functions,Organismal Injury and Abnormalities,Tissue Morphology","Closure of wound",0.0124,"FGA,FGB",2
+"Digestive System Development and Function,Embryonic Development,Organ Development,Organismal Development","Tooth development",0.0125,"AMTN,GABRP,WNT6",3
+"Connective Tissue Disorders,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Intervertebral disc disorder",0.0125,"COL9A3,OPRK1,SCN1A",3
+"Dermatological Diseases and Conditions,Organismal Injury and Abnormalities","Chronic skin disorder",0.0134,"CXCL10,KRT6C,PI3,PRSS3,S100A2,S100A8,SPRR1A,SPRR2D",8
+"Molecular Transport","Transport of molecule",0.0136,"ACTN2,ANKRD1,CA6,CA9,CARTPT,CDH1,CHGA,CP,FGA,FGB,FOXA2,GAL,HCN4,KCNQ2,KCNV1,LACRT,LBP,NGB,SLC12A1,SLC15A1,SLC1A6,SLC26A9,SLC28A1",23
+"Cellular Development,Tissue Development","Differentiation of nervous tissue",0.0137,"CDK5R2,EN1,FOXA2,SOX11",4
+"Connective Tissue Disorders,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders,Tissue Morphology","Ankle fracture",0.0137,"OPRK1,SCN1A",2
+"Cancer,Cellular Development,Cellular Growth and Proliferation,Neurological Disease,Organismal Injury and Abnormalities,Tumor Morphology","Proliferation of glioma cells",0.0137,"DLK1,SCHLAP1",2
+"Lipid Metabolism,Small Molecule Biochemistry,Vitamin and Mineral Metabolism","Metabolism of retinol",0.0137,"CYP27C1,RLBP1",2
+"Ophthalmic Disease,Organismal Injury and Abnormalities","Acute angle closure glaucoma",0.0137,"CA6,CA9",2
+"Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities","Hereditary sensory and autonomic neuropathy",0.0137,"DDC,KIF1A",2
+"Ophthalmic Disease,Organismal Injury and Abnormalities","Chronic open angle glaucoma",0.0137,"CA6,CA9",2
+"Cancer,Organismal Injury and Abnormalities,Respiratory Disease","Lung adenocarcinoma",0.014,"A2ML1,ACE2,ACTN2,CDH1,CYP27C1,DIO1,DLK1,DLX6,DMRT1,FGB,HAO1,KCNQ2,KCNV1,KIF1A,KRT20,KRT38,KRT6C,LINC00261,LUZP4,MAGEA3/MAGEA6,MAGEA4,MAGEA9/MAGEA9B,MAGEB4,MMP1,MUC21,NKX2-1,NR2E1,PCDH11X,PCDH8,PRAME,PXDNL,RCOR2,SCN1A,SH3GL3,SLC39A12,SPANXB1 (includes others),UGT1A9 (includes others),UGT2B11,ZP4",39
+"Cancer,Organismal Injury and Abnormalities,Reproductive System Disease","Uterine serous papillary cancer",0.0142,"CRABP1,GAL,INA,KRT34,KRT81,PI3,VGLL1",7
+"Cancer,Gastrointestinal Disease,Organismal Injury and Abnormalities","Esophageal adenocarcinoma",0.0144,"FADS2,LACRT,LBP,MAGEA3/MAGEA6,MAGEA4,MAGEA9/MAGEA9B,PADI3,PROKR2,PXDNL,SCN1A,SLC39A12,STRA8",12
+"Molecular Transport","Transport of K+",0.0146,"ACTN2,HCN4,KCNQ2,KCNV1",4
+"Cardiovascular System Development and Function,Embryonic Development,Organismal Development,Tissue Development","Angiogenesis of chorioallantoic membrane",0.0152,"BPI,CDH1",2
+"Metabolic Disease,Organismal Injury and Abnormalities","Hyperbilirubinemia",0.0152,"UGT1A6,UGT1A9 (includes others)",2
+"Hair and Skin Development and Function","Hair growth cycle",0.0152,"GAL,KRT83",2
+"Connective Tissue Disorders,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Pain of joint",0.0152,"OPRK1,SCN1A",2
+"Organismal Injury and Abnormalities","Cancer pain",0.0152,"OPRK1,SCN1A",2
+"Hematological System Development and Function","Fibrinolysis",0.0152,"FGA,FGB",2
+"Cell-To-Cell Signaling and Interaction,Hematological System Development and Function,Immune Cell Trafficking,Inflammatory Response","Binding of neutrophils",0.0153,"CXCL10,FGA,S100A8",3
+"Gastrointestinal Disease,Organismal Injury and Abnormalities","Benign oral disorder",0.0154,"AMTN,CDH1,CRNN,CXCL10,GABRP,MMP1,OPRK1,PRSS33,SCN1A,SPRR1A,SPRR2D,UBD",12
+"Lipid Metabolism,Small Molecule Biochemistry,Vitamin and Mineral Metabolism","Steroid metabolism",0.0155,"CYP24A1,CYP2A6 (includes others),UGT1A9 (includes others),UGT2B11,UGT2B28,UGT2B4",6
+"Cardiovascular System Development and Function,Hematological System Development and Function","Blood pressure",0.0161,"ACE2,CARTPT,CHGA",3
+"Connective Tissue Disorders,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders,Tissue Morphology","Femoral fracture",0.0167,"OPRK1,SCN1A",2
+"Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities","Spinocerebellar ataxia type 2",0.0167,"SCN1A,SLC1A6",2
+"Post-Translational Modification","Cross-linkage of peptide",0.0167,"PI3,SPRR1A",2
+"Organismal Injury and Abnormalities","Fibrin clot",0.0167,"FGA,FGB",2
+"Organismal Injury and Abnormalities,Renal and Urological Disease","Renal colic",0.0167,"OPRK1,SCN1A",2
+"Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities","Spinocerebellar ataxia type 7",0.0167,"SCN1A,SLC1A6",2
+"Cardiovascular Disease","Mild hypertension",0.0167,"CA6,CA9",2
+"Organismal Injury and Abnormalities","Critical illness",0.0167,"CHRNA9,GABRP,SCN1A,SLC12A1",4
+"Cancer,Organismal Injury and Abnormalities","Mesothelioma",0.017,"CDH1,KRT20,MSLN,MUC21,NKX2-1",5
+"Endocrine System Disorders,Organismal Injury and Abnormalities,Reproductive System Disease","Polycystic ovary syndrome",0.017,"CA6,CA9,NFE4,S100A8,SCN1A",5
+"Endocrine System Disorders,Gastrointestinal Disease,Organismal Injury and Abnormalities","Pancreatic dysplasia",0.017,"CCKBR,CYP2F1,KLHL1,MUC21,OPRK1,UGT1A6,UGT1A9 (includes others)",7
+"Dermatological Diseases and Conditions,Immunological Disease,Inflammatory Disease,Organismal Injury and Abnormalities","Lichen planus",0.0173,"DCD,FADS2,S100A2,S100A8",4
+"Respiratory Disease","Acute respiratory disorder",0.0178,"ACE2,BPI,CA6,CA9,CHRNA9,CXCL10,GABRP,SCN1A,SLC12A1",9
+"Embryonic Development,Organismal Development","Development of body trunk",0.018,"ACTN2,ANKRD1,CDH1,EN1,FABP7,FOXA2,TBXT",7
+"Cell-To-Cell Signaling and Interaction,Molecular Transport,Small Molecule Biochemistry","Uptake of neurotransmitter",0.0182,"RAB3B,SLC1A6",2
+"Cell Death and Survival","Cell viability of epithelial cells",0.0182,"EN1,UBD",2
+"Cell-To-Cell Signaling and Interaction,Hematological System Development and Function,Immune Cell Trafficking,Inflammatory Response","Aggregation of phagocytes",0.0182,"CDH1,S100A8",2
+"Cardiovascular Disease","Stage II systolic hypertension",0.0182,"CA6,CA9",2
+"Cardiovascular Disease","Childhood hypertension",0.0182,"CA6,CA9",2
+"Organismal Injury and Abnormalities","Wound",0.0185,"FGA,FGB,SFTA3",3
+"Neurological Disease,Organismal Injury and Abnormalities","Cluster headache",0.0185,"CA6,CA9,SCN1A",3
+"Neurological Disease,Organismal Injury and Abnormalities","Childhood encephalopathy",0.0186,"CA6,CA9,GABBR2,KCNQ2,RLBP1,SCN1A",6
+"Cancer,Organismal Injury and Abnormalities","Malignant solid tumor",0.0187,"A2ML1,AARD,ACE2,ACTL8,ACTN2,AFAP1-AS1,AMTN,ANKRD1,ART3,BARHL2,BPI,C11orf86,C18orf63,C1orf94,CA6,CA9,CALCB,CARTPT,CASP14,CCKBR,CCL7,CDH1,CDH19,CDK5R2,CELF4,CHGA,CHODL,CHRDL2,CHRNA9,CLDN6,COL9A3,CP,CPB1,CRABP1,CRISP3,CRNN,CT83,CXCL10,CYP24A1,CYP27C1,CYP2A6 (includes others),CYP2F1,DCD,DDC,DHRS2,DIO1,DLK1,DLX6,DMRT1,DNER,ELF5,EN1,FABP7,FADS2,FBN3,FETUB,FGA,FGB,FOXA2,FZD9,GABBR2,GABRP,GAL,GGTLC2,GLDC,GNAT3,GNGT1,GSTA2,HAO1,HCN4,HORMAD1,HRCT1,IL36A,INA,KCNE5,KCNQ2,KCNV1,KIF1A,KLHL1,KLHL34,KRT20,KRT34,KRT38,KRT6C,KRT75,KRT81,KRT83,KRT85,LACRT,LBP,LBX1,LCT,LEMD1,LIN28B,LINC00261,LINC00393,LMO1,LUZP4,LY6D,LYZL1,MAGEA3/MAGEA6,MAGEA4,MAGEA9/MAGEA9B,MAGEB1,MAGEB4,MMP1,MSLN,MUC21,NETO1,NGB,NKX1-2,NKX2-1,NR2E1,OPRK1,PADI3,PCDH11X,PCDH8,PCSK1N,PGBD5,PGPEP1L,PI3,PNMA6E,POU4F1,PPDPFL,PPP1R14C,PRAME,PRDM13,PRKAG3,PROKR2,PRR27,PRSS3,PRSS33,PSAPL1,PXDNL,RAB3B,RAET1L,RCOR2,RGR,RLBP1,ROPN1,S100A2,S100A8,SCHLAP1,SCN1A,SFTA3,SFTPC,SH3GL3,SLC12A1,SLC15A1,SLC1A6,SLC26A9,SLC28A1,SLC39A12,SLC6A17,SLIT1,SMC1B,SMOC1,SMR3A,SOST,SOX11,SPANXB1 (includes others),SPDYC,SPRR1A,SPRR2D,STRA8,SULT1C3,SVOP,TAFA4,TBXT,TCAM1P,TCERG1L,TLX3,TMPRSS4,TMSB15A,TRIM15,TRIM43/TRIM43B,UBD,UGT1A6,UGT1A9 (includes others),UGT2A3,UGT2B10,UGT2B11,UGT2B28,UGT2B4,VGLL1,WNT6,ZFP42,ZNF280A,ZP4",189
+"Cancer,Organismal Injury and Abnormalities","Genitourinary carcinoma",0.0187,"A2ML1,AARD,ACE2,ACTN2,ANKRD1,BARHL2,C1orf94,CA9,CALCB,CCKBR,CCL7,CDH1,CDH19,CELF4,CHGA,CHRNA9,CLDN6,COL9A3,CP,CPB1,CRABP1,CRNN,CXCL10,CYP24A1,CYP2A6 (includes others),CYP2F1,DCD,DDC,DIO1,DLK1,DLX6,DMRT1,DNER,EN1,FABP7,FADS2,FBN3,FETUB,FGA,FOXA2,FZD9,GABBR2,GABRP,GAL,GLDC,GNGT1,GSTA2,HAO1,HCN4,HORMAD1,HRCT1,IL36A,INA,KCNE5,KCNQ2,KCNV1,KIF1A,KLHL1,KLHL34,KRT20,KRT34,KRT75,KRT81,KRT83,KRT85,LACRT,LCT,LIN28B,LINC00261,LUZP4,LYZL1,MAGEA3/MAGEA6,MAGEA4,MMP1,MSLN,MUC21,NETO1,NKX2-1,NR2E1,OPRK1,PCDH11X,PCDH8,PGBD5,PGPEP1L,PI3,PNMA6E,POU4F1,PRAME,PRDM13,PRKAG3,PROKR2,PRSS3,PSAPL1,PXDNL,RAET1L,RCOR2,RLBP1,ROPN1,S100A2,S100A8,SCN1A,SH3GL3,SLC12A1,SLC15A1,SLC1A6,SLC26A9,SLC28A1,SLC39A12,SLC6A17,SLIT1,SMC1B,SMOC1,SMR3A,SOST,SOX11,SPANXB1 (includes others),SPDYC,STRA8,SULT1C3,TCERG1L,TMPRSS4,TRIM43/TRIM43B,UGT1A6,UGT1A9 (includes others),UGT2B10,UGT2B11,UGT2B28,UGT2B4,VGLL1,WNT6,ZFP42,ZNF280A,ZP4",133
+"Cancer,Developmental Disorder,Hematological Disease,Immunological Disease,Organismal Injury and Abnormalities","Stage IV indolent marginal zone cell lymphoma",0.0189,"KRT20",1
+"Small Molecule Biochemistry","Metabolism of cisapride",0.0189,"CYP2A6 (includes others)",1
+"Cancer,Cellular Response to Therapeutics,Organismal Injury and Abnormalities","Doxorubicin resistance of carcinoma cell lines",0.0189,"CSAG2/CSAG3",1
+"Cancer,Hematological Disease,Immunological Disease,Organismal Injury and Abnormalities","Stage II small B-cell lymphocytic lymphoma",0.0189,"KRT20",1
+"Amino Acid Metabolism,Molecular Transport,Small Molecule Biochemistry","Quantity of valine",0.0189,"CA9",1
+"Cancer,Developmental Disorder,Hematological Disease,Immunological Disease,Organismal Injury and Abnormalities","Stage III indolent marginal zone cell lymphoma",0.0189,"KRT20",1
+"Amino Acid Metabolism","Quantity of asparagine",0.0189,"CA9",1
+"Cell Morphology","Elongation of skin cancer cell lines",0.0189,"CDH1",1
+"Cardiovascular System Development and Function","Formation of capillary network",0.0189,"CHGA",1
+"Connective Tissue Disorders,Dermatological Diseases and Conditions,Developmental Disorder,Hereditary Disorder,Organismal Injury and Abnormalities","Autosomal recessive recessive epidermolysis bullosa dystrophica",0.0189,"MMP1",1
+"Tissue Morphology","Quantity of embryonic cancer cell lines",0.0189,"LINC00261",1
+"Drug Metabolism,Small Molecule Biochemistry","Metabolism of halothane",0.0189,"CYP2A6 (includes others)",1
+"Developmental Disorder,Organismal Injury and Abnormalities,Respiratory Disease","Congenital cystic adenomatoid malformation",0.0189,"CDH1",1
+"Organismal Injury and Abnormalities,Respiratory Disease","Respiratory distress syndrome of the newborn",0.0189,"NKX2-1",1
+"Cancer,Hematological Disease,Immunological Disease,Organismal Injury and Abnormalities","Stage III lymphoplasmacytic lymphoma",0.0189,"KRT20",1
+"Cancer,Hematological Disease,Immunological Disease,Organismal Injury and Abnormalities","Grade 1 small B-cell lymphocytic lymphoma",0.0189,"KRT20",1
+"Organismal Injury and Abnormalities,Respiratory Disease,Skeletal and Muscular Disorders","Hiccup",0.0189,"GABBR2",1
+"Carbohydrate Metabolism,Lipid Metabolism,Molecular Transport,Small Molecule Biochemistry","Transport of lipopolysaccharide",0.0189,"LBP",1
+"Neurological Disease,Skeletal and Muscular Disorders","Severe muscle spasticity",0.0189,"GABBR2",1
+"Cell Cycle","Entry into S phase of pancreatic cancer cell lines",0.0189,"MSLN",1
+"DNA Replication, Recombination, and Repair,Nucleic Acid Metabolism,Small Molecule Biochemistry","Metabolism of thymidine",0.0189,"GLDC",1
+"Cellular Movement,Nervous System Development and Function","Guidance of motor axons",0.0189,"SLIT1",1
+"Organismal Injury and Abnormalities","Chronic shoulder pain",0.0189,"SCN1A",1
+"Cell Morphology","Elongation of colorectal cancer cell lines",0.0189,"CDH1",1
+"Cancer,Developmental Disorder,Hematological Disease,Immunological Disease,Organismal Injury and Abnormalities","Grade 1 indolent marginal zone cell lymphoma",0.0189,"KRT20",1
+"Cancer","Tumorsphere formation by bladder cancer cell lines",0.0189,"LIN28B",1
+"Developmental Disorder,Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities","Severe myoclonic epilepsy borderline",0.0189,"SCN1A",1
+"Cellular Compromise","Injury of carcinoma cell lines",0.0189,"PI3",1
+"Cell-To-Cell Signaling and Interaction,Renal and Urological System Development and Function","Dissociation of kidney cell lines",0.0189,"CCKBR",1
+"Drug Metabolism,Small Molecule Biochemistry","Metabolism of nicotine",0.0189,"CYP2A6 (includes others)",1
+"Amino Acid Metabolism,Molecular Transport,Small Molecule Biochemistry","Quantity of L-proline",0.0189,"CA9",1
+"Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities","Generalized epilepsy with febrile seizures plus type 1",0.0189,"SCN1A",1
+"Cancer,Hematological Disease,Immunological Disease,Organismal Injury and Abnormalities,Tumor Morphology","Progressive lymphoplasmacytic lymphoma",0.0189,"KRT20",1
+"Cell-To-Cell Signaling and Interaction","Clustering of colorectal cancer cell lines",0.0189,"CDH1",1
+"Developmental Disorder,Gastrointestinal Disease,Hepatic System Disease,Hereditary Disorder,Metabolic Disease,Organismal Injury and Abnormalities","Crigler-Najjar syndrome type 1",0.0189,"UGT1A6",1
+"Cell-To-Cell Signaling and Interaction,Cellular Assembly and Organization","Compaction of stomach cancer cell lines",0.0189,"CDH1",1
+"Nucleic Acid Metabolism,Small Molecule Biochemistry","Metabolism of cytosine",0.0189,"GLDC",1
+"Cell Cycle,Renal and Urological System Development and Function","Mitogenesis of mesangial cells",0.0189,"CXCL10",1
+"Cell-To-Cell Signaling and Interaction,Cellular Assembly and Organization","Formation of cell-matrix contacts",0.0189,"CDH1",1
+"Small Molecule Biochemistry","Efficacy of irinotecan",0.0189,"UGT1A9 (includes others)",1
+"Neurological Disease","Clonus",0.0189,"GABBR2",1
+"Cell Morphology,Hematological System Development and Function,Hematopoiesis","Polarization of hematopoietic progenitor cells",0.0189,"CXCL10",1
+"Cell Morphology,Cellular Compromise","Multinucleation of colorectal cancer cell lines",0.0189,"UBD",1
+"Cellular Development,Embryonic Development,Organ Development,Organismal Development,Reproductive System Development and Function,Tissue Development","Differentiation of mammary epithelial cells",0.0189,"EN1",1
+"Cancer,Organismal Injury and Abnormalities,Reproductive System Disease","HER2 non-overexpressing breast carcinoma",0.0189,"MAGEA4",1
+"Cancer,Hematological Disease,Immunological Disease,Organismal Injury and Abnormalities","Grade 2 small B-cell lymphocytic lymphoma",0.0189,"KRT20",1
+"Developmental Disorder,Hereditary Disorder,Metabolic Disease,Organismal Injury and Abnormalities,Renal and Urological Disease","Primary hyperoxaluria type I",0.0189,"HAO1",1
+"Cell-To-Cell Signaling and Interaction","Aggregation of stomach cancer cell lines",0.0189,"CDH1",1
+"Cellular Development","Epithelial-mesenchymal transition of skin cancer cell lines",0.0189,"CDH1",1
+"Cell Morphology,Nervous System Development and Function","Innervation",0.0189,"POU4F1",1
+"Cancer,Endocrine System Disorders,Organismal Injury and Abnormalities","Nonmedullary thyroid carcinoma type 1",0.0189,"NKX2-1",1
+"Cancer,Developmental Disorder,Hematological Disease,Immunological Disease,Organismal Injury and Abnormalities","Grade 2 indolent marginal zone cell lymphoma",0.0189,"KRT20",1
+"Molecular Transport,Nucleic Acid Metabolism,Small Molecule Biochemistry","Transport of deoxyuridine",0.0189,"SLC28A1",1
+"Drug Metabolism,Endocrine System Development and Function,Lipid Metabolism,Small Molecule Biochemistry","Glucuronidation of testosterone",0.0189,"UGT2B28",1
+"Cell Cycle","Entry into S phase of endothelial cell lines",0.0189,"CDH1",1
+"Amino Acid Metabolism","Quantity of L-glutamine",0.0189,"CA9",1
+"Cancer,Hematological Disease,Immunological Disease,Organismal Injury and Abnormalities","Stage II lymphoplasmacytic lymphoma",0.0189,"KRT20",1
+"Cell-To-Cell Signaling and Interaction,Dermatological Diseases and Conditions,Organismal Injury and Abnormalities","Detachment of corneocytes",0.0189,"PI3",1
+"Cell Morphology,Cellular Function and Maintenance","Autophagy of melanoma cell lines",0.0189,"MAGEA3/MAGEA6",1
+"Cancer,Hematological Disease,Immunological Disease,Organismal Injury and Abnormalities","Recurrent chronic lymphocytic leukemia",0.0189,"KRT20",1
+"Cancer,Hematological Disease,Immunological Disease,Organismal Injury and Abnormalities","Grade 2 lymphoplasmacytic lymphoma",0.0189,"KRT20",1
+"Cancer,Hematological Disease,Immunological Disease,Organismal Injury and Abnormalities","Fludarabine and alemtuzumab-refractory chronic lymphocytic leukemia",0.0189,"KRT20",1
+"Neurological Disease","Flexor spasm",0.0189,"GABBR2",1
+"Cellular Assembly and Organization,Cellular Function and Maintenance","Quantity of cytoneme",0.0189,"CDH1",1
+"Developmental Disorder,Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities","Benign familial neonatal seizures 2",0.0189,"KCNQ2",1
+"Cancer,Hematological Disease,Immunological Disease,Organismal Injury and Abnormalities","Grade 1 lymphoplasmacytic lymphoma",0.0189,"KRT20",1
+"Amino Acid Metabolism,Molecular Transport,Small Molecule Biochemistry","Quantity of L-arginine",0.0189,"CA9",1
+"Cellular Development,Embryonic Development","Commitment of mesodermal cells",0.0189,"TRIM15",1
+"Developmental Disorder,Hereditary Disorder,Metabolic Disease,Ophthalmic Disease,Organismal Injury and Abnormalities","Hermansky-pudlak syndrome type 3",0.0189,"CP",1
+"Amino Acid Metabolism","Quantity of L-tyrosine",0.0189,"CA9",1
+"Carbohydrate Metabolism,Lipid Metabolism,Small Molecule Biochemistry","Transmission of lipopolysaccharide",0.0189,"LBP",1
+"Cancer,Gastrointestinal Disease,Organismal Injury and Abnormalities","TNM stage III gastric cancer",0.0189,"TMPRSS4",1
+"Cancer,Organismal Injury and Abnormalities,Reproductive System Disease","Mixed ductal lobular breast carcinoma in situ",0.0189,"CDH1",1
+"Cardiovascular Disease,Hereditary Disorder,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Brugada syndrome type 8",0.0189,"HCN4",1
+"Lipid Metabolism,Small Molecule Biochemistry,Vitamin and Mineral Metabolism","Catabolism of calcifediol",0.0189,"CYP24A1",1
+"Cancer,Hematological Disease,Immunological Disease,Organismal Injury and Abnormalities","Stage IV lymphoplasmacytic lymphoma",0.0189,"KRT20",1
+"Cancer,Hematological Disease,Immunological Disease,Organismal Injury and Abnormalities","Grade 3A small B-cell lymphocytic lymphoma",0.0189,"KRT20",1
+"Cell Morphology,Cellular Development,Cellular Growth and Proliferation","Morphogenesis of melanoma cell lines",0.0189,"CDH1",1
+"Auditory Disease,Inflammatory Disease,Organismal Injury and Abnormalities","Nonsyndromic otitis media",0.0189,"A2ML1",1
+"Amino Acid Metabolism,Molecular Transport,Small Molecule Biochemistry","Quantity of isoleucine",0.0189,"CA9",1
+"Developmental Disorder,Hematological Disease,Hereditary Disorder,Immunological Disease,Organismal Injury and Abnormalities","Congenital hypodysfibrinogenemia",0.0189,"FGA",1
+"Dermatological Diseases and Conditions,Developmental Disorder,Hereditary Disorder,Organismal Injury and Abnormalities,Skeletal and Muscular Disorders","Hair/nail type ectodermal dysplasia type 4",0.0189,"KRT85",1
+"Cell-To-Cell Signaling and Interaction","Aggregation of melanoma cell lines",0.0189,"CDH1",1
+"Small Molecule Biochemistry","Glucuronidation of bilirubin",0.0189,"UGT1A9 (includes others)",1
+"Cardiovascular Disease,Organismal Injury and Abnormalities","Sinus-node dysfunction",0.0189,"HCN4",1
+"Cell Signaling,Cellular Function and Maintenance,Small Molecule Biochemistry,Vitamin and Mineral Metabolism","Calcium homeostasis of cells",0.0189,"CXCL10",1
+"Hereditary Disorder,Metabolic Disease,Organismal Injury and Abnormalities","Coumarin resistance",0.0189,"CYP2A6 (includes others)",1
+"Cellular Movement","Scattering of adenocarcinoma cell lines",0.0189,"CDH1",1
+"Cancer,Developmental Disorder,Hematological Disease,Immunological Disease,Organismal Injury and Abnormalities","Grade 3A indolent marginal zone cell lymphoma",0.0189,"KRT20",1
+"Dermatological Diseases and Conditions,Hereditary Disorder,Organismal Injury and Abnormalities","Focal nonepidermolytic palmoplantar keratoderma type 1",0.0189,"KRT6C",1
+"Hair and Skin Development and Function","Catagen",0.0189,"GAL",1
+"Drug Metabolism,Small Molecule Biochemistry","Glucuronidation of acetaminophen",0.0189,"UGT1A6",1
+"Cellular Development,Nervous System Development and Function,Tissue Development","Differentiation of neural-like cells",0.0189,"EN1",1
+"Cellular Development,Tissue Development","Differentiation of hippocampal cells",0.0189,"CDK5R2",1
+"Cancer,Endocrine System Disorders,Gastrointestinal Disease,Organismal Injury and Abnormalities","Moderately differentiated malignant pancreatic tumor",0.0189,"CDH1",1
+"Drug Metabolism,Molecular Transport,Nucleic Acid Metabolism,Small Molecule Biochemistry","Transport of floxuridine",0.0189,"SLC28A1",1
+"Cellular Compromise","Injury of lung cancer cell lines",0.0189,"PI3",1
+"Cellular Assembly and Organization,Neurological Disease,Organismal Development,Tissue Development","Delay in formation of amyloid fibrils",0.0189,"SFTPC",1
+"Amino Acid Metabolism,Molecular Transport,Small Molecule Biochemistry","Quantity of L-histidine",0.0189,"CA9",1
+"Cancer,Developmental Disorder,Hematological Disease,Immunological Disease,Organismal Injury and Abnormalities","Stage II indolent marginal zone cell lymphoma",0.0189,"KRT20",1
+"Digestive System Development and Function,Gastrointestinal Disease,Hepatic System Development and Function,Hepatic System Disease,Inflammatory Disease,Inflammatory Response,Organ Development,Organismal Injury and Abnormalities","Granulomatous hepatitis",0.0189,"CCL7",1
+"Developmental Disorder,Hereditary Disorder,Neurological Disease,Organismal Injury and Abnormalities","Autosomal recessive mental retardation type 48",0.0189,"SLC6A17",1
+"Organismal Development","Secretion of tear",0.0189,"LACRT",1
+"Cellular Movement","Cell rolling of squamous cell carcinoma cell lines",0.0189,"LY6D",1
+"Cancer,Hematological Disease,Immunological Disease,Organismal Injury and Abnormalities","Grade 3A lymphoplasmacytic lymphoma",0.0189,"KRT20",1
+"Cell Morphology,Cellular Development,Cellular Growth and Proliferation","Morphogenesis of breast cancer cell lines",0.0189,"CDH1",1
+"Cell Death and Survival,Organismal Injury and Abnormalities,Renal and Urological Disease","Apoptosis of proximal tubule cells",0.0189,"CYP24A1",1
+"Cardiovascular Disease,Hematological Disease,Hereditary Disorder,Organismal Injury and Abnormalities","Susceptibility to venous thromboembolism",0.0189,"FGA",1
+"Neurological Disease,Organismal Injury and Abnormalities,Psychological Disorders","Post-traumatic stress disorder",0.0189,"CA6,CA9,GABRP,SCN1A",4
