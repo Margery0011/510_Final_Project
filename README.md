@@ -737,11 +737,18 @@ Number has been reduced to 309 from 463
 Click to see the Results
 
 
-[IPA Down.xls](https://github.com/Margery0011/510_Final_Project/blob/main/Results/IPA%20Down.xls)
+[IPA_Down.csv](https://github.com/Margery0011/510_Final_Project/blob/main/Results_IPA/IPA_Down.csv)
 
-[IPA Up.xls](https://github.com/Margery0011/510_Final_Project/blob/main/Results/IPA%20Up.xls)     
+[IPA Up.csv](https://github.com/Margery0011/510_Final_Project/blob/main/Results_IPA/IPA_Up.csv)     
  
+In the `IPA_Up` files,Find 0 Pathways related to Breast 
 
+
+In the `IPA_Down` files, Find 8 Pathways related to Breast, Check the information here [breast_concerned.csv](https://github.com/Margery0011/510_Final_Project/blob/main/Results_IPA/breast_concerned.csv)
+
+Related Molecules are FABP7, PI3, CDH1, ELF5, CA9, MAGEA4 and CDH1.
+
+I want to focus on  `MAGEA4` whose Category is `Cancer,Organismal Injury and Abnormalities,Reproductive System Disease` and Disease/Function Annotation is `	HER2 non-overexpressing breast carcinoma`
 
 ## Summary
 
@@ -781,7 +788,7 @@ TCGA-BRCA in [TCGA_Portal](https://portal.gdc.cancer.gov/)
 
 **IPA Analysis**
 
-
+In IPA Analysis 
 
 ## Known Issues
 
