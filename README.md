@@ -580,6 +580,9 @@ Related to the distance matrix is the PCA plot, which shows the samples in the 2
 
 Although I have add this new factor , the pattern is still not clear, I will put it in my `Know Issues`
 
+Vignettes are uploaded there
+
+[vignette](https://github.com/Margery0011/510_Final_Project/tree/main/vignette)
 
 ##  Transfer Names
 
