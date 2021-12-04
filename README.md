@@ -183,9 +183,13 @@ Done by [Changefilenames.Rmd](https://github.com/Margery0011/510_Final_Project/b
 
 ## Analyzing RNA-seq data with DESeq2
 
-R Script is saved as PDF , you can check here.
+R Script is saved as PDF , you can check here .
 
 [Rscripts_Analyzing RNA-seq data with DESeq2.PDF](https://github.com/Margery0011/510_Final_Project/blob/main/Scripts/Analyzing_RNAseq_data_DESeq2.pdf)
+
+[Rscripts_Analyzing RNA-seq data with DESeq2.Rmd](https://github.com/Margery0011/510_Final_Project/blob/main/Scripts/Analyzing_RNAseq_data_DESeq2.Rmd)
+
+
 
    [DESeq2 Tutorial Website](http://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)
    
