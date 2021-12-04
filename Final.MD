@@ -1,4 +1,8 @@
-# Differential gene expression of patients with 
+# Differential Gene Expression profiling of female with  Lobular carcinoma and Infiltrating duct carcinoma in early stage of Breast Cancer
+
+**Yutian (Margery) Liu**
+
+*Note: All data has been put in my Google Drive under the Folder 510_Final_Project *
 
 ## DATA Acquisition & Pre-processing
 
