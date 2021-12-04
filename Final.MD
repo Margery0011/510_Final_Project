@@ -179,6 +179,9 @@ Done by [Changefilenames.Rmd](https://github.com/Margery0011/510_Final_Project/b
 
 ## Analyzing RNA-seq data with DESeq2
 
+R Script is saved as PDF , you can check here.
+
+[Rscripts_Analyzing RNA-seq data with DESeq2.PDF](https://github.com/Margery0011/510_Final_Project/blob/main/Scripts/Analyzing_RNAseq_data_DESeq2.pdf)
 
    [DESeq2 Tutorial Website](http://bioconductor.org/packages/release/bioc/vignettes/DESeq2/inst/doc/DESeq2.html)
    
@@ -404,14 +407,11 @@ Docs below the line mean Down-regulated
 
 `ashr` is the adaptive shrinkage estimator from the ashr package (Stephens 2016). Here DESeq2 uses the ashr option to fit a mixture of Normal distributions to form the prior, with method="shrinkage".
 
-`normal` is the the original DESeq2 shrinkage estimator, an adaptive Normal distribution as prior.
+`normal` is the the original DESeq2 shrinkage estimator, an adaptive Normal distribution as prior. (Deleted in the Script for Running too slow)
 
 ![2211638565892_ pic_hd](https://user-images.githubusercontent.com/89502586/144673661-eb201646-ebcf-491f-996f-b639ecdee8df.jpg)
 
 `type='apeglm` and `type='ashr'` have shown to have less bias than `type='normal'`
-
-
-
 
 
 
@@ -548,7 +548,12 @@ This heatmap shows the similarity between samples.
 Principal component plot of the samples
 Related to the distance matrix is the PCA plot, which shows the samples in the 2D plane spanned by their first two principal components. This type of plot is useful for visualizing the overall effect of experimental covariates and batch effects.
 
-     
+*Note: because PCA plot drawn only by factor conditoin did not show any pattern , so I add the Stage as New Factor to use both to draw PCA plots *
+
+- PCA plot (with only condition as Factor)
+
+![1131637736424_ pic](https://user-images.githubusercontent.com/89502586/143191505-71031ce6-a0da-475f-8910-8824d487cb22.jpg)
+
 - `plotPCA` vsdMF
 
 ![2301638574604_ pic](https://user-images.githubusercontent.com/89502586/144686324-4d63eaef-3bc7-40d8-b26b-3e73668c67cd.jpg)
@@ -564,6 +569,8 @@ Related to the distance matrix is the PCA plot, which shows the samples in the 2
 - `pcaplot` ntdMF
 
 ![image](https://user-images.githubusercontent.com/89502586/144686571-7809516f-4758-42b4-aaee-a91a20924cda.png)
+
+Although I have add this new factor , the pattern is still not clear, I will put it in my `Know Issues`
 
 
 ##  Transfer Names
@@ -723,4 +730,9 @@ Click to see the Results
 
 [IPA Up.xls](https://github.com/Margery0011/510_Final_Project/blob/main/Results/IPA%20Up.xls)     
  
+
+## Known ISSues
+
+- 1. Have not found which Factor is driven the PCA plot
+
 
