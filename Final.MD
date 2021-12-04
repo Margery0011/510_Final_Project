@@ -706,10 +706,21 @@ Number has been reduced to 309 from 463
 
 ## IPA Analysis
 
+- Step1: Data Preparation
+
+     - 1.  Put the Ensembl ID of UP-Regulated genes into a Excel file
+     - 2.  Put the Ensembl ID of Down-Regulated genes into a Excel file
+   
+- Step2 : IPA Analysis
+
+     - 1. Selcet Human as species to do Core Analysis 
+     - 2. Save the PATHWay Results
+
+Click to see the Results
 
 
+[IPA Down.xls](https://github.com/Margery0011/510_Final_Project/blob/main/Results/IPA%20Down.xls)
 
-     
+[IPA Up.xls](https://github.com/Margery0011/510_Final_Project/blob/main/Results/IPA%20Up.xls)     
  
 
-   
