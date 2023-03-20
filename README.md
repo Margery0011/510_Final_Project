@@ -4,7 +4,6 @@
 
 **Yutian (Margery) Liu**
 
-*Note: All data has been put in my Google Drive under the Folder 510_Final_Project*
 
 PDF version of README is here
 [README_PDF](https://github.com/Margery0011/510_Final_Project/blob/main/ReadMe_PDFVersion.pdf)
