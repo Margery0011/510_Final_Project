@@ -849,10 +849,5 @@ TCGA-BRCA in [TCGA_Portal](https://portal.gdc.cancer.gov/)
 - Find interesting gene `MAGEA4`
 - Find previous study about its relationship with Breast Cancer
 
-## Known Issues
-
-- 1. Have not found which Factor is driven the PCA plot, Factor `Stage` is not the most significant facor.
-- 2. Pattern in Heatmap is not obvious 
-- 3. Have not  delved into the Biological Significance of the results.
 
 
