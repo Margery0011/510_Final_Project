@@ -10,7 +10,7 @@ PDF version of README is here
 
 ## Introduction 
 
-Breast cancers that have spread into surrounding breast tissue are known as `invasive breast cancer`.Most breast cancers are invasive, but there are different types of invasive breast cancer. 
+Breast cancers that have spread into surrounding breast tissue are as `invasive breast cancer`.Most breast cancers are invasive, but there are different types of invasive breast cancer. 
 
 The two most common are `invasive ductal carcinoma` and `invasive lobular carcinoma`.
 
@@ -582,7 +582,7 @@ This heatmap shows the similarity between samples.
 Principal component plot of the samples
 Related to the distance matrix is the PCA plot, which shows the samples in the 2D plane spanned by their first two principal components. This type of plot is useful for visualizing the overall effect of experimental covariates and batch effects.
 
-*Note: because PCA plot drawn only by factor conditoin did not show any pattern , so I add the Stage as New Factor to use both to draw PCA plots *
+*Note:I added the Stage as New Factor to use both to draw PCA plots *
 
 - PCA plot (with only condition as Factor)
 
@@ -604,7 +604,6 @@ Related to the distance matrix is the PCA plot, which shows the samples in the 2
 
 ![image](https://user-images.githubusercontent.com/89502586/144686571-7809516f-4758-42b4-aaee-a91a20924cda.png)
 
-Although I have add this new factor , the pattern is still not clear, I will put it in my `Know Issues`
 
 Vignettes are uploaded there
 
